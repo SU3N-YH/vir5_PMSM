@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="BackEMF">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2026-10-9T9:35:19</timestamp>
+    <attr value="BackEMF" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-352" name="clk" />
+    <pin polarity="Input" x="0" y="-288" name="rst_n" />
+    <pin polarity="Input" x="0" y="-240" name="epos_S18_360(17:0)" />
+    <pin polarity="Input" x="0" y="-112" name="eOMG_S18_Q4(17:0)" />
+    <pin polarity="Input" x="0" y="-48" name="Phir_Half_S16_Q15(15:0)" />
+    <pin polarity="Output" x="560" y="-336" name="eA_S35_Q17(34:0)" />
+    <pin polarity="Output" x="560" y="-272" name="eB_S35_Q17(34:0)" />
+    <pin polarity="Output" x="560" y="-208" name="eC_S35_Q17(34:0)" />
+    <pin polarity="Output" x="560" y="-144" name="eA_STM32_S16(15:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="240" y="-380" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin rst_n" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-240" type="pin epos_S18_360(17:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-112" type="pin eOMG_S18_Q4(17:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-48" type="pin Phir_Half_S16_Q15(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-336" type="pin eA_S35_Q17(34:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-272" type="pin eB_S35_Q17(34:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-208" type="pin eC_S35_Q17(34:0)" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <rect width="64" x="0" y="-60" height="24" />
+        <line x2="0" y1="-48" y2="-48" x1="64" />
+        <rect width="64" x="496" y="-348" height="24" />
+        <line x2="560" y1="-336" y2="-336" x1="496" />
+        <rect width="64" x="496" y="-284" height="24" />
+        <line x2="560" y1="-272" y2="-272" x1="496" />
+        <rect width="64" x="496" y="-220" height="24" />
+        <line x2="560" y1="-208" y2="-208" x1="496" />
+        <rect width="64" x="0" y="-252" height="24" />
+        <line x2="0" y1="-240" y2="-240" x1="64" />
+        <rect width="64" x="0" y="-124" height="24" />
+        <line x2="0" y1="-112" y2="-112" x1="64" />
+        <rect width="432" x="64" y="-376" height="376" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-144" type="pin eA_STM32_S16(15:0)" />
+        <rect width="64" x="496" y="-156" height="24" />
+        <line x2="560" y1="-144" y2="-144" x1="496" />
+    </graph>
+</symbol>

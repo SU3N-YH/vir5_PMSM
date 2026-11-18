@@ -1,0 +1,7 @@
+if isim crashed and report error861:can not connect model
+we should clear the Isim folder in the project file location, and at the top project -> clear files
+then reopen the .xise file to 
+
+王勃朝文献，使用zenboard开发板，MATLAB HDL encoder直接生成代码进入vivado
+
+use Modelsim methods: edit *.fdo file and delete -L secureip, let the file be read only and restart simulate Behavioral model

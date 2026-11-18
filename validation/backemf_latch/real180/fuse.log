@@ -1,0 +1,24 @@
+Running: E:\SUEN27\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle silent -prj test.prj -L unisims_ver -o test.exe work.tb_backemf_latch work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/MUL18x18_bEMF.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/CORDIC_STANDALONE.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/BackEMF.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/tests/tb_backemf_latch.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module BackEMF_CORDIC180
+Compiling module DSP48A1(B0REG=1,B1REG=0,CARRYINR...
+Compiling module GND
+Compiling module VCC
+Compiling module MUL18x18_bEMF
+Compiling module BackEMF
+Compiling module tb_backemf_latch
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 8 Verilog Units
+Built simulation executable test.exe
+Fuse Memory Usage: 41756 KB
+Fuse CPU Usage: 233 ms

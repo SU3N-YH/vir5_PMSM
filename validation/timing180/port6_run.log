@@ -1,0 +1,25 @@
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+PASS: BackEMF port6 reads=1220 stable=0055, zero-speed and reset recovery
+Stopped at time : 221002 ns : File "E:/SUEN27/vir5_PMSM_V/tests/tb_backemf_port6.v" Line 93
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+PASS: CORDIC180 bit-exact sine/cosine samples=2906
+Stopped at time : 710545728 ps : File "E:/SUEN27/vir5_PMSM_V/tests/tb_cordic180_equivalence.v" Line 61
+PASS: Port6 and CORDIC equivalence regressions. Logs: E:\SUEN27\vir5_PMSM_V\validation\backemf180\port6

@@ -1,0 +1,4 @@
+verilog work "E:/SUEN27/vir5_PMSM_V/ipcore_dir/division5.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/add5ov5.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/Volt_N_calc.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/tests/tb_neutral5.v"

@@ -1,0 +1,49 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: E:\SUEN27\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe -sd
+E:\SUEN27\vir5_PMSM_V\ipcore_dir -uc timing.ucf -p xc6slx25-ftg256-2 design.ngc
+design.ngd
+
+Reading NGO file "E:/SUEN27/vir5_PMSM_V/validation/backemf180/fixed/design.ngc"
+...
+Loading design module
+"E:\SUEN27\vir5_PMSM_V\ipcore_dir/mul18x35_1225_BySunY.ngc"...
+Loading design module "E:\SUEN27\vir5_PMSM_V\ipcore_dir/mul_inductor_2.ngc"...
+Loading design module "E:\SUEN27\vir5_PMSM_V\ipcore_dir/division5.ngc"...
+Loading design module "E:\SUEN27\vir5_PMSM_V\ipcore_dir/MUL18x18_bEMF.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "timing.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'SYS_CLK20', used in period specification
+   'TS_SYS_CLK20', was traced into PLL_ADV instance PLL_ADV. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT2: <TIMESPEC TS_u_clock_CLOCK_clkout2 = PERIOD "u_clock_CLOCK_clkout2"
+   TS_SYS_CLK20 / 9 HIGH 50% INPUT_JITTER 500 ps>
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4422304 kilobytes
+
+Writing NGD file "design.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   1 sec
+
+Writing NGDBUILD log file "design.bld"...

@@ -1,0 +1,29 @@
+Command line:
+   port1.exe
+     -intstyle  silent
+     -simmode  tcl
+     -simrunnum  0
+     -socket  58375
+
+Tue Nov 10 15:59:34 2026
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5135.76 Meg
+
+ Total Signals          : 47
+ Total Nets             : 625
+ Total Signal Drivers   : 41
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 47
+ Total Traceable Variables  : 35
+ Total Scalar Nets and Variables : 1105
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 5135.76 Meg
+
+Tue Nov 10 15:59:34 2026
+

@@ -1,0 +1,54 @@
+Command line:
+   test.exe
+     -intstyle  silent
+     -simmode  tcl
+     -simrunnum  0
+<<<<<<< HEAD
+     -socket  63357
+
+Tue Nov 17 20:40:00 2026
+=======
+     -socket  64983
+
+Mon Nov 16 19:57:13 2026
+>>>>>>> ddad8683bed123fb68370f0a6347c30196db8767
+
+
+ Elaboration Time: 0.046875 sec
+
+<<<<<<< HEAD
+ Current Memory Usage: 5143.94 Meg
+
+ Total Signals          : 974
+ Total Nets             : 2855
+ Total Signal Drivers   : 231
+ Total Blocks           : 65
+ Total Primitive Blocks : 43
+ Total Processes        : 556
+ Total Traceable Variables  : 446
+ Total Scalar Nets and Variables : 15555
+
+ Total Simulation Time: 0.3125 sec
+
+ Current Memory Usage: 5143.94 Meg
+
+Tue Nov 17 20:40:01 2026
+=======
+ Current Memory Usage: 5144.63 Meg
+
+ Total Signals          : 990
+ Total Nets             : 3047
+ Total Signal Drivers   : 243
+ Total Blocks           : 65
+ Total Primitive Blocks : 43
+ Total Processes        : 568
+ Total Traceable Variables  : 446
+ Total Scalar Nets and Variables : 15747
+
+ Total Simulation Time: 0.3125 sec
+
+ Current Memory Usage: 5144.63 Meg
+
+Mon Nov 16 19:57:14 2026
+>>>>>>> ddad8683bed123fb68370f0a6347c30196db8767
+

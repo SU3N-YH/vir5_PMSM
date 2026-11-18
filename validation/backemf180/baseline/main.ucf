@@ -1,0 +1,155 @@
+
+
+NET "DATAbus[15]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[14]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[13]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[12]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[11]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[10]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[9]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[8]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[7]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[6]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[5]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[4]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[3]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[2]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[1]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[0]" IOSTANDARD = LVCMOS33;
+NET "DATAbus[15]" SLEW = FAST;
+NET "DATAbus[14]" SLEW = FAST;
+NET "DATAbus[13]" SLEW = FAST;
+NET "DATAbus[12]" SLEW = FAST;
+NET "DATAbus[11]" SLEW = FAST;
+NET "DATAbus[10]" SLEW = FAST;
+NET "DATAbus[9]" SLEW = FAST;
+NET "DATAbus[8]" SLEW = FAST;
+NET "DATAbus[7]" SLEW = FAST;
+NET "DATAbus[6]" SLEW = FAST;
+NET "DATAbus[5]" SLEW = FAST;
+NET "DATAbus[4]" SLEW = FAST;
+NET "DATAbus[3]" SLEW = FAST;
+NET "DATAbus[2]" SLEW = FAST;
+NET "DATAbus[1]" SLEW = FAST;
+NET "DATAbus[0]" SLEW = FAST;
+
+
+NET "DATAbus[0]" LOC = M5;
+NET "DATAbus[1]" LOC = N4;
+NET "DATAbus[2]" LOC = R2;
+NET "DATAbus[3]" LOC = R1;
+NET "DATAbus[4]" LOC = P2;
+NET "DATAbus[6]" LOC = N3;
+NET "DATAbus[5]" LOC = P1;
+NET "DATAbus[7]" LOC = N1;
+NET "DATAbus[8]" LOC = M2;
+NET "DATAbus[9]" LOC = M1;
+NET "DATAbus[10]" LOC = L3;
+NET "DATAbus[11]" LOC = L1;
+NET "DATAbus[12]" LOC = K2;
+NET "DATAbus[13]" LOC = K1;
+NET "DATAbus[14]" LOC = J3;
+NET "DATAbus[15]" LOC = J1;
+
+NET "ADDRbus[11]" IOSTANDARD = LVCMOS33;
+NET "ADDRbus[10]" IOSTANDARD = LVCMOS33;
+NET "ADDRbus[9]" IOSTANDARD = LVCMOS33;
+NET "ADDRbus[8]" IOSTANDARD = LVCMOS33;
+NET "ADDRbus[7]" IOSTANDARD = LVCMOS33;
+NET "ADDRbus[6]" IOSTANDARD = LVCMOS33;
+NET "ADDRbus[5]" IOSTANDARD = LVCMOS33;
+NET "ADDRbus[4]" IOSTANDARD = LVCMOS33;
+NET "ADDRbus[3]" IOSTANDARD = LVCMOS33;
+NET "ADDRbus[2]" IOSTANDARD = LVCMOS33;
+NET "ADDRbus[1]" IOSTANDARD = LVCMOS33;
+NET "ADDRbus[0]" IOSTANDARD = LVCMOS33;
+
+
+NET "ADDRbus[0]" LOC = H2;
+NET "ADDRbus[1]" LOC = H1;
+NET "ADDRbus[2]" LOC = G3;
+NET "ADDRbus[3]" LOC = G1;
+NET "ADDRbus[4]" LOC = F2;
+NET "ADDRbus[5]" LOC = F1;
+NET "ADDRbus[6]" LOC = K3;
+NET "ADDRbus[7]" LOC = J4;
+NET "ADDRbus[8]" LOC = J6;
+NET "ADDRbus[9]" LOC = H5;
+NET "ADDRbus[10]" LOC = H4;
+NET "ADDRbus[11]" LOC = H3;
+
+NET "clk_ex" IOSTANDARD = LVCMOS33;
+NET "STM32_NE1_Low" IOSTANDARD = LVCMOS33;
+NET "STM32_NWE_Low" IOSTANDARD = LVCMOS33;
+NET "rst_n" IOSTANDARD = LVCMOS33;
+NET "STM32_NOE_Low" IOSTANDARD = LVCMOS33;   //added 1231
+NET "epwm_1A" IOSTANDARD = LVCMOS33;
+NET "epwm_1B" IOSTANDARD = LVCMOS33;
+NET "epwm_2A" IOSTANDARD = LVCMOS33;
+NET "epwm_2B" IOSTANDARD = LVCMOS33;
+NET "epwm_3A" IOSTANDARD = LVCMOS33;
+NET "epwm_3B" IOSTANDARD = LVCMOS33;
+# [2026-11-10 16:39 CST] Unused top-level input disabled; original constraint retained.
+# NET "epwm_7A" IOSTANDARD = LVCMOS33;
+# NET "epwm_7B" IOSTANDARD = LVCMOS33;
+NET "epwm_8A" IOSTANDARD = LVCMOS33;
+# NET "epwm_8B" IOSTANDARD = LVCMOS33;
+
+NET "ePWM_ua_Grid" IOSTANDARD = LVCMOS33;
+NET "ePWM_ub_Grid" IOSTANDARD = LVCMOS33;
+
+NET "GPIO61" IOSTANDARD = LVCMOS33;
+
+NET "STM32_NE1_Low" LOC = E1;
+NET "STM32_NWE_Low" LOC = E2;
+NET "STM32_NOE_Low" LOC = K5;
+NET "rst_n" LOC = N5;
+NET "epwm_1A" LOC = K6;
+NET "epwm_1B" LOC = C3;
+NET "epwm_2A" LOC = C2;
+NET "epwm_2B" LOC = D3;
+NET "epwm_3A" LOC = D1;
+NET "epwm_3B" LOC = C1;
+
+# NET "epwm_7B" LOC = E4;
+# [2026-11-10 16:39 CST] Unused top-level input disabled; original constraint retained.
+# NET "epwm_7A" LOC = F3;
+# NET "epwm_8B" LOC = F5;
+NET "epwm_8A" LOC = E3;
+
+# Out1 PWM path: B16 -> ePWM_ua_Grid -> U2 PWM_In1 (pin 1) -> Out1 (pin 7).
+# STM32 PA4/DAC_OUT1 instead connects to U2 Analog_In4 (pin 4).
+NET "ePWM_ua_Grid" LOC = B16;
+NET "ePWM_ub_Grid" LOC = F12;
+
+# Schematic: STM32 PE5/TIM9_CH1 -> UserDef_GPIO61 -> IO_L63N_2 = T4.
+NET "GPIO61" LOC = T4;
+
+
+NET "clk_ex" LOC = E8;
+
+#NET "rst_n" CLOCK_DEDICATED_ROUTE = FALSE;
+
+# PlanAhead Generated IO constraints 
+
+# [2026-11-10 16:00 CST] Original note retained.
+# # Five-phase extension: PWM pin locations will be assigned for the target board.
+# [2026-11-10 16:00 CST] 3+2: epwm_4A/4B -> D, epwm_5A/5B -> E; physical LOC awaits board mapping.
+# [2026-11-10 16:04 CST] The supplied schematic resolves the pending D/E pin mapping below.
+NET "epwm_4A" IOSTANDARD = LVCMOS33;
+NET "epwm_4B" IOSTANDARD = LVCMOS33;
+NET "epwm_5A" IOSTANDARD = LVCMOS33;
+NET "epwm_5B" IOSTANDARD = LVCMOS33;
+
+# [2026-11-10 16:04 CST] D/E PWM inputs: package pins copied from the supplied schematic.
+NET "epwm_4A" LOC = B1;
+NET "epwm_4B" LOC = G6;
+NET "epwm_5A" LOC = G5;
+NET "epwm_5B" LOC = B2;
+
+# [2026-11-10 16:04 CST] Schematic reference only: phase 6 is disabled in the 3+2 top.
+# NET "epwm_6A" IOSTANDARD = LVCMOS33;
+# NET "epwm_6B" IOSTANDARD = LVCMOS33;
+# NET "epwm_6A" LOC = A2;
+# NET "epwm_6B" LOC = F4;
+

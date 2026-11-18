@@ -1,0 +1,114 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/SUEN27/vir5_PMSM_V
+vBackEMF
+Z1 !s110 1794476086
+!i10b 1
+!s100 U7V7eLT;FbUFXn@AKDd0k1
+IQh;DUJHS>Tf>>`U3_8NmA2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1794473379
+8BackEMF.v
+FBackEMF.v
+L0 26
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1794476086.879000
+!s107 BackEMF.v|
+!s90 -reportprogress|300|BackEMF.v|
+!i113 1
+Z4 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@back@e@m@f
+vCORDIC_STANDALONE
+R1
+!i10b 1
+!s100 EFP@]3_c2BjejF2Ggb40i3
+IUX7iVo_J]3NYFK;42z7W21
+R2
+R0
+w1793621431
+8CORDIC_STANDALONE.v
+FCORDIC_STANDALONE.v
+L0 141
+R3
+r1
+!s85 0
+31
+!s108 1794476086.798000
+!s107 CORDIC_STANDALONE.v|
+!s90 -reportprogress|300|CORDIC_STANDALONE.v|
+!i113 1
+R4
+n@c@o@r@d@i@c_@s@t@a@n@d@a@l@o@n@e
+vglbl
+!s110 1794476087
+!i10b 1
+!s100 UlJ]9LUWO:ZWoRO62F9fW3
+IN2dbJKX0HgZmG[KlUg:K_2
+R2
+R0
+w1381681120
+8E:/SUEN27/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FE:/SUEN27/14.7/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1794476087.037000
+!s107 E:/SUEN27/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|E:/SUEN27/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!i113 1
+R4
+vmul18x35_Mul4current
+R1
+!i10b 1
+!s100 ER=cCgFI<34WYLSLU00gB1
+IM;5OH<UeXCBeVoFzEV;4Z3
+R2
+R0
+w1784016876
+8ipcore_dir/mul18x35_Mul4current.v
+Fipcore_dir/mul18x35_Mul4current.v
+L0 36
+R3
+r1
+!s85 0
+31
+!s108 1794476086.704000
+!s107 ipcore_dir/mul18x35_Mul4current.v|
+!s90 -reportprogress|300|ipcore_dir/mul18x35_Mul4current.v|
+!i113 1
+R4
+nmul18x35_@mul4current
+vtest_backEMF
+R1
+!i10b 1
+!s100 @F3_3WhB0iPa;RCJ`@W110
+I8SeD42zmIaV51f4]mk4mU2
+R2
+R0
+w1794475743
+8test_backEMF.v
+Ftest_backEMF.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1794476086.961000
+!s107 test_backEMF.v|
+!s90 -reportprogress|300|test_backEMF.v|
+!i113 1
+R4
+ntest_back@e@m@f

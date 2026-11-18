@@ -1,0 +1,10 @@
+ISim log file
+Running: E:\SUEN27\vir5_PMSM_V\validation\fsmc_port1\sim\port1.exe -intstyle silent -tclbatch run.tcl -log port1.log 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+PASS: FSMC port1 loopback: read offset 0x000, write offset 0x200, 36 patterns, 16-bit bidirectional bus
+Stopped at time : 16559 ns : File "E:/SUEN27/vir5_PMSM_V/tests/tb_fsmc_port1.v" Line 149

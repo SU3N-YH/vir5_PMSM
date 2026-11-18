@@ -1,0 +1,33 @@
+Running: E:\SUEN27\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle silent -mt off -prj test.prj -L unisims_ver -o custom_check.exe work.tb_custom work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Turned off multi-threading for compilation
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/validation/custom_top_sim/MUL18x18_bEMF_noglbl.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/validation/custom_top_sim/division5_noglbl.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/CORDIC_STANDALONE.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/BackEMF.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/add5ov5.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Volt_N_calc.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/validation/custom_top_sim/tb_custom.v" into library work
+Analyzing Verilog file "E:/SUEN27/14.7/ISE_DS/ISE/verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module CORDIC_STANDALONE
+Compiling module DSP48A1(A1REG=0,B1REG=0,CARRYINR...
+Compiling module GND
+Compiling module VCC
+Compiling module MUL18x18_bEMF
+Compiling module BackEMF
+Compiling module FD
+Compiling module DSP48A1(A1REG=0,B1REG=0,CARRYINR...
+Compiling module DSP48A1(A1REG=0,B1REG=0,CARRYINR...
+Compiling module division5
+Compiling module add5ov5
+Compiling module Volt_N_calc
+Compiling module tb_custom
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 14 Verilog Units
+Built simulation executable custom_check.exe
+Fuse Memory Usage: 41724 KB
+Fuse CPU Usage: 311 ms

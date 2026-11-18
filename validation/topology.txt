@@ -1,0 +1,5 @@
+PASS: 18 top ports, 13 instances, 168 pins.
+PASS: exact main.sch connections, constants, widths and open pins.
+PASS: RTL module port names/widths, ISE top, UCF references and source list.
+Preserved undriven net: electrical_position_undriven
+Preserved open inputs: u_pci.FPGA2DSP_Signal_14, u_pci.FPGA2DSP_Signal_17, u_back_emf.eOMG_S18_Q4, u_grid_pwm_passthrough.In3

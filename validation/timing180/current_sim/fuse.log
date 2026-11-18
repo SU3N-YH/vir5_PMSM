@@ -1,0 +1,40 @@
+Running: E:\SUEN27\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle silent -prj test.prj -L unisims_ver -o test.exe work.tb_current180 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul18x35_1225_BySunY.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul_inductor_2.v" into library work
+WARNING:HDLCompiler:687 - "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul_inductor_2.v" Line 716: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Inductor.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Inductor_DE.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/tests/tb_current180.v" into library work
+Starting static elaboration
+<<<<<<< HEAD
+=======
+WARNING:HDLCompiler:1016 - "E:/SUEN27/vir5_PMSM_V/tests/tb_current180.v" Line 9: Port Curt1_L15 is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/SUEN27/vir5_PMSM_V/tests/tb_current180.v" Line 17: Port Curt4_L15 is not connected to this instance
+>>>>>>> ddad8683bed123fb68370f0a6347c30196db8767
+Completed static elaboration
+Compiling module FD
+Compiling module DSP48A1(CARRYINREG=0,CARRYOUTREG...
+Compiling module DSP48A1(A0REG=1,CARRYINREG=0,CAR...
+Compiling module GND
+Compiling module VCC
+Compiling module mul18x35_1225_BySunY
+Compiling module Inductor_default
+Compiling module mul_inductor_2
+Compiling module Inductor(USE_DE_CORE=1)
+Compiling module Inductor_DE
+Compiling module tb_current180
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable test.exe
+Fuse Memory Usage: 42364 KB
+<<<<<<< HEAD
+Fuse CPU Usage: 233 ms
+=======
+Fuse CPU Usage: 265 ms
+>>>>>>> ddad8683bed123fb68370f0a6347c30196db8767

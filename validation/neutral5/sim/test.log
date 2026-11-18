@@ -1,0 +1,15 @@
+ISim log file
+Running: E:\SUEN27\vir5_PMSM_V\validation\neutral5\sim\test.exe -intstyle silent -tclbatch run.tcl -log test.log 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+PASS: five-phase averages, 4495 captures, division5 Q19, wide sums, low-bit compensation, signed limits, D/E inputs, rounding, TDM, reset and saturation
+Stopped at time : 100141344 ps : File "E:/SUEN27/vir5_PMSM_V/tests/tb_neutral5.v" Line 138

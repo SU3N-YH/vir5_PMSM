@@ -1,0 +1,1485 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+E:\SUEN27\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle silent -a -v 5
+-s 2 -o validation\backemf5\timing_analysis\advanced.twr
+validation\backemf5\timing_analysis\standalone.ncd
+
+Design file:              standalone.ncd
+Device,package,speed:     xc6slx25,ftg256,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report, limited to 5 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2700 - Timing constraints ignored because advanced analysis with 
+   offsets was specified.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: Default period analysis for net "clk_180mhz" 
+
+ 462219065 paths analyzed, 9280 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is  15.157ns.
+--------------------------------------------------------------------------------
+Delay:                  15.157ns (data path - clock path skew + uncertainty)
+  Source:               u_pci/Data_6_2 (FF)
+  Destination:          u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30 (FF)
+  Data Path Delay:      15.014ns (Levels of Logic = 19)
+  Clock Path Skew:      -0.036ns (0.442 - 0.478)
+  Source Clock:         clk_180mhz rising
+  Destination Clock:    clk_180mhz rising
+  Clock Uncertainty:    0.107ns
+
+  Clock Uncertainty:          0.107ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_pci/Data_6_2 to u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y2.CMUX      Tshcko                0.518   u_pci/Data_6<3>
+                                                       u_pci/Data_6_2
+    SLICE_X8Y2.A5        net (fanout=6)        0.789   u_pci/Data_6<2>
+    SLICE_X8Y2.CMUX      Topac                 0.636   u_pci/Data_6<4>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd5_lut<4>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd5_cy<7>
+    SLICE_X20Y2.A4       net (fanout=1)        1.586   u_back_EMF/ADDERTREE_INTERNAL_Madd_85
+    SLICE_X20Y2.AMUX     Tilo                  0.298   u_back_EMF/ADDERTREE_INTERNAL_Madd_1110
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd61
+    SLICE_X20Y2.BX       net (fanout=2)        0.737   u_back_EMF/ADDERTREE_INTERNAL_Madd61
+    SLICE_X20Y2.COUT     Tbxcy                 0.197   u_back_EMF/ADDERTREE_INTERNAL_Madd_1110
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_10
+    SLICE_X20Y3.CIN      net (fanout=1)        0.003   u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>11
+    SLICE_X20Y3.COUT     Tbyp                  0.091   u_back_EMF/ADDERTREE_INTERNAL_Madd_156
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_14
+    SLICE_X20Y4.CIN      net (fanout=1)        0.003   u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>15
+    SLICE_X20Y4.DQ       Tito_logic            0.763   u_back_EMF/ADDERTREE_INTERNAL_Madd_196
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_18
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd_196_rt.2
+    SLICE_X2Y7.A5        net (fanout=22)       1.779   u_back_EMF/ADDERTREE_INTERNAL_Madd_196
+    SLICE_X2Y7.AMUX      Topaa                 0.456   u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd_196_rt.1
+                                                       u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+    SLICE_X3Y6.B4        net (fanout=7)        0.585   u_back_EMF/phase_angle_q16<3><19>
+    SLICE_X3Y6.B         Tilo                  0.259   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/n0008211
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/n0008211
+    SLICE_X3Y6.A5        net (fanout=1)        0.230   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/n0008211
+    SLICE_X3Y6.A         Tilo                  0.259   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/n0008211
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/n0008214_SW0
+    SLICE_X2Y6.D5        net (fanout=3)        0.832   N399
+    SLICE_X2Y6.D         Tilo                  0.254   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/PWR_15_o_iData[31]_AND_113_o4
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/PWR_15_o_iData[31]_AND_113_o4_1
+    SLICE_X10Y2.A5       net (fanout=6)        1.255   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/PWR_15_o_iData[31]_AND_113_o4
+    SLICE_X10Y2.A        Tilo                  0.254   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_AS11
+    SLICE_X10Y2.AX       net (fanout=1)        0.807   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_AS1
+    SLICE_X10Y2.COUT     Taxcy                 0.259   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+    SLICE_X10Y3.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+    SLICE_X10Y3.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+    SLICE_X10Y4.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+    SLICE_X10Y4.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+    SLICE_X10Y5.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+    SLICE_X10Y5.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+    SLICE_X10Y6.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+    SLICE_X10Y6.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+    SLICE_X10Y7.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+    SLICE_X10Y7.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+    SLICE_X10Y8.CIN      net (fanout=1)        0.082   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+    SLICE_X10Y8.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+    SLICE_X10Y9.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+    SLICE_X10Y9.CMUX     Tcinc                 0.279   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/iData[31]_iData[31]_mux_21_OUT<31>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_xor<31>
+    SLICE_X11Y9.D6       net (fanout=1)        0.854   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/iData[31]_iData[31]_mux_21_OUT<30>
+    SLICE_X11Y9.CLK      Tas                   0.373   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle<30>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_23_OUT241
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30
+    -------------------------------------------------  ---------------------------
+    Total                                     15.014ns (5.454ns logic, 9.560ns route)
+                                                       (36.3% logic, 63.7% route)
+
+--------------------------------------------------------------------------------
+Delay:                  15.141ns (data path - clock path skew + uncertainty)
+  Source:               u_pci/Data_6_2 (FF)
+  Destination:          u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30 (FF)
+  Data Path Delay:      14.998ns (Levels of Logic = 19)
+  Clock Path Skew:      -0.036ns (0.442 - 0.478)
+  Source Clock:         clk_180mhz rising
+  Destination Clock:    clk_180mhz rising
+  Clock Uncertainty:    0.107ns
+
+  Clock Uncertainty:          0.107ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_pci/Data_6_2 to u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y2.CMUX      Tshcko                0.518   u_pci/Data_6<3>
+                                                       u_pci/Data_6_2
+    SLICE_X8Y2.A5        net (fanout=6)        0.789   u_pci/Data_6<2>
+    SLICE_X8Y2.CMUX      Topac                 0.636   u_pci/Data_6<4>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd5_lut<4>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd5_cy<7>
+    SLICE_X20Y2.A4       net (fanout=1)        1.586   u_back_EMF/ADDERTREE_INTERNAL_Madd_85
+    SLICE_X20Y2.AMUX     Tilo                  0.298   u_back_EMF/ADDERTREE_INTERNAL_Madd_1110
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd61
+    SLICE_X20Y2.BX       net (fanout=2)        0.737   u_back_EMF/ADDERTREE_INTERNAL_Madd61
+    SLICE_X20Y2.COUT     Tbxcy                 0.197   u_back_EMF/ADDERTREE_INTERNAL_Madd_1110
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_10
+    SLICE_X20Y3.CIN      net (fanout=1)        0.003   u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>11
+    SLICE_X20Y3.COUT     Tbyp                  0.091   u_back_EMF/ADDERTREE_INTERNAL_Madd_156
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_14
+    SLICE_X20Y4.CIN      net (fanout=1)        0.003   u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>15
+    SLICE_X20Y4.DQ       Tito_logic            0.763   u_back_EMF/ADDERTREE_INTERNAL_Madd_196
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_18
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd_196_rt.2
+    SLICE_X2Y7.A5        net (fanout=22)       1.779   u_back_EMF/ADDERTREE_INTERNAL_Madd_196
+    SLICE_X2Y7.COUT      Topcya                0.474   u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd_196_rt.1
+                                                       u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+    SLICE_X2Y8.CIN       net (fanout=1)        0.082   u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+    SLICE_X2Y8.BMUX      Tcinb                 0.310   u_back_EMF/Msub_phase_angle_q16<3>_cy<26>
+                                                       u_back_EMF/Msub_phase_angle_q16<3>_cy<26>
+    SLICE_X3Y6.A3        net (fanout=7)        0.648   u_back_EMF/phase_angle_q16<3><24>
+    SLICE_X3Y6.A         Tilo                  0.259   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/n0008211
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/n0008214_SW0
+    SLICE_X2Y6.D5        net (fanout=3)        0.832   N399
+    SLICE_X2Y6.D         Tilo                  0.254   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/PWR_15_o_iData[31]_AND_113_o4
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/PWR_15_o_iData[31]_AND_113_o4_1
+    SLICE_X10Y2.A5       net (fanout=6)        1.255   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/PWR_15_o_iData[31]_AND_113_o4
+    SLICE_X10Y2.A        Tilo                  0.254   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_AS11
+    SLICE_X10Y2.AX       net (fanout=1)        0.807   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_AS1
+    SLICE_X10Y2.COUT     Taxcy                 0.259   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+    SLICE_X10Y3.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+    SLICE_X10Y3.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+    SLICE_X10Y4.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+    SLICE_X10Y4.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+    SLICE_X10Y5.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+    SLICE_X10Y5.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+    SLICE_X10Y6.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+    SLICE_X10Y6.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+    SLICE_X10Y7.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+    SLICE_X10Y7.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+    SLICE_X10Y8.CIN      net (fanout=1)        0.082   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+    SLICE_X10Y8.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+    SLICE_X10Y9.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+    SLICE_X10Y9.CMUX     Tcinc                 0.279   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/iData[31]_iData[31]_mux_21_OUT<31>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_xor<31>
+    SLICE_X11Y9.D6       net (fanout=1)        0.854   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/iData[31]_iData[31]_mux_21_OUT<30>
+    SLICE_X11Y9.CLK      Tas                   0.373   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle<30>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_23_OUT241
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30
+    -------------------------------------------------  ---------------------------
+    Total                                     14.998ns (5.523ns logic, 9.475ns route)
+                                                       (36.8% logic, 63.2% route)
+
+--------------------------------------------------------------------------------
+Delay:                  15.139ns (data path - clock path skew + uncertainty)
+  Source:               u_pci/Data_6_2 (FF)
+  Destination:          u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30 (FF)
+  Data Path Delay:      14.996ns (Levels of Logic = 20)
+  Clock Path Skew:      -0.036ns (0.442 - 0.478)
+  Source Clock:         clk_180mhz rising
+  Destination Clock:    clk_180mhz rising
+  Clock Uncertainty:    0.107ns
+
+  Clock Uncertainty:          0.107ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_pci/Data_6_2 to u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y2.CMUX      Tshcko                0.518   u_pci/Data_6<3>
+                                                       u_pci/Data_6_2
+    SLICE_X8Y2.A5        net (fanout=6)        0.789   u_pci/Data_6<2>
+    SLICE_X8Y2.CMUX      Topac                 0.636   u_pci/Data_6<4>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd5_lut<4>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd5_cy<7>
+    SLICE_X20Y2.A4       net (fanout=1)        1.586   u_back_EMF/ADDERTREE_INTERNAL_Madd_85
+    SLICE_X20Y2.AMUX     Tilo                  0.298   u_back_EMF/ADDERTREE_INTERNAL_Madd_1110
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd61
+    SLICE_X20Y2.BX       net (fanout=2)        0.737   u_back_EMF/ADDERTREE_INTERNAL_Madd61
+    SLICE_X20Y2.COUT     Tbxcy                 0.197   u_back_EMF/ADDERTREE_INTERNAL_Madd_1110
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_10
+    SLICE_X20Y3.CIN      net (fanout=1)        0.003   u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>11
+    SLICE_X20Y3.COUT     Tbyp                  0.091   u_back_EMF/ADDERTREE_INTERNAL_Madd_156
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_14
+    SLICE_X20Y4.CIN      net (fanout=1)        0.003   u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>15
+    SLICE_X20Y4.COUT     Tbyp                  0.091   u_back_EMF/ADDERTREE_INTERNAL_Madd_196
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_18
+    SLICE_X20Y5.CIN      net (fanout=1)        0.003   u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>19
+    SLICE_X20Y5.AQ       Tito_logic            0.684   u_back_EMF/ADDERTREE_INTERNAL_Madd_2110
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_22
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd_206_rt.2
+    SLICE_X2Y7.B5        net (fanout=16)       1.753   u_back_EMF/ADDERTREE_INTERNAL_Madd_206
+    SLICE_X2Y7.COUT      Topcyb                0.483   u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd_206_rt.1
+                                                       u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+    SLICE_X2Y8.CIN       net (fanout=1)        0.082   u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+    SLICE_X2Y8.BMUX      Tcinb                 0.310   u_back_EMF/Msub_phase_angle_q16<3>_cy<26>
+                                                       u_back_EMF/Msub_phase_angle_q16<3>_cy<26>
+    SLICE_X3Y6.A3        net (fanout=7)        0.648   u_back_EMF/phase_angle_q16<3><24>
+    SLICE_X3Y6.A         Tilo                  0.259   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/n0008211
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/n0008214_SW0
+    SLICE_X2Y6.D5        net (fanout=3)        0.832   N399
+    SLICE_X2Y6.D         Tilo                  0.254   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/PWR_15_o_iData[31]_AND_113_o4
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/PWR_15_o_iData[31]_AND_113_o4_1
+    SLICE_X10Y2.A5       net (fanout=6)        1.255   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/PWR_15_o_iData[31]_AND_113_o4
+    SLICE_X10Y2.A        Tilo                  0.254   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_AS11
+    SLICE_X10Y2.AX       net (fanout=1)        0.807   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_AS1
+    SLICE_X10Y2.COUT     Taxcy                 0.259   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+    SLICE_X10Y3.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+    SLICE_X10Y3.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+    SLICE_X10Y4.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+    SLICE_X10Y4.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+    SLICE_X10Y5.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+    SLICE_X10Y5.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+    SLICE_X10Y6.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+    SLICE_X10Y6.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+    SLICE_X10Y7.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+    SLICE_X10Y7.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+    SLICE_X10Y8.CIN      net (fanout=1)        0.082   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+    SLICE_X10Y8.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+    SLICE_X10Y9.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+    SLICE_X10Y9.CMUX     Tcinc                 0.279   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/iData[31]_iData[31]_mux_21_OUT<31>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_xor<31>
+    SLICE_X11Y9.D6       net (fanout=1)        0.854   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/iData[31]_iData[31]_mux_21_OUT<30>
+    SLICE_X11Y9.CLK      Tas                   0.373   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle<30>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_23_OUT241
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30
+    -------------------------------------------------  ---------------------------
+    Total                                     14.996ns (5.544ns logic, 9.452ns route)
+                                                       (37.0% logic, 63.0% route)
+
+--------------------------------------------------------------------------------
+Delay:                  15.115ns (data path - clock path skew + uncertainty)
+  Source:               u_pci/Data_6_2 (FF)
+  Destination:          u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30 (FF)
+  Data Path Delay:      14.972ns (Levels of Logic = 18)
+  Clock Path Skew:      -0.036ns (0.442 - 0.478)
+  Source Clock:         clk_180mhz rising
+  Destination Clock:    clk_180mhz rising
+  Clock Uncertainty:    0.107ns
+
+  Clock Uncertainty:          0.107ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_pci/Data_6_2 to u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y2.CMUX      Tshcko                0.518   u_pci/Data_6<3>
+                                                       u_pci/Data_6_2
+    SLICE_X8Y2.A5        net (fanout=6)        0.789   u_pci/Data_6<2>
+    SLICE_X8Y2.CMUX      Topac                 0.636   u_pci/Data_6<4>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd5_lut<4>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd5_cy<7>
+    SLICE_X20Y2.A4       net (fanout=1)        1.586   u_back_EMF/ADDERTREE_INTERNAL_Madd_85
+    SLICE_X20Y2.AMUX     Tilo                  0.298   u_back_EMF/ADDERTREE_INTERNAL_Madd_1110
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd61
+    SLICE_X20Y2.BX       net (fanout=2)        0.737   u_back_EMF/ADDERTREE_INTERNAL_Madd61
+    SLICE_X20Y2.COUT     Tbxcy                 0.197   u_back_EMF/ADDERTREE_INTERNAL_Madd_1110
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_10
+    SLICE_X20Y3.CIN      net (fanout=1)        0.003   u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>11
+    SLICE_X20Y3.COUT     Tbyp                  0.091   u_back_EMF/ADDERTREE_INTERNAL_Madd_156
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_14
+    SLICE_X20Y4.CIN      net (fanout=1)        0.003   u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>15
+    SLICE_X20Y4.DQ       Tito_logic            0.763   u_back_EMF/ADDERTREE_INTERNAL_Madd_196
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_18
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd_196_rt.2
+    SLICE_X2Y7.A5        net (fanout=22)       1.779   u_back_EMF/ADDERTREE_INTERNAL_Madd_196
+    SLICE_X2Y7.COUT      Topcya                0.474   u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd_196_rt.1
+                                                       u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+    SLICE_X2Y8.CIN       net (fanout=1)        0.082   u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+    SLICE_X2Y8.DMUX      Tcind                 0.320   u_back_EMF/Msub_phase_angle_q16<3>_cy<26>
+                                                       u_back_EMF/Msub_phase_angle_q16<3>_cy<26>
+    SLICE_X6Y6.B2        net (fanout=7)        1.489   u_back_EMF/phase_angle_q16<3><26>
+    SLICE_X6Y6.CMUX      Topbc                 0.640   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mcompar_n0010_cy<6>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mcompar_n0010_lut<5>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mcompar_n0010_cy<6>
+    SLICE_X10Y2.A4       net (fanout=50)       1.083   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mcompar_n0010_cy<6>
+    SLICE_X10Y2.A        Tilo                  0.254   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_AS11
+    SLICE_X10Y2.AX       net (fanout=1)        0.807   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_AS1
+    SLICE_X10Y2.COUT     Taxcy                 0.259   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+    SLICE_X10Y3.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+    SLICE_X10Y3.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+    SLICE_X10Y4.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+    SLICE_X10Y4.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+    SLICE_X10Y5.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+    SLICE_X10Y5.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+    SLICE_X10Y6.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+    SLICE_X10Y6.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+    SLICE_X10Y7.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+    SLICE_X10Y7.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+    SLICE_X10Y8.CIN      net (fanout=1)        0.082   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+    SLICE_X10Y8.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+    SLICE_X10Y9.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+    SLICE_X10Y9.CMUX     Tcinc                 0.279   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/iData[31]_iData[31]_mux_21_OUT<31>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_xor<31>
+    SLICE_X11Y9.D6       net (fanout=1)        0.854   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/iData[31]_iData[31]_mux_21_OUT<30>
+    SLICE_X11Y9.CLK      Tas                   0.373   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle<30>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_23_OUT241
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30
+    -------------------------------------------------  ---------------------------
+    Total                                     14.972ns (5.660ns logic, 9.312ns route)
+                                                       (37.8% logic, 62.2% route)
+
+--------------------------------------------------------------------------------
+Delay:                  15.113ns (data path - clock path skew + uncertainty)
+  Source:               u_pci/Data_6_2 (FF)
+  Destination:          u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30 (FF)
+  Data Path Delay:      14.970ns (Levels of Logic = 19)
+  Clock Path Skew:      -0.036ns (0.442 - 0.478)
+  Source Clock:         clk_180mhz rising
+  Destination Clock:    clk_180mhz rising
+  Clock Uncertainty:    0.107ns
+
+  Clock Uncertainty:          0.107ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_pci/Data_6_2 to u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y2.CMUX      Tshcko                0.518   u_pci/Data_6<3>
+                                                       u_pci/Data_6_2
+    SLICE_X8Y2.A5        net (fanout=6)        0.789   u_pci/Data_6<2>
+    SLICE_X8Y2.CMUX      Topac                 0.636   u_pci/Data_6<4>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd5_lut<4>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd5_cy<7>
+    SLICE_X20Y2.A4       net (fanout=1)        1.586   u_back_EMF/ADDERTREE_INTERNAL_Madd_85
+    SLICE_X20Y2.AMUX     Tilo                  0.298   u_back_EMF/ADDERTREE_INTERNAL_Madd_1110
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd61
+    SLICE_X20Y2.BX       net (fanout=2)        0.737   u_back_EMF/ADDERTREE_INTERNAL_Madd61
+    SLICE_X20Y2.COUT     Tbxcy                 0.197   u_back_EMF/ADDERTREE_INTERNAL_Madd_1110
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_10
+    SLICE_X20Y3.CIN      net (fanout=1)        0.003   u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>11
+    SLICE_X20Y3.COUT     Tbyp                  0.091   u_back_EMF/ADDERTREE_INTERNAL_Madd_156
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_14
+    SLICE_X20Y4.CIN      net (fanout=1)        0.003   u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>15
+    SLICE_X20Y4.COUT     Tbyp                  0.091   u_back_EMF/ADDERTREE_INTERNAL_Madd_196
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_18
+    SLICE_X20Y5.CIN      net (fanout=1)        0.003   u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>19
+    SLICE_X20Y5.AQ       Tito_logic            0.684   u_back_EMF/ADDERTREE_INTERNAL_Madd_2110
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd6_cy<0>_22
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd_206_rt.2
+    SLICE_X2Y7.B5        net (fanout=16)       1.753   u_back_EMF/ADDERTREE_INTERNAL_Madd_206
+    SLICE_X2Y7.COUT      Topcyb                0.483   u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+                                                       u_back_EMF/ADDERTREE_INTERNAL_Madd_206_rt.1
+                                                       u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+    SLICE_X2Y8.CIN       net (fanout=1)        0.082   u_back_EMF/Msub_phase_angle_q16<3>_cy<22>
+    SLICE_X2Y8.DMUX      Tcind                 0.320   u_back_EMF/Msub_phase_angle_q16<3>_cy<26>
+                                                       u_back_EMF/Msub_phase_angle_q16<3>_cy<26>
+    SLICE_X6Y6.B2        net (fanout=7)        1.489   u_back_EMF/phase_angle_q16<3><26>
+    SLICE_X6Y6.CMUX      Topbc                 0.640   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mcompar_n0010_cy<6>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mcompar_n0010_lut<5>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mcompar_n0010_cy<6>
+    SLICE_X10Y2.A4       net (fanout=50)       1.083   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mcompar_n0010_cy<6>
+    SLICE_X10Y2.A        Tilo                  0.254   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_AS11
+    SLICE_X10Y2.AX       net (fanout=1)        0.807   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_AS1
+    SLICE_X10Y2.COUT     Taxcy                 0.259   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+    SLICE_X10Y3.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>
+    SLICE_X10Y3.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+    SLICE_X10Y4.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>
+    SLICE_X10Y4.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+    SLICE_X10Y5.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>
+    SLICE_X10Y5.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+    SLICE_X10Y6.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>
+    SLICE_X10Y6.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+    SLICE_X10Y7.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>
+    SLICE_X10Y7.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+    SLICE_X10Y8.CIN      net (fanout=1)        0.082   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>
+    SLICE_X10Y8.COUT     Tbyp                  0.093   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+    SLICE_X10Y9.CIN      net (fanout=1)        0.003   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>
+    SLICE_X10Y9.CMUX     Tcinc                 0.279   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/iData[31]_iData[31]_mux_21_OUT<31>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_21_OUT_rs_xor<31>
+    SLICE_X11Y9.D6       net (fanout=1)        0.854   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/iData[31]_iData[31]_mux_21_OUT<30>
+    SLICE_X11Y9.CLK      Tas                   0.373   u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle<30>
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/Mmux_iData[31]_iData[31]_mux_23_OUT241
+                                                       u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30
+    -------------------------------------------------  ---------------------------
+    Total                                     14.970ns (5.681ns logic, 9.289ns route)
+                                                       (37.9% logic, 62.1% route)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Default OFFSET IN BEFORE analysis for clock "clk_180mhz" 
+
+ 5412 paths analyzed, 1600 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+ Minimum allowable offset is  16.666ns.
+--------------------------------------------------------------------------------
+Offset:                 16.666ns (data path - clock path + uncertainty)
+  Source:               rst_n (PAD)
+  Destination:          u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_29 (FF)
+  Destination Clock:    clk_180mhz rising
+  Data Path Delay:      17.797ns (Levels of Logic = 1)
+  Clock Path Delay:     1.587ns (Levels of Logic = 4)
+  Clock Uncertainty:    0.456ns
+
+  Clock Uncertainty:          0.456ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.352ns
+
+  Maximum Data Path at Slow Process Corner: rst_n to u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_29
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    N5.I                 Tiopi                 1.590   rst_n
+                                                       rst_n
+                                                       rst_n_IBUF
+                                                       ProtoComp138.IINV
+                                                       ProtoComp138.IMUX
+    SLICE_X47Y61.SR      net (fanout=412)     15.937   rst_n_inv
+    SLICE_X47Y61.CLK     Trck                  0.270   u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x<29>
+                                                       u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_29
+    -------------------------------------------------  ---------------------------
+    Total                                     17.797ns (1.860ns logic, 15.937ns route)
+                                                       (10.5% logic, 89.5% route)
+
+  Minimum Clock Path at Slow Process Corner: clk_ex to u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_29
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    E8.I                 Tiopi                 1.344   clk_ex
+                                                       clk_ex
+                                                       u_clock/CLOCK/clkin1_buf
+                                                       ProtoComp136.IMUX.27
+    BUFIO2_X4Y29.I       net (fanout=1)        2.483   u_clock/CLOCK/clkin1
+    BUFIO2_X4Y29.DIVCLK  Tbufcko_DIVCLK        0.179   SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+                                                       SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+    PLL_ADV_X0Y1.CLKIN2  net (fanout=1)        0.716   u_clock/CLOCK/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+    PLL_ADV_X0Y1.CLKOUT2 Tpllcko_CLK          -5.172   u_clock/CLOCK/pll_base_inst/PLL_ADV
+                                                       u_clock/CLOCK/pll_base_inst/PLL_ADV
+    BUFGMUX_X3Y13.I0     net (fanout=1)        0.571   u_clock/CLOCK/clkout2
+    BUFGMUX_X3Y13.O      Tgi0o                 0.197   u_clock/CLOCK/clkout3_buf
+                                                       u_clock/CLOCK/clkout3_buf
+    SLICE_X47Y61.CLK     net (fanout=662)      1.269   clk_180mhz
+    -------------------------------------------------  ---------------------------
+    Total                                      1.587ns (-3.452ns logic, 5.039ns route)
+
+--------------------------------------------------------------------------------
+Offset:                 16.663ns (data path - clock path + uncertainty)
+  Source:               rst_n (PAD)
+  Destination:          u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_28 (FF)
+  Destination Clock:    clk_180mhz rising
+  Data Path Delay:      17.794ns (Levels of Logic = 1)
+  Clock Path Delay:     1.587ns (Levels of Logic = 4)
+  Clock Uncertainty:    0.456ns
+
+  Clock Uncertainty:          0.456ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.352ns
+
+  Maximum Data Path at Slow Process Corner: rst_n to u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_28
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    N5.I                 Tiopi                 1.590   rst_n
+                                                       rst_n
+                                                       rst_n_IBUF
+                                                       ProtoComp138.IINV
+                                                       ProtoComp138.IMUX
+    SLICE_X47Y61.SR      net (fanout=412)     15.937   rst_n_inv
+    SLICE_X47Y61.CLK     Trck                  0.267   u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x<29>
+                                                       u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_28
+    -------------------------------------------------  ---------------------------
+    Total                                     17.794ns (1.857ns logic, 15.937ns route)
+                                                       (10.4% logic, 89.6% route)
+
+  Minimum Clock Path at Slow Process Corner: clk_ex to u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_28
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    E8.I                 Tiopi                 1.344   clk_ex
+                                                       clk_ex
+                                                       u_clock/CLOCK/clkin1_buf
+                                                       ProtoComp136.IMUX.27
+    BUFIO2_X4Y29.I       net (fanout=1)        2.483   u_clock/CLOCK/clkin1
+    BUFIO2_X4Y29.DIVCLK  Tbufcko_DIVCLK        0.179   SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+                                                       SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+    PLL_ADV_X0Y1.CLKIN2  net (fanout=1)        0.716   u_clock/CLOCK/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+    PLL_ADV_X0Y1.CLKOUT2 Tpllcko_CLK          -5.172   u_clock/CLOCK/pll_base_inst/PLL_ADV
+                                                       u_clock/CLOCK/pll_base_inst/PLL_ADV
+    BUFGMUX_X3Y13.I0     net (fanout=1)        0.571   u_clock/CLOCK/clkout2
+    BUFGMUX_X3Y13.O      Tgi0o                 0.197   u_clock/CLOCK/clkout3_buf
+                                                       u_clock/CLOCK/clkout3_buf
+    SLICE_X47Y61.CLK     net (fanout=662)      1.269   clk_180mhz
+    -------------------------------------------------  ---------------------------
+    Total                                      1.587ns (-3.452ns logic, 5.039ns route)
+
+--------------------------------------------------------------------------------
+Offset:                 16.454ns (data path - clock path + uncertainty)
+  Source:               rst_n (PAD)
+  Destination:          u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_20 (FF)
+  Destination Clock:    clk_180mhz rising
+  Data Path Delay:      17.581ns (Levels of Logic = 1)
+  Clock Path Delay:     1.583ns (Levels of Logic = 4)
+  Clock Uncertainty:    0.456ns
+
+  Clock Uncertainty:          0.456ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.352ns
+
+  Maximum Data Path at Slow Process Corner: rst_n to u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_20
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    N5.I                 Tiopi                 1.590   rst_n
+                                                       rst_n
+                                                       rst_n_IBUF
+                                                       ProtoComp138.IINV
+                                                       ProtoComp138.IMUX
+    SLICE_X47Y59.SR      net (fanout=412)     15.724   rst_n_inv
+    SLICE_X47Y59.CLK     Trck                  0.267   u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x<20>
+                                                       u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_20
+    -------------------------------------------------  ---------------------------
+    Total                                     17.581ns (1.857ns logic, 15.724ns route)
+                                                       (10.6% logic, 89.4% route)
+
+  Minimum Clock Path at Slow Process Corner: clk_ex to u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_20
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    E8.I                 Tiopi                 1.344   clk_ex
+                                                       clk_ex
+                                                       u_clock/CLOCK/clkin1_buf
+                                                       ProtoComp136.IMUX.27
+    BUFIO2_X4Y29.I       net (fanout=1)        2.483   u_clock/CLOCK/clkin1
+    BUFIO2_X4Y29.DIVCLK  Tbufcko_DIVCLK        0.179   SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+                                                       SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+    PLL_ADV_X0Y1.CLKIN2  net (fanout=1)        0.716   u_clock/CLOCK/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+    PLL_ADV_X0Y1.CLKOUT2 Tpllcko_CLK          -5.172   u_clock/CLOCK/pll_base_inst/PLL_ADV
+                                                       u_clock/CLOCK/pll_base_inst/PLL_ADV
+    BUFGMUX_X3Y13.I0     net (fanout=1)        0.571   u_clock/CLOCK/clkout2
+    BUFGMUX_X3Y13.O      Tgi0o                 0.197   u_clock/CLOCK/clkout3_buf
+                                                       u_clock/CLOCK/clkout3_buf
+    SLICE_X47Y59.CLK     net (fanout=662)      1.265   clk_180mhz
+    -------------------------------------------------  ---------------------------
+    Total                                      1.583ns (-3.452ns logic, 5.035ns route)
+
+--------------------------------------------------------------------------------
+Offset:                 16.418ns (data path - clock path + uncertainty)
+  Source:               rst_n (PAD)
+  Destination:          u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_26 (FF)
+  Destination Clock:    clk_180mhz rising
+  Data Path Delay:      17.547ns (Levels of Logic = 1)
+  Clock Path Delay:     1.585ns (Levels of Logic = 4)
+  Clock Uncertainty:    0.456ns
+
+  Clock Uncertainty:          0.456ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.352ns
+
+  Maximum Data Path at Slow Process Corner: rst_n to u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_26
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    N5.I                 Tiopi                 1.590   rst_n
+                                                       rst_n
+                                                       rst_n_IBUF
+                                                       ProtoComp138.IINV
+                                                       ProtoComp138.IMUX
+    SLICE_X46Y60.SR      net (fanout=412)     15.745   rst_n_inv
+    SLICE_X46Y60.CLK     Trck                  0.212   u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x<26>
+                                                       u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_26
+    -------------------------------------------------  ---------------------------
+    Total                                     17.547ns (1.802ns logic, 15.745ns route)
+                                                       (10.3% logic, 89.7% route)
+
+  Minimum Clock Path at Slow Process Corner: clk_ex to u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_26
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    E8.I                 Tiopi                 1.344   clk_ex
+                                                       clk_ex
+                                                       u_clock/CLOCK/clkin1_buf
+                                                       ProtoComp136.IMUX.27
+    BUFIO2_X4Y29.I       net (fanout=1)        2.483   u_clock/CLOCK/clkin1
+    BUFIO2_X4Y29.DIVCLK  Tbufcko_DIVCLK        0.179   SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+                                                       SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+    PLL_ADV_X0Y1.CLKIN2  net (fanout=1)        0.716   u_clock/CLOCK/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+    PLL_ADV_X0Y1.CLKOUT2 Tpllcko_CLK          -5.172   u_clock/CLOCK/pll_base_inst/PLL_ADV
+                                                       u_clock/CLOCK/pll_base_inst/PLL_ADV
+    BUFGMUX_X3Y13.I0     net (fanout=1)        0.571   u_clock/CLOCK/clkout2
+    BUFGMUX_X3Y13.O      Tgi0o                 0.197   u_clock/CLOCK/clkout3_buf
+                                                       u_clock/CLOCK/clkout3_buf
+    SLICE_X46Y60.CLK     net (fanout=662)      1.267   clk_180mhz
+    -------------------------------------------------  ---------------------------
+    Total                                      1.585ns (-3.452ns logic, 5.037ns route)
+
+--------------------------------------------------------------------------------
+Offset:                 16.408ns (data path - clock path + uncertainty)
+  Source:               rst_n (PAD)
+  Destination:          u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_27 (FF)
+  Destination Clock:    clk_180mhz rising
+  Data Path Delay:      17.535ns (Levels of Logic = 1)
+  Clock Path Delay:     1.583ns (Levels of Logic = 4)
+  Clock Uncertainty:    0.456ns
+
+  Clock Uncertainty:          0.456ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.352ns
+
+  Maximum Data Path at Slow Process Corner: rst_n to u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_27
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    N5.I                 Tiopi                 1.590   rst_n
+                                                       rst_n
+                                                       rst_n_IBUF
+                                                       ProtoComp138.IINV
+                                                       ProtoComp138.IMUX
+    SLICE_X46Y59.SR      net (fanout=412)     15.724   rst_n_inv
+    SLICE_X46Y59.CLK     Trck                  0.221   u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x<27>
+                                                       u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_27
+    -------------------------------------------------  ---------------------------
+    Total                                     17.535ns (1.811ns logic, 15.724ns route)
+                                                       (10.3% logic, 89.7% route)
+
+  Minimum Clock Path at Slow Process Corner: clk_ex to u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/x_27
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    E8.I                 Tiopi                 1.344   clk_ex
+                                                       clk_ex
+                                                       u_clock/CLOCK/clkin1_buf
+                                                       ProtoComp136.IMUX.27
+    BUFIO2_X4Y29.I       net (fanout=1)        2.483   u_clock/CLOCK/clkin1
+    BUFIO2_X4Y29.DIVCLK  Tbufcko_DIVCLK        0.179   SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+                                                       SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+    PLL_ADV_X0Y1.CLKIN2  net (fanout=1)        0.716   u_clock/CLOCK/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+    PLL_ADV_X0Y1.CLKOUT2 Tpllcko_CLK          -5.172   u_clock/CLOCK/pll_base_inst/PLL_ADV
+                                                       u_clock/CLOCK/pll_base_inst/PLL_ADV
+    BUFGMUX_X3Y13.I0     net (fanout=1)        0.571   u_clock/CLOCK/clkout2
+    BUFGMUX_X3Y13.O      Tgi0o                 0.197   u_clock/CLOCK/clkout3_buf
+                                                       u_clock/CLOCK/clkout3_buf
+    SLICE_X46Y59.CLK     net (fanout=662)      1.265   clk_180mhz
+    -------------------------------------------------  ---------------------------
+    Total                                      1.583ns (-3.452ns logic, 5.035ns route)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Default OFFSET OUT AFTER analysis for clock "clk_180mhz" 
+
+ 288 paths analyzed, 16 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+ Maximum allowable offset is  12.061ns.
+--------------------------------------------------------------------------------
+Offset:                 12.061ns (clock path + data path + uncertainty)
+  Source:               u_pci/Data_1_0 (FF)
+  Destination:          DATAbus<0> (PAD)
+  Source Clock:         clk_180mhz rising
+  Data Path Delay:      10.806ns (Levels of Logic = 4)
+  Clock Path Delay:     0.799ns (Levels of Logic = 4)
+  Clock Uncertainty:    0.456ns
+
+  Clock Uncertainty:          0.456ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.352ns
+
+  Maximum Clock Path at Slow Process Corner: clk_ex to u_pci/Data_1_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    E8.I                 Tiopi                 1.557   clk_ex
+                                                       clk_ex
+                                                       u_clock/CLOCK/clkin1_buf
+                                                       ProtoComp136.IMUX.27
+    BUFIO2_X4Y29.I       net (fanout=1)        2.875   u_clock/CLOCK/clkin1
+    BUFIO2_X4Y29.DIVCLK  Tbufcko_DIVCLK        0.190   SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+                                                       SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+    PLL_ADV_X0Y1.CLKIN2  net (fanout=1)        0.825   u_clock/CLOCK/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+    PLL_ADV_X0Y1.CLKOUT2 Tpllcko_CLK          -7.145   u_clock/CLOCK/pll_base_inst/PLL_ADV
+                                                       u_clock/CLOCK/pll_base_inst/PLL_ADV
+    BUFGMUX_X3Y13.I0     net (fanout=1)        0.637   u_clock/CLOCK/clkout2
+    BUFGMUX_X3Y13.O      Tgi0o                 0.209   u_clock/CLOCK/clkout3_buf
+                                                       u_clock/CLOCK/clkout3_buf
+    SLICE_X17Y37.CLK     net (fanout=662)      1.651   clk_180mhz
+    -------------------------------------------------  ---------------------------
+    Total                                      0.799ns (-5.189ns logic, 5.988ns route)
+
+  Maximum Data Path at Slow Process Corner: u_pci/Data_1_0 to DATAbus<0>
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X17Y37.AQ      Tcko                  0.430   u_pci/Data_1<3>
+                                                       u_pci/Data_1_0
+    SLICE_X9Y24.C2       net (fanout=12)       2.166   u_pci/Data_1<0>
+    SLICE_X9Y24.C        Tilo                  0.259   u_pci/addrbus[11]_GND_2_o_equal_45_o
+                                                       u_pci/Data_out_comb<0>6
+    SLICE_X8Y24.D2       net (fanout=1)        0.547   u_pci/Data_out_comb<0>6
+    SLICE_X8Y24.D        Tilo                  0.235   u_pci/Data_out_comb<0>8
+                                                       u_pci/Data_out_comb<0>8
+    SLICE_X9Y21.D2       net (fanout=1)        1.070   u_pci/Data_out_comb<0>8
+    SLICE_X9Y21.D        Tilo                  0.259   u_inverter/clk_10MHz
+                                                       u_pci/Data_out_comb<0>11
+    M5.O                 net (fanout=1)        3.858   u_pci/Data_out_comb<0>
+    M5.PAD               Tioop                 1.982   DATAbus<0>
+                                                       DATAbus_0_IOBUF/OBUFT
+                                                       DATAbus<0>
+    -------------------------------------------------  ---------------------------
+    Total                                     10.806ns (3.165ns logic, 7.641ns route)
+                                                       (29.3% logic, 70.7% route)
+
+--------------------------------------------------------------------------------
+Offset:                 11.712ns (clock path + data path + uncertainty)
+  Source:               u_pci/Data_1_9 (FF)
+  Destination:          DATAbus<9> (PAD)
+  Source Clock:         clk_180mhz rising
+  Data Path Delay:      10.499ns (Levels of Logic = 4)
+  Clock Path Delay:     0.757ns (Levels of Logic = 4)
+  Clock Uncertainty:    0.456ns
+
+  Clock Uncertainty:          0.456ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.352ns
+
+  Maximum Clock Path at Slow Process Corner: clk_ex to u_pci/Data_1_9
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    E8.I                 Tiopi                 1.557   clk_ex
+                                                       clk_ex
+                                                       u_clock/CLOCK/clkin1_buf
+                                                       ProtoComp136.IMUX.27
+    BUFIO2_X4Y29.I       net (fanout=1)        2.875   u_clock/CLOCK/clkin1
+    BUFIO2_X4Y29.DIVCLK  Tbufcko_DIVCLK        0.190   SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+                                                       SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+    PLL_ADV_X0Y1.CLKIN2  net (fanout=1)        0.825   u_clock/CLOCK/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+    PLL_ADV_X0Y1.CLKOUT2 Tpllcko_CLK          -7.145   u_clock/CLOCK/pll_base_inst/PLL_ADV
+                                                       u_clock/CLOCK/pll_base_inst/PLL_ADV
+    BUFGMUX_X3Y13.I0     net (fanout=1)        0.637   u_clock/CLOCK/clkout2
+    BUFGMUX_X3Y13.O      Tgi0o                 0.209   u_clock/CLOCK/clkout3_buf
+                                                       u_clock/CLOCK/clkout3_buf
+    SLICE_X19Y43.CLK     net (fanout=662)      1.609   clk_180mhz
+    -------------------------------------------------  ---------------------------
+    Total                                      0.757ns (-5.189ns logic, 5.946ns route)
+
+  Maximum Data Path at Slow Process Corner: u_pci/Data_1_9 to DATAbus<9>
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X19Y43.BQ      Tcko                  0.430   u_pci/Data_1<11>
+                                                       u_pci/Data_1_9
+    SLICE_X6Y26.D2       net (fanout=12)       3.448   u_pci/Data_1<9>
+    SLICE_X6Y26.D        Tilo                  0.254   u_pci/Data_15<11>
+                                                       u_pci/Data_out_comb<9>17
+    SLICE_X6Y26.C6       net (fanout=1)        0.143   u_pci/Data_out_comb<9>17
+    SLICE_X6Y26.C        Tilo                  0.255   u_pci/Data_15<11>
+                                                       u_pci/Data_out_comb<9>18
+    SLICE_X5Y26.C1       net (fanout=1)        0.850   u_pci/Data_out_comb<9>18
+    SLICE_X5Y26.C        Tilo                  0.259   u_pci/Loopback_Data<11>
+                                                       u_pci/Data_out_comb<9>19
+    M1.O                 net (fanout=1)        2.878   u_pci/Data_out_comb<9>
+    M1.PAD               Tioop                 1.982   DATAbus<9>
+                                                       DATAbus_9_IOBUF/OBUFT
+                                                       DATAbus<9>
+    -------------------------------------------------  ---------------------------
+    Total                                     10.499ns (3.180ns logic, 7.319ns route)
+                                                       (30.3% logic, 69.7% route)
+
+--------------------------------------------------------------------------------
+Offset:                 11.477ns (clock path + data path + uncertainty)
+  Source:               u_pci/Data_8_0 (FF)
+  Destination:          DATAbus<0> (PAD)
+  Source Clock:         clk_180mhz rising
+  Data Path Delay:      10.124ns (Levels of Logic = 4)
+  Clock Path Delay:     0.897ns (Levels of Logic = 4)
+  Clock Uncertainty:    0.456ns
+
+  Clock Uncertainty:          0.456ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.352ns
+
+  Maximum Clock Path at Slow Process Corner: clk_ex to u_pci/Data_8_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    E8.I                 Tiopi                 1.557   clk_ex
+                                                       clk_ex
+                                                       u_clock/CLOCK/clkin1_buf
+                                                       ProtoComp136.IMUX.27
+    BUFIO2_X4Y29.I       net (fanout=1)        2.875   u_clock/CLOCK/clkin1
+    BUFIO2_X4Y29.DIVCLK  Tbufcko_DIVCLK        0.190   SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+                                                       SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+    PLL_ADV_X0Y1.CLKIN2  net (fanout=1)        0.825   u_clock/CLOCK/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+    PLL_ADV_X0Y1.CLKOUT2 Tpllcko_CLK          -7.145   u_clock/CLOCK/pll_base_inst/PLL_ADV
+                                                       u_clock/CLOCK/pll_base_inst/PLL_ADV
+    BUFGMUX_X3Y13.I0     net (fanout=1)        0.637   u_clock/CLOCK/clkout2
+    BUFGMUX_X3Y13.O      Tgi0o                 0.209   u_clock/CLOCK/clkout3_buf
+                                                       u_clock/CLOCK/clkout3_buf
+    SLICE_X1Y28.CLK      net (fanout=662)      1.749   clk_180mhz
+    -------------------------------------------------  ---------------------------
+    Total                                      0.897ns (-5.189ns logic, 6.086ns route)
+
+  Maximum Data Path at Slow Process Corner: u_pci/Data_8_0 to DATAbus<0>
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X1Y28.AQ       Tcko                  0.430   u_pci/Data_8<3>
+                                                       u_pci/Data_8_0
+    SLICE_X3Y18.B1       net (fanout=13)       1.488   u_pci/Data_8<0>
+    SLICE_X3Y18.B        Tilo                  0.259   u_pci/Data_12<3>
+                                                       u_pci/Data_out_comb<0>9
+    SLICE_X3Y18.A5       net (fanout=1)        0.230   u_pci/Data_out_comb<0>9
+    SLICE_X3Y18.A        Tilo                  0.259   u_pci/Data_12<3>
+                                                       u_pci/Data_out_comb<0>10
+    SLICE_X9Y21.D4       net (fanout=1)        1.359   u_pci/Data_out_comb<0>10
+    SLICE_X9Y21.D        Tilo                  0.259   u_inverter/clk_10MHz
+                                                       u_pci/Data_out_comb<0>11
+    M5.O                 net (fanout=1)        3.858   u_pci/Data_out_comb<0>
+    M5.PAD               Tioop                 1.982   DATAbus<0>
+                                                       DATAbus_0_IOBUF/OBUFT
+                                                       DATAbus<0>
+    -------------------------------------------------  ---------------------------
+    Total                                     10.124ns (3.189ns logic, 6.935ns route)
+                                                       (31.5% logic, 68.5% route)
+
+--------------------------------------------------------------------------------
+Offset:                 11.429ns (clock path + data path + uncertainty)
+  Source:               u_pci/Data_1_8 (FF)
+  Destination:          DATAbus<8> (PAD)
+  Source Clock:         clk_180mhz rising
+  Data Path Delay:      10.216ns (Levels of Logic = 4)
+  Clock Path Delay:     0.757ns (Levels of Logic = 4)
+  Clock Uncertainty:    0.456ns
+
+  Clock Uncertainty:          0.456ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.352ns
+
+  Maximum Clock Path at Slow Process Corner: clk_ex to u_pci/Data_1_8
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    E8.I                 Tiopi                 1.557   clk_ex
+                                                       clk_ex
+                                                       u_clock/CLOCK/clkin1_buf
+                                                       ProtoComp136.IMUX.27
+    BUFIO2_X4Y29.I       net (fanout=1)        2.875   u_clock/CLOCK/clkin1
+    BUFIO2_X4Y29.DIVCLK  Tbufcko_DIVCLK        0.190   SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+                                                       SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+    PLL_ADV_X0Y1.CLKIN2  net (fanout=1)        0.825   u_clock/CLOCK/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+    PLL_ADV_X0Y1.CLKOUT2 Tpllcko_CLK          -7.145   u_clock/CLOCK/pll_base_inst/PLL_ADV
+                                                       u_clock/CLOCK/pll_base_inst/PLL_ADV
+    BUFGMUX_X3Y13.I0     net (fanout=1)        0.637   u_clock/CLOCK/clkout2
+    BUFGMUX_X3Y13.O      Tgi0o                 0.209   u_clock/CLOCK/clkout3_buf
+                                                       u_clock/CLOCK/clkout3_buf
+    SLICE_X19Y43.CLK     net (fanout=662)      1.609   clk_180mhz
+    -------------------------------------------------  ---------------------------
+    Total                                      0.757ns (-5.189ns logic, 5.946ns route)
+
+  Maximum Data Path at Slow Process Corner: u_pci/Data_1_8 to DATAbus<8>
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X19Y43.AQ      Tcko                  0.430   u_pci/Data_1<11>
+                                                       u_pci/Data_1_8
+    SLICE_X6Y28.B1       net (fanout=12)       3.105   u_pci/Data_1<8>
+    SLICE_X6Y28.B        Tilo                  0.254   u_pci/Data_out_comb<10>2
+                                                       u_pci/Data_out_comb<8>8
+    SLICE_X6Y28.A5       net (fanout=1)        0.247   u_pci/Data_out_comb<8>8
+    SLICE_X6Y28.A        Tilo                  0.254   u_pci/Data_out_comb<10>2
+                                                       u_pci/Data_out_comb<8>9
+    SLICE_X7Y26.C3       net (fanout=1)        0.725   u_pci/Data_out_comb<8>9
+    SLICE_X7Y26.C        Tilo                  0.259   u_pci/Data_9<11>
+                                                       u_pci/Data_out_comb<8>10
+    M2.O                 net (fanout=1)        2.960   u_pci/Data_out_comb<8>
+    M2.PAD               Tioop                 1.982   DATAbus<8>
+                                                       DATAbus_8_IOBUF/OBUFT
+                                                       DATAbus<8>
+    -------------------------------------------------  ---------------------------
+    Total                                     10.216ns (3.179ns logic, 7.037ns route)
+                                                       (31.1% logic, 68.9% route)
+
+--------------------------------------------------------------------------------
+Offset:                 11.422ns (clock path + data path + uncertainty)
+  Source:               u_back_EMF/eA_S35_Q17_15 (FF)
+  Destination:          DATAbus<0> (PAD)
+  Source Clock:         clk_180mhz rising
+  Data Path Delay:      10.237ns (Levels of Logic = 5)
+  Clock Path Delay:     0.729ns (Levels of Logic = 4)
+  Clock Uncertainty:    0.456ns
+
+  Clock Uncertainty:          0.456ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.050ns
+    Discrete Jitter (DJ):       0.202ns
+    Phase Error (PE):           0.352ns
+
+  Maximum Clock Path at Slow Process Corner: clk_ex to u_back_EMF/eA_S35_Q17_15
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    E8.I                 Tiopi                 1.557   clk_ex
+                                                       clk_ex
+                                                       u_clock/CLOCK/clkin1_buf
+                                                       ProtoComp136.IMUX.27
+    BUFIO2_X4Y29.I       net (fanout=1)        2.875   u_clock/CLOCK/clkin1
+    BUFIO2_X4Y29.DIVCLK  Tbufcko_DIVCLK        0.190   SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+                                                       SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0
+    PLL_ADV_X0Y1.CLKIN2  net (fanout=1)        0.825   u_clock/CLOCK/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+    PLL_ADV_X0Y1.CLKOUT2 Tpllcko_CLK          -7.145   u_clock/CLOCK/pll_base_inst/PLL_ADV
+                                                       u_clock/CLOCK/pll_base_inst/PLL_ADV
+    BUFGMUX_X3Y13.I0     net (fanout=1)        0.637   u_clock/CLOCK/clkout2
+    BUFGMUX_X3Y13.O      Tgi0o                 0.209   u_clock/CLOCK/clkout3_buf
+                                                       u_clock/CLOCK/clkout3_buf
+    SLICE_X22Y36.CLK     net (fanout=662)      1.581   clk_180mhz
+    -------------------------------------------------  ---------------------------
+    Total                                      0.729ns (-5.189ns logic, 5.918ns route)
+
+  Maximum Data Path at Slow Process Corner: u_back_EMF/eA_S35_Q17_15 to DATAbus<0>
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X22Y36.DQ      Tcko                  0.525   u_back_EMF/eA_S35_Q17<15>
+                                                       u_back_EMF/eA_S35_Q17_15
+    SLICE_X9Y20.D6       net (fanout=2)        1.955   u_back_EMF/eA_S35_Q17<15>
+    SLICE_X9Y20.D        Tilo                  0.259   u_pci/Data_4<3>
+                                                       u_pci/Data_out_comb<0>1
+    SLICE_X9Y20.C6       net (fanout=1)        0.143   u_pci/Data_out_comb<0>1
+    SLICE_X9Y20.C        Tilo                  0.259   u_pci/Data_4<3>
+                                                       u_pci/Data_out_comb<0>2
+    SLICE_X9Y21.C4       net (fanout=1)        0.504   u_pci/Data_out_comb<0>2
+    SLICE_X9Y21.C        Tilo                  0.259   u_inverter/clk_10MHz
+                                                       u_pci/Data_out_comb<0>4
+    SLICE_X9Y21.D5       net (fanout=1)        0.234   u_pci/Data_out_comb<0>4
+    SLICE_X9Y21.D        Tilo                  0.259   u_inverter/clk_10MHz
+                                                       u_pci/Data_out_comb<0>11
+    M5.O                 net (fanout=1)        3.858   u_pci/Data_out_comb<0>
+    M5.PAD               Tioop                 1.982   DATAbus<0>
+                                                       DATAbus_0_IOBUF/OBUFT
+                                                       DATAbus<0>
+    -------------------------------------------------  ---------------------------
+    Total                                     10.237ns (3.543ns logic, 6.694ns route)
+                                                       (34.6% logic, 65.4% route)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Default period analysis for net "u_inverter/clk_10MHz_BUFG" 
+
+ 82 paths analyzed, 82 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   2.549ns.
+--------------------------------------------------------------------------------
+Delay:                  2.549ns (data path - clock path skew + uncertainty)
+  Source:               u_inverter_de/UDO_S35_Q17_20 (FF)
+  Destination:          u_inverter_de/phase_d_voltage_q17_20 (FF)
+  Data Path Delay:      2.604ns (Levels of Logic = 0)
+  Clock Path Skew:      0.090ns (0.656 - 0.566)
+  Source Clock:         u_inverter/clk_10MHz_BUFG rising
+  Destination Clock:    u_inverter/clk_10MHz_BUFG rising
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_inverter_de/UDO_S35_Q17_20 to u_inverter_de/phase_d_voltage_q17_20
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X24Y60.AQ      Tcko                  0.476   u_inverter_de/UDO_S35_Q17<23>
+                                                       u_inverter_de/UDO_S35_Q17_20
+    SLICE_X13Y47.AX      net (fanout=1)        2.014   u_inverter_de/UDO_S35_Q17<20>
+    SLICE_X13Y47.CLK     Tdick                 0.114   u_inverter_de/phase_d_voltage_q17<23>
+                                                       u_inverter_de/phase_d_voltage_q17_20
+    -------------------------------------------------  ---------------------------
+    Total                                      2.604ns (0.590ns logic, 2.014ns route)
+                                                       (22.7% logic, 77.3% route)
+
+--------------------------------------------------------------------------------
+Delay:                  2.524ns (data path - clock path skew + uncertainty)
+  Source:               u_inverter_de/UEO_S35_Q17_23 (FF)
+  Destination:          u_inverter_de/phase_e_voltage_q17_23 (FF)
+  Data Path Delay:      2.547ns (Levels of Logic = 0)
+  Clock Path Skew:      0.058ns (0.631 - 0.573)
+  Source Clock:         u_inverter/clk_10MHz_BUFG rising
+  Destination Clock:    u_inverter/clk_10MHz_BUFG rising
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_inverter_de/UEO_S35_Q17_23 to u_inverter_de/phase_e_voltage_q17_23
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X22Y53.DQ      Tcko                  0.525   u_inverter_de/UEO_S35_Q17<23>
+                                                       u_inverter_de/UEO_S35_Q17_23
+    SLICE_X17Y47.DX      net (fanout=1)        1.908   u_inverter_de/UEO_S35_Q17<23>
+    SLICE_X17Y47.CLK     Tdick                 0.114   u_inverter_de/phase_e_voltage_q17<23>
+                                                       u_inverter_de/phase_e_voltage_q17_23
+    -------------------------------------------------  ---------------------------
+    Total                                      2.547ns (0.639ns logic, 1.908ns route)
+                                                       (25.1% logic, 74.9% route)
+
+--------------------------------------------------------------------------------
+Delay:                  2.523ns (data path - clock path skew + uncertainty)
+  Source:               u_inverter_de/UDO_S35_Q17_22 (FF)
+  Destination:          u_inverter_de/phase_d_voltage_q17_22 (FF)
+  Data Path Delay:      2.578ns (Levels of Logic = 0)
+  Clock Path Skew:      0.090ns (0.656 - 0.566)
+  Source Clock:         u_inverter/clk_10MHz_BUFG rising
+  Destination Clock:    u_inverter/clk_10MHz_BUFG rising
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_inverter_de/UDO_S35_Q17_22 to u_inverter_de/phase_d_voltage_q17_22
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X24Y60.CQ      Tcko                  0.476   u_inverter_de/UDO_S35_Q17<23>
+                                                       u_inverter_de/UDO_S35_Q17_22
+    SLICE_X13Y47.CX      net (fanout=1)        1.988   u_inverter_de/UDO_S35_Q17<22>
+    SLICE_X13Y47.CLK     Tdick                 0.114   u_inverter_de/phase_d_voltage_q17<23>
+                                                       u_inverter_de/phase_d_voltage_q17_22
+    -------------------------------------------------  ---------------------------
+    Total                                      2.578ns (0.590ns logic, 1.988ns route)
+                                                       (22.9% logic, 77.1% route)
+
+--------------------------------------------------------------------------------
+Delay:                  2.422ns (data path - clock path skew + uncertainty)
+  Source:               u_inverter_de/UEO_S35_Q17_22 (FF)
+  Destination:          u_inverter_de/phase_e_voltage_q17_22 (FF)
+  Data Path Delay:      2.445ns (Levels of Logic = 0)
+  Clock Path Skew:      0.058ns (0.631 - 0.573)
+  Source Clock:         u_inverter/clk_10MHz_BUFG rising
+  Destination Clock:    u_inverter/clk_10MHz_BUFG rising
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_inverter_de/UEO_S35_Q17_22 to u_inverter_de/phase_e_voltage_q17_22
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X22Y53.CQ      Tcko                  0.525   u_inverter_de/UEO_S35_Q17<23>
+                                                       u_inverter_de/UEO_S35_Q17_22
+    SLICE_X17Y47.CX      net (fanout=1)        1.806   u_inverter_de/UEO_S35_Q17<22>
+    SLICE_X17Y47.CLK     Tdick                 0.114   u_inverter_de/phase_e_voltage_q17<23>
+                                                       u_inverter_de/phase_e_voltage_q17_22
+    -------------------------------------------------  ---------------------------
+    Total                                      2.445ns (0.639ns logic, 1.806ns route)
+                                                       (26.1% logic, 73.9% route)
+
+--------------------------------------------------------------------------------
+Delay:                  2.402ns (data path - clock path skew + uncertainty)
+  Source:               u_inverter_de/UDO_S35_Q17_21 (FF)
+  Destination:          u_inverter_de/phase_d_voltage_q17_21 (FF)
+  Data Path Delay:      2.457ns (Levels of Logic = 0)
+  Clock Path Skew:      0.090ns (0.656 - 0.566)
+  Source Clock:         u_inverter/clk_10MHz_BUFG rising
+  Destination Clock:    u_inverter/clk_10MHz_BUFG rising
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_inverter_de/UDO_S35_Q17_21 to u_inverter_de/phase_d_voltage_q17_21
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X24Y60.BQ      Tcko                  0.476   u_inverter_de/UDO_S35_Q17<23>
+                                                       u_inverter_de/UDO_S35_Q17_21
+    SLICE_X13Y47.BX      net (fanout=1)        1.867   u_inverter_de/UDO_S35_Q17<21>
+    SLICE_X13Y47.CLK     Tdick                 0.114   u_inverter_de/phase_d_voltage_q17<23>
+                                                       u_inverter_de/phase_d_voltage_q17_21
+    -------------------------------------------------  ---------------------------
+    Total                                      2.457ns (0.590ns logic, 1.867ns route)
+                                                       (24.0% logic, 76.0% route)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Default period analysis for net "u_inductor/Task_No_2_BUFG" 
+
+ 14220 paths analyzed, 1465 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   3.638ns.
+--------------------------------------------------------------------------------
+Delay:                  3.638ns (data path - clock path skew + uncertainty)
+  Source:               u_inductor_de/x_16_30 (FF)
+  Destination:          u_inductor_de/x_4_20 (FF)
+  Data Path Delay:      3.395ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.208ns (0.546 - 0.754)
+  Source Clock:         u_inductor/Task_No_2_BUFG falling
+  Destination Clock:    u_inductor/Task_No_2_BUFG falling
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_inductor_de/x_16_30 to u_inductor_de/x_4_20
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X0Y46.CQ       Tcko                  0.476   u_inductor_de/x_16<31>
+                                                       u_inductor_de/x_16_30
+    SLICE_X23Y59.AX      net (fanout=3)        2.805   u_inductor_de/x_16<30>
+    SLICE_X23Y59.CLK     Tdick                 0.114   u_inductor_de/x_4<23>
+                                                       u_inductor_de/x_4_20
+    -------------------------------------------------  ---------------------------
+    Total                                      3.395ns (0.590ns logic, 2.805ns route)
+                                                       (17.4% logic, 82.6% route)
+
+--------------------------------------------------------------------------------
+Delay:                  3.562ns (data path - clock path skew + uncertainty)
+  Source:               u_inductor_de/x_16_32 (FF)
+  Destination:          u_inductor_de/x_4_22 (FF)
+  Data Path Delay:      3.318ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.209ns (0.546 - 0.755)
+  Source Clock:         u_inductor/Task_No_2_BUFG falling
+  Destination Clock:    u_inductor/Task_No_2_BUFG falling
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_inductor_de/x_16_32 to u_inductor_de/x_4_22
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X0Y47.AQ       Tcko                  0.476   u_inductor_de/x_16<35>
+                                                       u_inductor_de/x_16_32
+    SLICE_X23Y59.CX      net (fanout=3)        2.728   u_inductor_de/x_16<32>
+    SLICE_X23Y59.CLK     Tdick                 0.114   u_inductor_de/x_4<23>
+                                                       u_inductor_de/x_4_22
+    -------------------------------------------------  ---------------------------
+    Total                                      3.318ns (0.590ns logic, 2.728ns route)
+                                                       (17.8% logic, 82.2% route)
+
+--------------------------------------------------------------------------------
+Delay:                  3.367ns (data path - clock path skew + uncertainty)
+  Source:               u_inductor_de/x_16_33 (FF)
+  Destination:          u_inductor_de/x_4_23 (FF)
+  Data Path Delay:      3.123ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.209ns (0.546 - 0.755)
+  Source Clock:         u_inductor/Task_No_2_BUFG falling
+  Destination Clock:    u_inductor/Task_No_2_BUFG falling
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_inductor_de/x_16_33 to u_inductor_de/x_4_23
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X0Y47.BQ       Tcko                  0.476   u_inductor_de/x_16<35>
+                                                       u_inductor_de/x_16_33
+    SLICE_X23Y59.DX      net (fanout=3)        2.533   u_inductor_de/x_16<33>
+    SLICE_X23Y59.CLK     Tdick                 0.114   u_inductor_de/x_4<23>
+                                                       u_inductor_de/x_4_23
+    -------------------------------------------------  ---------------------------
+    Total                                      3.123ns (0.590ns logic, 2.533ns route)
+                                                       (18.9% logic, 81.1% route)
+
+--------------------------------------------------------------------------------
+Delay:                  3.367ns (data path - clock path skew + uncertainty)
+  Source:               u_inductor_de/x_16_31 (FF)
+  Destination:          u_inductor_de/x_4_21 (FF)
+  Data Path Delay:      3.124ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.208ns (0.546 - 0.754)
+  Source Clock:         u_inductor/Task_No_2_BUFG falling
+  Destination Clock:    u_inductor/Task_No_2_BUFG falling
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_inductor_de/x_16_31 to u_inductor_de/x_4_21
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X0Y46.DQ       Tcko                  0.476   u_inductor_de/x_16<31>
+                                                       u_inductor_de/x_16_31
+    SLICE_X23Y59.BX      net (fanout=3)        2.534   u_inductor_de/x_16<31>
+    SLICE_X23Y59.CLK     Tdick                 0.114   u_inductor_de/x_4<23>
+                                                       u_inductor_de/x_4_21
+    -------------------------------------------------  ---------------------------
+    Total                                      3.124ns (0.590ns logic, 2.534ns route)
+                                                       (18.9% logic, 81.1% route)
+
+--------------------------------------------------------------------------------
+Delay:                  2.821ns (data path - clock path skew + uncertainty)
+  Source:               u_inductor_de/x_16_1 (FF)
+  Destination:          u_inductor_de/x_16_52 (FF)
+  Data Path Delay:      2.750ns (Levels of Logic = 14)
+  Clock Path Skew:      -0.036ns (0.698 - 0.734)
+  Source Clock:         u_inductor/Task_No_2_BUFG falling
+  Destination Clock:    u_inductor/Task_No_2_BUFG falling
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u_inductor_de/x_16_1 to u_inductor_de/x_16_52
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X0Y39.BQ       Tcko                  0.476   u_inductor_de/x_16<3>
+                                                       u_inductor_de/x_16_1
+    SLICE_X0Y39.B5       net (fanout=2)        0.244   u_inductor_de/x_16<1>
+    SLICE_X0Y39.COUT     Topcyb                0.448   u_inductor_de/x_16<3>
+                                                       u_inductor_de/Maccum_x_16_lut<1>
+                                                       u_inductor_de/Maccum_x_16_cy<3>
+    SLICE_X0Y40.CIN      net (fanout=1)        0.214   u_inductor_de/Maccum_x_16_cy<3>
+    SLICE_X0Y40.COUT     Tbyp                  0.091   u_inductor_de/x_16<7>
+                                                       u_inductor_de/Maccum_x_16_cy<7>
+    SLICE_X0Y41.CIN      net (fanout=1)        0.003   u_inductor_de/Maccum_x_16_cy<7>
+    SLICE_X0Y41.COUT     Tbyp                  0.091   u_inductor_de/x_16<11>
+                                                       u_inductor_de/Maccum_x_16_cy<11>
+    SLICE_X0Y42.CIN      net (fanout=1)        0.003   u_inductor_de/Maccum_x_16_cy<11>
+    SLICE_X0Y42.COUT     Tbyp                  0.091   u_inductor_de/x_16<15>
+                                                       u_inductor_de/Maccum_x_16_cy<15>
+    SLICE_X0Y43.CIN      net (fanout=1)        0.003   u_inductor_de/Maccum_x_16_cy<15>
+    SLICE_X0Y43.COUT     Tbyp                  0.091   u_inductor_de/x_16<19>
+                                                       u_inductor_de/Maccum_x_16_cy<19>
+    SLICE_X0Y44.CIN      net (fanout=1)        0.003   u_inductor_de/Maccum_x_16_cy<19>
+    SLICE_X0Y44.COUT     Tbyp                  0.091   u_inductor_de/x_16<23>
+                                                       u_inductor_de/Maccum_x_16_cy<23>
+    SLICE_X0Y45.CIN      net (fanout=1)        0.003   u_inductor_de/Maccum_x_16_cy<23>
+    SLICE_X0Y45.COUT     Tbyp                  0.091   u_inductor_de/x_16<27>
+                                                       u_inductor_de/Maccum_x_16_cy<27>
+    SLICE_X0Y46.CIN      net (fanout=1)        0.003   u_inductor_de/Maccum_x_16_cy<27>
+    SLICE_X0Y46.COUT     Tbyp                  0.091   u_inductor_de/x_16<31>
+                                                       u_inductor_de/Maccum_x_16_cy<31>
+    SLICE_X0Y47.CIN      net (fanout=1)        0.003   u_inductor_de/Maccum_x_16_cy<31>
+    SLICE_X0Y47.COUT     Tbyp                  0.091   u_inductor_de/x_16<35>
+                                                       u_inductor_de/Maccum_x_16_cy<35>
+    SLICE_X0Y48.CIN      net (fanout=1)        0.003   u_inductor_de/Maccum_x_16_cy<35>
+    SLICE_X0Y48.COUT     Tbyp                  0.091   u_inductor_de/x_16<39>
+                                                       u_inductor_de/Maccum_x_16_cy<39>
+    SLICE_X0Y49.CIN      net (fanout=1)        0.003   u_inductor_de/Maccum_x_16_cy<39>
+    SLICE_X0Y49.COUT     Tbyp                  0.091   u_inductor_de/x_16<43>
+                                                       u_inductor_de/Maccum_x_16_cy<43>
+    SLICE_X0Y50.CIN      net (fanout=1)        0.003   u_inductor_de/Maccum_x_16_cy<43>
+    SLICE_X0Y50.COUT     Tbyp                  0.091   u_inductor_de/x_16<47>
+                                                       u_inductor_de/Maccum_x_16_cy<47>
+    SLICE_X0Y51.CIN      net (fanout=1)        0.003   u_inductor_de/Maccum_x_16_cy<47>
+    SLICE_X0Y51.COUT     Tbyp                  0.091   u_inductor_de/x_16<51>
+                                                       u_inductor_de/Maccum_x_16_cy<51>
+    SLICE_X0Y52.CIN      net (fanout=1)        0.003   u_inductor_de/Maccum_x_16_cy<51>
+    SLICE_X0Y52.CLK      Tcinck                0.240   u_inductor_de/x_16<52>
+                                                       u_inductor_de/Maccum_x_16_xor<52>
+                                                       u_inductor_de/x_16_52
+    -------------------------------------------------  ---------------------------
+    Total                                      2.750ns (2.256ns logic, 0.494ns route)
+                                                       (82.0% logic, 18.0% route)
+
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk_ex
+-------------+------------+------------+------------+------------+------------------+--------+
+             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source       | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+-------------+------------+------------+------------+------------+------------------+--------+
+ADDRbus<0>   |   10.959(R)|      SLOW  |   -0.957(R)|      FAST  |clk_180mhz        |   0.000|
+ADDRbus<1>   |   10.043(R)|      SLOW  |   -0.756(R)|      FAST  |clk_180mhz        |   0.000|
+ADDRbus<2>   |   10.306(R)|      SLOW  |   -1.817(R)|      FAST  |clk_180mhz        |   0.000|
+ADDRbus<3>   |   10.497(R)|      SLOW  |   -1.252(R)|      FAST  |clk_180mhz        |   0.000|
+ADDRbus<4>   |   11.116(R)|      SLOW  |   -1.888(R)|      FAST  |clk_180mhz        |   0.000|
+ADDRbus<5>   |    9.551(R)|      SLOW  |   -0.946(R)|      FAST  |clk_180mhz        |   0.000|
+ADDRbus<6>   |   10.332(R)|      SLOW  |   -1.343(R)|      FAST  |clk_180mhz        |   0.000|
+ADDRbus<7>   |    9.981(R)|      SLOW  |   -1.160(R)|      FAST  |clk_180mhz        |   0.000|
+ADDRbus<8>   |   11.029(R)|      SLOW  |   -1.378(R)|      FAST  |clk_180mhz        |   0.000|
+ADDRbus<9>   |   11.527(R)|      SLOW  |   -1.235(R)|      FAST  |clk_180mhz        |   0.000|
+ADDRbus<10>  |   11.805(R)|      SLOW  |   -1.073(R)|      FAST  |clk_180mhz        |   0.000|
+ADDRbus<11>  |   11.280(R)|      SLOW  |   -1.174(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<0>   |    6.598(R)|      SLOW  |   -0.863(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<1>   |    6.925(R)|      SLOW  |   -0.846(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<2>   |    6.316(R)|      SLOW  |   -0.630(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<3>   |    6.389(R)|      SLOW  |   -0.483(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<4>   |    7.418(R)|      SLOW  |   -0.401(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<5>   |    6.910(R)|      SLOW  |   -0.436(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<6>   |    6.674(R)|      SLOW  |   -0.489(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<7>   |    6.677(R)|      SLOW  |   -0.335(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<8>   |    6.542(R)|      SLOW  |   -0.578(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<9>   |    6.238(R)|      SLOW  |   -0.552(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<10>  |    6.391(R)|      SLOW  |   -0.488(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<11>  |    6.153(R)|      SLOW  |   -0.365(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<12>  |    6.557(R)|      SLOW  |   -0.551(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<13>  |    5.953(R)|      SLOW  |   -0.507(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<14>  |    6.571(R)|      SLOW  |   -0.372(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<15>  |    6.789(R)|      SLOW  |   -0.322(R)|      FAST  |clk_180mhz        |   0.000|
+STM32_NE1_Low|    9.809(R)|      SLOW  |   -1.353(R)|      FAST  |clk_180mhz        |   0.000|
+STM32_NOE_Low|    9.933(R)|      SLOW  |   -1.393(R)|      FAST  |clk_180mhz        |   0.000|
+STM32_NWE_Low|   10.209(R)|      SLOW  |   -1.574(R)|      FAST  |clk_180mhz        |   0.000|
+rst_n        |   16.666(R)|      SLOW  |   -0.456(R)|      FAST  |clk_180mhz        |   0.000|
+-------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk_ex to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+DATAbus<0>  |        12.061(R)|      SLOW  |         4.012(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<1>  |        11.420(R)|      SLOW  |         3.814(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<2>  |        11.226(R)|      SLOW  |         3.696(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<3>  |        10.785(R)|      SLOW  |         3.717(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<4>  |        11.369(R)|      SLOW  |         3.157(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<5>  |        10.795(R)|      SLOW  |         3.073(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<6>  |        10.524(R)|      SLOW  |         3.218(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<7>  |        10.573(R)|      SLOW  |         3.347(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<8>  |        11.429(R)|      SLOW  |         3.494(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<9>  |        11.712(R)|      SLOW  |         3.032(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<10> |        11.225(R)|      SLOW  |         3.093(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<11> |        10.192(R)|      SLOW  |         3.270(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<12> |        10.396(R)|      SLOW  |         2.757(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<13> |        10.594(R)|      SLOW  |         2.907(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<14> |        10.635(R)|      SLOW  |         2.820(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<15> |        10.361(R)|      SLOW  |         2.841(R)|      FAST  |clk_180mhz        |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk_ex
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_ex         |   15.157|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 462239067 paths, 0 nets, and 21095 connections
+
+Design statistics:
+   Minimum period:  15.157ns{1}   (Maximum frequency:  65.976MHz)
+   Minimum input required time before clock:  16.666ns
+   Maximum output delay after clock:  12.061ns
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Thu Nov 12 18:19:13 2026 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4664 MB
+
+
+

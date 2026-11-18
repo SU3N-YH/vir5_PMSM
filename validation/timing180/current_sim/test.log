@@ -1,0 +1,15 @@
+ISim log file
+Running: E:\SUEN27\vir5_PMSM_V\validation\timing180\current_sim\test.exe -intstyle silent -tclbatch run.tcl -log test.log 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+PASS: current180 five-phase recurrence updates=500, signed wrap, R, EMF, coefficient snapshots and reset
+Stopped at time : 50137344 ps : File "E:/SUEN27/vir5_PMSM_V/tests/tb_current180.v" Line 92

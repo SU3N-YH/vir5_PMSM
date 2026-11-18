@@ -1,0 +1,80 @@
+Running: E:\SUEN27\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle silent -prj test.prj -L unisims_ver -o test.exe work.tb_inductor_update work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/ipcore_dir/pll300MHz.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/ipcore_dir/mul_park.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/ipcore_dir/mul_clarke.v" into library work
+WARNING:HDLCompiler:687 - "E:/SUEN27/vir5_PMSM/ipcore_dir/mul_clarke.v" Line 360: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/ipcore_dir/MUL_add3ov3.v" into library work
+WARNING:HDLCompiler:687 - "E:/SUEN27/vir5_PMSM/ipcore_dir/MUL_add3ov3.v" Line 715: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/ipcore_dir/mul18x35_26july_BySunY.v" into library work
+WARNING:HDLCompiler:687 - "E:/SUEN27/vir5_PMSM/ipcore_dir/mul18x35_26july_BySunY.v" Line 360: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/ipcore_dir/mul18x35_1225_BySunY.v" into library work
+WARNING:HDLCompiler:687 - "E:/SUEN27/vir5_PMSM/ipcore_dir/mul18x35_1225_BySunY.v" Line 715: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/ipcore_dir/mul_inductor_2.v" into library work
+WARNING:HDLCompiler:687 - "E:/SUEN27/vir5_PMSM/ipcore_dir/mul_inductor_2.v" Line 715: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/ipcore_dir/MTPL_mutual_A.v" into library work
+WARNING:HDLCompiler:687 - "E:/SUEN27/vir5_PMSM/ipcore_dir/MTPL_mutual_A.v" Line 715: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/CORDIC_STANDALONE.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/Volt_N_calc.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/PCI.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/Park2dq.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/Neg_Pos_converter.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/inv_phi3_HB.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/Inductor.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/In2Out.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/EMFm_calc.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/clk300MHz.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/Clarke2alphabeta.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/bit18_to_16.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/BackEMF.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/add3over3.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/vir5_PMSM.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM/tests/tb_inductor_update.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module FD
+Compiling module DSP48A1(CARRYINREG=0,CARRYOUTREG...
+Compiling module DSP48A1(B1REG=0,CARRYINREG=0,CAR...
+Compiling module GND
+Compiling module VCC
+Compiling module mul18x35_1225_BySunY
+Compiling module mul_inductor_2
+Compiling module Inductor
+Compiling module PCI
+Compiling module inv_phi3_HB
+Compiling module DSP48A1(A1REG=0,B1REG=0,CARRYINR...
+Compiling module DSP48A1(A1REG=0,B1REG=0,CARRYINR...
+Compiling module MUL_add3ov3
+Compiling module add3over3
+Compiling module Volt_N_calc
+Compiling module Neg_Pos_converter
+Compiling module CORDIC_STANDALONE
+Compiling module DSP48A1(A1REG=0,B1REG=0,CARRYINR...
+Compiling module mul18x35_26july_BySunY
+Compiling module BackEMF
+Compiling module mul_clarke
+Compiling module Clarke3Phase
+Compiling module mul_park
+Compiling module Park2dq
+Compiling module IBUFG
+Compiling module PLL_ADV(BANDWIDTH="OPTIMIZED",CL...
+Compiling module PLL_BASE(CLKFBOUT_MULT=45,CLKIN_...
+Compiling module BUFG
+Compiling module pll300MHz
+Compiling module clk300MHz
+Compiling module bit18_to_16
+Compiling module MTPL_mutual_A
+Compiling module EMFm_calc
+Compiling module In2Out
+Compiling module vir5_PMSM
+Compiling module tb_inductor_update
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 37 Verilog Units
+Built simulation executable test.exe
+Fuse Memory Usage: 50644 KB
+Fuse CPU Usage: 734 ms

@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "E:/SUEN27/vir5_PMSM_clean/vir5_PMSM.xst" -ofn "E:/SUEN27/vir5_PMSM_clean/vir5_PMSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx25-ftg256-2 vir5_PMSM.ngc vir5_PMSM.ngd  
+map -intstyle ise -p xc6slx25-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vir5_PMSM_map.ncd vir5_PMSM.ngd vir5_PMSM.pcf 
+par -w -intstyle ise -ol high -mt off vir5_PMSM_map.ncd vir5_PMSM.ncd vir5_PMSM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml vir5_PMSM.twx vir5_PMSM.ncd -o vir5_PMSM.twr vir5_PMSM.pcf -ucf main.ucf 
+bitgen -intstyle ise -f vir5_PMSM.ut vir5_PMSM.ncd 
+xst -intstyle ise -ifn "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.xst" -ofn "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc main.ucf -p xc6slx25-ftg256-2 vir5_PMSM.ngc vir5_PMSM.ngd  
+map -intstyle ise -p xc6slx25-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vir5_PMSM_map.ncd vir5_PMSM.ngd vir5_PMSM.pcf 
+par -w -intstyle ise -ol high -mt off vir5_PMSM_map.ncd vir5_PMSM.ncd vir5_PMSM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml vir5_PMSM.twx vir5_PMSM.ncd -o vir5_PMSM.twr vir5_PMSM.pcf -ucf main.ucf 
+bitgen -intstyle ise -f vir5_PMSM.ut vir5_PMSM.ncd 

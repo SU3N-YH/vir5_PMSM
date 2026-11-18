@@ -1,0 +1,315 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : main.vf
+// /___/   /\     Timestamp : 10/29/2026 11:47:51
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath E:/SUEN27/vir_PMSM/ipcore_dir -intstyle ise -family spartan6 -verilog E:/SUEN27/vir_PMSM/main.vf -w E:/SUEN27/vir_PMSM/main.sch
+//Design Name: main
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module main(ADDRbus, 
+            clk_ex, 
+            DSP_CS, 
+            DSP_OE_Low, 
+            DSP_RNW, 
+            DSP_WE_Low, 
+            epwm_1A, 
+            epwm_1B, 
+            epwm_2A, 
+            epwm_2B, 
+            epwm_3A, 
+            epwm_3B, 
+            epwm_7A, 
+            epwm_8A, 
+            rst_n, 
+            ePWM_ua_Grid, 
+            ePWM_ub_Grid, 
+            DATAbus);
+
+    input [11:0] ADDRbus;
+    input clk_ex;
+    input DSP_CS;
+    input DSP_OE_Low;
+    input DSP_RNW;
+    input DSP_WE_Low;
+    input epwm_1A;
+    input epwm_1B;
+    input epwm_2A;
+    input epwm_2B;
+    input epwm_3A;
+    input epwm_3B;
+    input epwm_7A;
+    input epwm_8A;
+    input rst_n;
+   output ePWM_ua_Grid;
+   output ePWM_ub_Grid;
+    inout [15:0] DATAbus;
+   
+   wire [15:0] XLXN_1005;
+   wire [15:0] XLXN_1007;
+   wire [34:0] XLXN_1218;
+   wire [34:0] XLXN_1219;
+   wire XLXN_1300;
+   wire [34:0] XLXN_1415;
+   wire [34:0] XLXN_1460;
+   wire [34:0] XLXN_1461;
+   wire [34:0] XLXN_1464;
+   wire [34:0] XLXN_1465;
+   wire [34:0] XLXN_1466;
+   wire [34:0] XLXN_1498;
+   wire [34:0] XLXN_1499;
+   wire [34:0] XLXN_1501;
+   wire [15:0] XLXN_1503;
+   wire [15:0] XLXN_1524;
+   wire [17:0] XLXN_1528;
+   wire [34:0] XLXN_1548;
+   wire [17:0] XLXN_1554;
+   wire [17:0] XLXN_1556;
+   wire [34:0] XLXN_1557;
+   wire [34:0] XLXN_1559;
+   wire [15:0] XLXN_1560;
+   wire [15:0] XLXN_1561;
+   wire [15:0] XLXN_1563;
+   wire [15:0] XLXN_1564;
+   wire [15:0] XLXN_1566;
+   wire [15:0] XLXN_1568;
+   wire [15:0] XLXN_1569;
+   wire [15:0] XLXN_1573;
+   wire [15:0] XLXN_1607;
+   wire [15:0] XLXN_1608;
+   wire [15:0] XLXN_1609;
+   wire [17:0] XLXN_1610;
+   wire [15:0] XLXN_1613;
+   wire [15:0] XLXN_1614;
+   wire [15:0] XLXN_1615;
+   wire [15:0] XLXN_1616;
+   wire [17:0] XLXN_1649;
+   wire [17:0] XLXN_1650;
+   wire [17:0] XLXN_1652;
+   wire [17:0] XLXN_1653;
+   wire [17:0] XLXN_1654;
+   wire XLXN_1656;
+   wire [15:0] XLXN_1659;
+   wire [15:0] XLXN_1661;
+   wire [15:0] XLXN_1662;
+   wire [15:0] XLXN_1663;
+   wire [15:0] XLXN_1664;
+   wire [15:0] XLXN_1665;
+   wire [15:0] XLXN_1666;
+   wire [15:0] XLXN_1667;
+   wire [15:0] XLXN_1668;
+   wire [34:0] XLXN_1669;
+   wire [34:0] XLXN_1670;
+   wire [34:0] XLXN_1671;
+   wire [15:0] XLXN_1672;
+   wire [15:0] XLXN_1673;
+   wire [15:0] XLXN_1674;
+   wire [15:0] XLXN_1675;
+   wire [15:0] XLXN_1695;
+   
+   assign XLXN_1566 = 16'h0000;
+   PCI  XLXI_3 (.addrbus(ADDRbus[11:0]), 
+               .DSP_CS(DSP_CS), 
+               .DSP_OE_Low(DSP_OE_Low), 
+               .DSP_RNW(DSP_RNW), 
+               .DSP_WE_Low(DSP_WE_Low), 
+               .FPGA2DSP_Signal_1(XLXN_1607[15:0]), 
+               .FPGA2DSP_Signal_2(XLXN_1608[15:0]), 
+               .FPGA2DSP_Signal_3(XLXN_1609[15:0]), 
+               .FPGA2DSP_Signal_4(XLXN_1573[15:0]), 
+               .FPGA2DSP_Signal_5(XLXN_1615[15:0]), 
+               .FPGA2DSP_Signal_6(XLXN_1613[15:0]), 
+               .FPGA2DSP_Signal_7(XLXN_1614[15:0]), 
+               .FPGA2DSP_Signal_8(XLXN_1667[15:0]), 
+               .FPGA2DSP_Signal_9(XLXN_1668[15:0]), 
+               .FPGA2DSP_Signal_10(XLXN_1662[15:0]), 
+               .FPGA2DSP_Signal_11(XLXN_1663[15:0]), 
+               .FPGA2DSP_Signal_12(XLXN_1664[15:0]), 
+               .FPGA2DSP_Signal_13(XLXN_1665[15:0]), 
+               .FPGA2DSP_Signal_14(XLXN_1666[15:0]), 
+               .FPGA2DSP_Signal_15(XLXN_1674[15:0]), 
+               .FPGA2DSP_Signal_16(XLXN_1616[15:0]), 
+               .FPGA2DSP_Signal_17(XLXN_1675[15:0]), 
+               .FPGA2DSP_Signal_18(XLXN_1695[15:0]), 
+               .sub_clk(XLXN_1300), 
+               .DSP2FPGA_Signal_1(XLXN_1661[15:0]), 
+               .DSP2FPGA_Signal_2(XLXN_1005[15:0]), 
+               .DSP2FPGA_Signal_3(XLXN_1007[15:0]), 
+               .DSP2FPGA_Signal_4(XLXN_1524[15:0]), 
+               .DSP2FPGA_Signal_5(XLXN_1503[15:0]), 
+               .DSP2FPGA_Signal_6(XLXN_1560[15:0]), 
+               .DSP2FPGA_Signal_7(XLXN_1561[15:0]), 
+               .DSP2FPGA_Signal_8(XLXN_1659[15:0]), 
+               .DSP2FPGA_Signal_9(XLXN_1563[15:0]), 
+               .DSP2FPGA_Signal_10(XLXN_1564[15:0]), 
+               .DSP2FPGA_Signal_11(XLXN_1569[15:0]), 
+               .DSP2FPGA_Signal_12(XLXN_1568[15:0]), 
+               .DSP2FPGA_Signal_13(XLXN_1672[15:0]), 
+               .DSP2FPGA_Signal_14(XLXN_1673[15:0]), 
+               .DSP2FPGA_Signal_15(), 
+               .DSP2FPGA_Signal_16(), 
+               .DSP_Datum(DATAbus[15:0]));
+   clk300MHz  XLXI_59 (.clkin(clk_ex), 
+                      .clk50MHz(XLXN_1300), 
+                      .clk180MHz(XLXN_1656), 
+                      .clk300MHz());
+   inv_phi3_HB  XLXI_60 (.clk_180MHz(XLXN_1656), 
+                        .Ia_S35_Q17(XLXN_1218[34:0]), 
+                        .Ib_S35_Q17(XLXN_1219[34:0]), 
+                        .Ic_S35_Q17(XLXN_1415[34:0]), 
+                        .Rd_S16_Q15(XLXN_1566[15:0]), 
+                        .rst_n(rst_n), 
+                        .S1(epwm_1A), 
+                        .S2(epwm_1B), 
+                        .S3(epwm_2A), 
+                        .S4(epwm_2B), 
+                        .S5(epwm_3A), 
+                        .S6(epwm_3B), 
+                        .Udc1N_S16_Q5(XLXN_1662[15:0]), 
+                        .Udc1P_S16_Q5(XLXN_1661[15:0]), 
+                        .Udc2N_S16_Q5(XLXN_1662[15:0]), 
+                        .Udc2P_S16_Q5(XLXN_1661[15:0]), 
+                        .Udc3N_S16_Q5(XLXN_1662[15:0]), 
+                        .Udc3P_S16_Q5(XLXN_1661[15:0]), 
+                        .Vd_S16_Q15(XLXN_1568[15:0]), 
+                        .x_1(XLXN_1548[34:0]), 
+                        .x_2(XLXN_1460[34:0]), 
+                        .x_3(XLXN_1461[34:0]), 
+                        .x_4(), 
+                        .x_5(), 
+                        .x_6(), 
+                        .x_7(), 
+                        .x_8(XLXN_1616[15:0]), 
+                        .x_9(), 
+                        .x_10(XLXN_1695[15:0]));
+   Inductor  XLXI_61 (.bEMF_A_S35_Q17(XLXN_1464[34:0]), 
+                     .bEMF_B_S35_Q17(XLXN_1465[34:0]), 
+                     .bEMF_C_S35_Q17(XLXN_1466[34:0]), 
+                     .clk_180MHz(XLXN_1656), 
+                     .I_OV_20LinuH_Q18(XLXN_1007[15:0]), 
+                     .Res_S16_Q12(XLXN_1005[15:0]), 
+                     .rst_n(rst_n), 
+                     .UAO_N_S35(XLXN_1557[34:0]), 
+                     .UAO_P_S35(XLXN_1548[34:0]), 
+                     .UBO_N_S35(XLXN_1557[34:0]), 
+                     .UBO_P_S35(XLXN_1460[34:0]), 
+                     .UCO_N_S35(XLXN_1557[34:0]), 
+                     .UCO_P_S35(XLXN_1461[34:0]), 
+                     .Curt1_H15(XLXN_1607[15:0]), 
+                     .Curt1_L15(XLXN_1663[15:0]), 
+                     .Curt2_H15(XLXN_1608[15:0]), 
+                     .Curt2_L15(XLXN_1664[15:0]), 
+                     .Curt3_H15(XLXN_1609[15:0]), 
+                     .Curt3_L15(XLXN_1665[15:0]), 
+                     .x_1(XLXN_1218[34:0]), 
+                     .x_2(XLXN_1219[34:0]), 
+                     .x_3(XLXN_1415[34:0]));
+   Neg_Pos_converter  XLXI_63 (.data_in(XLXN_1661[15:0]), 
+                              .data_out(XLXN_1662[15:0]));
+   BackEMF  XLXI_90 (.clk(XLXN_1656), 
+                    .eOMG_S18_Q4(XLXN_1556[17:0]), 
+                    .epos_S18_360(XLXN_1554[17:0]), 
+                    .Phir_Half_S16_Q15(XLXN_1524[15:0]), 
+                    .rst_n(rst_n), 
+                    .eA_DSP_S16(XLXN_1674[15:0]), 
+                    .eA_S35_Q17(XLXN_1464[34:0]), 
+                    .eB_S35_Q17(XLXN_1465[34:0]), 
+                    .eC_S35_Q17(XLXN_1466[34:0]));
+   Park2dq  XLXI_94 (.clk_180MHz(XLXN_1656), 
+                    .epos_S18(XLXN_1554[17:0]), 
+                    .I_alpha_S18_Q9(XLXN_1610[17:0]), 
+                    .I_beta_S18_Q9(XLXN_1528[17:0]), 
+                    .rst_n(rst_n), 
+                    .I_d_DSP_Out(XLXN_1667[15:0]), 
+                    .I_d_S18_Q9(XLXN_1649[17:0]), 
+                    .I_q_DSP_Out(XLXN_1668[15:0]), 
+                    .I_q_S18_Q9(XLXN_1650[17:0]));
+   Clarke3Phase  XLXI_97 (.clk_180MHz(XLXN_1656), 
+                         .I_A_S35_Q25(XLXN_1218[34:0]), 
+                         .I_B_S35_Q25(XLXN_1219[34:0]), 
+                         .I_C_S35_Q25(XLXN_1415[34:0]), 
+                         .rst_n(rst_n), 
+                         .Ia_S18_Q9(XLXN_1652[17:0]), 
+                         .Ib_S18_Q9(XLXN_1653[17:0]), 
+                         .Ic_S18_Q9(XLXN_1654[17:0]), 
+                         .I_alpha_DSP_Out(XLXN_1613[15:0]), 
+                         .I_alpha_S18_Q9(XLXN_1610[17:0]), 
+                         .I_beta_DSP_Out(XLXN_1614[15:0]), 
+                         .I_beta_S18_Q9(XLXN_1528[17:0]));
+   Te_calc  XLXI_99 (.clk_180MHz(XLXN_1656), 
+                    .I_d_S18_Q9(XLXN_1649[17:0]), 
+                    .I_q_S18_Q9(XLXN_1650[17:0]), 
+                    .Ld_dash_Lq_S16_Q12(XLXN_1560[15:0]), 
+                    .Phir_Half_S16_Q15(XLXN_1524[15:0]), 
+                    .p_n_S16_Q0(XLXN_1503[15:0]), 
+                    .rst_n(rst_n), 
+                    .Torque_DSP_S16_Q5(XLXN_1675[15:0]), 
+                    .Torque_Out_S35_Q17(XLXN_1559[34:0]));
+   Mechanical  XLXI_101 (.B_S16_Q11(XLXN_1563[15:0]), 
+                        .clk_180MHz(XLXN_1656), 
+                        .Freq_Division_S16(XLXN_1561[15:0]), 
+                        .p_n_S16_Q0(XLXN_1503[15:0]), 
+                        .rst_n(rst_n), 
+                        .Te_S35_Q17(XLXN_1559[34:0]), 
+                        .TL_S16_Q5(XLXN_1569[15:0]), 
+                        .TsOverJ_S16_Q27(XLXN_1659[15:0]), 
+                        .TsOver2pi_S16_Q34(XLXN_1564[15:0]), 
+                        .eOMG_S18_Q4(XLXN_1556[17:0]), 
+                        .ePOS_S18_360(XLXN_1554[17:0]), 
+                        .OMGm_S18_Q4());
+   add3over3  XLXI_102 (.clk_fast(XLXN_1656), 
+                       .rst_n(rst_n), 
+                       .Ua1_S35_Q17(XLXN_1548[34:0]), 
+                       .Ua2_S35_Q17(XLXN_1464[34:0]), 
+                       .Ua3_S35_Q17(XLXN_1669[34:0]), 
+                       .Ub1_S35_Q17(XLXN_1460[34:0]), 
+                       .Ub2_S35_Q17(XLXN_1465[34:0]), 
+                       .Ub3_S35_Q17(XLXN_1670[34:0]), 
+                       .Uc1_S35_Q17(XLXN_1461[34:0]), 
+                       .Uc2_S35_Q17(XLXN_1466[34:0]), 
+                       .Uc3_S35_Q17(XLXN_1671[34:0]), 
+                       .U1_S35_Q17(XLXN_1498[34:0]), 
+                       .U2_S35_Q17(XLXN_1499[34:0]), 
+                       .U3_S35_Q17(XLXN_1501[34:0]));
+   Volt_N_calc  XLXI_103 (.clk(XLXN_1656), 
+                         .rst_n(rst_n), 
+                         .sum_eMUTUAL_ovr3(XLXN_1501[34:0]), 
+                         .sum_eX_ovr3(XLXN_1499[34:0]), 
+                         .sum_uX0_ovr3(XLXN_1498[34:0]), 
+                         .U_N_DSP(XLXN_1615[15:0]), 
+                         .U_N_S35_Q17(XLXN_1557[34:0]));
+   bit18_to_16  XLXI_113 (.in_18bit(XLXN_1554[17:0]), 
+                         .out_16bit(XLXN_1573[15:0]));
+   bit18_to_16  XLXI_115 (.in_18bit(XLXN_1556[17:0]), 
+                         .out_16bit(XLXN_1666[15:0]));
+   EMFm_calc  XLXI_116 (.AVGov4_S16_Q10(XLXN_1673[15:0]), 
+                       .clk(XLXN_1656), 
+                       .DIFov2_S16_Q12(XLXN_1672[15:0]), 
+                       .ePOS_S18_360(XLXN_1554[17:0]), 
+                       .iA_S18_Q9(XLXN_1652[17:0]), 
+                       .iB_S18_Q9(XLXN_1653[17:0]), 
+                       .iC_S18_Q9(XLXN_1654[17:0]), 
+                       .rst_n(rst_n), 
+                       .eA_mutual_S35_Q17(XLXN_1669[34:0]), 
+                       .eB_mutual_S35_Q17(XLXN_1670[34:0]), 
+                       .eC_mutual_S35_Q17(XLXN_1671[34:0]));
+   In2Out  XLXI_117 (.In1(epwm_7A), 
+                    .In2(epwm_8A), 
+                    .In3(), 
+                    .Out1(ePWM_ua_Grid), 
+                    .Out2(ePWM_ub_Grid), 
+                    .Out3());
+endmodule

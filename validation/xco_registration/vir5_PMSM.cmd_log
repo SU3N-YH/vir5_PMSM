@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/SUEN27/vir5_PMSM_V/validation/xco_registration/vir5_PMSM.xst" -ofn "E:/SUEN27/vir5_PMSM_V/validation/xco_registration/vir5_PMSM.syr" 

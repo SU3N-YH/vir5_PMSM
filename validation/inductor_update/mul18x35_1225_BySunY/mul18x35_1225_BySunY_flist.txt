@@ -1,0 +1,13 @@
+# Output products list for <mul18x35_1225_BySunY>
+mul18x35_1225_BySunY.asy
+mul18x35_1225_BySunY.gise
+mul18x35_1225_BySunY.ngc
+mul18x35_1225_BySunY.v
+mul18x35_1225_BySunY.veo
+mul18x35_1225_BySunY.xco
+mul18x35_1225_BySunY.xise
+mul18x35_1225_BySunY\doc\mult_gen_ds255.pdf
+mul18x35_1225_BySunY\doc\mult_gen_v11_2_readme.txt
+mul18x35_1225_BySunY\doc\mult_gen_v11_2_vinfo.html
+mul18x35_1225_BySunY_flist.txt
+mul18x35_1225_BySunY_xmdf.tcl

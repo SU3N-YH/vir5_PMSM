@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="PCI">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2026-8-17T11:23:7</timestamp>
+    <attr value="PCI" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-1248" name="sub_clk" />
+    <pin polarity="Input" x="0" y="352" name="STM32_NWE_Low" />
+    <pin polarity="Input" x="0" y="416" name="STM32_NOE_Low" />
+    <pin polarity="Input" x="0" y="-1120" name="STM32_NE1_Low" />
+    <pin polarity="Input" x="0" y="-1056" name="addrbus(11:0)" />
+    <pin polarity="Input" x="0" y="-992" name="FPGAtoSTM32_Signal_1(15:0)" />
+    <pin polarity="Input" x="0" y="-928" name="FPGAtoSTM32_Signal_2(15:0)" />
+    <pin polarity="Input" x="0" y="-864" name="FPGAtoSTM32_Signal_3(15:0)" />
+    <pin polarity="Input" x="0" y="-800" name="FPGAtoSTM32_Signal_4(15:0)" />
+    <pin polarity="Input" x="0" y="-736" name="FPGAtoSTM32_Signal_5(15:0)" />
+    <pin polarity="Input" x="0" y="-672" name="FPGAtoSTM32_Signal_6(15:0)" />
+    <pin polarity="Input" x="0" y="-608" name="FPGAtoSTM32_Signal_7(15:0)" />
+    <pin polarity="Input" x="0" y="-544" name="FPGAtoSTM32_Signal_8(15:0)" />
+    <pin polarity="Input" x="0" y="-480" name="FPGAtoSTM32_Signal_9(15:0)" />
+    <pin polarity="Input" x="0" y="-416" name="FPGAtoSTM32_Signal_10(15:0)" />
+    <pin polarity="Input" x="0" y="-352" name="FPGAtoSTM32_Signal_11(15:0)" />
+    <pin polarity="Input" x="0" y="-288" name="FPGAtoSTM32_Signal_12(15:0)" />
+    <pin polarity="Input" x="0" y="-224" name="FPGAtoSTM32_Signal_13(15:0)" />
+    <pin polarity="Input" x="0" y="-160" name="FPGAtoSTM32_Signal_14(15:0)" />
+    <pin polarity="Input" x="0" y="-96" name="FPGAtoSTM32_Signal_15(15:0)" />
+    <pin polarity="Input" x="0" y="-32" name="FPGAtoSTM32_Signal_16(15:0)" />
+    <pin polarity="Input" x="0" y="32" name="FPGAtoSTM32_Signal_17(15:0)" />
+    <pin polarity="Input" x="0" y="96" name="FPGAtoSTM32_Signal_18(15:0)" />
+    <pin polarity="BiDirectional" x="800" y="-224" name="STM32_Databus(15:0)" />
+    <pin polarity="Output" x="800" y="-1248" name="STM32toFPGA_Signal_1(15:0)" />
+    <pin polarity="Output" x="800" y="-1184" name="STM32toFPGA_Signal_2(15:0)" />
+    <pin polarity="Output" x="800" y="-1120" name="STM32toFPGA_Signal_3(15:0)" />
+    <pin polarity="Output" x="800" y="-1056" name="STM32toFPGA_Signal_4(15:0)" />
+    <pin polarity="Output" x="800" y="-992" name="STM32toFPGA_Signal_5(15:0)" />
+    <pin polarity="Output" x="800" y="-928" name="STM32toFPGA_Signal_6(15:0)" />
+    <pin polarity="Output" x="800" y="-864" name="STM32toFPGA_Signal_7(15:0)" />
+    <pin polarity="Output" x="800" y="-800" name="STM32toFPGA_Signal_8(15:0)" />
+    <pin polarity="Output" x="800" y="-736" name="STM32toFPGA_Signal_9(15:0)" />
+    <pin polarity="Output" x="800" y="-672" name="STM32toFPGA_Signal_10(15:0)" />
+    <pin polarity="Output" x="800" y="-608" name="STM32toFPGA_Signal_11(15:0)" />
+    <pin polarity="Output" x="800" y="-544" name="STM32toFPGA_Signal_12(15:0)" />
+    <pin polarity="Output" x="800" y="-480" name="STM32toFPGA_Signal_13(15:0)" />
+    <pin polarity="Output" x="800" y="-416" name="STM32toFPGA_Signal_14(15:0)" />
+    <pin polarity="Output" x="800" y="-352" name="STM32toFPGA_Signal_15(15:0)" />
+    <pin polarity="Output" x="800" y="-288" name="STM32toFPGA_Signal_16(15:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="360" y="-1288" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1248" type="pin sub_clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="352" type="pin STM32_NWE_Low" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="416" type="pin STM32_NOE_Low" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1120" type="pin STM32_NE1_Low" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1056" type="pin addrbus(11:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-992" type="pin FPGAtoSTM32_Signal_1(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-928" type="pin FPGAtoSTM32_Signal_2(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-864" type="pin FPGAtoSTM32_Signal_3(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-800" type="pin FPGAtoSTM32_Signal_4(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-736" type="pin FPGAtoSTM32_Signal_5(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-672" type="pin FPGAtoSTM32_Signal_6(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-608" type="pin FPGAtoSTM32_Signal_7(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-544" type="pin FPGAtoSTM32_Signal_8(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin FPGAtoSTM32_Signal_9(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin FPGAtoSTM32_Signal_10(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin FPGAtoSTM32_Signal_11(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin FPGAtoSTM32_Signal_12(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin FPGAtoSTM32_Signal_13(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin FPGAtoSTM32_Signal_14(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin FPGAtoSTM32_Signal_15(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin FPGAtoSTM32_Signal_16(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin FPGAtoSTM32_Signal_17(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="96" type="pin FPGAtoSTM32_Signal_18(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-224" type="pin STM32_Databus(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-1248" type="pin STM32toFPGA_Signal_1(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-1184" type="pin STM32toFPGA_Signal_2(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-1120" type="pin STM32toFPGA_Signal_3(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-1056" type="pin STM32toFPGA_Signal_4(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-992" type="pin STM32toFPGA_Signal_5(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-928" type="pin STM32toFPGA_Signal_6(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-864" type="pin STM32toFPGA_Signal_7(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-800" type="pin STM32toFPGA_Signal_8(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-736" type="pin STM32toFPGA_Signal_9(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-672" type="pin STM32toFPGA_Signal_10(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-608" type="pin STM32toFPGA_Signal_11(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-544" type="pin STM32toFPGA_Signal_12(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-480" type="pin STM32toFPGA_Signal_13(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-416" type="pin STM32toFPGA_Signal_14(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-352" type="pin STM32toFPGA_Signal_15(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="728" y="-288" type="pin STM32toFPGA_Signal_16(15:0)" />
+        <line x2="0" y1="288" y2="288" x1="64" />
+        <line x2="0" y1="352" y2="352" x1="64" />
+        <line x2="0" y1="416" y2="416" x1="64" />
+        <rect width="64" x="0" y="20" height="24" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <rect width="64" x="0" y="84" height="24" />
+        <line x2="0" y1="96" y2="96" x1="64" />
+        <line x2="0" y1="-1248" y2="-1248" x1="64" />
+        <line x2="0" y1="-1120" y2="-1120" x1="64" />
+        <rect width="64" x="0" y="-1068" height="24" />
+        <line x2="0" y1="-1056" y2="-1056" x1="64" />
+        <rect width="64" x="0" y="-1004" height="24" />
+        <line x2="0" y1="-992" y2="-992" x1="64" />
+        <rect width="64" x="0" y="-940" height="24" />
+        <line x2="0" y1="-928" y2="-928" x1="64" />
+        <rect width="64" x="0" y="-876" height="24" />
+        <line x2="0" y1="-864" y2="-864" x1="64" />
+        <rect width="64" x="0" y="-812" height="24" />
+        <line x2="0" y1="-800" y2="-800" x1="64" />
+        <rect width="64" x="0" y="-748" height="24" />
+        <line x2="0" y1="-736" y2="-736" x1="64" />
+        <rect width="64" x="0" y="-684" height="24" />
+        <line x2="0" y1="-672" y2="-672" x1="64" />
+        <rect width="64" x="0" y="-620" height="24" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <rect width="64" x="0" y="-556" height="24" />
+        <line x2="0" y1="-544" y2="-544" x1="64" />
+        <rect width="64" x="0" y="-492" height="24" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <rect width="64" x="0" y="-428" height="24" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <rect width="64" x="0" y="-364" height="24" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <rect width="64" x="0" y="-300" height="24" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <rect width="64" x="0" y="-236" height="24" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <rect width="64" x="0" y="-172" height="24" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <rect width="64" x="0" y="-108" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <rect width="672" x="64" y="-1280" height="1728" />
+        <rect width="64" x="736" y="-1260" height="24" />
+        <line x2="800" y1="-1248" y2="-1248" x1="736" />
+        <rect width="64" x="736" y="-1196" height="24" />
+        <line x2="800" y1="-1184" y2="-1184" x1="736" />
+        <rect width="64" x="736" y="-1132" height="24" />
+        <line x2="800" y1="-1120" y2="-1120" x1="736" />
+        <rect width="64" x="736" y="-1068" height="24" />
+        <line x2="800" y1="-1056" y2="-1056" x1="736" />
+        <rect width="64" x="736" y="-1004" height="24" />
+        <line x2="800" y1="-992" y2="-992" x1="736" />
+        <rect width="64" x="736" y="-940" height="24" />
+        <line x2="800" y1="-928" y2="-928" x1="736" />
+        <rect width="64" x="736" y="-876" height="24" />
+        <line x2="800" y1="-864" y2="-864" x1="736" />
+        <rect width="64" x="736" y="-812" height="24" />
+        <line x2="800" y1="-800" y2="-800" x1="736" />
+        <rect width="64" x="736" y="-748" height="24" />
+        <line x2="800" y1="-736" y2="-736" x1="736" />
+        <rect width="64" x="736" y="-684" height="24" />
+        <line x2="800" y1="-672" y2="-672" x1="736" />
+        <rect width="64" x="736" y="-620" height="24" />
+        <line x2="800" y1="-608" y2="-608" x1="736" />
+        <rect width="64" x="736" y="-556" height="24" />
+        <line x2="800" y1="-544" y2="-544" x1="736" />
+        <rect width="64" x="736" y="-492" height="24" />
+        <line x2="800" y1="-480" y2="-480" x1="736" />
+        <rect width="64" x="736" y="-428" height="24" />
+        <line x2="800" y1="-416" y2="-416" x1="736" />
+        <rect width="64" x="736" y="-364" height="24" />
+        <line x2="800" y1="-352" y2="-352" x1="736" />
+        <rect width="64" x="736" y="-300" height="24" />
+        <line x2="800" y1="-288" y2="-288" x1="736" />
+        <rect width="64" x="736" y="-236" height="24" />
+        <line x2="800" y1="-224" y2="-224" x1="736" />
+    </graph>
+</symbol>

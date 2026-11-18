@@ -1,0 +1,13 @@
+# Output products list for <MUL18x18_bEMF>
+MUL18x18_bEMF.asy
+MUL18x18_bEMF.gise
+MUL18x18_bEMF.ngc
+MUL18x18_bEMF.v
+MUL18x18_bEMF.veo
+MUL18x18_bEMF.xco
+MUL18x18_bEMF.xise
+MUL18x18_bEMF\doc\mult_gen_ds255.pdf
+MUL18x18_bEMF\doc\mult_gen_v11_2_readme.txt
+MUL18x18_bEMF\doc\mult_gen_v11_2_vinfo.html
+MUL18x18_bEMF_flist.txt
+MUL18x18_bEMF_xmdf.tcl

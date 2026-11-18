@@ -1,0 +1,1 @@
+-intstyle "silent" -prj "test.prj" -L "unisims_ver" -o "tb_cordic180_equivalence.exe" "work.tb_cordic180_equivalence" "work.glbl" 

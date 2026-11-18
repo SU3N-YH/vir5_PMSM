@@ -1,0 +1,14 @@
+set -tmpdir "xst_tmp"
+set -xsthdpdir "xst"
+run
+-ifn design.prj
+-ofn design
+-ofmt NGC
+-p xc6slx25-2-ftg256
+-top vir5_PMSM
+-opt_mode Speed
+-opt_level 2
+-keep_hierarchy Yes
+-read_cores YES
+-sd {"E:/SUEN27/vir5_PMSM_V/ipcore_dir"}
+-register_duplication YES

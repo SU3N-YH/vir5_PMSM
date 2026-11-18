@@ -1,0 +1,15 @@
+# Output products list for <Xt_multi>
+Xt_multi.asy
+Xt_multi.gise
+Xt_multi.ngc
+Xt_multi.sym
+Xt_multi.v
+Xt_multi.veo
+Xt_multi.xco
+Xt_multi.xise
+Xt_multi\doc\mult_gen_ds255.pdf
+Xt_multi\doc\mult_gen_v11_2_readme.txt
+Xt_multi\doc\mult_gen_v11_2_vinfo.html
+Xt_multi_flist.txt
+Xt_multi_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

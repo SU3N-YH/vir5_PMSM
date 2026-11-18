@@ -1,0 +1,29 @@
+Command line:
+   tb_backemf_port6.exe
+     -intstyle  silent
+     -simmode  tcl
+     -simrunnum  0
+     -socket  65159
+
+Mon Nov 16 19:59:25 2026
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5135.38 Meg
+
+ Total Signals          : 316
+ Total Nets             : 2430
+ Total Signal Drivers   : 112
+ Total Blocks           : 29
+ Total Primitive Blocks : 12
+ Total Processes        : 188
+ Total Traceable Variables  : 348
+ Total Scalar Nets and Variables : 8527
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 5135.38 Meg
+
+Mon Nov 16 19:59:26 2026
+

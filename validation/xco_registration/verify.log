@@ -1,0 +1,1773 @@
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/pll300MHz.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul18x18_2.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/Xt_multi.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul18x35_26july_BySunY.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul_park.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul18x35_1225_BySunY.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul_clarke.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/MTPL_mutual_A.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/MUL18x18_bEMF.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul_inductor_2.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/division5.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/BackEMF.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/CORDIC_STANDALONE.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Clarke2alphabeta.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/EMFm_calc.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/In2Out.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Inductor.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Inductor_DE.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Inductor_tf.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Neg_Pos_converter.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/PCI.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/PWM_DT.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Park2dq.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Toggle.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Toggle_Tb.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/VSI_3p.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Volt_N_calc.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/add5ov5.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/bit16_bit36_1.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/bit18_to_16.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/bit_16to18.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/clk300MHz.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/clk300MHz_tb.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/inv_phi2_HB_DE.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/inv_phi3_HB.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/inverter_tf.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/mul_tf.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/noisekiller.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_EMFm.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_Mech.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_Te_calc.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_backEMF.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_clarke.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_cordic.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_park.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/BackEMF.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/CORDIC_STANDALONE.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Clarke2alphabeta.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/EMFm_calc.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/In2Out.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Inductor.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Inductor_DE.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Neg_Pos_converter.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/PCI.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/PWM_DT.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Park2dq.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Toggle.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/VSI_3p.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Volt_N_calc.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/add5ov5.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/bit16_bit36_1.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/bit18_to_16.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/bit_16to18.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/clk300MHz.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/inv_phi2_HB_DE.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/inv_phi3_HB.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/noisekiller.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Qt: Untested Windows version 6.2 detected!
+Regenerate Core - pll300MHz: All required files are available.
+
+Process "Regenerate Core" completed successfully
+Regenerate Core - mul_inductor_2: All required files are available.
+
+Process "Regenerate Core" completed successfully
+Regenerate Core - MUL18x18_bEMF: All required files are available.
+
+Process "Regenerate Core" completed successfully
+Regenerate Core - division5: All required files are available.
+
+Process "Regenerate Core" completed successfully
+Regenerate Core - mul18x35_1225_BySunY: All required files are available.
+
+Process "Regenerate Core" completed successfully
+
+Started : "Synthesize - XST".
+Running xst...
+Command Line: xst -intstyle ise -ifn "E:/SUEN27/vir5_PMSM_V/validation/xco_registration/vir5_PMSM.xst" -ofn "E:/SUEN27/vir5_PMSM_V/validation/xco_registration/vir5_PMSM.syr"
+Reading design: vir5_PMSM.prj
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\ipcore_dir\pll300MHz.v" into library work
+Parsing module <pll300MHz>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\ipcore_dir\mul_inductor_2.v" into library work
+Parsing module <mul_inductor_2>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\ipcore_dir\mul18x35_1225_BySunY.v" into library work
+Parsing module <mul18x35_1225_BySunY>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\ipcore_dir\MUL18x18_bEMF.v" into library work
+Parsing module <MUL18x18_bEMF>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\ipcore_dir\division5.v" into library work
+Parsing module <division5>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\CORDIC_STANDALONE.v" into library work
+Parsing module <CORDIC_STANDALONE>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\Volt_N_calc.v" into library work
+Parsing module <Volt_N_calc>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\PCI.v" into library work
+Parsing module <PCI>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\Neg_Pos_converter.v" into library work
+Parsing module <Neg_Pos_converter>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" into library work
+Parsing module <inv_phi3_HB>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v" into library work
+Parsing module <inv_phi2_HB_DE>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\Inductor_DE.v" into library work
+Parsing module <Inductor_DE>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\Inductor.v" into library work
+Parsing module <Inductor>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\In2Out.v" into library work
+Parsing module <In2Out>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\clk300MHz.v" into library work
+Parsing module <clk300MHz>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\BackEMF.v" into library work
+Parsing module <BackEMF>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\add5ov5.v" into library work
+Parsing module <add5ov5>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" into library work
+Parsing module <vir5_PMSM>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <vir5_PMSM>.
+
+Elaborating module <PCI>.
+WARNING:HDLCompiler:189 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 116: Size mismatch in connection of port <FPGAtoSTM32_Signal_1>. Formal port size is 16-bit while actual signal size is 35-bit.
+WARNING:HDLCompiler:189 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 117: Size mismatch in connection of port <FPGAtoSTM32_Signal_2>. Formal port size is 16-bit while actual signal size is 35-bit.
+WARNING:HDLCompiler:189 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 118: Size mismatch in connection of port <FPGAtoSTM32_Signal_3>. Formal port size is 16-bit while actual signal size is 35-bit.
+WARNING:HDLCompiler:189 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 119: Size mismatch in connection of port <FPGAtoSTM32_Signal_4>. Formal port size is 16-bit while actual signal size is 35-bit.
+WARNING:HDLCompiler:189 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 120: Size mismatch in connection of port <FPGAtoSTM32_Signal_5>. Formal port size is 16-bit while actual signal size is 35-bit.
+
+Elaborating module <inv_phi3_HB>.
+WARNING:HDLCompiler:872 - "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" Line 66: Using initial value of Volt_On_Switch12_S35_Q17 since it is never assigned
+WARNING:HDLCompiler:872 - "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" Line 67: Using initial value of Volt_On_Switch34_S35_Q17 since it is never assigned
+WARNING:HDLCompiler:872 - "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" Line 68: Using initial value of Volt_On_Switch56_S35_Q17 since it is never assigned
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" Line 113: Assignment to IQ1_S35_Q17 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" Line 142: Assignment to IQ3_S35_Q17 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" Line 171: Assignment to IQ5_S35_Q17 ignored, since the identifier is never used
+
+Elaborating module <inv_phi2_HB_DE>.
+WARNING:HDLCompiler:872 - "E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v" Line 81: Using initial value of Volt_On_Switch12_S35_Q17 since it is never assigned
+WARNING:HDLCompiler:872 - "E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v" Line 82: Using initial value of Volt_On_Switch34_S35_Q17 since it is never assigned
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v" Line 135: Assignment to IQ1_S35_Q17 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v" Line 164: Assignment to IQ3_S35_Q17 ignored, since the identifier is never used
+
+Elaborating module <Inductor>.
+
+Elaborating module <mul18x35_1225_BySunY>.
+
+Elaborating module <Inductor_DE>.
+
+Elaborating module <mul_inductor_2>.
+
+Elaborating module <add5ov5>.
+
+Elaborating module <division5>.
+
+Elaborating module <Volt_N_calc>.
+WARNING:HDLCompiler:413 - "E:\SUEN27\vir5_PMSM_V\Volt_N_calc.v" Line 51: Result of 36-bit expression is truncated to fit in 35-bit target.
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 312: Assignment to neutral_voltage_stm32 ignored, since the identifier is never used
+
+Elaborating module <Neg_Pos_converter>.
+WARNING:HDLCompiler:413 - "E:\SUEN27\vir5_PMSM_V\Neg_Pos_converter.v" Line 25: Result of 32-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <BackEMF>.
+
+Elaborating module <CORDIC_STANDALONE>.
+
+Elaborating module <MUL18x18_bEMF>.
+WARNING:HDLCompiler:413 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" Line 238: Result of 20-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <clk300MHz>.
+
+Elaborating module <pll300MHz>.
+
+Elaborating module <IBUFG>.
+
+Elaborating module <PLL_BASE(BANDWIDTH="OPTIMIZED",CLK_FEEDBACK="CLKFBOUT",COMPENSATION="SYSTEM_SYNCHRONOUS",DIVCLK_DIVIDE=1,CLKFBOUT_MULT=45,CLKFBOUT_PHASE=0.0,CLKOUT0_DIVIDE=90,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT1_DIVIDE=18,CLKOUT1_PHASE=0.0,CLKOUT1_DUTY_CYCLE=0.5,CLKOUT2_DIVIDE=5,CLKOUT2_PHASE=0.0,CLKOUT2_DUTY_CYCLE=0.5,CLKIN_PERIOD=50.0,REF_JITTER=0.01)>.
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\ipcore_dir\pll300MHz.v" Line 124: Assignment to clkout3_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\ipcore_dir\pll300MHz.v" Line 125: Assignment to clkout4_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\ipcore_dir\pll300MHz.v" Line 126: Assignment to clkout5_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\ipcore_dir\pll300MHz.v" Line 127: Assignment to locked_unused ignored, since the identifier is never used
+
+Elaborating module <BUFG>.
+
+Elaborating module <In2Out>.
+WARNING:HDLCompiler:634 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 96: Net <phase_a_current_q17[34]> does not have a driver.
+WARNING:HDLCompiler:634 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 97: Net <phase_b_current_q17[34]> does not have a driver.
+WARNING:HDLCompiler:634 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 98: Net <phase_c_current_q17[34]> does not have a driver.
+WARNING:HDLCompiler:634 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 99: Net <phase_d_current_q17[34]> does not have a driver.
+WARNING:HDLCompiler:634 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 100: Net <phase_e_current_q17[34]> does not have a driver.
+WARNING:HDLCompiler:552 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 109: Input port FPGAtoSTM32_Signal_10[15] is not connected on this instance
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <vir5_PMSM>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v".
+WARNING:Xst:2898 - Port 'FPGAtoSTM32_Signal_10', unconnected in block instance 'u_pci', is tied to GND.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 109: Output port <STM32toFPGA_Signal_9> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 109: Output port <STM32toFPGA_Signal_10> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 109: Output port <STM32toFPGA_Signal_16> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 157: Output port <x_4> of the instance <u_inverter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 157: Output port <x_5> of the instance <u_inverter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 157: Output port <x_6> of the instance <u_inverter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 157: Output port <x_7> of the instance <u_inverter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 157: Output port <x_8> of the instance <u_inverter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 157: Output port <x_9> of the instance <u_inverter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 157: Output port <x_10> of the instance <u_inverter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 201: Output port <phase_d_lower_current_stm32> of the instance <u_inverter_de> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 201: Output port <phase_e_lower_current_stm32> of the instance <u_inverter_de> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 201: Output port <phase_d_voltage_stm32> of the instance <u_inverter_de> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 201: Output port <phase_e_voltage_stm32> of the instance <u_inverter_de> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 233: Output port <Curt1_L15> of the instance <u_inductor> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 233: Output port <Curt1_H15> of the instance <u_inductor> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 233: Output port <Curt2_L15> of the instance <u_inductor> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 233: Output port <Curt2_H15> of the instance <u_inductor> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 233: Output port <Curt3_L15> of the instance <u_inductor> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 233: Output port <Curt3_H15> of the instance <u_inductor> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 259: Output port <Curt4_L15> of the instance <u_inductor_de> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 259: Output port <Curt4_H15> of the instance <u_inductor_de> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 259: Output port <Curt5_L15> of the instance <u_inductor_de> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 259: Output port <Curt5_H15> of the instance <u_inductor_de> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 305: Output port <U_N_STM32> of the instance <u_neutral_voltage> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 369: Output port <clk300MHz> of the instance <u_clock> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 404: Output port <Out3> of the instance <grid_pwm_passthru> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <phase_a_current_q17> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <phase_b_current_q17> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <phase_c_current_q17> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <phase_d_current_q17> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <phase_e_current_q17> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <vir5_PMSM> synthesized.
+
+Synthesizing Unit <PCI>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\PCI.v".
+    Set property "ASYNC_REG = TRUE" for signal <write_meta>.
+    Set property "ASYNC_REG = TRUE" for signal <write_sync>.
+    Found 1-bit register for signal <write_sync>.
+    Found 1-bit register for signal <write_seen>.
+    Found 16-bit register for signal <Loopback_Data>.
+    Found 16-bit register for signal <Data_1>.
+    Found 16-bit register for signal <Data_2>.
+    Found 16-bit register for signal <Data_3>.
+    Found 16-bit register for signal <Data_4>.
+    Found 16-bit register for signal <Data_5>.
+    Found 16-bit register for signal <Data_6>.
+    Found 16-bit register for signal <Data_7>.
+    Found 16-bit register for signal <Data_8>.
+    Found 16-bit register for signal <Data_9>.
+    Found 16-bit register for signal <Data_10>.
+    Found 16-bit register for signal <Data_11>.
+    Found 16-bit register for signal <Data_12>.
+    Found 16-bit register for signal <Data_13>.
+    Found 16-bit register for signal <Data_14>.
+    Found 16-bit register for signal <Data_15>.
+    Found 16-bit register for signal <Data_16>.
+    Found 1-bit register for signal <write_meta>.
+    Found 1-bit tristate buffer for signal <STM32_Databus<15>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<14>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<13>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<12>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<11>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<10>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<9>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<8>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<7>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<6>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<5>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<4>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<3>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<2>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<1>> created at line 127
+    Found 1-bit tristate buffer for signal <STM32_Databus<0>> created at line 127
+INFO:Xst:2774 - HDL ADVISOR - ASYNC_REG property attached to signal write_meta may hinder XST clustering optimizations.
+    Summary:
+	inferred 275 D-type flip-flop(s).
+	inferred  16 Tristate(s).
+Unit <PCI> synthesized.
+
+Synthesizing Unit <inv_phi3_HB>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v".
+WARNING:Xst:647 - Input <Rd_S16_Q15> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <clk_10MHz>.
+    Found 35-bit register for signal <IQ2_S35_Q17>.
+    Found 35-bit register for signal <UAO_S35_Q17>.
+    Found 35-bit register for signal <IQ4_S35_Q17>.
+    Found 35-bit register for signal <UBO_S35_Q17>.
+    Found 35-bit register for signal <IQ6_S35_Q17>.
+    Found 35-bit register for signal <UCO_S35_Q17>.
+    Found 35-bit register for signal <x_1>.
+    Found 35-bit register for signal <x_2>.
+    Found 35-bit register for signal <x_3>.
+    Found 16-bit register for signal <x_4>.
+    Found 16-bit register for signal <x_5>.
+    Found 16-bit register for signal <x_6>.
+    Found 16-bit register for signal <x_7>.
+    Found 16-bit register for signal <x_8>.
+    Found 16-bit register for signal <x_9>.
+    Found 16-bit register for signal <x_10>.
+    Found 5-bit register for signal <Time_cnt>.
+    Found 35-bit subtractor for signal <Udc1Over2_S35_Q17> created at line 93.
+    Found 35-bit subtractor for signal <Udc2Over2_S35_Q17> created at line 94.
+    Found 35-bit subtractor for signal <Udc3Over2_S35_Q17> created at line 95.
+    Found 35-bit subtractor for signal <Ia_S35_Q17[34]_unary_minus_25_OUT> created at line 121.
+    Found 35-bit subtractor for signal <Ib_S35_Q17[34]_unary_minus_62_OUT> created at line 150.
+    Found 35-bit subtractor for signal <Ic_S35_Q17[34]_unary_minus_99_OUT> created at line 179.
+    Found 5-bit adder for signal <Time_cnt[4]_GND_19_o_add_12_OUT> created at line 105.
+    Found 35-bit adder for signal <Udc1Over2_S35_Q17[34]_Vd_S35_Q17[34]_add_41_OUT> created at line 132.
+    Found 35-bit adder for signal <Udc2Over2_S35_Q17[34]_Vd_S35_Q17[34]_add_78_OUT> created at line 161.
+    Found 35-bit adder for signal <Udc3Over2_S35_Q17[34]_Vd_S35_Q17[34]_add_115_OUT> created at line 190.
+    Found 16-bit adder for signal <n0276> created at line 219.
+    Found 16-bit adder for signal <x_4[15]_x_6[15]_add_129_OUT> created at line 219.
+    Found 35-bit subtractor for signal <GND_19_o_Udc1Over2_S35_Q17[34]_sub_26_OUT> created at line 122.
+    Found 35-bit subtractor for signal <GND_19_o_Udc2Over2_S35_Q17[34]_sub_63_OUT> created at line 151.
+    Found 35-bit subtractor for signal <GND_19_o_Udc3Over2_S35_Q17[34]_sub_100_OUT> created at line 180.
+    Found 35-bit subtractor for signal <Udc1Over2_S35_Q17[34]_Vd_S35_Q17[34]_sub_35_OUT> created at line 127.
+    Found 35-bit subtractor for signal <Udc2Over2_S35_Q17[34]_Vd_S35_Q17[34]_sub_72_OUT> created at line 156.
+    Found 35-bit subtractor for signal <Udc3Over2_S35_Q17[34]_Vd_S35_Q17[34]_sub_109_OUT> created at line 185.
+    Found 35-bit comparator greater for signal <Ia_S35_Q17[34]_GND_19_o_LessThan_32_o> created at line 124
+    Summary:
+	inferred  18 Adder/Subtractor(s).
+	inferred 433 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  15 Multiplexer(s).
+Unit <inv_phi3_HB> synthesized.
+
+Synthesizing Unit <inv_phi2_HB_DE>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v".
+WARNING:Xst:647 - Input <Rd_S16_Q15> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <clk_10MHz>.
+    Found 35-bit register for signal <IQ2_S35_Q17>.
+    Found 35-bit register for signal <UDO_S35_Q17>.
+    Found 35-bit register for signal <IQ4_S35_Q17>.
+    Found 35-bit register for signal <UEO_S35_Q17>.
+    Found 35-bit register for signal <Vd_q17>.
+    Found 35-bit register for signal <Ve_q17>.
+    Found 16-bit register for signal <phase_d_lower_current_stm32>.
+    Found 16-bit register for signal <phase_e_lower_current_stm32>.
+    Found 16-bit register for signal <phase_d_voltage_stm32>.
+    Found 16-bit register for signal <phase_e_voltage_stm32>.
+    Found 5-bit register for signal <Time_cnt>.
+    Found 35-bit subtractor for signal <Udc1Over2_S35_Q17> created at line 114.
+    Found 35-bit subtractor for signal <Udc2Over2_S35_Q17> created at line 115.
+    Found 35-bit subtractor for signal <Id_S35_Q17[34]_unary_minus_22_OUT> created at line 143.
+    Found 35-bit subtractor for signal <Ie_S35_Q17[34]_unary_minus_59_OUT> created at line 172.
+    Found 5-bit adder for signal <Time_cnt[4]_GND_21_o_add_9_OUT> created at line 127.
+    Found 35-bit adder for signal <Udc1Over2_S35_Q17[34]_Vd_S35_Q17[34]_add_38_OUT> created at line 154.
+    Found 35-bit adder for signal <Udc2Over2_S35_Q17[34]_Vd_S35_Q17[34]_add_75_OUT> created at line 183.
+    Found 35-bit subtractor for signal <GND_21_o_Udc1Over2_S35_Q17[34]_sub_23_OUT> created at line 144.
+    Found 35-bit subtractor for signal <GND_21_o_Udc2Over2_S35_Q17[34]_sub_60_OUT> created at line 173.
+    Found 35-bit subtractor for signal <Udc1Over2_S35_Q17[34]_Vd_S35_Q17[34]_sub_32_OUT> created at line 149.
+    Found 35-bit subtractor for signal <Udc2Over2_S35_Q17[34]_Vd_S35_Q17[34]_sub_69_OUT> created at line 178.
+    Found 35-bit comparator greater for signal <Id_S35_Q17[34]_GND_21_o_LessThan_29_o> created at line 146
+    Summary:
+	inferred  11 Adder/Subtractor(s).
+	inferred 280 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  10 Multiplexer(s).
+Unit <inv_phi2_HB_DE> synthesized.
+
+Synthesizing Unit <Inductor>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\Inductor.v".
+        IDLE = 4'sb0000
+        MUL1 = 4'sb0001
+        MUL2 = 4'sb0010
+        MUL3 = 4'sb0011
+        MUL4 = 4'sb0100
+        MUL5 = 4'sb0101
+        MUL6 = 4'sb0110
+    Found 4-bit register for signal <Task_No>.
+    Found 1-bit register for signal <clk_10MHz>.
+    Found 18-bit register for signal <mul_a1>.
+    Found 35-bit register for signal <mul_b1>.
+    Found 35-bit register for signal <emfL1_S35>.
+    Found 35-bit register for signal <emfL2_S35>.
+    Found 35-bit register for signal <emfL3_S35>.
+    Found 35-bit register for signal <emfL01_S35>.
+    Found 35-bit register for signal <emfL02_S35>.
+    Found 35-bit register for signal <emfL03_S35>.
+    Found 35-bit register for signal <RxI1_S35>.
+    Found 35-bit register for signal <RxI2_S35>.
+    Found 35-bit register for signal <RxI3_S35>.
+    Found 53-bit register for signal <I1_temp_S35>.
+    Found 53-bit register for signal <I2_temp_S35>.
+    Found 53-bit register for signal <I3_temp_S35>.
+    Found 53-bit register for signal <x_13>.
+    Found 53-bit register for signal <x_14>.
+    Found 53-bit register for signal <x_15>.
+    Found 35-bit register for signal <x_1>.
+    Found 35-bit register for signal <x_2>.
+    Found 35-bit register for signal <x_3>.
+    Found 6-bit register for signal <Time_cnt>.
+    Found 35-bit subtractor for signal <UAO_P_S35[34]_UAO_N_S35[34]_sub_30_OUT> created at line 171.
+    Found 35-bit subtractor for signal <UAO_P_S35[34]_RxI1_S35[34]_sub_31_OUT> created at line 171.
+    Found 35-bit subtractor for signal <UAO_P_S35[34]_bEMF_A_S35_Q17[34]_sub_32_OUT> created at line 171.
+    Found 35-bit subtractor for signal <UBO_P_S35[34]_UBO_N_S35[34]_sub_34_OUT> created at line 179.
+    Found 35-bit subtractor for signal <UBO_P_S35[34]_RxI2_S35[34]_sub_35_OUT> created at line 179.
+    Found 35-bit subtractor for signal <UBO_P_S35[34]_bEMF_B_S35_Q17[34]_sub_36_OUT> created at line 179.
+    Found 35-bit subtractor for signal <UCO_P_S35[34]_UCO_N_S35[34]_sub_38_OUT> created at line 186.
+    Found 35-bit subtractor for signal <UCO_P_S35[34]_RxI3_S35[34]_sub_39_OUT> created at line 186.
+    Found 35-bit subtractor for signal <UCO_P_S35[34]_bEMF_C_S35_Q17[34]_sub_40_OUT> created at line 186.
+    Found 6-bit adder for signal <Time_cnt[5]_GND_22_o_add_1_OUT> created at line 109.
+    Found 35-bit adder for signal <emfL01_S35[34]_emfL1_S35[34]_add_28_OUT> created at line 170.
+    Found 35-bit adder for signal <emfL02_S35[34]_emfL2_S35[34]_add_32_OUT> created at line 178.
+    Found 35-bit adder for signal <emfL03_S35[34]_emfL3_S35[34]_add_36_OUT> created at line 185.
+    Found 53-bit adder for signal <x_13[52]_I1_temp_S35[52]_add_84_OUT> created at line 216.
+    Found 53-bit adder for signal <x_14[52]_I2_temp_S35[52]_add_85_OUT> created at line 217.
+    Found 53-bit adder for signal <x_15[52]_I3_temp_S35[52]_add_86_OUT> created at line 218.
+    Summary:
+	inferred  14 Adder/Subtractor(s).
+	inferred 802 D-type flip-flop(s).
+	inferred  12 Multiplexer(s).
+Unit <Inductor> synthesized.
+
+Synthesizing Unit <Inductor_DE>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\Inductor_DE.v".
+        IDLE = 4'sb0000
+        MUL1 = 4'sb0001
+        MUL2 = 4'sb0010
+        MUL3 = 4'sb0011
+        MUL4 = 4'sb0100
+        MUL5 = 4'sb0101
+        MUL6 = 4'sb0110
+    Found 4-bit register for signal <Task_No>.
+    Found 1-bit register for signal <clk_10MHz>.
+    Found 18-bit register for signal <mul_a1>.
+    Found 35-bit register for signal <mul_b1>.
+    Found 35-bit register for signal <emfL4_S35>.
+    Found 35-bit register for signal <emfL5_S35>.
+    Found 35-bit register for signal <emfL04_S35>.
+    Found 35-bit register for signal <emfL05_S35>.
+    Found 35-bit register for signal <RxI4_S35>.
+    Found 35-bit register for signal <RxI5_S35>.
+    Found 53-bit register for signal <I4_temp_S35>.
+    Found 53-bit register for signal <I5_temp_S35>.
+    Found 53-bit register for signal <x_16>.
+    Found 53-bit register for signal <x_17>.
+    Found 35-bit register for signal <x_4>.
+    Found 35-bit register for signal <x_5>.
+    Found 6-bit register for signal <Time_cnt>.
+    Found 35-bit subtractor for signal <UDO_P_S35[34]_UDO_N_S35[34]_sub_30_OUT> created at line 191.
+    Found 35-bit subtractor for signal <UDO_P_S35[34]_RxI4_S35[34]_sub_31_OUT> created at line 191.
+    Found 35-bit subtractor for signal <UDO_P_S35[34]_bEMF_D_S35_Q17[34]_sub_32_OUT> created at line 191.
+    Found 35-bit subtractor for signal <UEO_P_S35[34]_UEO_N_S35[34]_sub_34_OUT> created at line 199.
+    Found 35-bit subtractor for signal <UEO_P_S35[34]_RxI5_S35[34]_sub_35_OUT> created at line 199.
+    Found 35-bit subtractor for signal <UEO_P_S35[34]_bEMF_E_S35_Q17[34]_sub_36_OUT> created at line 199.
+    Found 6-bit adder for signal <Time_cnt[5]_GND_24_o_add_1_OUT> created at line 127.
+    Found 35-bit adder for signal <emfL04_S35[34]_emfL4_S35[34]_add_28_OUT> created at line 190.
+    Found 35-bit adder for signal <emfL05_S35[34]_emfL5_S35[34]_add_32_OUT> created at line 198.
+    Found 53-bit adder for signal <x_16[52]_I4_temp_S35[52]_add_68_OUT> created at line 241.
+    Found 53-bit adder for signal <x_17[52]_I5_temp_S35[52]_add_69_OUT> created at line 242.
+    Summary:
+	inferred  11 Adder/Subtractor(s).
+	inferred 556 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+Unit <Inductor_DE> synthesized.
+
+Synthesizing Unit <add5ov5>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\add5ov5.v".
+    Found 18-bit register for signal <mul_a>.
+    Found 35-bit register for signal <mul_b>.
+    Found 35-bit register for signal <U1_S35_Q17>.
+    Found 35-bit register for signal <U2_S35_Q17>.
+    Found 35-bit register for signal <U3_S35_Q17>.
+    Found 21-bit register for signal <low_product>.
+    Found 37-bit register for signal <mean_stage_S37_Q17>.
+    Found 4-bit register for signal <Time_cnt>.
+    Found 38-bit adder for signal <n0161> created at line 40.
+    Found 38-bit adder for signal <n0164> created at line 40.
+    Found 38-bit adder for signal <n0167> created at line 40.
+    Found 38-bit adder for signal <sum1_S38_Q17> created at line 40.
+    Found 38-bit adder for signal <n0173> created at line 47.
+    Found 38-bit adder for signal <n0176> created at line 47.
+    Found 38-bit adder for signal <n0179> created at line 47.
+    Found 38-bit adder for signal <sum2_S38_Q17> created at line 47.
+    Found 56-bit adder for signal <full_product> created at line 82.
+    Found 56-bit adder for signal <rounded_product> created at line 85.
+    Found 4-bit adder for signal <Time_cnt[3]_GND_26_o_add_20_OUT> created at line 113.
+    Found 21-bit adder for signal <n0204> created at line 76.
+    Found 21-bit adder for signal <GND_26_o_GND_26_o_add_26_OUT> created at line 76.
+    Found 21-bit adder for signal <n0210> created at line 76.
+    Found 21-bit adder for signal <GND_26_o_GND_26_o_add_31_OUT> created at line 76.
+    Found 21-bit adder for signal <n0216> created at line 76.
+    Found 21-bit adder for signal <GND_26_o_GND_26_o_add_36_OUT> created at line 76.
+    Found 37-bit comparator greater for signal <mean_stage_S37_Q17[36]_GND_26_o_LessThan_16_o> created at line 91
+    Found 37-bit comparator greater for signal <PWR_11_o_mean_stage_S37_Q17[36]_LessThan_17_o> created at line 92
+    Summary:
+	inferred  17 Adder/Subtractor(s).
+	inferred 220 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   3 Multiplexer(s).
+Unit <add5ov5> synthesized.
+
+Synthesizing Unit <Volt_N_calc>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\Volt_N_calc.v".
+    Found 35-bit register for signal <U_N_S35_Q17>.
+    Found 36-bit register for signal <diff_stage1_S36_Q17>.
+    Found 36-bit subtractor for signal <sum_uX0_ovr5[34]_sum_eX_ovr5[34]_sub_1_OUT> created at line 48.
+    Found 35-bit subtractor for signal <diff_stage1_S36_Q17[35]_sum_eMUTUAL_ovr5[34]_sub_2_OUT<34:0>> created at line 51.
+    Found 26-bit comparator greater for signal <shifted_val_Q8[25]_GND_29_o_LessThan_6_o> created at line 62
+    Found 26-bit comparator greater for signal <PWR_13_o_shifted_val_Q8[25]_LessThan_7_o> created at line 65
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  71 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <Volt_N_calc> synthesized.
+
+Synthesizing Unit <Neg_Pos_converter>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\Neg_Pos_converter.v".
+    Found 16-bit subtractor for signal <data_out> created at line 23.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <Neg_Pos_converter> synthesized.
+
+Synthesizing Unit <BackEMF>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\BackEMF.v".
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <cos> of the instance <u_cordic_gen[0].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_deg> of the instance <u_cordic_gen[0].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_y> of the instance <u_cordic_gen[0].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_x> of the instance <u_cordic_gen[0].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <cos> of the instance <u_cordic_gen[1].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_deg> of the instance <u_cordic_gen[1].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_y> of the instance <u_cordic_gen[1].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_x> of the instance <u_cordic_gen[1].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <cos> of the instance <u_cordic_gen[2].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_deg> of the instance <u_cordic_gen[2].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_y> of the instance <u_cordic_gen[2].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_x> of the instance <u_cordic_gen[2].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <cos> of the instance <u_cordic_gen[3].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_deg> of the instance <u_cordic_gen[3].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_y> of the instance <u_cordic_gen[3].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_x> of the instance <u_cordic_gen[3].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <cos> of the instance <u_cordic_gen[4].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_deg> of the instance <u_cordic_gen[4].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_y> of the instance <u_cordic_gen[4].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\BackEMF.v" line 122: Output port <q_x> of the instance <u_cordic_gen[4].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+    Found 32-bit register for signal <theta_fine_q16>.
+    Found 32-bit register for signal <theta_deg_q16[31]_phase_offset_q16[0][31]_sub_31_OUT>.
+    Found 32-bit register for signal <theta_coarse_q16>.
+    Found 18-bit register for signal <mul_a1>.
+    Found 18-bit register for signal <mul_b1>.
+    Found 18-bit register for signal <mag_BackEMF_S18_Q8>.
+    Found 35-bit register for signal <TMP_eA_S35_Q17>.
+    Found 35-bit register for signal <TMP_eB_S35_Q17>.
+    Found 35-bit register for signal <TMP_eC_S35_Q17>.
+    Found 35-bit register for signal <TMP_eD_S35_Q17>.
+    Found 35-bit register for signal <eA_S35_Q17>.
+    Found 35-bit register for signal <eB_S35_Q17>.
+    Found 35-bit register for signal <eC_S35_Q17>.
+    Found 35-bit register for signal <eD_S35_Q17>.
+    Found 35-bit register for signal <eE_S35_Q17>.
+    Found 5-bit register for signal <Time_cnt>.
+    Found 1-bit register for signal <cordic_prepare>.
+    Found 1-bit register for signal <phase_angle_q16<0><31>>.
+    Found 1-bit register for signal <phase_angle_q16<0><30>>.
+    Found 1-bit register for signal <phase_angle_q16<0><29>>.
+    Found 1-bit register for signal <phase_angle_q16<0><28>>.
+    Found 1-bit register for signal <phase_angle_q16<0><27>>.
+    Found 1-bit register for signal <phase_angle_q16<0><26>>.
+    Found 1-bit register for signal <phase_angle_q16<0><25>>.
+    Found 1-bit register for signal <phase_angle_q16<0><24>>.
+    Found 1-bit register for signal <phase_angle_q16<0><23>>.
+    Found 1-bit register for signal <phase_angle_q16<0><22>>.
+    Found 1-bit register for signal <phase_angle_q16<0><21>>.
+    Found 1-bit register for signal <phase_angle_q16<0><20>>.
+    Found 1-bit register for signal <phase_angle_q16<0><19>>.
+    Found 1-bit register for signal <phase_angle_q16<0><18>>.
+    Found 1-bit register for signal <phase_angle_q16<0><17>>.
+    Found 1-bit register for signal <phase_angle_q16<0><16>>.
+    Found 1-bit register for signal <phase_angle_q16<0><15>>.
+    Found 1-bit register for signal <phase_angle_q16<0><14>>.
+    Found 1-bit register for signal <phase_angle_q16<0><13>>.
+    Found 1-bit register for signal <phase_angle_q16<0><12>>.
+    Found 1-bit register for signal <phase_angle_q16<0><11>>.
+    Found 1-bit register for signal <phase_angle_q16<0><10>>.
+    Found 1-bit register for signal <phase_angle_q16<0><9>>.
+    Found 1-bit register for signal <phase_angle_q16<0><8>>.
+    Found 1-bit register for signal <phase_angle_q16<0><7>>.
+    Found 1-bit register for signal <phase_angle_q16<0><6>>.
+    Found 1-bit register for signal <phase_angle_q16<0><5>>.
+    Found 1-bit register for signal <phase_angle_q16<0><4>>.
+    Found 1-bit register for signal <phase_angle_q16<0><3>>.
+    Found 1-bit register for signal <phase_angle_q16<0><2>>.
+    Found 1-bit register for signal <phase_angle_q16<0><1>>.
+    Found 1-bit register for signal <phase_angle_q16<0><0>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><17>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><16>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><15>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><14>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><13>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><12>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><11>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><10>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><9>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><8>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><7>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><6>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><5>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><4>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><3>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><2>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><1>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><0>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><17>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><16>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><15>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><14>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><13>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><12>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><11>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><10>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><9>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><8>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><7>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><6>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><5>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><4>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><3>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><2>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><1>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><0>>.
+    Found 1-bit register for signal <phase_angle_q16<1><31>>.
+    Found 1-bit register for signal <phase_angle_q16<1><30>>.
+    Found 1-bit register for signal <phase_angle_q16<1><29>>.
+    Found 1-bit register for signal <phase_angle_q16<1><28>>.
+    Found 1-bit register for signal <phase_angle_q16<1><27>>.
+    Found 1-bit register for signal <phase_angle_q16<1><26>>.
+    Found 1-bit register for signal <phase_angle_q16<1><25>>.
+    Found 1-bit register for signal <phase_angle_q16<1><24>>.
+    Found 1-bit register for signal <phase_angle_q16<1><23>>.
+    Found 1-bit register for signal <phase_angle_q16<1><22>>.
+    Found 1-bit register for signal <phase_angle_q16<1><21>>.
+    Found 1-bit register for signal <phase_angle_q16<1><20>>.
+    Found 1-bit register for signal <phase_angle_q16<1><19>>.
+    Found 1-bit register for signal <phase_angle_q16<1><18>>.
+    Found 1-bit register for signal <phase_angle_q16<1><17>>.
+    Found 1-bit register for signal <phase_angle_q16<1><16>>.
+    Found 1-bit register for signal <phase_angle_q16<1><15>>.
+    Found 1-bit register for signal <phase_angle_q16<1><14>>.
+    Found 1-bit register for signal <phase_angle_q16<1><13>>.
+    Found 1-bit register for signal <phase_angle_q16<1><12>>.
+    Found 1-bit register for signal <phase_angle_q16<1><11>>.
+    Found 1-bit register for signal <phase_angle_q16<1><10>>.
+    Found 1-bit register for signal <phase_angle_q16<1><9>>.
+    Found 1-bit register for signal <phase_angle_q16<1><8>>.
+    Found 1-bit register for signal <phase_angle_q16<1><7>>.
+    Found 1-bit register for signal <phase_angle_q16<1><6>>.
+    Found 1-bit register for signal <phase_angle_q16<1><5>>.
+    Found 1-bit register for signal <phase_angle_q16<1><4>>.
+    Found 1-bit register for signal <phase_angle_q16<1><3>>.
+    Found 1-bit register for signal <phase_angle_q16<1><2>>.
+    Found 1-bit register for signal <phase_angle_q16<1><1>>.
+    Found 1-bit register for signal <phase_angle_q16<1><0>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><17>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><16>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><15>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><14>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><13>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><12>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><11>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><10>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><9>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><8>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><7>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><6>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><5>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><4>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><3>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><2>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><1>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><0>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><17>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><16>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><15>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><14>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><13>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><12>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><11>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><10>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><9>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><8>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><7>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><6>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><5>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><4>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><3>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><2>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><1>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><0>>.
+    Found 1-bit register for signal <phase_angle_q16<2><31>>.
+    Found 1-bit register for signal <phase_angle_q16<2><30>>.
+    Found 1-bit register for signal <phase_angle_q16<2><29>>.
+    Found 1-bit register for signal <phase_angle_q16<2><28>>.
+    Found 1-bit register for signal <phase_angle_q16<2><27>>.
+    Found 1-bit register for signal <phase_angle_q16<2><26>>.
+    Found 1-bit register for signal <phase_angle_q16<2><25>>.
+    Found 1-bit register for signal <phase_angle_q16<2><24>>.
+    Found 1-bit register for signal <phase_angle_q16<2><23>>.
+    Found 1-bit register for signal <phase_angle_q16<2><22>>.
+    Found 1-bit register for signal <phase_angle_q16<2><21>>.
+    Found 1-bit register for signal <phase_angle_q16<2><20>>.
+    Found 1-bit register for signal <phase_angle_q16<2><19>>.
+    Found 1-bit register for signal <phase_angle_q16<2><18>>.
+    Found 1-bit register for signal <phase_angle_q16<2><17>>.
+    Found 1-bit register for signal <phase_angle_q16<2><16>>.
+    Found 1-bit register for signal <phase_angle_q16<2><15>>.
+    Found 1-bit register for signal <phase_angle_q16<2><14>>.
+    Found 1-bit register for signal <phase_angle_q16<2><13>>.
+    Found 1-bit register for signal <phase_angle_q16<2><12>>.
+    Found 1-bit register for signal <phase_angle_q16<2><11>>.
+    Found 1-bit register for signal <phase_angle_q16<2><10>>.
+    Found 1-bit register for signal <phase_angle_q16<2><9>>.
+    Found 1-bit register for signal <phase_angle_q16<2><8>>.
+    Found 1-bit register for signal <phase_angle_q16<2><7>>.
+    Found 1-bit register for signal <phase_angle_q16<2><6>>.
+    Found 1-bit register for signal <phase_angle_q16<2><5>>.
+    Found 1-bit register for signal <phase_angle_q16<2><4>>.
+    Found 1-bit register for signal <phase_angle_q16<2><3>>.
+    Found 1-bit register for signal <phase_angle_q16<2><2>>.
+    Found 1-bit register for signal <phase_angle_q16<2><1>>.
+    Found 1-bit register for signal <phase_angle_q16<2><0>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><17>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><16>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><15>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><14>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><13>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><12>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><11>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><10>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><9>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><8>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><7>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><6>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><5>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><4>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><3>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><2>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><1>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><0>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><17>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><16>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><15>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><14>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><13>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><12>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><11>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><10>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><9>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><8>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><7>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><6>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><5>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><4>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><3>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><2>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><1>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><0>>.
+    Found 1-bit register for signal <phase_angle_q16<3><31>>.
+    Found 1-bit register for signal <phase_angle_q16<3><30>>.
+    Found 1-bit register for signal <phase_angle_q16<3><29>>.
+    Found 1-bit register for signal <phase_angle_q16<3><28>>.
+    Found 1-bit register for signal <phase_angle_q16<3><27>>.
+    Found 1-bit register for signal <phase_angle_q16<3><26>>.
+    Found 1-bit register for signal <phase_angle_q16<3><25>>.
+    Found 1-bit register for signal <phase_angle_q16<3><24>>.
+    Found 1-bit register for signal <phase_angle_q16<3><23>>.
+    Found 1-bit register for signal <phase_angle_q16<3><22>>.
+    Found 1-bit register for signal <phase_angle_q16<3><21>>.
+    Found 1-bit register for signal <phase_angle_q16<3><20>>.
+    Found 1-bit register for signal <phase_angle_q16<3><19>>.
+    Found 1-bit register for signal <phase_angle_q16<3><18>>.
+    Found 1-bit register for signal <phase_angle_q16<3><17>>.
+    Found 1-bit register for signal <phase_angle_q16<3><16>>.
+    Found 1-bit register for signal <phase_angle_q16<3><15>>.
+    Found 1-bit register for signal <phase_angle_q16<3><14>>.
+    Found 1-bit register for signal <phase_angle_q16<3><13>>.
+    Found 1-bit register for signal <phase_angle_q16<3><12>>.
+    Found 1-bit register for signal <phase_angle_q16<3><11>>.
+    Found 1-bit register for signal <phase_angle_q16<3><10>>.
+    Found 1-bit register for signal <phase_angle_q16<3><9>>.
+    Found 1-bit register for signal <phase_angle_q16<3><8>>.
+    Found 1-bit register for signal <phase_angle_q16<3><7>>.
+    Found 1-bit register for signal <phase_angle_q16<3><6>>.
+    Found 1-bit register for signal <phase_angle_q16<3><5>>.
+    Found 1-bit register for signal <phase_angle_q16<3><4>>.
+    Found 1-bit register for signal <phase_angle_q16<3><3>>.
+    Found 1-bit register for signal <phase_angle_q16<3><2>>.
+    Found 1-bit register for signal <phase_angle_q16<3><1>>.
+    Found 1-bit register for signal <phase_angle_q16<3><0>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><17>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><16>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><15>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><14>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><13>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><12>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><11>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><10>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><9>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><8>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><7>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><6>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><5>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><4>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><3>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><2>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><1>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><0>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><17>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><16>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><15>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><14>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><13>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><12>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><11>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><10>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><9>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><8>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><7>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><6>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><5>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><4>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><3>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><2>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><1>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><0>>.
+    Found 1-bit register for signal <phase_angle_q16<4><31>>.
+    Found 1-bit register for signal <phase_angle_q16<4><30>>.
+    Found 1-bit register for signal <phase_angle_q16<4><29>>.
+    Found 1-bit register for signal <phase_angle_q16<4><28>>.
+    Found 1-bit register for signal <phase_angle_q16<4><27>>.
+    Found 1-bit register for signal <phase_angle_q16<4><26>>.
+    Found 1-bit register for signal <phase_angle_q16<4><25>>.
+    Found 1-bit register for signal <phase_angle_q16<4><24>>.
+    Found 1-bit register for signal <phase_angle_q16<4><23>>.
+    Found 1-bit register for signal <phase_angle_q16<4><22>>.
+    Found 1-bit register for signal <phase_angle_q16<4><21>>.
+    Found 1-bit register for signal <phase_angle_q16<4><20>>.
+    Found 1-bit register for signal <phase_angle_q16<4><19>>.
+    Found 1-bit register for signal <phase_angle_q16<4><18>>.
+    Found 1-bit register for signal <phase_angle_q16<4><17>>.
+    Found 1-bit register for signal <phase_angle_q16<4><16>>.
+    Found 1-bit register for signal <phase_angle_q16<4><15>>.
+    Found 1-bit register for signal <phase_angle_q16<4><14>>.
+    Found 1-bit register for signal <phase_angle_q16<4><13>>.
+    Found 1-bit register for signal <phase_angle_q16<4><12>>.
+    Found 1-bit register for signal <phase_angle_q16<4><11>>.
+    Found 1-bit register for signal <phase_angle_q16<4><10>>.
+    Found 1-bit register for signal <phase_angle_q16<4><9>>.
+    Found 1-bit register for signal <phase_angle_q16<4><8>>.
+    Found 1-bit register for signal <phase_angle_q16<4><7>>.
+    Found 1-bit register for signal <phase_angle_q16<4><6>>.
+    Found 1-bit register for signal <phase_angle_q16<4><5>>.
+    Found 1-bit register for signal <phase_angle_q16<4><4>>.
+    Found 1-bit register for signal <phase_angle_q16<4><3>>.
+    Found 1-bit register for signal <phase_angle_q16<4><2>>.
+    Found 1-bit register for signal <phase_angle_q16<4><1>>.
+    Found 1-bit register for signal <phase_angle_q16<4><0>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><17>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><16>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><15>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><14>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><13>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><12>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><11>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><10>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><9>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><8>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><7>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><6>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><5>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><4>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><3>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><2>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><1>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><0>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><17>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><16>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><15>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><14>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><13>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><12>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><11>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><10>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><9>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><8>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><7>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><6>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><5>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><4>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><3>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><2>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><1>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><0>>.
+    Found 1-bit register for signal <cordic_busy>.
+    Found 18-bit subtractor for signal <cordic_sin_S18_Q17[0][17]_unary_minus_35_OUT> created at line 131.
+    Found 32-bit subtractor for signal <theta_deg_q16[31]_phase_offset_q16[1][31]_sub_38_OUT> created at line 111.
+    Found 18-bit subtractor for signal <cordic_sin_S18_Q17[1][17]_unary_minus_42_OUT> created at line 131.
+    Found 32-bit subtractor for signal <theta_deg_q16[31]_phase_offset_q16[2][31]_sub_45_OUT> created at line 111.
+    Found 18-bit subtractor for signal <cordic_sin_S18_Q17[2][17]_unary_minus_49_OUT> created at line 131.
+    Found 32-bit subtractor for signal <theta_deg_q16[31]_phase_offset_q16[3][31]_sub_52_OUT> created at line 111.
+    Found 18-bit subtractor for signal <cordic_sin_S18_Q17[3][17]_unary_minus_56_OUT> created at line 131.
+    Found 32-bit subtractor for signal <theta_deg_q16[31]_phase_offset_q16[4][31]_sub_59_OUT> created at line 111.
+    Found 18-bit subtractor for signal <cordic_sin_S18_Q17[4][17]_unary_minus_63_OUT> created at line 131.
+    Found 32-bit adder for signal <n0913> created at line 49.
+    Found 32-bit adder for signal <n0916> created at line 49.
+    Found 32-bit adder for signal <n0919> created at line 49.
+    Found 32-bit adder for signal <temp_S32_Q15> created at line 49.
+    Found 32-bit adder for signal <epos_count[24]_epos_count[26]_add_11_OUT> created at line 85.
+    Found 32-bit adder for signal <epos_count[27]_epos_count[29]_add_12_OUT> created at line 86.
+    Found 32-bit adder for signal <theta_coarse_q16[31]_theta_fine_q16[31]_add_16_OUT> created at line 89.
+    Found 5-bit adder for signal <Time_cnt[4]_GND_31_o_add_66_OUT> created at line 190.
+    Summary:
+	inferred  17 Adder/Subtractor(s).
+	inferred 812 D-type flip-flop(s).
+	inferred  92 Multiplexer(s).
+Unit <BackEMF> synthesized.
+
+Synthesizing Unit <CORDIC_STANDALONE>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\CORDIC_STANDALONE.v".
+WARNING:Xst:2999 - Signal 'atan', unconnected in block 'CORDIC_STANDALONE', is tied to its initial value.
+    Found 16x32-bit single-port Read Only RAM <Mram_atan> for signal <atan>.
+    Found 1-bit register for signal <isDone>.
+    Found 1-bit register for signal <busy>.
+    Found 32-bit register for signal <y>.
+    Found 32-bit register for signal <deg>.
+    Found 32-bit register for signal <normalized_angle>.
+    Found 32-bit register for signal <x>.
+    Found 18-bit register for signal <cos_out>.
+    Found 18-bit register for signal <sin_out>.
+    Found 8-bit register for signal <i>.
+    Found 2-bit register for signal <quadrant>.
+    Found 32-bit subtractor for signal <x[31]_unary_minus_2_OUT> created at line 170.
+    Found 32-bit subtractor for signal <y[31]_unary_minus_5_OUT> created at line 171.
+    Found 32-bit subtractor for signal <iData[31]_GND_32_o_sub_11_OUT> created at line 203.
+    Found 32-bit subtractor for signal <iData[31]_GND_32_o_sub_16_OUT> created at line 211.
+    Found 32-bit subtractor for signal <x[31]_y[31]_sub_31_OUT> created at line 230.
+    Found 32-bit subtractor for signal <deg[31]_GND_32_o_sub_37_OUT> created at line 232.
+    Found 9-bit subtractor for signal <GND_32_o_GND_32_o_sub_41_OUT> created at line 235.
+    Found 32-bit subtractor for signal <y[31]_x[31]_sub_43_OUT> created at line 235.
+    Found 32-bit adder for signal <iData[31]_GND_32_o_add_13_OUT> created at line 207.
+    Found 32-bit adder for signal <iData[31]_GND_32_o_add_16_OUT> created at line 215.
+    Found 8-bit adder for signal <i[7]_GND_32_o_add_49_OUT> created at line 226.
+    Found 32-bit adder for signal <y[31]_x[31]_add_33_OUT> created at line 231.
+    Found 32-bit adder for signal <x[31]_y[31]_add_39_OUT> created at line 234.
+    Found 32-bit adder for signal <deg[31]_GND_32_o_add_45_OUT> created at line 236.
+    Found 32-bit shifter arithmetic right for signal <n0227> created at line 234
+    Found 32-bit shifter arithmetic right for signal <n0224> created at line 235
+    Found 32-bit comparator greater for signal <n0008> created at line 197
+    Found 32-bit comparator greater for signal <n0010> created at line 197
+    Found 32-bit comparator greater for signal <n0014> created at line 201
+    Found 32-bit comparator lessequal for signal <n0019> created at line 205
+    Found 32-bit comparator greater for signal <deg[31]_GND_32_o_LessThan_28_o> created at line 229
+    Found 32-bit comparator lessequal for signal <n0052> created at line 243
+    Found 32-bit comparator lessequal for signal <n0054> created at line 245
+    Found 32-bit comparator lessequal for signal <n0058> created at line 250
+    Found 32-bit comparator lessequal for signal <n0060> created at line 252
+    Summary:
+	inferred   1 RAM(s).
+	inferred   8 Adder/Subtractor(s).
+	inferred 176 D-type flip-flop(s).
+	inferred   9 Comparator(s).
+	inferred  33 Multiplexer(s).
+	inferred   2 Combinational logic shifter(s).
+Unit <CORDIC_STANDALONE> synthesized.
+
+Synthesizing Unit <clk300MHz>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\clk300MHz.v".
+    Summary:
+	no macro.
+Unit <clk300MHz> synthesized.
+
+Synthesizing Unit <pll300MHz>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\ipcore_dir\pll300MHz.v".
+    Summary:
+	no macro.
+Unit <pll300MHz> synthesized.
+
+Synthesizing Unit <In2Out>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\In2Out.v".
+    Summary:
+	no macro.
+Unit <In2Out> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x32-bit single-port Read Only RAM                   : 5
+# Adders/Subtractors                                   : 131
+ 16-bit adder                                          : 2
+ 16-bit subtractor                                     : 1
+ 18-bit subtractor                                     : 5
+ 21-bit adder                                          : 6
+ 32-bit adder                                          : 7
+ 32-bit addsub                                         : 20
+ 32-bit subtractor                                     : 14
+ 35-bit adder                                          : 8
+ 35-bit subtractor                                     : 36
+ 36-bit subtractor                                     : 1
+ 38-bit adder                                          : 8
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 3
+ 53-bit adder                                          : 5
+ 56-bit adder                                          : 2
+ 6-bit adder                                           : 2
+ 8-bit adder                                           : 5
+ 9-bit subtractor                                      : 5
+# Registers                                            : 508
+ 1-bit register                                        : 359
+ 16-bit register                                       : 28
+ 18-bit register                                       : 16
+ 2-bit register                                        : 5
+ 21-bit register                                       : 1
+ 32-bit register                                       : 23
+ 35-bit register                                       : 51
+ 36-bit register                                       : 1
+ 37-bit register                                       : 1
+ 4-bit register                                        : 3
+ 5-bit register                                        : 3
+ 53-bit register                                       : 10
+ 6-bit register                                        : 2
+ 8-bit register                                        : 5
+# Comparators                                          : 51
+ 26-bit comparator greater                             : 2
+ 32-bit comparator greater                             : 20
+ 32-bit comparator lessequal                           : 25
+ 35-bit comparator greater                             : 2
+ 37-bit comparator greater                             : 2
+# Multiplexers                                         : 303
+ 1-bit 2-to-1 multiplexer                              : 108
+ 16-bit 2-to-1 multiplexer                             : 2
+ 18-bit 2-to-1 multiplexer                             : 21
+ 2-bit 2-to-1 multiplexer                              : 10
+ 32-bit 2-to-1 multiplexer                             : 110
+ 35-bit 2-to-1 multiplexer                             : 34
+ 4-bit 2-to-1 multiplexer                              : 7
+ 5-bit 2-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 10
+# Logic shifters                                       : 10
+ 32-bit shifter arithmetic right                       : 10
+# Tristates                                            : 16
+ 1-bit tristate buffer                                 : 16
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <../../ipcore_dir/mul18x35_1225_BySunY.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <../../ipcore_dir/mul_inductor_2.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <../../ipcore_dir/division5.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <../../ipcore_dir/MUL18x18_bEMF.ngc>.
+Reading Secure Unit <blk00000001>.
+Loading core <mul18x35_1225_BySunY> for timing and area information for instance <u_mul_inductor>.
+Loading core <mul_inductor_2> for timing and area information for instance <u_mul_inductor>.
+Loading core <division5> for timing and area information for instance <u_division5>.
+Loading core <MUL18x18_bEMF> for timing and area information for instance <u_mul1>.
+INFO:Xst:2261 - The FF/Latch <RxI3_S35_32> in Unit <u_inductor> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI3_S35_33> <RxI3_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI1_S35_32> in Unit <u_inductor> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI1_S35_33> <RxI1_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI2_S35_32> in Unit <u_inductor> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI2_S35_33> <RxI2_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI5_S35_32> in Unit <u_inductor_de> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI5_S35_33> <RxI5_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI4_S35_32> in Unit <u_inductor_de> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI4_S35_33> <RxI4_S35_34> 
+INFO:Xst:2261 - The FF/Latch <mul_a_0> in Unit <u_phase_average> is equivalent to the following 8 FFs/Latches, which will be removed : <mul_a_2> <mul_a_5> <mul_a_6> <mul_a_9> <mul_a_10> <mul_a_13> <mul_a_14> <mul_a_17> 
+INFO:Xst:2261 - The FF/Latch <mul_a_1> in Unit <u_phase_average> is equivalent to the following 8 FFs/Latches, which will be removed : <mul_a_3> <mul_a_4> <mul_a_7> <mul_a_8> <mul_a_11> <mul_a_12> <mul_a_15> <mul_a_16> 
+INFO:Xst:2261 - The FF/Latch <TMP_eB_S35_Q17_27> in Unit <u_back_EMF> is equivalent to the following 7 FFs/Latches, which will be removed : <TMP_eB_S35_Q17_28> <TMP_eB_S35_Q17_29> <TMP_eB_S35_Q17_30> <TMP_eB_S35_Q17_31> <TMP_eB_S35_Q17_32> <TMP_eB_S35_Q17_33> <TMP_eB_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <TMP_eC_S35_Q17_27> in Unit <u_back_EMF> is equivalent to the following 7 FFs/Latches, which will be removed : <TMP_eC_S35_Q17_28> <TMP_eC_S35_Q17_29> <TMP_eC_S35_Q17_30> <TMP_eC_S35_Q17_31> <TMP_eC_S35_Q17_32> <TMP_eC_S35_Q17_33> <TMP_eC_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <TMP_eD_S35_Q17_27> in Unit <u_back_EMF> is equivalent to the following 7 FFs/Latches, which will be removed : <TMP_eD_S35_Q17_28> <TMP_eD_S35_Q17_29> <TMP_eD_S35_Q17_30> <TMP_eD_S35_Q17_31> <TMP_eD_S35_Q17_32> <TMP_eD_S35_Q17_33> <TMP_eD_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <TMP_eA_S35_Q17_27> in Unit <u_back_EMF> is equivalent to the following 7 FFs/Latches, which will be removed : <TMP_eA_S35_Q17_28> <TMP_eA_S35_Q17_29> <TMP_eA_S35_Q17_30> <TMP_eA_S35_Q17_31> <TMP_eA_S35_Q17_32> <TMP_eA_S35_Q17_33> <TMP_eA_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eE_S35_Q17_27> in Unit <u_back_EMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eE_S35_Q17_28> <eE_S35_Q17_29> <eE_S35_Q17_30> <eE_S35_Q17_31> <eE_S35_Q17_32> <eE_S35_Q17_33> <eE_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eD_S35_Q17_27> in Unit <u_back_EMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eD_S35_Q17_28> <eD_S35_Q17_29> <eD_S35_Q17_30> <eD_S35_Q17_31> <eD_S35_Q17_32> <eD_S35_Q17_33> <eD_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eA_S35_Q17_27> in Unit <u_back_EMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eA_S35_Q17_28> <eA_S35_Q17_29> <eA_S35_Q17_30> <eA_S35_Q17_31> <eA_S35_Q17_32> <eA_S35_Q17_33> <eA_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eB_S35_Q17_27> in Unit <u_back_EMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eB_S35_Q17_28> <eB_S35_Q17_29> <eB_S35_Q17_30> <eB_S35_Q17_31> <eB_S35_Q17_32> <eB_S35_Q17_33> <eB_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eC_S35_Q17_27> in Unit <u_back_EMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eC_S35_Q17_28> <eC_S35_Q17_29> <eC_S35_Q17_30> <eC_S35_Q17_31> <eC_S35_Q17_32> <eC_S35_Q17_33> <eC_S35_Q17_34> 
+WARNING:Xst:1293 - FF/Latch <mul_a1_16> has a constant value of 0 in block <u_inductor_de>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <mul_a1_17> has a constant value of 0 in block <u_inductor_de>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <mul_a_0> (without init value) has a constant value of 0 in block <u_phase_average>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <diff_stage1_S36_Q17_35> of sequential type is unconnected in block <u_neutral_voltage>.
+WARNING:Xst:2404 -  FFs/Latches <mul_a<17:17>> (without init value) have a constant value of 0 in block <add5ov5>.
+
+Synthesizing (advanced) Unit <BackEMF>.
+The following registers are absorbed into counter <Time_cnt>: 1 register on signal <Time_cnt>.
+	The following adders/subtractors are grouped into adder tree <Madd_temp_S32_Q151> :
+ 	<Madd_n0913> in block <BackEMF>, 	<Madd_n0916> in block <BackEMF>, 	<Madd_n0919> in block <BackEMF>, 	<Madd_temp_S32_Q15> in block <BackEMF>.
+Unit <BackEMF> synthesized (advanced).
+
+Synthesizing (advanced) Unit <CORDIC_STANDALONE>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_atan> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 32-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <GND_32_o_GND_32_o_sub_41_OUT<3:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <CORDIC_STANDALONE> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Inductor>.
+The following registers are absorbed into accumulator <x_13>: 1 register on signal <x_13>.
+The following registers are absorbed into accumulator <x_14>: 1 register on signal <x_14>.
+The following registers are absorbed into accumulator <x_15>: 1 register on signal <x_15>.
+The following registers are absorbed into counter <Time_cnt>: 1 register on signal <Time_cnt>.
+	The following adders/subtractors are grouped into adder tree <Msub_UAO_P_S35[34]_bEMF_A_S35_Q17[34]_sub_32_OUT1> :
+ 	<Msub_UAO_P_S35[34]_UAO_N_S35[34]_sub_30_OUT> in block <Inductor>, 	<Msub_UAO_P_S35[34]_RxI1_S35[34]_sub_31_OUT> in block <Inductor>, 	<Msub_UAO_P_S35[34]_bEMF_A_S35_Q17[34]_sub_32_OUT> in block <Inductor>.
+	The following adders/subtractors are grouped into adder tree <Msub_UBO_P_S35[34]_bEMF_B_S35_Q17[34]_sub_36_OUT1> :
+ 	<Msub_UBO_P_S35[34]_UBO_N_S35[34]_sub_34_OUT> in block <Inductor>, 	<Msub_UBO_P_S35[34]_RxI2_S35[34]_sub_35_OUT> in block <Inductor>, 	<Msub_UBO_P_S35[34]_bEMF_B_S35_Q17[34]_sub_36_OUT> in block <Inductor>.
+	The following adders/subtractors are grouped into adder tree <Msub_UCO_P_S35[34]_bEMF_C_S35_Q17[34]_sub_40_OUT1> :
+ 	<Msub_UCO_P_S35[34]_UCO_N_S35[34]_sub_38_OUT> in block <Inductor>, 	<Msub_UCO_P_S35[34]_RxI3_S35[34]_sub_39_OUT> in block <Inductor>, 	<Msub_UCO_P_S35[34]_bEMF_C_S35_Q17[34]_sub_40_OUT> in block <Inductor>.
+Unit <Inductor> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Inductor_DE>.
+The following registers are absorbed into accumulator <x_16>: 1 register on signal <x_16>.
+The following registers are absorbed into accumulator <x_17>: 1 register on signal <x_17>.
+The following registers are absorbed into counter <Time_cnt>: 1 register on signal <Time_cnt>.
+	The following adders/subtractors are grouped into adder tree <Msub_UDO_P_S35[34]_bEMF_D_S35_Q17[34]_sub_32_OUT1> :
+ 	<Msub_UDO_P_S35[34]_UDO_N_S35[34]_sub_30_OUT> in block <Inductor_DE>, 	<Msub_UDO_P_S35[34]_RxI4_S35[34]_sub_31_OUT> in block <Inductor_DE>, 	<Msub_UDO_P_S35[34]_bEMF_D_S35_Q17[34]_sub_32_OUT> in block <Inductor_DE>.
+	The following adders/subtractors are grouped into adder tree <Msub_UEO_P_S35[34]_bEMF_E_S35_Q17[34]_sub_36_OUT1> :
+ 	<Msub_UEO_P_S35[34]_UEO_N_S35[34]_sub_34_OUT> in block <Inductor_DE>, 	<Msub_UEO_P_S35[34]_RxI5_S35[34]_sub_35_OUT> in block <Inductor_DE>, 	<Msub_UEO_P_S35[34]_bEMF_E_S35_Q17[34]_sub_36_OUT> in block <Inductor_DE>.
+Unit <Inductor_DE> synthesized (advanced).
+
+Synthesizing (advanced) Unit <add5ov5>.
+The following registers are absorbed into counter <Time_cnt>: 1 register on signal <Time_cnt>.
+	The following adders/subtractors are grouped into adder tree <Madd_sum1_S38_Q171> :
+ 	<Madd_n0161> in block <add5ov5>, 	<Madd_n0164> in block <add5ov5>, 	<Madd_n0167> in block <add5ov5>, 	<Madd_sum1_S38_Q17> in block <add5ov5>.
+	The following adders/subtractors are grouped into adder tree <Madd_sum2_S38_Q171> :
+ 	<Madd_n0173> in block <add5ov5>, 	<Madd_n0176> in block <add5ov5>, 	<Madd_n0179> in block <add5ov5>, 	<Madd_sum2_S38_Q17> in block <add5ov5>.
+Unit <add5ov5> synthesized (advanced).
+
+Synthesizing (advanced) Unit <inv_phi2_HB_DE>.
+The following registers are absorbed into counter <Time_cnt>: 1 register on signal <Time_cnt>.
+Unit <inv_phi2_HB_DE> synthesized (advanced).
+
+Synthesizing (advanced) Unit <inv_phi3_HB>.
+The following registers are absorbed into counter <Time_cnt>: 1 register on signal <Time_cnt>.
+Unit <inv_phi3_HB> synthesized (advanced).
+WARNING:Xst:2677 - Node <diff_stage1_S36_Q17_35> of sequential type is unconnected in block <Volt_N_calc>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x32-bit single-port distributed Read Only RAM       : 5
+# Adders/Subtractors                                   : 85
+ 16-bit subtractor                                     : 1
+ 18-bit subtractor                                     : 5
+ 21-bit adder                                          : 4
+ 21-bit adder carry in                                 : 1
+ 32-bit adder                                          : 3
+ 32-bit addsub                                         : 20
+ 32-bit subtractor                                     : 14
+ 35-bit adder                                          : 8
+ 35-bit subtractor                                     : 16
+ 36-bit subtractor                                     : 1
+ 56-bit adder                                          : 2
+ 8-bit adder                                           : 5
+ 9-bit subtractor                                      : 5
+# Adder Trees                                          : 8
+ 32-bit / 5-inputs adder tree                          : 1
+ 35-bit / 4-inputs adder tree                          : 5
+ 38-bit / 5-inputs adder tree                          : 2
+# Counters                                             : 6
+ 4-bit up counter                                      : 1
+ 5-bit up counter                                      : 3
+ 6-bit up counter                                      : 2
+# Accumulators                                         : 5
+ 53-bit up accumulator                                 : 5
+# Registers                                            : 3680
+ Flip-Flops                                            : 3680
+# Comparators                                          : 51
+ 26-bit comparator greater                             : 2
+ 32-bit comparator greater                             : 20
+ 32-bit comparator lessequal                           : 25
+ 35-bit comparator greater                             : 2
+ 37-bit comparator greater                             : 2
+# Multiplexers                                         : 427
+ 1-bit 2-to-1 multiplexer                              : 248
+ 16-bit 2-to-1 multiplexer                             : 2
+ 18-bit 2-to-1 multiplexer                             : 21
+ 2-bit 2-to-1 multiplexer                              : 10
+ 32-bit 2-to-1 multiplexer                             : 110
+ 35-bit 2-to-1 multiplexer                             : 20
+ 4-bit 2-to-1 multiplexer                              : 6
+ 8-bit 2-to-1 multiplexer                              : 10
+# Logic shifters                                       : 10
+ 32-bit shifter arithmetic right                       : 10
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <mul_a1_16> has a constant value of 0 in block <Inductor_DE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mul_a1_17> has a constant value of 0 in block <Inductor_DE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <mul_a_0> (without init value) has a constant value of 0 in block <add5ov5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <mul_a_2> (without init value) has a constant value of 0 in block <add5ov5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <mul_a_5> (without init value) has a constant value of 0 in block <add5ov5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <mul_a_6> (without init value) has a constant value of 0 in block <add5ov5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <mul_a_9> (without init value) has a constant value of 0 in block <add5ov5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <mul_a_10> (without init value) has a constant value of 0 in block <add5ov5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <mul_a_13> (without init value) has a constant value of 0 in block <add5ov5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <mul_a_14> (without init value) has a constant value of 0 in block <add5ov5>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <RxI3_S35_32> in Unit <Inductor> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI3_S35_33> <RxI3_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI1_S35_32> in Unit <Inductor> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI1_S35_33> <RxI1_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI2_S35_32> in Unit <Inductor> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI2_S35_33> <RxI2_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI5_S35_32> in Unit <Inductor_DE> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI5_S35_33> <RxI5_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI4_S35_32> in Unit <Inductor_DE> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI4_S35_33> <RxI4_S35_34> 
+INFO:Xst:2261 - The FF/Latch <mul_a_1> in Unit <add5ov5> is equivalent to the following 8 FFs/Latches, which will be removed : <mul_a_3> <mul_a_4> <mul_a_7> <mul_a_8> <mul_a_11> <mul_a_12> <mul_a_15> <mul_a_16> 
+INFO:Xst:2261 - The FF/Latch <TMP_eB_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <TMP_eB_S35_Q17_28> <TMP_eB_S35_Q17_29> <TMP_eB_S35_Q17_30> <TMP_eB_S35_Q17_31> <TMP_eB_S35_Q17_32> <TMP_eB_S35_Q17_33> <TMP_eB_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <TMP_eC_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <TMP_eC_S35_Q17_28> <TMP_eC_S35_Q17_29> <TMP_eC_S35_Q17_30> <TMP_eC_S35_Q17_31> <TMP_eC_S35_Q17_32> <TMP_eC_S35_Q17_33> <TMP_eC_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <TMP_eD_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <TMP_eD_S35_Q17_28> <TMP_eD_S35_Q17_29> <TMP_eD_S35_Q17_30> <TMP_eD_S35_Q17_31> <TMP_eD_S35_Q17_32> <TMP_eD_S35_Q17_33> <TMP_eD_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <TMP_eA_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <TMP_eA_S35_Q17_28> <TMP_eA_S35_Q17_29> <TMP_eA_S35_Q17_30> <TMP_eA_S35_Q17_31> <TMP_eA_S35_Q17_32> <TMP_eA_S35_Q17_33> <TMP_eA_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eE_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eE_S35_Q17_28> <eE_S35_Q17_29> <eE_S35_Q17_30> <eE_S35_Q17_31> <eE_S35_Q17_32> <eE_S35_Q17_33> <eE_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eD_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eD_S35_Q17_28> <eD_S35_Q17_29> <eD_S35_Q17_30> <eD_S35_Q17_31> <eD_S35_Q17_32> <eD_S35_Q17_33> <eD_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eA_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eA_S35_Q17_28> <eA_S35_Q17_29> <eA_S35_Q17_30> <eA_S35_Q17_31> <eA_S35_Q17_32> <eA_S35_Q17_33> <eA_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eB_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eB_S35_Q17_28> <eB_S35_Q17_29> <eB_S35_Q17_30> <eB_S35_Q17_31> <eB_S35_Q17_32> <eB_S35_Q17_33> <eB_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eC_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eC_S35_Q17_28> <eC_S35_Q17_29> <eC_S35_Q17_30> <eC_S35_Q17_31> <eC_S35_Q17_32> <eC_S35_Q17_33> <eC_S35_Q17_34> 
+WARNING:Xst:1293 - FF/Latch <Task_No_3> has a constant value of 0 in block <Inductor>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mul_a1_16> has a constant value of 0 in block <Inductor>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mul_a1_17> has a constant value of 0 in block <Inductor>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Task_No_3> has a constant value of 0 in block <Inductor_DE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <low_product_0> (without init value) has a constant value of 0 in block <add5ov5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <low_product_20> (without init value) has a constant value of 0 in block <add5ov5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <theta_coarse_q16_31> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_30> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_29> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_28> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_27> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_26> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_25> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_6> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_5> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_4> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_22> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_23> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_24> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_25> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_26> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_27> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_28> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_29> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_30> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_31> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_31> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_30> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_29> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_28> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_27> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_26> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_1_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_2_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_2_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_2_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_2_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_3_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_3_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_3_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_3_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_4_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_4_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_4_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_4_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_1_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_1_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_1_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_26> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_27> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_28> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_29> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_30> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_31> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <quadrant_1> (without init value) has a constant value of 0 in block <CORDIC_STANDALONE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_6> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_7> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_8> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_9> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_10> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_0> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_1> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_2> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_3> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_4> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_5> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_6> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_7> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_8> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_9> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_10> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_0> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_1> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_2> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_3> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_4> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_5> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_6> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_7> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_8> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_9> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_10> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_0> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_1> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_2> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_3> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_4> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_5> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_6> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_7> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_8> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_9> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_10> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_0> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_1> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_2> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_5> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_4> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_3> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_2> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_1> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_0> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_10> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_9> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_8> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_7> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_6> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_5> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_4> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_3> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Ve_q17_7> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Ve_q17_6> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Ve_q17_5> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Ve_q17_4> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Ve_q17_3> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Ve_q17_2> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Ve_q17_1> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Ve_q17_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_10> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_9> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_8> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_7> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_6> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Ve_q17_8> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Ve_q17_9> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Ve_q17_10> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Vd_q17_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Vd_q17_1> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Vd_q17_2> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Vd_q17_3> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Vd_q17_4> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Vd_q17_5> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Vd_q17_6> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Vd_q17_7> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Vd_q17_8> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Vd_q17_9> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Vd_q17_10> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_1> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_2> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_3> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_4> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_5> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_6> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_7> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_8> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_9> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_10> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_1> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_2> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_3> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_4> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_5> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_6> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_7> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_8> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_9> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_10> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_1> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_2> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_3> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_4> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_5> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:1901 - Instance u_clock/CLOCK/pll_base_inst in unit u_clock/CLOCK/pll_base_inst of type PLL_BASE has been replaced by PLL_ADV
+INFO:Xst:2261 - The FF/Latch <u_inverter/UBO_S35_Q17_28> in Unit <vir5_PMSM> is equivalent to the following 6 FFs/Latches, which will be removed : <u_inverter/UBO_S35_Q17_29> <u_inverter/UBO_S35_Q17_30> <u_inverter/UBO_S35_Q17_31> <u_inverter/UBO_S35_Q17_32> <u_inverter/UBO_S35_Q17_33> <u_inverter/UBO_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/UDO_S35_Q17_28> in Unit <vir5_PMSM> is equivalent to the following 6 FFs/Latches, which will be removed : <u_inverter_de/UDO_S35_Q17_29> <u_inverter_de/UDO_S35_Q17_30> <u_inverter_de/UDO_S35_Q17_31> <u_inverter_de/UDO_S35_Q17_32> <u_inverter_de/UDO_S35_Q17_33> <u_inverter_de/UDO_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/UEO_S35_Q17_28> in Unit <vir5_PMSM> is equivalent to the following 6 FFs/Latches, which will be removed : <u_inverter_de/UEO_S35_Q17_29> <u_inverter_de/UEO_S35_Q17_30> <u_inverter_de/UEO_S35_Q17_31> <u_inverter_de/UEO_S35_Q17_32> <u_inverter_de/UEO_S35_Q17_33> <u_inverter_de/UEO_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/UCO_S35_Q17_28> in Unit <vir5_PMSM> is equivalent to the following 6 FFs/Latches, which will be removed : <u_inverter/UCO_S35_Q17_29> <u_inverter/UCO_S35_Q17_30> <u_inverter/UCO_S35_Q17_31> <u_inverter/UCO_S35_Q17_32> <u_inverter/UCO_S35_Q17_33> <u_inverter/UCO_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/UAO_S35_Q17_28> in Unit <vir5_PMSM> is equivalent to the following 6 FFs/Latches, which will be removed : <u_inverter/UAO_S35_Q17_29> <u_inverter/UAO_S35_Q17_30> <u_inverter/UAO_S35_Q17_31> <u_inverter/UAO_S35_Q17_32> <u_inverter/UAO_S35_Q17_33> <u_inverter/UAO_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_3_28> in Unit <vir5_PMSM> is equivalent to the following 6 FFs/Latches, which will be removed : <u_inverter/x_3_29> <u_inverter/x_3_30> <u_inverter/x_3_31> <u_inverter/x_3_32> <u_inverter/x_3_33> <u_inverter/x_3_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/Vd_q17_28> in Unit <vir5_PMSM> is equivalent to the following 6 FFs/Latches, which will be removed : <u_inverter_de/Vd_q17_29> <u_inverter_de/Vd_q17_30> <u_inverter_de/Vd_q17_31> <u_inverter_de/Vd_q17_32> <u_inverter_de/Vd_q17_33> <u_inverter_de/Vd_q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/Ve_q17_28> in Unit <vir5_PMSM> is equivalent to the following 6 FFs/Latches, which will be removed : <u_inverter_de/Ve_q17_29> <u_inverter_de/Ve_q17_30> <u_inverter_de/Ve_q17_31> <u_inverter_de/Ve_q17_32> <u_inverter_de/Ve_q17_33> <u_inverter_de/Ve_q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_1_28> in Unit <vir5_PMSM> is equivalent to the following 6 FFs/Latches, which will be removed : <u_inverter/x_1_29> <u_inverter/x_1_30> <u_inverter/x_1_31> <u_inverter/x_1_32> <u_inverter/x_1_33> <u_inverter/x_1_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_2_28> in Unit <vir5_PMSM> is equivalent to the following 6 FFs/Latches, which will be removed : <u_inverter/x_2_29> <u_inverter/x_2_30> <u_inverter/x_2_31> <u_inverter/x_2_32> <u_inverter/x_2_33> <u_inverter/x_2_34> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_4> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_4> <phase_angle_q16_2_4> <phase_angle_q16_3_4> <phase_angle_q16_4_4> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_5> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_5> <phase_angle_q16_2_5> <phase_angle_q16_3_5> <phase_angle_q16_4_5> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_6> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_6> <phase_angle_q16_2_6> <phase_angle_q16_3_6> <phase_angle_q16_4_6> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_7> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_7> <phase_angle_q16_2_7> <phase_angle_q16_3_7> <phase_angle_q16_4_7> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_10> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_10> <phase_angle_q16_2_10> <phase_angle_q16_3_10> <phase_angle_q16_4_10> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_8> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_8> <phase_angle_q16_2_8> <phase_angle_q16_3_8> <phase_angle_q16_4_8> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_11> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_11> <phase_angle_q16_2_11> <phase_angle_q16_3_11> <phase_angle_q16_4_11> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_9> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_9> <phase_angle_q16_2_9> <phase_angle_q16_3_9> <phase_angle_q16_4_9> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_12> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_12> <phase_angle_q16_2_12> <phase_angle_q16_3_12> <phase_angle_q16_4_12> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_13> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_13> <phase_angle_q16_2_13> <phase_angle_q16_3_13> <phase_angle_q16_4_13> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_14> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_14> <phase_angle_q16_2_14> <phase_angle_q16_3_14> <phase_angle_q16_4_14> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_20> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <phase_angle_q16_4_20> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_15> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_15> <phase_angle_q16_2_15> <phase_angle_q16_3_15> <phase_angle_q16_4_15> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_16> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_16> <phase_angle_q16_2_16> <phase_angle_q16_3_16> <phase_angle_q16_4_16> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_17> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_17> <phase_angle_q16_2_17> <phase_angle_q16_3_17> <phase_angle_q16_4_17> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_18> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_18> <phase_angle_q16_2_18> <phase_angle_q16_3_18> <phase_angle_q16_4_18> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_19> in Unit <BackEMF> is equivalent to the following 2 FFs/Latches, which will be removed : <phase_angle_q16_2_19> <phase_angle_q16_4_19> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_4> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_7> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_5> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_8> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_4_31> in Unit <BackEMF> is equivalent to the following 5 FFs/Latches, which will be removed : <phase_angle_q16_4_30> <phase_angle_q16_4_29> <phase_angle_q16_4_28> <phase_angle_q16_4_27> <phase_angle_q16_4_26> 
+
+Optimizing unit <vir5_PMSM> ...
+
+Optimizing unit <Inductor> ...
+
+Optimizing unit <Inductor_DE> ...
+
+Optimizing unit <add5ov5> ...
+
+Optimizing unit <Volt_N_calc> ...
+
+Optimizing unit <BackEMF> ...
+
+Optimizing unit <CORDIC_STANDALONE> ...
+WARNING:Xst:1710 - FF/Latch <i_5> (without init value) has a constant value of 0 in block <CORDIC_STANDALONE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <i_6> (without init value) has a constant value of 0 in block <CORDIC_STANDALONE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <i_7> (without init value) has a constant value of 0 in block <CORDIC_STANDALONE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_17> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_16> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_15> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_14> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_13> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_12> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_11> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_10> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_9> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_8> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_7> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_6> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_5> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_4> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_3> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_2> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_1> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/cos_out_0> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_17> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_16> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_15> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_14> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_13> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_12> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_11> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_10> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_9> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_8> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_7> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_6> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_5> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_4> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_3> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_2> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_1> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/cos_out_0> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_17> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_16> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_15> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_14> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_13> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_12> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_11> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_10> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_9> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_8> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_7> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_6> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_5> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_4> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_3> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_2> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_1> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/cos_out_0> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_17> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_16> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_15> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_14> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_13> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_12> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_11> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_10> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_9> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_8> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_7> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_6> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_5> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_4> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_3> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_2> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_1> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/cos_out_0> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_17> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_16> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_15> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_14> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_13> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_12> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_11> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_10> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_9> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_8> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_7> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_6> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_5> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_4> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_3> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_2> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_1> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:2677 - Node <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_out_0> of sequential type is unconnected in block <vir5_PMSM>.
+WARNING:Xst:1710 - FF/Latch <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/normalized_angle_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/normalized_angle_1> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/normalized_angle_2> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/normalized_angle_3> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/normalized_angle_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/normalized_angle_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/normalized_angle_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inductor_de/Time_cnt_5> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inductor/Time_cnt_5> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_11> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_11> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_11> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_11> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_11> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Vd_q17_11> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/Ve_q17_11> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_11> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_11> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_11> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_3_27> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_28> 
+INFO:Xst:2261 - The FF/Latch <u_phase_average/low_product_4> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_phase_average/low_product_16> 
+INFO:Xst:2261 - The FF/Latch <u_phase_average/low_product_5> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_phase_average/low_product_17> 
+INFO:Xst:2261 - The FF/Latch <u_phase_average/low_product_6> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_phase_average/low_product_18> 
+INFO:Xst:2261 - The FF/Latch <u_phase_average/low_product_7> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_phase_average/low_product_15> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/UCO_S35_Q17_27> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/UCO_S35_Q17_28> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/Time_cnt_0> in Unit <vir5_PMSM> is equivalent to the following 3 FFs/Latches, which will be removed : <u_inverter_de/Time_cnt_0> <u_inductor/Time_cnt_0> <u_inductor_de/Time_cnt_0> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/Time_cnt_1> in Unit <vir5_PMSM> is equivalent to the following 3 FFs/Latches, which will be removed : <u_inverter_de/Time_cnt_1> <u_inductor/Time_cnt_1> <u_inductor_de/Time_cnt_1> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/Time_cnt_2> in Unit <vir5_PMSM> is equivalent to the following 3 FFs/Latches, which will be removed : <u_inverter_de/Time_cnt_2> <u_inductor/Time_cnt_2> <u_inductor_de/Time_cnt_2> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/Time_cnt_3> in Unit <vir5_PMSM> is equivalent to the following 3 FFs/Latches, which will be removed : <u_inverter_de/Time_cnt_3> <u_inductor/Time_cnt_3> <u_inductor_de/Time_cnt_3> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/Time_cnt_4> in Unit <vir5_PMSM> is equivalent to the following 3 FFs/Latches, which will be removed : <u_inverter_de/Time_cnt_4> <u_inductor/Time_cnt_4> <u_inductor_de/Time_cnt_4> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_10> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_13> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_11> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_14> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_12> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_15> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_13> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_16> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_14> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_17> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/normalized_angle_31> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/normalized_angle_30> <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/normalized_angle_29> <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/normalized_angle_28> <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/normalized_angle_27> <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/normalized_angle_26> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_20> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_23> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_15> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_18> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_21> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_24> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_16> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_19> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_20> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_18> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_21> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_19> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_22> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_31> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_30> <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_29> <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_28> <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_27> <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_26> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/phase_angle_q16_2_26> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_back_EMF/phase_angle_q16_2_27> <u_back_EMF/phase_angle_q16_2_29> <u_back_EMF/phase_angle_q16_2_30> <u_back_EMF/phase_angle_q16_2_28> <u_back_EMF/phase_angle_q16_2_31> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_coarse_q16_9> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_fine_q16_6> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/normalized_angle_3> in Unit <vir5_PMSM> is equivalent to the following 2 FFs/Latches, which will be removed : <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/normalized_angle_2> <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/normalized_angle_1> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/normalized_angle_31> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/normalized_angle_30> <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/normalized_angle_29> <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/normalized_angle_28> <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/normalized_angle_27> <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/normalized_angle_26> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_2_27> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_2_28> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/normalized_angle_31> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/normalized_angle_30> <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/normalized_angle_29> <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/normalized_angle_28> <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/normalized_angle_27> <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/normalized_angle_26> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/UAO_S35_Q17_27> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/UAO_S35_Q17_28> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/normalized_angle_31> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/normalized_angle_30> <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/normalized_angle_29> <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/normalized_angle_28> <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/normalized_angle_27> <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/normalized_angle_26> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/normalized_angle_3> in Unit <vir5_PMSM> is equivalent to the following 2 FFs/Latches, which will be removed : <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/normalized_angle_2> <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/normalized_angle_1> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/normalized_angle_3> in Unit <vir5_PMSM> is equivalent to the following 2 FFs/Latches, which will be removed : <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/normalized_angle_2> <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/normalized_angle_1> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/phase_angle_q16_1_26> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_back_EMF/phase_angle_q16_1_27> <u_back_EMF/phase_angle_q16_1_28> <u_back_EMF/phase_angle_q16_1_29> <u_back_EMF/phase_angle_q16_1_30> <u_back_EMF/phase_angle_q16_1_31> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_7> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_10> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_8> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_11> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_9> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_12> 
+INFO:Xst:2261 - The FF/Latch <u_phase_average/mul_b_34> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_phase_average/mul_b_33> <u_phase_average/mul_b_32> <u_phase_average/mul_b_31> <u_phase_average/mul_b_30> <u_phase_average/mul_b_29> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_1_27> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_1_28> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/UBO_S35_Q17_27> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/UBO_S35_Q17_28> 
+INFO:Xst:2261 - The FF/Latch <u_inductor/Task_No_0> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor_de/Task_No_0> 
+INFO:Xst:2261 - The FF/Latch <u_inductor/Task_No_1> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor_de/Task_No_1> 
+INFO:Xst:2261 - The FF/Latch <u_inductor/Task_No_2> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor_de/Task_No_2> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_3> in Unit <vir5_PMSM> is equivalent to the following 2 FFs/Latches, which will be removed : <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_2> <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/normalized_angle_1> 
+INFO:TclTasksC:1850 - process run : Synthesize - XST is done.
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/phase_angle_q16_3_19> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/phase_angle_q16_1_19> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/phase_angle_q16_3_26> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_back_EMF/phase_angle_q16_3_27> <u_back_EMF/phase_angle_q16_3_28> <u_back_EMF/phase_angle_q16_3_29> <u_back_EMF/phase_angle_q16_3_30> <u_back_EMF/phase_angle_q16_3_31> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/clk_10MHz> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/clk_10MHz> 
+INFO:Xst:3203 - The FF/Latch <u_inductor/Task_No_2> in Unit <vir5_PMSM> is the opposite to the following 2 FFs/Latches, which will be removed : <u_inductor/clk_10MHz> <u_inductor_de/clk_10MHz> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block vir5_PMSM, actual ratio is 49.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 3344
+ Flip-Flops                                            : 3344
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+u_inverter/clk_10MHz               | BUFG                   | 164   |
+u_clock/CLOCK/pll_base_inst/CLKOUT2| BUFG                   | 2522  |
+u_clock/CLOCK/pll_base_inst/CLKOUT1| BUFG                   | 275   |
+u_inductor/Task_No_2               | BUFG                   | 440   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 12.351ns (Maximum Frequency: 80.965MHz)
+   Minimum input arrival time before clock: 8.881ns
+   Maximum output required time after clock: 9.276ns
+   Maximum combinational path delay: 14.970ns
+
+=========================================================================
+
+Process "Synthesize - XST" completed successfully
+PROJECT_SYNTHESIS_STATUS=up_to_date

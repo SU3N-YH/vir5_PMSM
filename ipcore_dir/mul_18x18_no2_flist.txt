@@ -1,0 +1,15 @@
+# Output products list for <mul_18x18_no2>
+_xmsgs\pn_parser.xmsgs
+mul_18x18_no2.asy
+mul_18x18_no2.gise
+mul_18x18_no2.ngc
+mul_18x18_no2.sym
+mul_18x18_no2.v
+mul_18x18_no2.veo
+mul_18x18_no2.xco
+mul_18x18_no2.xise
+mul_18x18_no2\doc\mult_gen_ds255.pdf
+mul_18x18_no2\doc\mult_gen_v11_2_readme.txt
+mul_18x18_no2\doc\mult_gen_v11_2_vinfo.html
+mul_18x18_no2_flist.txt
+mul_18x18_no2_xmdf.tcl

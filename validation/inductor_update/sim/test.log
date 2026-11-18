@@ -1,0 +1,13 @@
+ISim log file
+Running: E:\SUEN27\vir5_PMSM\validation\inductor_update\sim\test.exe -intstyle silent -tclbatch run.tcl -log test.log 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Checked 139 signed/boundary/random vectors for both two-stage IPs
+PASS: five distinct phase slopes, signs and 18-cycle frame cadence
+PASS: D/E PWM inputs independently drive the corresponding inverter voltages
+PASS: multiplier latency, five-phase TDM, PWM and DSP integration
+Stopped at time : 5305262 ps : File "E:/SUEN27/vir5_PMSM/tests/tb_inductor_update.v" Line 153

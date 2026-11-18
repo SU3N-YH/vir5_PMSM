@@ -1,0 +1,1 @@
+-intstyle "silent" -prj "test.prj" -o "test.exe" "work.tb_fsmc" 

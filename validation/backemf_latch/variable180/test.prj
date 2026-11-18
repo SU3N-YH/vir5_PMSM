@@ -1,0 +1,4 @@
+verilog work "E:/SUEN27/vir5_PMSM_V/ipcore_dir/MUL18x18_bEMF.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/tests/cordic_variable_latency.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/BackEMF.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/tests/tb_backemf_latch.v"

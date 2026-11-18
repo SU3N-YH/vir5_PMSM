@@ -1,0 +1,10 @@
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Checked 139 signed multiplier vectors against both generated IPs
+Checked 3600 D/E comparisons with nonzero R, neutral, EMF and independent third phase
+PASS: 3+2 equivalence, multiplier latency, slopes, PWM, dead time, reset and STM32 integration
+Stopped at time : 30489550 ps : File "E:/SUEN27/vir5_PMSM_V/tests/tb_3plus2.v" Line 188
+PASS: structural-IP regression. Log: E:\SUEN27\vir5_PMSM_V\validation\three_plus_two\sim\test.log

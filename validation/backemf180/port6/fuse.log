@@ -1,0 +1,22 @@
+Running: E:\SUEN27\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle silent -prj test.prj -L unisims_ver -o tb_cordic180_equivalence.exe work.tb_cordic180_equivalence work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/MUL18x18_bEMF.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/CORDIC_STANDALONE.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/BackEMF.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/PCI.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/tests/tb_backemf_port6.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/tests/tb_cordic180_equivalence.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module CORDIC_STANDALONE
+Compiling module BackEMF_CORDIC180
+Compiling module tb_cordic180_equivalence
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 4 Verilog Units
+Built simulation executable tb_cordic180_equivalence.exe
+Fuse Memory Usage: 30668 KB
+Fuse CPU Usage: 156 ms

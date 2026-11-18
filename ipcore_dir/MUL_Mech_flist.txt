@@ -1,0 +1,15 @@
+# Output products list for <MUL_Mech>
+MUL_Mech.asy
+MUL_Mech.gise
+MUL_Mech.ngc
+MUL_Mech.sym
+MUL_Mech.v
+MUL_Mech.veo
+MUL_Mech.xco
+MUL_Mech.xise
+MUL_Mech\doc\mult_gen_ds255.pdf
+MUL_Mech\doc\mult_gen_v11_2_readme.txt
+MUL_Mech\doc\mult_gen_v11_2_vinfo.html
+MUL_Mech_flist.txt
+MUL_Mech_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

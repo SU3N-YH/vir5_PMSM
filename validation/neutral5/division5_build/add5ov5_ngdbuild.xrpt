@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<document OS="nt64" product="ISE" version="14.7">
+
+  <!--The data in this file is primarily intended for consumption by Xilinx tools.
+    The structure and the elements are likely to change over the next few releases.
+    This means code written to parse this file will need to be revisited each subsequent release.-->
+
+  <application stringID="NgdBuild" timeStamp="Fri Nov 13 13:01:58 2026">
+    <section stringID="User_Env">
+      <table stringID="User_EnvVar">
+        <column stringID="variable"/>
+        <column stringID="value"/>
+        <row stringID="row" value="0">
+          <item stringID="variable" value="PATH"/>
+          <item stringID="value" value="E:\SUEN27\14.7\ISE_DS\ISE\\lib\nt64;E:\SUEN27\14.7\ISE_DS\ISE\\bin\nt64;E:\SUEN27\14.7\ISE_DS\ISE\lib\nt64;E:\SUEN27\14.7\ISE_DS\ISE\bin\nt64;C:\Users\Win10\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Win10\.codex\tmp\arg0-windows\codex-arg0wLRFaZ;C:\Users\Win10\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\Win10\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\Win10\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\Win10\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\TwinCAT\Common64;C:\TwinCAT\Common32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;E:\R2024b\runtime\win64;E:\R2024b\bin;C:\Program Files\nodejs\;C:\Users\Win10\AppData\Local\Microsoft\WindowsApps;E:\SUEN27\Microsoft VS Code\bin;E:\SUEN27\modelsim\win64;E:\SUEN27\Microsoft VS Code\bin\copilot-shim;C:\Users\Win10\AppData\Roaming\npm;C:\Users\Win10\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\Win10\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;C:\Users\Win10\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\Win10\AppData\Local\OpenAI\Codex\bin\fc32aa0651e37f32;C:\Users\Win10\AppData\Local\OpenAI\Codex\bin\9e1da79431da526b"/>
+        </row>
+        <row stringID="row" value="1">
+          <item stringID="variable" value="PATHEXT"/>
+          <item stringID="value" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL"/>
+        </row>
+        <row stringID="row" value="2">
+          <item stringID="variable" value="XILINX"/>
+          <item stringID="value" value="E:\SUEN27\14.7\ISE_DS\ISE\"/>
+        </row>
+      </table>
+      <item stringID="User_EnvOs" value="OS Information">
+        <item stringID="User_EnvOsname" value="Microsoft , 64-bit"/>
+        <item stringID="User_EnvOsrelease" value="major release  (build 9200)"/>
+      </item>
+      <item stringID="User_EnvHost" value="Win10"/>
+      <table stringID="User_EnvCpu">
+        <column stringID="arch"/>
+        <column stringID="speed"/>
+        <row stringID="row" value="0">
+          <item stringID="arch" value="AMD Ryzen 7 9700X 8-Core Processor             "/>
+          <item stringID="speed" value="3793 MHz"/>
+        </row>
+      </table>
+    </section>
+    <task stringID="NGDBUILD_OPTION_SUMMARY">
+      <section stringID="NGDBUILD_OPTION_SUMMARY">
+        <item DEFAULT="None" label="-p" stringID="NGDBUILD_partname" value="xc6slx25-2-ftg256"/>
+        <item DEFAULT="None" label="-sd" stringID="NGDBUILD_search_path" value="E:\SUEN27\vir5_PMSM_V\ipcore_dir"/>
+      </section>
+    </task>
+    <task stringID="NGDBUILD_REPORT">
+      <section stringID="NGDBUILD_DESIGN_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_ERRORS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_WARNINGS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_WARNINGS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_INFOS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INFOS" value="0"/>
+      </section>
+      <section stringID="NGDBUILD_PRE_UNISIM_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_DSP48A1" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="17"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDC" value="61"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDCE" value="143"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDP" value="4"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_GND" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INV" value="4"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT1" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="58"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="288"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="270"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="151"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT6" value="54"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_MUXCY" value="277"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_MUXF7" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_VCC" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_XORCY" value="265"/>
+      </section>
+      <section stringID="NGDBUILD_POST_UNISIM_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_DSP48A1" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="17"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDC" value="61"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDCE" value="143"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDP" value="4"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_GND" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INV" value="4"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT1" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="58"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="288"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="270"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="151"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT6" value="54"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_MUXCY" value="277"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_MUXF7" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_VCC" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_XORCY" value="265"/>
+      </section>
+      <section stringID="NGDBUILD_CORE_SUMMARY">
+        <item COUNT="1" stringID="NGDBUILD_CORE" value="mult_gen_v11_2, Xilinx CORE Generator 14.7"/>
+        <section stringID="NGDBUILD_CORE_GENERATION_SUMMARY">
+          <section stringID="NGDBUILD_CORE_INSTANCES">
+            <scope stringID="NGDBUILD_CORE_INSTANCE" value="division5">
+              <item stringID="NGDBUILD_CORE_INFO" type="mult_gen_v11_2" value="division5"/>
+              <item c_a_type="0" c_a_width="18" c_b_type="0" c_b_value="10000001" c_b_width="35" c_ccm_imp="0" c_ce_overrides_sclr="0" c_has_ce="0" c_has_sclr="0" c_has_zero_detect="0" c_latency="1" c_model_type="0" c_mult_type="1" c_optimize_goal="1" c_out_high="52" c_out_low="0" c_round_output="0" c_round_pt="0" c_verbosity="0" c_xdevicefamily="spartan6" stringID="NGDBUILD_CORE_PARAMETERS" value="division5"/>
+            </scope>
+          </section>
+        </section>
+      </section>
+    </task>
+  </application>
+
+</document>

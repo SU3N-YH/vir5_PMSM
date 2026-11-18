@@ -1,0 +1,13 @@
+set -tmpdir "tmp"
+set -xsthdpdir "xst"
+run
+-ifn division5.prj
+-ifmt mixed
+-ofn add5ov5
+-ofmt NGC
+-p xc6slx25-2-ftg256
+-top add5ov5
+-opt_mode Speed
+-opt_level 1
+-iobuf NO
+-use_dsp48 Auto

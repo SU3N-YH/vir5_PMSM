@@ -1,0 +1,46 @@
+Variant: baseline
+Device: xc6slx25-2-ftg256, routed full top-level design
+Clock: 20 MHz input, PLL-derived 180 MHz, 5.556 ns requirement
+Scope: all paths ending inside u_back_EMF, including PCI inputs
+BackEMF setup endpoint records: 6143
+BackEMF hold endpoint records: 6143
+BackEMF failing endpoint records: 825
+BackEMF minimum setup slack: -2.97 ns
+BackEMF minimum hold slack: 0.43 ns
+
+Worst setup path:
+Paths for end point u_back_EMF/mul_b1_17 (SLICE_X16Y41.C6), 1669 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     -2.970ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u_pci/Data_8_1 (FF)
+  Destination:          u_back_EMF/mul_b1_17 (FF)
+  Requirement:          5.555ns
+  Data Path Delay:      8.385ns (Levels of Logic = 10)
+  Clock Path Skew:      -0.021ns (0.413 - 0.434)
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 5.555ns
+  Clock Uncertainty:    0.119ns
+
+
+Worst hold path:
+Paths for end point u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/isDone (SLICE_X32Y36.D6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.430ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/isDone (FF)
+  Destination:          u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/isDone (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.430ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 0.000ns
+  Clock Uncertainty:    0.000ns
+
+
+Other failing endpoint records by destination module:
+div5: 204
+u_inductor: 254
+u_inductor_de: 408
+
+Other failing paths include consumers of BackEMF outputs.
+This result does not certify top-level timing or asynchronous FMC I/O.
+No false-path or multicycle exception was applied to the BackEMF datapath.

@@ -1,0 +1,29 @@
+Command line:
+   tb_cordic180_equivalence.exe
+     -intstyle  silent
+     -simmode  tcl
+     -simrunnum  0
+     -socket  65161
+
+Mon Nov 16 19:59:28 2026
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5135.21 Meg
+
+ Total Signals          : 38
+ Total Nets             : 413
+ Total Signal Drivers   : 27
+ Total Blocks           : 7
+ Total Primitive Blocks : 4
+ Total Processes        : 35
+ Total Traceable Variables  : 82
+ Total Scalar Nets and Variables : 2015
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 5135.21 Meg
+
+Mon Nov 16 19:59:29 2026
+

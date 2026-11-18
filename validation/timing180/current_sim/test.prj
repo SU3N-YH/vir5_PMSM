@@ -1,0 +1,5 @@
+verilog work "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul18x35_1225_BySunY.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul_inductor_2.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/Inductor.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/Inductor_DE.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/tests/tb_current180.v"

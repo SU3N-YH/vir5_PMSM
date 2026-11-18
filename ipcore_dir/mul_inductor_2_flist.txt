@@ -1,0 +1,13 @@
+# Output products list for <mul_inductor_2>
+mul_inductor_2.asy
+mul_inductor_2.gise
+mul_inductor_2.ngc
+mul_inductor_2.v
+mul_inductor_2.veo
+mul_inductor_2.xco
+mul_inductor_2.xise
+mul_inductor_2\doc\mult_gen_ds255.pdf
+mul_inductor_2\doc\mult_gen_v11_2_readme.txt
+mul_inductor_2\doc\mult_gen_v11_2_vinfo.html
+mul_inductor_2_flist.txt
+mul_inductor_2_xmdf.tcl

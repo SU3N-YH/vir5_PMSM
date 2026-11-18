@@ -1,0 +1,71 @@
+Running: E:\SUEN27\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle silent -prj test.prj -L unisims_ver -o test.exe work.tb_model180 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/pll300MHz.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul_inductor_2.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul18x35_1225_BySunY.v" into library work
+WARNING:HDLCompiler:687 - "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul18x35_1225_BySunY.v" Line 716: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/MUL18x18_bEMF.v" into library work
+WARNING:HDLCompiler:687 - "E:/SUEN27/vir5_PMSM_V/ipcore_dir/MUL18x18_bEMF.v" Line 360: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/division5.v" into library work
+WARNING:HDLCompiler:687 - "E:/SUEN27/vir5_PMSM_V/ipcore_dir/division5.v" Line 716: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Inductor.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/CORDIC_STANDALONE.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Volt_N_calc.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/PCI.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Neg_Pos_converter.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/inv_phi3_HB.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/inv_phi2_HB_DE.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Inductor_DE.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/In2Out.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/clk300MHz.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/BackEMF.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/add5ov5.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/tests/tb_model180.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.v" Line 116: Size mismatch in connection of port <FPGAtoSTM32_Signal_1>. Formal port size is 16-bit while actual signal size is 35-bit.
+WARNING:HDLCompiler:189 - "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.v" Line 117: Size mismatch in connection of port <FPGAtoSTM32_Signal_2>. Formal port size is 16-bit while actual signal size is 35-bit.
+WARNING:HDLCompiler:189 - "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.v" Line 118: Size mismatch in connection of port <FPGAtoSTM32_Signal_3>. Formal port size is 16-bit while actual signal size is 35-bit.
+WARNING:HDLCompiler:189 - "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.v" Line 119: Size mismatch in connection of port <FPGAtoSTM32_Signal_4>. Formal port size is 16-bit while actual signal size is 35-bit.
+WARNING:HDLCompiler:189 - "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.v" Line 120: Size mismatch in connection of port <FPGAtoSTM32_Signal_5>. Formal port size is 16-bit while actual signal size is 35-bit.
+Completed static elaboration
+Compiling module PCI
+Compiling module inv_phi3_HB
+Compiling module inv_phi2_HB_DE
+Compiling module FD
+Compiling module DSP48A1_copy1
+Compiling module DSP48A1_copy2
+Compiling module GND
+Compiling module VCC
+Compiling module mul18x35_1225_BySunY
+Compiling module Inductor_default
+Compiling module mul_inductor_2
+Compiling module Inductor(USE_DE_CORE=1)
+Compiling module Inductor_DE
+Compiling module division5
+Compiling module add5ov5
+Compiling module Volt_N_calc
+Compiling module Neg_Pos_converter
+Compiling module BackEMF_CORDIC180
+Compiling module DSP48A1(B0REG=1,B1REG=0,CARRYINR...
+Compiling module MUL18x18_bEMF
+Compiling module BackEMF
+Compiling module IBUFG
+Compiling module PLL_ADV(BANDWIDTH="OPTIMIZED",CL...
+Compiling module PLL_BASE(CLKFBOUT_MULT=45,CLKIN_...
+Compiling module BUFG
+Compiling module pll300MHz
+Compiling module clk300MHz
+Compiling module In2Out
+Compiling module vir5_PMSM
+Compiling module tb_model180
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 33 Verilog Units
+Built simulation executable test.exe
+Fuse Memory Usage: 50368 KB
+Fuse CPU Usage: 561 ms

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Capacitor">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2026-2-1T7:52:42</timestamp>
+    <attr value="Capacitor" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-672" name="clk_180MHz" />
+    <pin polarity="Input" x="0" y="-608" name="Junction_En" />
+    <pin polarity="Input" x="0" y="-544" name="rst_n" />
+    <pin polarity="Input" x="0" y="-64" name="I1_S35_Q25(34:0)" />
+    <pin polarity="Input" x="0" y="0" name="I2_S35_Q25(34:0)" />
+    <pin polarity="Input" x="0" y="64" name="I3_S35_Q25(34:0)" />
+    <pin polarity="Input" x="0" y="-448" name="U1N_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-384" name="U2N_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-320" name="U3N_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-176" name="I_OV_20xuF_Q18(15:0)" />
+    <pin polarity="Input" x="0" y="-224" name="Res_S16_Q12(15:0)" />
+    <pin polarity="Output" x="592" y="-656" name="Volt1_Q17(34:0)" />
+    <pin polarity="Output" x="592" y="-592" name="Volt2_Q17(34:0)" />
+    <pin polarity="Output" x="592" y="-528" name="Volt3_Q17(34:0)" />
+    <pin polarity="Output" x="592" y="-384" name="Volt1_L15(15:0)" />
+    <pin polarity="Output" x="592" y="-320" name="Volt1_H15(15:0)" />
+    <pin polarity="Output" x="592" y="-256" name="Volt2_L15(15:0)" />
+    <pin polarity="Output" x="592" y="-192" name="Volt2_H15(15:0)" />
+    <pin polarity="Output" x="592" y="-128" name="Volt3_L15(15:0)" />
+    <pin polarity="Output" x="592" y="-64" name="Volt3_H15(15:0)" />
+    <pin polarity="Input" x="0" y="128" name="I0_S35_Q25(34:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="296" y="-712" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-672" type="pin clk_180MHz" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-608" type="pin Junction_En" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-544" type="pin rst_n" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-64" type="pin I1_S35_Q25(34:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="0" type="pin I2_S35_Q25(34:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="64" type="pin I3_S35_Q25(34:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-448" type="pin U1N_S35_Q17(34:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-384" type="pin U2N_S35_Q17(34:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-320" type="pin U3N_S35_Q17(34:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-176" type="pin I_OV_20xuF_Q18(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin Res_S16_Q12(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-656" type="pin Volt1_Q17(34:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-592" type="pin Volt2_Q17(34:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-528" type="pin Volt3_Q17(34:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-384" type="pin Volt1_L15(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-320" type="pin Volt1_H15(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-256" type="pin Volt2_L15(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-192" type="pin Volt2_H15(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-128" type="pin Volt3_L15(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-64" type="pin Volt3_H15(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="128" type="pin I0_S35_Q25(34:0)" />
+        <rect width="64" x="0" y="116" height="24" />
+        <line x2="0" y1="128" y2="128" x1="64" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <line x2="0" y1="-544" y2="-544" x1="64" />
+        <line x2="0" y1="-672" y2="-672" x1="64" />
+        <rect width="64" x="528" y="-668" height="24" />
+        <line x2="592" y1="-656" y2="-656" x1="528" />
+        <rect width="64" x="528" y="-604" height="24" />
+        <line x2="592" y1="-592" y2="-592" x1="528" />
+        <rect width="64" x="528" y="-540" height="24" />
+        <line x2="592" y1="-528" y2="-528" x1="528" />
+        <rect width="64" x="0" y="-460" height="24" />
+        <line x2="0" y1="-448" y2="-448" x1="64" />
+        <rect width="64" x="0" y="-396" height="24" />
+        <line x2="0" y1="-384" y2="-384" x1="64" />
+        <rect width="64" x="0" y="-332" height="24" />
+        <line x2="0" y1="-320" y2="-320" x1="64" />
+        <rect width="64" x="528" y="-396" height="24" />
+        <line x2="592" y1="-384" y2="-384" x1="528" />
+        <rect width="64" x="528" y="-332" height="24" />
+        <line x2="592" y1="-320" y2="-320" x1="528" />
+        <rect width="64" x="528" y="-268" height="24" />
+        <line x2="592" y1="-256" y2="-256" x1="528" />
+        <rect width="64" x="528" y="-204" height="24" />
+        <line x2="592" y1="-192" y2="-192" x1="528" />
+        <rect width="64" x="528" y="-140" height="24" />
+        <line x2="592" y1="-128" y2="-128" x1="528" />
+        <rect width="64" x="528" y="-76" height="24" />
+        <line x2="592" y1="-64" y2="-64" x1="528" />
+        <rect width="64" x="0" y="-76" height="24" />
+        <line x2="0" y1="-64" y2="-64" x1="64" />
+        <rect width="64" x="0" y="-12" height="24" />
+        <line x2="0" y1="0" y2="0" x1="64" />
+        <rect width="64" x="0" y="52" height="24" />
+        <line x2="0" y1="64" y2="64" x1="64" />
+        <rect width="64" x="0" y="-188" height="24" />
+        <line x2="0" y1="-176" y2="-176" x1="64" />
+        <rect width="64" x="0" y="-236" height="24" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <rect width="464" x="64" y="-704" height="984" />
+    </graph>
+</symbol>

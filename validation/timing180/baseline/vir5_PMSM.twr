@@ -1,0 +1,539 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+E:\SUEN27\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml vir5_PMSM.twx vir5_PMSM.ncd -o vir5_PMSM.twr vir5_PMSM.pcf
+-ucf main.ucf
+
+Design file:              vir5_PMSM.ncd
+Physical constraint file: vir5_PMSM.pcf
+Device,package,speed:     xc6slx25,ftg256,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_SYS_CLK20 = PERIOD TIMEGRP "SYS_CLK20" 50 ns HIGH 50% 
+INPUT_JITTER 0.5 ns;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is  20.000ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_SYS_CLK20 = PERIOD TIMEGRP "SYS_CLK20" 50 ns HIGH 50% INPUT_JITTER 0.5 ns;
+--------------------------------------------------------------------------------
+Slack: 2.630ns (max period limit - period)
+  Period: 50.000ns
+  Max period limit: 52.630ns (19.001MHz) (Tpllper_CLKIN)
+  Physical resource: u_clock/CLOCK/pll_base_inst/PLL_ADV/CLKIN1
+  Logical resource: u_clock/CLOCK/pll_base_inst/PLL_ADV/CLKIN1
+  Location pin: PLL_ADV_X0Y1.CLKIN2
+  Clock network: u_clock/CLOCK/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+--------------------------------------------------------------------------------
+Slack: 2.630ns (max period limit - period)
+  Period: 50.000ns
+  Max period limit: 52.630ns (19.001MHz) (Tpllper_CLKFB)
+  Physical resource: u_clock/CLOCK/pll_base_inst/PLL_ADV/CLKFBOUT
+  Logical resource: u_clock/CLOCK/pll_base_inst/PLL_ADV/CLKFBOUT
+  Location pin: PLL_ADV_X0Y1.CLKFBOUT
+  Clock network: u_clock/CLOCK/clkfbout
+--------------------------------------------------------------------------------
+Slack: 30.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 50.000ns
+  Low pulse: 25.000ns
+  Low pulse limit: 10.000ns (Tdcmpw_CLKIN_10_25)
+  Physical resource: u_clock/CLOCK/pll_base_inst/PLL_ADV/CLKIN1
+  Logical resource: u_clock/CLOCK/pll_base_inst/PLL_ADV/CLKIN1
+  Location pin: PLL_ADV_X0Y1.CLKIN2
+  Clock network: u_clock/CLOCK/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_u_clock_CLOCK_clkout2 = PERIOD TIMEGRP 
+"u_clock_CLOCK_clkout2" TS_SYS_CLK20         / 9 HIGH 50% INPUT_JITTER 0.5 ns;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 552057 paths analyzed, 14759 endpoints analyzed, 569 failing endpoints
+ 569 timing errors detected. (569 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   9.200ns.
+--------------------------------------------------------------------------------
+
+Paths for end point div5/u_division5/blk00000001/blk00000004 (DSP48_X0Y10.C14), 26 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     -3.645ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               div5/mul_a_1 (FF)
+  Destination:          div5/u_division5/blk00000001/blk00000004 (DSP)
+  Requirement:          5.555ns
+  Data Path Delay:      9.058ns (Levels of Logic = 1)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -0.023ns (0.476 - 0.499)
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 5.555ns
+  Clock Uncertainty:    0.119ns
+
+  Clock Uncertainty:          0.119ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.226ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: div5/mul_a_1 to div5/u_division5/blk00000001/blk00000004
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y36.BMUX     Tshcko                0.518   div5/_n0221
+                                                       div5/mul_a_1
+    DSP48_X0Y9.B16       net (fanout=10)       0.737   div5/mul_a<1>
+    DSP48_X0Y9.P31       Tdspdo_B_P            4.384   div5/u_division5/blk00000001/blk00000005
+                                                       div5/u_division5/blk00000001/blk00000005
+    DSP48_X0Y10.C14      net (fanout=1)        1.169   div5/u_division5/blk00000001/sig000000dc
+    DSP48_X0Y10.CLK      Tdspdck_C_PREG        2.250   div5/u_division5/blk00000001/blk00000004
+                                                       div5/u_division5/blk00000001/blk00000004
+    -------------------------------------------------  ---------------------------
+    Total                                      9.058ns (7.152ns logic, 1.906ns route)
+                                                       (79.0% logic, 21.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -3.548ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               div5/mul_a_1 (FF)
+  Destination:          div5/u_division5/blk00000001/blk00000004 (DSP)
+  Requirement:          5.555ns
+  Data Path Delay:      8.961ns (Levels of Logic = 1)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -0.023ns (0.476 - 0.499)
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 5.555ns
+  Clock Uncertainty:    0.119ns
+
+  Clock Uncertainty:          0.119ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.226ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: div5/mul_a_1 to div5/u_division5/blk00000001/blk00000004
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y36.BMUX     Tshcko                0.518   div5/_n0221
+                                                       div5/mul_a_1
+    DSP48_X0Y9.B12       net (fanout=10)       0.640   div5/mul_a<1>
+    DSP48_X0Y9.P31       Tdspdo_B_P            4.384   div5/u_division5/blk00000001/blk00000005
+                                                       div5/u_division5/blk00000001/blk00000005
+    DSP48_X0Y10.C14      net (fanout=1)        1.169   div5/u_division5/blk00000001/sig000000dc
+    DSP48_X0Y10.CLK      Tdspdck_C_PREG        2.250   div5/u_division5/blk00000001/blk00000004
+                                                       div5/u_division5/blk00000001/blk00000004
+    -------------------------------------------------  ---------------------------
+    Total                                      8.961ns (7.152ns logic, 1.809ns route)
+                                                       (79.8% logic, 20.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -3.505ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               div5/mul_a_1 (FF)
+  Destination:          div5/u_division5/blk00000001/blk00000004 (DSP)
+  Requirement:          5.555ns
+  Data Path Delay:      8.918ns (Levels of Logic = 1)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -0.023ns (0.476 - 0.499)
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 5.555ns
+  Clock Uncertainty:    0.119ns
+
+  Clock Uncertainty:          0.119ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.226ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: div5/mul_a_1 to div5/u_division5/blk00000001/blk00000004
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y36.BMUX     Tshcko                0.518   div5/_n0221
+                                                       div5/mul_a_1
+    DSP48_X0Y9.B7        net (fanout=10)       0.597   div5/mul_a<1>
+    DSP48_X0Y9.P31       Tdspdo_B_P            4.384   div5/u_division5/blk00000001/blk00000005
+                                                       div5/u_division5/blk00000001/blk00000005
+    DSP48_X0Y10.C14      net (fanout=1)        1.169   div5/u_division5/blk00000001/sig000000dc
+    DSP48_X0Y10.CLK      Tdspdck_C_PREG        2.250   div5/u_division5/blk00000001/blk00000004
+                                                       div5/u_division5/blk00000001/blk00000004
+    -------------------------------------------------  ---------------------------
+    Total                                      8.918ns (7.152ns logic, 1.766ns route)
+                                                       (80.2% logic, 19.8% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point div5/u_division5/blk00000001/blk00000004 (DSP48_X0Y10.C28), 26 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     -3.645ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               div5/mul_a_1 (FF)
+  Destination:          div5/u_division5/blk00000001/blk00000004 (DSP)
+  Requirement:          5.555ns
+  Data Path Delay:      9.058ns (Levels of Logic = 1)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -0.023ns (0.476 - 0.499)
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 5.555ns
+  Clock Uncertainty:    0.119ns
+
+  Clock Uncertainty:          0.119ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.226ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: div5/mul_a_1 to div5/u_division5/blk00000001/blk00000004
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y36.BMUX     Tshcko                0.518   div5/_n0221
+                                                       div5/mul_a_1
+    DSP48_X0Y9.B16       net (fanout=10)       0.737   div5/mul_a<1>
+    DSP48_X0Y9.P45       Tdspdo_B_P            4.384   div5/u_division5/blk00000001/blk00000005
+                                                       div5/u_division5/blk00000001/blk00000005
+    DSP48_X0Y10.C28      net (fanout=1)        1.169   div5/u_division5/blk00000001/sig000000ea
+    DSP48_X0Y10.CLK      Tdspdck_C_PREG        2.250   div5/u_division5/blk00000001/blk00000004
+                                                       div5/u_division5/blk00000001/blk00000004
+    -------------------------------------------------  ---------------------------
+    Total                                      9.058ns (7.152ns logic, 1.906ns route)
+                                                       (79.0% logic, 21.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -3.548ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               div5/mul_a_1 (FF)
+  Destination:          div5/u_division5/blk00000001/blk00000004 (DSP)
+  Requirement:          5.555ns
+  Data Path Delay:      8.961ns (Levels of Logic = 1)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -0.023ns (0.476 - 0.499)
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 5.555ns
+  Clock Uncertainty:    0.119ns
+
+  Clock Uncertainty:          0.119ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.226ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: div5/mul_a_1 to div5/u_division5/blk00000001/blk00000004
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y36.BMUX     Tshcko                0.518   div5/_n0221
+                                                       div5/mul_a_1
+    DSP48_X0Y9.B12       net (fanout=10)       0.640   div5/mul_a<1>
+    DSP48_X0Y9.P45       Tdspdo_B_P            4.384   div5/u_division5/blk00000001/blk00000005
+                                                       div5/u_division5/blk00000001/blk00000005
+    DSP48_X0Y10.C28      net (fanout=1)        1.169   div5/u_division5/blk00000001/sig000000ea
+    DSP48_X0Y10.CLK      Tdspdck_C_PREG        2.250   div5/u_division5/blk00000001/blk00000004
+                                                       div5/u_division5/blk00000001/blk00000004
+    -------------------------------------------------  ---------------------------
+    Total                                      8.961ns (7.152ns logic, 1.809ns route)
+                                                       (79.8% logic, 20.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -3.505ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               div5/mul_a_1 (FF)
+  Destination:          div5/u_division5/blk00000001/blk00000004 (DSP)
+  Requirement:          5.555ns
+  Data Path Delay:      8.918ns (Levels of Logic = 1)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -0.023ns (0.476 - 0.499)
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 5.555ns
+  Clock Uncertainty:    0.119ns
+
+  Clock Uncertainty:          0.119ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.226ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: div5/mul_a_1 to div5/u_division5/blk00000001/blk00000004
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y36.BMUX     Tshcko                0.518   div5/_n0221
+                                                       div5/mul_a_1
+    DSP48_X0Y9.B7        net (fanout=10)       0.597   div5/mul_a<1>
+    DSP48_X0Y9.P45       Tdspdo_B_P            4.384   div5/u_division5/blk00000001/blk00000005
+                                                       div5/u_division5/blk00000001/blk00000005
+    DSP48_X0Y10.C28      net (fanout=1)        1.169   div5/u_division5/blk00000001/sig000000ea
+    DSP48_X0Y10.CLK      Tdspdck_C_PREG        2.250   div5/u_division5/blk00000001/blk00000004
+                                                       div5/u_division5/blk00000001/blk00000004
+    -------------------------------------------------  ---------------------------
+    Total                                      8.918ns (7.152ns logic, 1.766ns route)
+                                                       (80.2% logic, 19.8% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point div5/u_division5/blk00000001/blk00000004 (DSP48_X0Y10.C13), 26 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     -3.640ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               div5/mul_a_1 (FF)
+  Destination:          div5/u_division5/blk00000001/blk00000004 (DSP)
+  Requirement:          5.555ns
+  Data Path Delay:      9.053ns (Levels of Logic = 1)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -0.023ns (0.476 - 0.499)
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 5.555ns
+  Clock Uncertainty:    0.119ns
+
+  Clock Uncertainty:          0.119ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.226ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: div5/mul_a_1 to div5/u_division5/blk00000001/blk00000004
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y36.BMUX     Tshcko                0.518   div5/_n0221
+                                                       div5/mul_a_1
+    DSP48_X0Y9.B16       net (fanout=10)       0.737   div5/mul_a<1>
+    DSP48_X0Y9.P30       Tdspdo_B_P            4.384   div5/u_division5/blk00000001/blk00000005
+                                                       div5/u_division5/blk00000001/blk00000005
+    DSP48_X0Y10.C13      net (fanout=1)        1.164   div5/u_division5/blk00000001/sig000000db
+    DSP48_X0Y10.CLK      Tdspdck_C_PREG        2.250   div5/u_division5/blk00000001/blk00000004
+                                                       div5/u_division5/blk00000001/blk00000004
+    -------------------------------------------------  ---------------------------
+    Total                                      9.053ns (7.152ns logic, 1.901ns route)
+                                                       (79.0% logic, 21.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -3.543ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               div5/mul_a_1 (FF)
+  Destination:          div5/u_division5/blk00000001/blk00000004 (DSP)
+  Requirement:          5.555ns
+  Data Path Delay:      8.956ns (Levels of Logic = 1)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -0.023ns (0.476 - 0.499)
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 5.555ns
+  Clock Uncertainty:    0.119ns
+
+  Clock Uncertainty:          0.119ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.226ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: div5/mul_a_1 to div5/u_division5/blk00000001/blk00000004
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y36.BMUX     Tshcko                0.518   div5/_n0221
+                                                       div5/mul_a_1
+    DSP48_X0Y9.B12       net (fanout=10)       0.640   div5/mul_a<1>
+    DSP48_X0Y9.P30       Tdspdo_B_P            4.384   div5/u_division5/blk00000001/blk00000005
+                                                       div5/u_division5/blk00000001/blk00000005
+    DSP48_X0Y10.C13      net (fanout=1)        1.164   div5/u_division5/blk00000001/sig000000db
+    DSP48_X0Y10.CLK      Tdspdck_C_PREG        2.250   div5/u_division5/blk00000001/blk00000004
+                                                       div5/u_division5/blk00000001/blk00000004
+    -------------------------------------------------  ---------------------------
+    Total                                      8.956ns (7.152ns logic, 1.804ns route)
+                                                       (79.9% logic, 20.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     -3.500ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               div5/mul_a_1 (FF)
+  Destination:          div5/u_division5/blk00000001/blk00000004 (DSP)
+  Requirement:          5.555ns
+  Data Path Delay:      8.913ns (Levels of Logic = 1)(Component delays alone exceeds constraint)
+  Clock Path Skew:      -0.023ns (0.476 - 0.499)
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 5.555ns
+  Clock Uncertainty:    0.119ns
+
+  Clock Uncertainty:          0.119ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.226ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: div5/mul_a_1 to div5/u_division5/blk00000001/blk00000004
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y36.BMUX     Tshcko                0.518   div5/_n0221
+                                                       div5/mul_a_1
+    DSP48_X0Y9.B7        net (fanout=10)       0.597   div5/mul_a<1>
+    DSP48_X0Y9.P30       Tdspdo_B_P            4.384   div5/u_division5/blk00000001/blk00000005
+                                                       div5/u_division5/blk00000001/blk00000005
+    DSP48_X0Y10.C13      net (fanout=1)        1.164   div5/u_division5/blk00000001/sig000000db
+    DSP48_X0Y10.CLK      Tdspdck_C_PREG        2.250   div5/u_division5/blk00000001/blk00000004
+                                                       div5/u_division5/blk00000001/blk00000004
+    -------------------------------------------------  ---------------------------
+    Total                                      8.913ns (7.152ns logic, 1.761ns route)
+                                                       (80.2% logic, 19.8% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_u_clock_CLOCK_clkout2 = PERIOD TIMEGRP "u_clock_CLOCK_clkout2" TS_SYS_CLK20
+        / 9 HIGH 50% INPUT_JITTER 0.5 ns;
+--------------------------------------------------------------------------------
+
+Paths for end point u_back_EMF/u_mul1/blk00000001/blk00000004 (DSP48_X0Y7.A15), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.398ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               u_back_EMF/mul_b1_15 (FF)
+  Destination:          u_back_EMF/u_mul1/blk00000001/blk00000004 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.392ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.006ns (0.260 - 0.266)
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 0.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: u_back_EMF/mul_b1_15 to u_back_EMF/u_mul1/blk00000001/blk00000004
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y30.AQ       Tcko                  0.198   u_back_EMF/mul_b1<17>
+                                                       u_back_EMF/mul_b1_15
+    DSP48_X0Y7.A15       net (fanout=2)        0.231   u_back_EMF/mul_b1<15>
+    DSP48_X0Y7.CLK       Tdspckd_A_A1REG(-Th)     0.037   u_back_EMF/u_mul1/blk00000001/blk00000004
+                                                       u_back_EMF/u_mul1/blk00000001/blk00000004
+    -------------------------------------------------  ---------------------------
+    Total                                      0.392ns (0.161ns logic, 0.231ns route)
+                                                       (41.1% logic, 58.9% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point div5/low_product_8 (SLICE_X12Y34.A6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.413ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               div5/low_product_8 (FF)
+  Destination:          div5/low_product_8 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.413ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 0.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: div5/low_product_8 to div5/low_product_8
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X12Y34.AQ      Tcko                  0.200   div5/low_product<11>
+                                                       div5/low_product_8
+    SLICE_X12Y34.A6      net (fanout=2)        0.023   div5/low_product<8>
+    SLICE_X12Y34.CLK     Tah         (-Th)    -0.190   div5/low_product<11>
+                                                       div5/Time_cnt[3]_GND_26_o_select_47_OUT<8>1
+                                                       div5/low_product_8
+    -------------------------------------------------  ---------------------------
+    Total                                      0.413ns (0.390ns logic, 0.023ns route)
+                                                       (94.4% logic, 5.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u_back_EMF/u_mul1/blk00000001/blk00000004 (DSP48_X0Y7.A16), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.414ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               u_back_EMF/mul_b1_16 (FF)
+  Destination:          u_back_EMF/u_mul1/blk00000001/blk00000004 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.408ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.006ns (0.260 - 0.266)
+  Source Clock:         clk_180mhz rising at 0.000ns
+  Destination Clock:    clk_180mhz rising at 0.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: u_back_EMF/mul_b1_16 to u_back_EMF/u_mul1/blk00000001/blk00000004
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y30.BQ       Tcko                  0.198   u_back_EMF/mul_b1<17>
+                                                       u_back_EMF/mul_b1_16
+    DSP48_X0Y7.A16       net (fanout=2)        0.247   u_back_EMF/mul_b1<16>
+    DSP48_X0Y7.CLK       Tdspckd_A_A1REG(-Th)     0.037   u_back_EMF/u_mul1/blk00000001/blk00000004
+                                                       u_back_EMF/u_mul1/blk00000001/blk00000004
+    -------------------------------------------------  ---------------------------
+    Total                                      0.408ns (0.161ns logic, 0.247ns route)
+                                                       (39.5% logic, 60.5% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_u_clock_CLOCK_clkout2 = PERIOD TIMEGRP "u_clock_CLOCK_clkout2" TS_SYS_CLK20
+        / 9 HIGH 50% INPUT_JITTER 0.5 ns;
+--------------------------------------------------------------------------------
+Slack: 0.703ns (period - min period limit)
+  Period: 5.555ns
+  Min period limit: 4.852ns (206.101MHz) (Tdspper_AREG_PREG)
+  Physical resource: u_inductor_de/u_mul_inductor/blk00000001/blk00000004/CLK
+  Logical resource: u_inductor_de/u_mul_inductor/blk00000001/blk00000004/CLK
+  Location pin: DSP48_X0Y4.CLK
+  Clock network: clk_180mhz
+--------------------------------------------------------------------------------
+Slack: 0.703ns (period - min period limit)
+  Period: 5.555ns
+  Min period limit: 4.852ns (206.101MHz) (Tdspper_AREG_PREG)
+  Physical resource: u_inductor/u_mul_inductor/blk00000001/blk00000004/CLK
+  Logical resource: u_inductor/u_mul_inductor/blk00000001/blk00000004/CLK
+  Location pin: DSP48_X0Y6.CLK
+  Clock network: clk_180mhz
+--------------------------------------------------------------------------------
+Slack: 2.552ns (period - min period limit)
+  Period: 5.555ns
+  Min period limit: 3.003ns (333.000MHz) (Tdspper_AREG_MREG)
+  Physical resource: u_back_EMF/u_mul1/blk00000001/blk00000004/CLK
+  Logical resource: u_back_EMF/u_mul1/blk00000001/blk00000004/CLK
+  Location pin: DSP48_X0Y7.CLK
+  Clock network: clk_180mhz
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_SYS_CLK20
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_SYS_CLK20                   |     50.000ns|     20.000ns|     82.800ns|            0|          569|            0|       552057|
+| TS_u_clock_CLOCK_clkout2      |      5.556ns|      9.200ns|          N/A|          569|            0|       552057|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+1 constraint not met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk_ex
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_ex         |    9.200|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 569  Score: 710075  (Setup/Max: 710075, Hold: 0)
+
+Constraints cover 552057 paths, 0 nets, and 13609 connections
+
+Design statistics:
+   Minimum period:  20.000ns{1}   (Maximum frequency:  50.000MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Mon Nov 16 19:49:08 2026 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4658 MB
+
+
+

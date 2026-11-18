@@ -1,0 +1,29 @@
+Command line:
+   custom_check.exe
+     -intstyle  silent
+     -simmode  tcl
+     -simrunnum  0
+     -socket  54240
+
+Fri Nov 13 19:03:51 2026
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5144.17 Meg
+
+ Total Signals          : 799
+ Total Nets             : 4070
+ Total Signal Drivers   : 226
+ Total Blocks           : 49
+ Total Primitive Blocks : 32
+ Total Processes        : 463
+ Total Traceable Variables  : 393
+ Total Scalar Nets and Variables : 15468
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5144.17 Meg
+
+Fri Nov 13 19:03:52 2026
+

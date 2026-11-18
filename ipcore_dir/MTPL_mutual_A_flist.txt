@@ -1,0 +1,15 @@
+# Output products list for <MTPL_mutual_A>
+MTPL_mutual_A.asy
+MTPL_mutual_A.gise
+MTPL_mutual_A.ngc
+MTPL_mutual_A.sym
+MTPL_mutual_A.v
+MTPL_mutual_A.veo
+MTPL_mutual_A.xco
+MTPL_mutual_A.xise
+MTPL_mutual_A\doc\mult_gen_ds255.pdf
+MTPL_mutual_A\doc\mult_gen_v11_2_readme.txt
+MTPL_mutual_A\doc\mult_gen_v11_2_vinfo.html
+MTPL_mutual_A_flist.txt
+MTPL_mutual_A_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

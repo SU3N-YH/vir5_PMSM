@@ -1,0 +1,1141 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst_tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "BackEMF.prj"
+
+---- Target Parameters
+Output File Name                   : "BackEMF"
+Output Format                      : NGC
+Target Device                      : xc6slx25-2-ftg256
+
+---- Source Options
+Top Module Name                    : BackEMF
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Read Cores                         : YES
+
+---- Other Options
+Cores Search Directories           : {"E:/SUEN27/vir5_PMSM_V/ipcore_dir"}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/CORDIC_STANDALONE.v" into library work
+Parsing module <CORDIC_STANDALONE>.
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/BackEMF.v" into library work
+Parsing module <BackEMF>.
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/MUL18x18_bEMF.v" into library work
+Parsing module <MUL18x18_bEMF>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <BackEMF>.
+
+Elaborating module <CORDIC_STANDALONE>.
+
+Elaborating module <MUL18x18_bEMF>.
+WARNING:HDLCompiler:413 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" Line 240: Result of 20-bit expression is truncated to fit in 16-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <BackEMF>.
+    Related source file is "E:/SUEN27/vir5_PMSM_V/BackEMF.v".
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <cos> of the instance <u_cordic_gen[0].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_deg> of the instance <u_cordic_gen[0].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_y> of the instance <u_cordic_gen[0].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_x> of the instance <u_cordic_gen[0].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <cos> of the instance <u_cordic_gen[1].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_deg> of the instance <u_cordic_gen[1].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_y> of the instance <u_cordic_gen[1].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_x> of the instance <u_cordic_gen[1].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <cos> of the instance <u_cordic_gen[2].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_deg> of the instance <u_cordic_gen[2].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_y> of the instance <u_cordic_gen[2].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_x> of the instance <u_cordic_gen[2].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <cos> of the instance <u_cordic_gen[3].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_deg> of the instance <u_cordic_gen[3].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_y> of the instance <u_cordic_gen[3].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_x> of the instance <u_cordic_gen[3].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <cos> of the instance <u_cordic_gen[4].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_deg> of the instance <u_cordic_gen[4].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_y> of the instance <u_cordic_gen[4].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:/SUEN27/vir5_PMSM_V/BackEMF.v" line 124: Output port <q_x> of the instance <u_cordic_gen[4].u_cordic_bkEMF> is unconnected or connected to loadless signal.
+    Found 32-bit register for signal <theta_fine_q16>.
+    Found 32-bit register for signal <theta_deg_q16[31]_phase_offset_q16[0][31]_sub_31_OUT>.
+    Found 32-bit register for signal <theta_coarse_q16>.
+    Found 18-bit register for signal <mul_a1>.
+    Found 18-bit register for signal <mul_b1>.
+    Found 18-bit register for signal <mag_BackEMF_S18_Q8>.
+    Found 35-bit register for signal <TMP_eA_S35_Q17>.
+    Found 35-bit register for signal <TMP_eB_S35_Q17>.
+    Found 35-bit register for signal <TMP_eC_S35_Q17>.
+    Found 35-bit register for signal <TMP_eD_S35_Q17>.
+    Found 35-bit register for signal <eA_S35_Q17>.
+    Found 35-bit register for signal <eB_S35_Q17>.
+    Found 35-bit register for signal <eC_S35_Q17>.
+    Found 35-bit register for signal <eD_S35_Q17>.
+    Found 35-bit register for signal <eE_S35_Q17>.
+    Found 5-bit register for signal <Time_cnt>.
+    Found 1-bit register for signal <cordic_prepare>.
+    Found 1-bit register for signal <phase_angle_q16<0><31>>.
+    Found 1-bit register for signal <phase_angle_q16<0><30>>.
+    Found 1-bit register for signal <phase_angle_q16<0><29>>.
+    Found 1-bit register for signal <phase_angle_q16<0><28>>.
+    Found 1-bit register for signal <phase_angle_q16<0><27>>.
+    Found 1-bit register for signal <phase_angle_q16<0><26>>.
+    Found 1-bit register for signal <phase_angle_q16<0><25>>.
+    Found 1-bit register for signal <phase_angle_q16<0><24>>.
+    Found 1-bit register for signal <phase_angle_q16<0><23>>.
+    Found 1-bit register for signal <phase_angle_q16<0><22>>.
+    Found 1-bit register for signal <phase_angle_q16<0><21>>.
+    Found 1-bit register for signal <phase_angle_q16<0><20>>.
+    Found 1-bit register for signal <phase_angle_q16<0><19>>.
+    Found 1-bit register for signal <phase_angle_q16<0><18>>.
+    Found 1-bit register for signal <phase_angle_q16<0><17>>.
+    Found 1-bit register for signal <phase_angle_q16<0><16>>.
+    Found 1-bit register for signal <phase_angle_q16<0><15>>.
+    Found 1-bit register for signal <phase_angle_q16<0><14>>.
+    Found 1-bit register for signal <phase_angle_q16<0><13>>.
+    Found 1-bit register for signal <phase_angle_q16<0><12>>.
+    Found 1-bit register for signal <phase_angle_q16<0><11>>.
+    Found 1-bit register for signal <phase_angle_q16<0><10>>.
+    Found 1-bit register for signal <phase_angle_q16<0><9>>.
+    Found 1-bit register for signal <phase_angle_q16<0><8>>.
+    Found 1-bit register for signal <phase_angle_q16<0><7>>.
+    Found 1-bit register for signal <phase_angle_q16<0><6>>.
+    Found 1-bit register for signal <phase_angle_q16<0><5>>.
+    Found 1-bit register for signal <phase_angle_q16<0><4>>.
+    Found 1-bit register for signal <phase_angle_q16<0><3>>.
+    Found 1-bit register for signal <phase_angle_q16<0><2>>.
+    Found 1-bit register for signal <phase_angle_q16<0><1>>.
+    Found 1-bit register for signal <phase_angle_q16<0><0>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><17>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><16>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><15>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><14>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><13>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><12>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><11>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><10>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><9>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><8>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><7>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><6>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><5>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><4>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><3>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><2>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><1>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<0><0>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><17>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><16>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><15>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><14>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><13>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><12>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><11>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><10>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><9>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><8>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><7>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><6>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><5>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><4>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><3>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><2>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><1>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<0><0>>.
+    Found 1-bit register for signal <phase_angle_q16<1><31>>.
+    Found 1-bit register for signal <phase_angle_q16<1><30>>.
+    Found 1-bit register for signal <phase_angle_q16<1><29>>.
+    Found 1-bit register for signal <phase_angle_q16<1><28>>.
+    Found 1-bit register for signal <phase_angle_q16<1><27>>.
+    Found 1-bit register for signal <phase_angle_q16<1><26>>.
+    Found 1-bit register for signal <phase_angle_q16<1><25>>.
+    Found 1-bit register for signal <phase_angle_q16<1><24>>.
+    Found 1-bit register for signal <phase_angle_q16<1><23>>.
+    Found 1-bit register for signal <phase_angle_q16<1><22>>.
+    Found 1-bit register for signal <phase_angle_q16<1><21>>.
+    Found 1-bit register for signal <phase_angle_q16<1><20>>.
+    Found 1-bit register for signal <phase_angle_q16<1><19>>.
+    Found 1-bit register for signal <phase_angle_q16<1><18>>.
+    Found 1-bit register for signal <phase_angle_q16<1><17>>.
+    Found 1-bit register for signal <phase_angle_q16<1><16>>.
+    Found 1-bit register for signal <phase_angle_q16<1><15>>.
+    Found 1-bit register for signal <phase_angle_q16<1><14>>.
+    Found 1-bit register for signal <phase_angle_q16<1><13>>.
+    Found 1-bit register for signal <phase_angle_q16<1><12>>.
+    Found 1-bit register for signal <phase_angle_q16<1><11>>.
+    Found 1-bit register for signal <phase_angle_q16<1><10>>.
+    Found 1-bit register for signal <phase_angle_q16<1><9>>.
+    Found 1-bit register for signal <phase_angle_q16<1><8>>.
+    Found 1-bit register for signal <phase_angle_q16<1><7>>.
+    Found 1-bit register for signal <phase_angle_q16<1><6>>.
+    Found 1-bit register for signal <phase_angle_q16<1><5>>.
+    Found 1-bit register for signal <phase_angle_q16<1><4>>.
+    Found 1-bit register for signal <phase_angle_q16<1><3>>.
+    Found 1-bit register for signal <phase_angle_q16<1><2>>.
+    Found 1-bit register for signal <phase_angle_q16<1><1>>.
+    Found 1-bit register for signal <phase_angle_q16<1><0>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><17>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><16>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><15>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><14>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><13>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><12>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><11>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><10>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><9>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><8>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><7>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><6>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><5>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><4>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><3>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><2>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><1>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<1><0>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><17>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><16>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><15>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><14>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><13>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><12>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><11>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><10>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><9>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><8>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><7>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><6>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><5>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><4>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><3>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><2>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><1>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<1><0>>.
+    Found 1-bit register for signal <phase_angle_q16<2><31>>.
+    Found 1-bit register for signal <phase_angle_q16<2><30>>.
+    Found 1-bit register for signal <phase_angle_q16<2><29>>.
+    Found 1-bit register for signal <phase_angle_q16<2><28>>.
+    Found 1-bit register for signal <phase_angle_q16<2><27>>.
+    Found 1-bit register for signal <phase_angle_q16<2><26>>.
+    Found 1-bit register for signal <phase_angle_q16<2><25>>.
+    Found 1-bit register for signal <phase_angle_q16<2><24>>.
+    Found 1-bit register for signal <phase_angle_q16<2><23>>.
+    Found 1-bit register for signal <phase_angle_q16<2><22>>.
+    Found 1-bit register for signal <phase_angle_q16<2><21>>.
+    Found 1-bit register for signal <phase_angle_q16<2><20>>.
+    Found 1-bit register for signal <phase_angle_q16<2><19>>.
+    Found 1-bit register for signal <phase_angle_q16<2><18>>.
+    Found 1-bit register for signal <phase_angle_q16<2><17>>.
+    Found 1-bit register for signal <phase_angle_q16<2><16>>.
+    Found 1-bit register for signal <phase_angle_q16<2><15>>.
+    Found 1-bit register for signal <phase_angle_q16<2><14>>.
+    Found 1-bit register for signal <phase_angle_q16<2><13>>.
+    Found 1-bit register for signal <phase_angle_q16<2><12>>.
+    Found 1-bit register for signal <phase_angle_q16<2><11>>.
+    Found 1-bit register for signal <phase_angle_q16<2><10>>.
+    Found 1-bit register for signal <phase_angle_q16<2><9>>.
+    Found 1-bit register for signal <phase_angle_q16<2><8>>.
+    Found 1-bit register for signal <phase_angle_q16<2><7>>.
+    Found 1-bit register for signal <phase_angle_q16<2><6>>.
+    Found 1-bit register for signal <phase_angle_q16<2><5>>.
+    Found 1-bit register for signal <phase_angle_q16<2><4>>.
+    Found 1-bit register for signal <phase_angle_q16<2><3>>.
+    Found 1-bit register for signal <phase_angle_q16<2><2>>.
+    Found 1-bit register for signal <phase_angle_q16<2><1>>.
+    Found 1-bit register for signal <phase_angle_q16<2><0>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><17>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><16>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><15>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><14>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><13>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><12>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><11>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><10>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><9>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><8>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><7>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><6>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><5>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><4>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><3>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><2>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><1>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<2><0>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><17>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><16>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><15>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><14>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><13>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><12>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><11>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><10>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><9>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><8>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><7>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><6>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><5>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><4>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><3>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><2>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><1>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<2><0>>.
+    Found 1-bit register for signal <phase_angle_q16<3><31>>.
+    Found 1-bit register for signal <phase_angle_q16<3><30>>.
+    Found 1-bit register for signal <phase_angle_q16<3><29>>.
+    Found 1-bit register for signal <phase_angle_q16<3><28>>.
+    Found 1-bit register for signal <phase_angle_q16<3><27>>.
+    Found 1-bit register for signal <phase_angle_q16<3><26>>.
+    Found 1-bit register for signal <phase_angle_q16<3><25>>.
+    Found 1-bit register for signal <phase_angle_q16<3><24>>.
+    Found 1-bit register for signal <phase_angle_q16<3><23>>.
+    Found 1-bit register for signal <phase_angle_q16<3><22>>.
+    Found 1-bit register for signal <phase_angle_q16<3><21>>.
+    Found 1-bit register for signal <phase_angle_q16<3><20>>.
+    Found 1-bit register for signal <phase_angle_q16<3><19>>.
+    Found 1-bit register for signal <phase_angle_q16<3><18>>.
+    Found 1-bit register for signal <phase_angle_q16<3><17>>.
+    Found 1-bit register for signal <phase_angle_q16<3><16>>.
+    Found 1-bit register for signal <phase_angle_q16<3><15>>.
+    Found 1-bit register for signal <phase_angle_q16<3><14>>.
+    Found 1-bit register for signal <phase_angle_q16<3><13>>.
+    Found 1-bit register for signal <phase_angle_q16<3><12>>.
+    Found 1-bit register for signal <phase_angle_q16<3><11>>.
+    Found 1-bit register for signal <phase_angle_q16<3><10>>.
+    Found 1-bit register for signal <phase_angle_q16<3><9>>.
+    Found 1-bit register for signal <phase_angle_q16<3><8>>.
+    Found 1-bit register for signal <phase_angle_q16<3><7>>.
+    Found 1-bit register for signal <phase_angle_q16<3><6>>.
+    Found 1-bit register for signal <phase_angle_q16<3><5>>.
+    Found 1-bit register for signal <phase_angle_q16<3><4>>.
+    Found 1-bit register for signal <phase_angle_q16<3><3>>.
+    Found 1-bit register for signal <phase_angle_q16<3><2>>.
+    Found 1-bit register for signal <phase_angle_q16<3><1>>.
+    Found 1-bit register for signal <phase_angle_q16<3><0>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><17>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><16>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><15>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><14>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><13>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><12>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><11>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><10>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><9>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><8>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><7>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><6>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><5>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><4>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><3>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><2>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><1>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<3><0>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><17>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><16>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><15>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><14>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><13>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><12>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><11>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><10>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><9>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><8>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><7>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><6>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><5>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><4>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><3>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><2>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><1>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<3><0>>.
+    Found 1-bit register for signal <phase_angle_q16<4><31>>.
+    Found 1-bit register for signal <phase_angle_q16<4><30>>.
+    Found 1-bit register for signal <phase_angle_q16<4><29>>.
+    Found 1-bit register for signal <phase_angle_q16<4><28>>.
+    Found 1-bit register for signal <phase_angle_q16<4><27>>.
+    Found 1-bit register for signal <phase_angle_q16<4><26>>.
+    Found 1-bit register for signal <phase_angle_q16<4><25>>.
+    Found 1-bit register for signal <phase_angle_q16<4><24>>.
+    Found 1-bit register for signal <phase_angle_q16<4><23>>.
+    Found 1-bit register for signal <phase_angle_q16<4><22>>.
+    Found 1-bit register for signal <phase_angle_q16<4><21>>.
+    Found 1-bit register for signal <phase_angle_q16<4><20>>.
+    Found 1-bit register for signal <phase_angle_q16<4><19>>.
+    Found 1-bit register for signal <phase_angle_q16<4><18>>.
+    Found 1-bit register for signal <phase_angle_q16<4><17>>.
+    Found 1-bit register for signal <phase_angle_q16<4><16>>.
+    Found 1-bit register for signal <phase_angle_q16<4><15>>.
+    Found 1-bit register for signal <phase_angle_q16<4><14>>.
+    Found 1-bit register for signal <phase_angle_q16<4><13>>.
+    Found 1-bit register for signal <phase_angle_q16<4><12>>.
+    Found 1-bit register for signal <phase_angle_q16<4><11>>.
+    Found 1-bit register for signal <phase_angle_q16<4><10>>.
+    Found 1-bit register for signal <phase_angle_q16<4><9>>.
+    Found 1-bit register for signal <phase_angle_q16<4><8>>.
+    Found 1-bit register for signal <phase_angle_q16<4><7>>.
+    Found 1-bit register for signal <phase_angle_q16<4><6>>.
+    Found 1-bit register for signal <phase_angle_q16<4><5>>.
+    Found 1-bit register for signal <phase_angle_q16<4><4>>.
+    Found 1-bit register for signal <phase_angle_q16<4><3>>.
+    Found 1-bit register for signal <phase_angle_q16<4><2>>.
+    Found 1-bit register for signal <phase_angle_q16<4><1>>.
+    Found 1-bit register for signal <phase_angle_q16<4><0>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><17>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><16>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><15>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><14>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><13>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><12>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><11>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><10>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><9>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><8>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><7>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><6>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><5>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><4>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><3>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><2>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><1>>.
+    Found 1-bit register for signal <nsin_complete_S18_Q17<4><0>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><17>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><16>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><15>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><14>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><13>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><12>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><11>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><10>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><9>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><8>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><7>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><6>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><5>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><4>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><3>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><2>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><1>>.
+    Found 1-bit register for signal <nsin_frame_S18_Q17<4><0>>.
+    Found 1-bit register for signal <cordic_busy>.
+    Found 18-bit subtractor for signal <cordic_sin_S18_Q17[0][17]_unary_minus_35_OUT> created at line 133.
+    Found 32-bit subtractor for signal <theta_deg_q16[31]_phase_offset_q16[1][31]_sub_38_OUT> created at line 113.
+    Found 18-bit subtractor for signal <cordic_sin_S18_Q17[1][17]_unary_minus_42_OUT> created at line 133.
+    Found 32-bit subtractor for signal <theta_deg_q16[31]_phase_offset_q16[2][31]_sub_45_OUT> created at line 113.
+    Found 18-bit subtractor for signal <cordic_sin_S18_Q17[2][17]_unary_minus_49_OUT> created at line 133.
+    Found 32-bit subtractor for signal <theta_deg_q16[31]_phase_offset_q16[3][31]_sub_52_OUT> created at line 113.
+    Found 18-bit subtractor for signal <cordic_sin_S18_Q17[3][17]_unary_minus_56_OUT> created at line 133.
+    Found 32-bit subtractor for signal <theta_deg_q16[31]_phase_offset_q16[4][31]_sub_59_OUT> created at line 113.
+    Found 18-bit subtractor for signal <cordic_sin_S18_Q17[4][17]_unary_minus_63_OUT> created at line 133.
+    Found 32-bit adder for signal <n0913> created at line 51.
+    Found 32-bit adder for signal <n0916> created at line 51.
+    Found 32-bit adder for signal <n0919> created at line 51.
+    Found 32-bit adder for signal <temp_S32_Q15> created at line 51.
+    Found 32-bit adder for signal <epos_count[24]_epos_count[26]_add_11_OUT> created at line 87.
+    Found 32-bit adder for signal <epos_count[27]_epos_count[29]_add_12_OUT> created at line 88.
+    Found 32-bit adder for signal <theta_coarse_q16[31]_theta_fine_q16[31]_add_16_OUT> created at line 91.
+    Found 5-bit adder for signal <Time_cnt[4]_GND_1_o_add_66_OUT> created at line 192.
+    Summary:
+	inferred  17 Adder/Subtractor(s).
+	inferred 812 D-type flip-flop(s).
+	inferred  92 Multiplexer(s).
+Unit <BackEMF> synthesized.
+
+Synthesizing Unit <CORDIC_STANDALONE>.
+    Related source file is "E:/SUEN27/vir5_PMSM_V/CORDIC_STANDALONE.v".
+WARNING:Xst:2999 - Signal 'atan', unconnected in block 'CORDIC_STANDALONE', is tied to its initial value.
+    Found 16x32-bit single-port Read Only RAM <Mram_atan> for signal <atan>.
+    Found 1-bit register for signal <isDone>.
+    Found 1-bit register for signal <busy>.
+    Found 32-bit register for signal <y>.
+    Found 32-bit register for signal <deg>.
+    Found 32-bit register for signal <normalized_angle>.
+    Found 32-bit register for signal <x>.
+    Found 18-bit register for signal <cos_out>.
+    Found 18-bit register for signal <sin_out>.
+    Found 8-bit register for signal <i>.
+    Found 2-bit register for signal <quadrant>.
+    Found 32-bit subtractor for signal <x[31]_unary_minus_2_OUT> created at line 170.
+    Found 32-bit subtractor for signal <y[31]_unary_minus_5_OUT> created at line 171.
+    Found 32-bit subtractor for signal <iData[31]_GND_2_o_sub_11_OUT> created at line 203.
+    Found 32-bit subtractor for signal <iData[31]_GND_2_o_sub_16_OUT> created at line 211.
+    Found 32-bit subtractor for signal <x[31]_y[31]_sub_31_OUT> created at line 230.
+    Found 32-bit subtractor for signal <deg[31]_GND_2_o_sub_37_OUT> created at line 232.
+    Found 9-bit subtractor for signal <GND_2_o_GND_2_o_sub_41_OUT> created at line 235.
+    Found 32-bit subtractor for signal <y[31]_x[31]_sub_43_OUT> created at line 235.
+    Found 32-bit adder for signal <iData[31]_GND_2_o_add_13_OUT> created at line 207.
+    Found 32-bit adder for signal <iData[31]_GND_2_o_add_16_OUT> created at line 215.
+    Found 8-bit adder for signal <i[7]_GND_2_o_add_49_OUT> created at line 226.
+    Found 32-bit adder for signal <y[31]_x[31]_add_33_OUT> created at line 231.
+    Found 32-bit adder for signal <x[31]_y[31]_add_39_OUT> created at line 234.
+    Found 32-bit adder for signal <deg[31]_GND_2_o_add_45_OUT> created at line 236.
+    Found 32-bit shifter arithmetic right for signal <n0227> created at line 234
+    Found 32-bit shifter arithmetic right for signal <n0224> created at line 235
+    Found 32-bit comparator greater for signal <n0008> created at line 197
+    Found 32-bit comparator greater for signal <n0010> created at line 197
+    Found 32-bit comparator greater for signal <n0014> created at line 201
+    Found 32-bit comparator lessequal for signal <n0019> created at line 205
+    Found 32-bit comparator greater for signal <deg[31]_GND_2_o_LessThan_28_o> created at line 229
+    Found 32-bit comparator lessequal for signal <n0052> created at line 243
+    Found 32-bit comparator lessequal for signal <n0054> created at line 245
+    Found 32-bit comparator lessequal for signal <n0058> created at line 250
+    Found 32-bit comparator lessequal for signal <n0060> created at line 252
+    Summary:
+	inferred   1 RAM(s).
+	inferred   8 Adder/Subtractor(s).
+	inferred 176 D-type flip-flop(s).
+	inferred   9 Comparator(s).
+	inferred  33 Multiplexer(s).
+	inferred   2 Combinational logic shifter(s).
+Unit <CORDIC_STANDALONE> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x32-bit single-port Read Only RAM                   : 5
+# Adders/Subtractors                                   : 57
+ 18-bit subtractor                                     : 5
+ 32-bit adder                                          : 7
+ 32-bit addsub                                         : 20
+ 32-bit subtractor                                     : 14
+ 5-bit adder                                           : 1
+ 8-bit adder                                           : 5
+ 9-bit subtractor                                      : 5
+# Registers                                            : 408
+ 1-bit register                                        : 352
+ 18-bit register                                       : 13
+ 2-bit register                                        : 5
+ 32-bit register                                       : 23
+ 35-bit register                                       : 9
+ 5-bit register                                        : 1
+ 8-bit register                                        : 5
+# Comparators                                          : 45
+ 32-bit comparator greater                             : 20
+ 32-bit comparator lessequal                           : 25
+# Multiplexers                                         : 257
+ 1-bit 2-to-1 multiplexer                              : 106
+ 18-bit 2-to-1 multiplexer                             : 20
+ 2-bit 2-to-1 multiplexer                              : 10
+ 32-bit 2-to-1 multiplexer                             : 110
+ 5-bit 2-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 10
+# Logic shifters                                       : 10
+ 32-bit shifter arithmetic right                       : 10
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <E:/SUEN27/vir5_PMSM_V/ipcore_dir/MUL18x18_bEMF.ngc>.
+Reading Secure Unit <blk00000001>.
+Loading core <MUL18x18_bEMF> for timing and area information for instance <u_mul1>.
+
+Synthesizing (advanced) Unit <BackEMF>.
+The following registers are absorbed into counter <Time_cnt>: 1 register on signal <Time_cnt>.
+	The following adders/subtractors are grouped into adder tree <Madd_temp_S32_Q151> :
+ 	<Madd_n0913> in block <BackEMF>, 	<Madd_n0916> in block <BackEMF>, 	<Madd_n0919> in block <BackEMF>, 	<Madd_temp_S32_Q15> in block <BackEMF>.
+Unit <BackEMF> synthesized (advanced).
+
+Synthesizing (advanced) Unit <CORDIC_STANDALONE>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_atan> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 32-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <GND_2_o_GND_2_o_sub_41_OUT<3:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <CORDIC_STANDALONE> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x32-bit single-port distributed Read Only RAM       : 5
+# Adders/Subtractors                                   : 52
+ 18-bit subtractor                                     : 5
+ 32-bit adder                                          : 3
+ 32-bit addsub                                         : 20
+ 32-bit subtractor                                     : 14
+ 8-bit adder                                           : 5
+ 9-bit subtractor                                      : 5
+# Adder Trees                                          : 1
+ 32-bit / 5-inputs adder tree                          : 1
+# Counters                                             : 1
+ 5-bit up counter                                      : 1
+# Registers                                            : 1687
+ Flip-Flops                                            : 1687
+# Comparators                                          : 45
+ 32-bit comparator greater                             : 20
+ 32-bit comparator lessequal                           : 25
+# Multiplexers                                         : 256
+ 1-bit 2-to-1 multiplexer                              : 106
+ 18-bit 2-to-1 multiplexer                             : 20
+ 2-bit 2-to-1 multiplexer                              : 10
+ 32-bit 2-to-1 multiplexer                             : 110
+ 8-bit 2-to-1 multiplexer                              : 10
+# Logic shifters                                       : 10
+ 32-bit shifter arithmetic right                       : 10
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <TMP_eA_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <TMP_eA_S35_Q17_28> <TMP_eA_S35_Q17_29> <TMP_eA_S35_Q17_30> <TMP_eA_S35_Q17_31> <TMP_eA_S35_Q17_32> <TMP_eA_S35_Q17_33> <TMP_eA_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <TMP_eD_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <TMP_eD_S35_Q17_28> <TMP_eD_S35_Q17_29> <TMP_eD_S35_Q17_30> <TMP_eD_S35_Q17_31> <TMP_eD_S35_Q17_32> <TMP_eD_S35_Q17_33> <TMP_eD_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <TMP_eB_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <TMP_eB_S35_Q17_28> <TMP_eB_S35_Q17_29> <TMP_eB_S35_Q17_30> <TMP_eB_S35_Q17_31> <TMP_eB_S35_Q17_32> <TMP_eB_S35_Q17_33> <TMP_eB_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <TMP_eC_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <TMP_eC_S35_Q17_28> <TMP_eC_S35_Q17_29> <TMP_eC_S35_Q17_30> <TMP_eC_S35_Q17_31> <TMP_eC_S35_Q17_32> <TMP_eC_S35_Q17_33> <TMP_eC_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eE_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eE_S35_Q17_28> <eE_S35_Q17_29> <eE_S35_Q17_30> <eE_S35_Q17_31> <eE_S35_Q17_32> <eE_S35_Q17_33> <eE_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eD_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eD_S35_Q17_28> <eD_S35_Q17_29> <eD_S35_Q17_30> <eD_S35_Q17_31> <eD_S35_Q17_32> <eD_S35_Q17_33> <eD_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eA_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eA_S35_Q17_28> <eA_S35_Q17_29> <eA_S35_Q17_30> <eA_S35_Q17_31> <eA_S35_Q17_32> <eA_S35_Q17_33> <eA_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eB_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eB_S35_Q17_28> <eB_S35_Q17_29> <eB_S35_Q17_30> <eB_S35_Q17_31> <eB_S35_Q17_32> <eB_S35_Q17_33> <eB_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <eC_S35_Q17_27> in Unit <BackEMF> is equivalent to the following 7 FFs/Latches, which will be removed : <eC_S35_Q17_28> <eC_S35_Q17_29> <eC_S35_Q17_30> <eC_S35_Q17_31> <eC_S35_Q17_32> <eC_S35_Q17_33> <eC_S35_Q17_34> 
+WARNING:Xst:1710 - FF/Latch <quadrant_1> (without init value) has a constant value of 0 in block <CORDIC_STANDALONE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <theta_coarse_q16_31> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_30> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_29> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_28> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_27> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_26> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_25> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_6> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_5> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_4> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_coarse_q16_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_22> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_23> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_24> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_25> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_26> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_27> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_28> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_29> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_30> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_fine_q16_31> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_31> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_30> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_29> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_28> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_27> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_26> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <theta_deg_q16_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_1_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_2_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_2_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_2_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_2_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_3_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_3_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_3_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_3_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_4_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_4_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_4_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_4_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_1_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_1_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_1_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_0> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_1> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_3> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_2> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_26> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_27> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_28> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_29> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_30> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_31> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_7> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_7> <phase_angle_q16_2_7> <phase_angle_q16_3_7> <phase_angle_q16_4_7> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_8> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_8> <phase_angle_q16_2_8> <phase_angle_q16_3_8> <phase_angle_q16_4_8> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_9> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_9> <phase_angle_q16_2_9> <phase_angle_q16_3_9> <phase_angle_q16_4_9> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_4_31> in Unit <BackEMF> is equivalent to the following 5 FFs/Latches, which will be removed : <phase_angle_q16_4_30> <phase_angle_q16_4_29> <phase_angle_q16_4_28> <phase_angle_q16_4_27> <phase_angle_q16_4_26> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_4> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_7> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_10> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_10> <phase_angle_q16_2_10> <phase_angle_q16_3_10> <phase_angle_q16_4_10> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_5> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_8> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_11> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_11> <phase_angle_q16_2_11> <phase_angle_q16_3_11> <phase_angle_q16_4_11> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_12> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_12> <phase_angle_q16_2_12> <phase_angle_q16_3_12> <phase_angle_q16_4_12> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_13> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_13> <phase_angle_q16_2_13> <phase_angle_q16_3_13> <phase_angle_q16_4_13> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_14> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_14> <phase_angle_q16_2_14> <phase_angle_q16_3_14> <phase_angle_q16_4_14> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_15> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_15> <phase_angle_q16_2_15> <phase_angle_q16_3_15> <phase_angle_q16_4_15> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_20> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <phase_angle_q16_4_20> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_16> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_16> <phase_angle_q16_2_16> <phase_angle_q16_3_16> <phase_angle_q16_4_16> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_17> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_17> <phase_angle_q16_2_17> <phase_angle_q16_3_17> <phase_angle_q16_4_17> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_18> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_18> <phase_angle_q16_2_18> <phase_angle_q16_3_18> <phase_angle_q16_4_18> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_19> in Unit <BackEMF> is equivalent to the following 2 FFs/Latches, which will be removed : <phase_angle_q16_2_19> <phase_angle_q16_4_19> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_4> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_4> <phase_angle_q16_2_4> <phase_angle_q16_3_4> <phase_angle_q16_4_4> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_5> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_5> <phase_angle_q16_2_5> <phase_angle_q16_3_5> <phase_angle_q16_4_5> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_0_6> in Unit <BackEMF> is equivalent to the following 4 FFs/Latches, which will be removed : <phase_angle_q16_1_6> <phase_angle_q16_2_6> <phase_angle_q16_3_6> <phase_angle_q16_4_6> 
+
+Optimizing unit <BackEMF> ...
+
+Optimizing unit <CORDIC_STANDALONE> ...
+WARNING:Xst:1710 - FF/Latch <i_5> (without init value) has a constant value of 0 in block <CORDIC_STANDALONE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <i_6> (without init value) has a constant value of 0 in block <CORDIC_STANDALONE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <i_7> (without init value) has a constant value of 0 in block <CORDIC_STANDALONE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <cos_out_0> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_1> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_2> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_3> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_4> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_5> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_6> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_7> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_8> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_9> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_10> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_11> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_12> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_13> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_14> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_15> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_16> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_17> of sequential type is unconnected in block <u_cordic_gen[4].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_0> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_1> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_2> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_3> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_4> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_5> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_6> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_7> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_8> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_9> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_10> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_11> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_12> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_13> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_14> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_15> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_16> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_17> of sequential type is unconnected in block <u_cordic_gen[3].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_0> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_1> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_2> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_3> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_4> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_5> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_6> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_7> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_8> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_9> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_10> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_11> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_12> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_13> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_14> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_15> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_16> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_17> of sequential type is unconnected in block <u_cordic_gen[2].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_0> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_1> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_2> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_3> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_4> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_5> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_6> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_7> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_8> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_9> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_10> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_11> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_12> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_13> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_14> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_15> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_16> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_17> of sequential type is unconnected in block <u_cordic_gen[1].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_0> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_1> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_2> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_3> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_4> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_5> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_6> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_7> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_8> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_9> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_10> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_11> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_12> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_13> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_14> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_15> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_16> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:2677 - Node <cos_out_17> of sequential type is unconnected in block <u_cordic_gen[0].u_cordic_bkEMF>.
+WARNING:Xst:1710 - FF/Latch <theta_deg_q16_25> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <phase_angle_q16_0_25> (without init value) has a constant value of 0 in block <BackEMF>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_3_31> in Unit <BackEMF> is equivalent to the following 6 FFs/Latches, which will be removed : <phase_angle_q16_3_30> <phase_angle_q16_3_29> <phase_angle_q16_3_28> <phase_angle_q16_3_27> <phase_angle_q16_3_26> <phase_angle_q16_3_25> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_10> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_13> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_11> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_14> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_12> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_15> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_13> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_16> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_14> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_17> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_15> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_18> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_20> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_23> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_16> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_19> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_21> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_24> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_17> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_20> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_18> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_21> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_19> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_22> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_2_31> in Unit <BackEMF> is equivalent to the following 6 FFs/Latches, which will be removed : <phase_angle_q16_2_28> <phase_angle_q16_2_30> <phase_angle_q16_2_29> <phase_angle_q16_2_27> <phase_angle_q16_2_26> <phase_angle_q16_2_25> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_6> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_9> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_7> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_10> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_8> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_11> 
+INFO:Xst:2261 - The FF/Latch <theta_fine_q16_9> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <theta_coarse_q16_12> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_4_31> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <phase_angle_q16_4_25> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_1_19> in Unit <BackEMF> is equivalent to the following FF/Latch, which will be removed : <phase_angle_q16_3_19> 
+INFO:Xst:2261 - The FF/Latch <phase_angle_q16_1_31> in Unit <BackEMF> is equivalent to the following 6 FFs/Latches, which will be removed : <phase_angle_q16_1_30> <phase_angle_q16_1_29> <phase_angle_q16_1_28> <phase_angle_q16_1_27> <phase_angle_q16_1_26> <phase_angle_q16_1_25> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block BackEMF, actual ratio is 19.
+FlipFlop u_cordic_gen[0].u_cordic_bkEMF/i_0 has been replicated 5 time(s)
+FlipFlop u_cordic_gen[0].u_cordic_bkEMF/i_1 has been replicated 5 time(s)
+FlipFlop u_cordic_gen[0].u_cordic_bkEMF/i_2 has been replicated 2 time(s)
+FlipFlop u_cordic_gen[0].u_cordic_bkEMF/i_3 has been replicated 2 time(s)
+FlipFlop u_cordic_gen[1].u_cordic_bkEMF/i_0 has been replicated 5 time(s)
+FlipFlop u_cordic_gen[1].u_cordic_bkEMF/i_1 has been replicated 5 time(s)
+FlipFlop u_cordic_gen[1].u_cordic_bkEMF/i_2 has been replicated 2 time(s)
+FlipFlop u_cordic_gen[1].u_cordic_bkEMF/i_3 has been replicated 2 time(s)
+FlipFlop u_cordic_gen[2].u_cordic_bkEMF/i_0 has been replicated 5 time(s)
+FlipFlop u_cordic_gen[2].u_cordic_bkEMF/i_1 has been replicated 5 time(s)
+FlipFlop u_cordic_gen[2].u_cordic_bkEMF/i_2 has been replicated 2 time(s)
+FlipFlop u_cordic_gen[2].u_cordic_bkEMF/i_3 has been replicated 2 time(s)
+FlipFlop u_cordic_gen[3].u_cordic_bkEMF/i_0 has been replicated 5 time(s)
+FlipFlop u_cordic_gen[3].u_cordic_bkEMF/i_1 has been replicated 5 time(s)
+FlipFlop u_cordic_gen[3].u_cordic_bkEMF/i_2 has been replicated 2 time(s)
+FlipFlop u_cordic_gen[3].u_cordic_bkEMF/i_3 has been replicated 2 time(s)
+FlipFlop u_cordic_gen[4].u_cordic_bkEMF/i_0 has been replicated 5 time(s)
+FlipFlop u_cordic_gen[4].u_cordic_bkEMF/i_1 has been replicated 5 time(s)
+FlipFlop u_cordic_gen[4].u_cordic_bkEMF/i_2 has been replicated 2 time(s)
+FlipFlop u_cordic_gen[4].u_cordic_bkEMF/i_3 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1417
+ Flip-Flops                                            : 1417
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : BackEMF.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 5439
+#      GND                         : 7
+#      INV                         : 273
+#      LUT1                        : 21
+#      LUT2                        : 162
+#      LUT3                        : 454
+#      LUT4                        : 457
+#      LUT5                        : 539
+#      LUT6                        : 1422
+#      MUXCY                       : 1129
+#      MUXF7                       : 5
+#      VCC                         : 7
+#      XORCY                       : 963
+# FlipFlops/Latches                : 1417
+#      FDC                         : 40
+#      FDCE                        : 1376
+#      FDP                         : 1
+# DSPs                             : 1
+#      DSP48A1                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx25ftg256-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1417  out of  30064     4%  
+ Number of Slice LUTs:                 3328  out of  15032    22%  
+    Number used as Logic:              3328  out of  15032    22%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   3824
+   Number with an unused Flip Flop:    2407  out of   3824    62%  
+   Number with an unused LUT:           496  out of   3824    12%  
+   Number of fully used LUT-FF pairs:   921  out of   3824    24%  
+   Number of unique control sets:        48
+
+IO Utilization: 
+ Number of IOs:                         241
+ Number of bonded IOBs:                   0  out of    186     0%  
+
+Specific Feature Utilization:
+ Number of DSP48A1s:                      1  out of     38     2%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | NONE(mul_a1_0)         | 1418  |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 8.862ns (Maximum Frequency: 112.838MHz)
+   Minimum input arrival time before clock: 14.021ns
+   Maximum output required time after clock: 0.525ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 8.862ns (frequency: 112.838MHz)
+  Total number of paths / destination ports: 1047816 / 2811
+-------------------------------------------------------------------------
+Delay:               8.862ns (Levels of Logic = 38)
+  Source:            phase_angle_q16_4_31 (FF)
+  Destination:       u_cordic_gen[4].u_cordic_bkEMF/normalized_angle_31 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: phase_angle_q16_4_31 to u_cordic_gen[4].u_cordic_bkEMF/normalized_angle_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            77   0.525   2.486  phase_angle_q16_4_31 (phase_angle_q16_4_31)
+     begin scope: 'u_cordic_gen[4].u_cordic_bkEMF:iData<29>'
+     LUT6:I0->O            2   0.254   0.726  n0008212 (n0008212)
+     LUT4:I3->O            3   0.254   0.766  n0008213_1 (n0008213)
+     LUT5:I4->O            2   0.254   0.726  PWR_3_o_iData[31]_AND_14_o4_1 (PWR_3_o_iData[31]_AND_14_o4)
+     LUT3:I2->O            1   0.254   0.681  Mmux_iData[31]_iData[31]_mux_21_OUT_AS11 (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_AS1)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<0> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<1> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<2> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<4> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<5> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<6> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<8> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<9> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<10> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<12> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<13> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<14> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<15>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<16> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<16>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<17> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<18> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<20> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<21> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<22> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<22>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<23>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<24> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<24>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<25> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<25>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<26> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<26>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<27>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<28> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<28>)
+     MUXCY:CI->O           1   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<29> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<29>)
+     MUXCY:CI->O           0   0.023   0.000  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<30> (Mmux_iData[31]_iData[31]_mux_21_OUT_rs_cy<30>)
+     XORCY:CI->O           1   0.206   0.682  Mmux_iData[31]_iData[31]_mux_21_OUT_rs_xor<31> (iData[31]_iData[31]_mux_21_OUT<31>)
+     LUT6:I5->O            1   0.254   0.000  normalized_angle_31_dpot (normalized_angle_31_dpot)
+     FDCE:D                    0.074          normalized_angle_31
+    ----------------------------------------
+    Total                      8.862ns (2.796ns logic, 6.067ns route)
+                                       (31.5% logic, 68.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 16106 / 1469
+-------------------------------------------------------------------------
+Offset:              14.021ns (Levels of Logic = 18)
+  Source:            Phir_Half_S16_Q15<4> (PAD)
+  Destination:       mul_b1_17 (FF)
+  Destination Clock: clk rising
+
+  Data Path: Phir_Half_S16_Q15<4> to mul_b1_17
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT5:I0->O            2   0.254   1.181  ADDERTREE_INTERNAL_Madd1_xor<0>1721 (ADDERTREE_INTERNAL_Madd1_xor<0>172)
+     LUT6:I0->O            2   0.254   1.181  ADDERTREE_INTERNAL_Madd1_cy<0>172 (ADDERTREE_INTERNAL_Madd1_cy<0>16)
+     LUT6:I0->O            3   0.254   0.766  ADDERTREE_INTERNAL_Madd1_xor<0>1911 (ADDERTREE_INTERNAL_Madd1_xor<0>191)
+     LUT5:I4->O            1   0.254   0.000  ADDERTREE_INTERNAL_Madd1_xor<0>2113_G (N12)
+     MUXF7:I1->O           3   0.175   0.766  ADDERTREE_INTERNAL_Madd1_xor<0>2113 (ADDERTREE_INTERNAL_Madd1_xor<0>211)
+     LUT5:I4->O            1   0.254   0.000  ADDERTREE_INTERNAL_Madd1_xor<0>2513_G (N14)
+     MUXF7:I1->O           3   0.175   0.766  ADDERTREE_INTERNAL_Madd1_xor<0>2513 (ADDERTREE_INTERNAL_Madd1_xor<0>251)
+     LUT5:I4->O            1   0.254   0.000  ADDERTREE_INTERNAL_Madd1_xor<0>2913_G (N16)
+     MUXF7:I1->O           2   0.175   1.181  ADDERTREE_INTERNAL_Madd1_xor<0>2913 (ADDERTREE_INTERNAL_Madd1_xor<0>291)
+     LUT6:I0->O            6   0.254   1.152  ADDERTREE_INTERNAL_Madd1_cy<0>291 (ADDERTREE_INTERNAL_Madd1_cy<0>24)
+     LUT4:I0->O            5   0.254   0.949  ADDERTREE_INTERNAL_Madd1_xor<0>3921 (ADDERTREE_INTERNAL_Madd1_xor<0>392)
+     LUT6:I4->O            1   0.250   0.000  ADDERTREE_INTERNAL_Madd1_xor<0>39_G (N18)
+     MUXF7:I1->O           1   0.175   0.682  ADDERTREE_INTERNAL_Madd1_xor<0>39 (ADDERTREE_INTERNAL_Madd_291)
+     LUT2:I1->O            1   0.254   0.000  ADDERTREE_INTERNAL_Madd3_lut<0>29 (ADDERTREE_INTERNAL_Madd3_lut<0>29)
+     MUXCY:S->O            1   0.215   0.000  ADDERTREE_INTERNAL_Madd3_cy<0>_28 (ADDERTREE_INTERNAL_Madd3_cy<0>29)
+     MUXCY:CI->O           0   0.023   0.000  ADDERTREE_INTERNAL_Madd3_cy<0>_29 (ADDERTREE_INTERNAL_Madd3_cy<0>30)
+     XORCY:CI->O           1   0.206   0.958  ADDERTREE_INTERNAL_Madd3_xor<0>_30 (ADDERTREE_INTERNAL_Madd_313)
+     LUT6:I2->O            1   0.254   0.000  Time_cnt[4]_phir_S18_Q17[17]_select_82_OUT<17>1 (Time_cnt[4]_phir_S18_Q17[17]_select_82_OUT<17>)
+     FDC:D                     0.074          mul_b1_17
+    ----------------------------------------
+    Total                     14.021ns (4.439ns logic, 9.582ns route)
+                                       (31.7% logic, 68.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 191 / 191
+-------------------------------------------------------------------------
+Offset:              0.525ns (Levels of Logic = 0)
+  Source:            eA_S35_Q17_27 (FF)
+  Destination:       eA_S35_Q17<34> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: eA_S35_Q17_27 to eA_S35_Q17<34>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             0   0.525   0.000  eA_S35_Q17_27 (eA_S35_Q17_27)
+    ----------------------------------------
+    Total                      0.525ns (0.525ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    8.862|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.24 secs
+ 
+--> 
+
+Total memory usage is 4514148 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  162 (   0 filtered)
+Number of infos    :   73 (   0 filtered)
+

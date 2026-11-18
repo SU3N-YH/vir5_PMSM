@@ -1,0 +1,18 @@
+{
+    "editor.inlineSuggest.enabled": true,
+    "editor.inlineSuggest.minShowDelay": 100,
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.quickSuggestionsDelay": 100,
+    "editor.screenReaderAnnounceInlineSuggestion": false
+}

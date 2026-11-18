@@ -1,0 +1,15 @@
+ISim log file
+Running: E:\SUEN27\vir5_PMSM_V\validation\custom_top_sim\custom_check.exe -intstyle silent -tclbatch run.tcl -log custom_check.log 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+n=359 a=2790186 b=-910955 c=-3353037 d=-1161518 e=2635373 m1=32768 m2=10 m3=0 neutral=32758 stm=63 hex=003f
+Stopped at time : 2189064 ps : File "E:/SUEN27/vir5_PMSM_V/validation/custom_top_sim/tb_custom.v" Line 11

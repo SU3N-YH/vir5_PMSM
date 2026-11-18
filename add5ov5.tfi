@@ -1,0 +1,28 @@
+
+
+
+// Instantiate the module
+add5ov5 instance_name (
+    .clk_fast(clk_fast), 
+    .rst_n(rst_n), 
+    .Ua1_S35_Q17(Ua1_S35_Q17), 
+    .Ub1_S35_Q17(Ub1_S35_Q17), 
+    .Uc1_S35_Q17(Uc1_S35_Q17), 
+    .Ud1_S35_Q17(Ud1_S35_Q17), 
+    .Ue1_S35_Q17(Ue1_S35_Q17), 
+    .Ua2_S35_Q17(Ua2_S35_Q17), 
+    .Ub2_S35_Q17(Ub2_S35_Q17), 
+    .Uc2_S35_Q17(Uc2_S35_Q17), 
+    .Ud2_S35_Q17(Ud2_S35_Q17), 
+    .Ue2_S35_Q17(Ue2_S35_Q17), 
+    .Ua3_S35_Q17(Ua3_S35_Q17), 
+    .Ub3_S35_Q17(Ub3_S35_Q17), 
+    .Uc3_S35_Q17(Uc3_S35_Q17), 
+    .Ud3_S35_Q17(Ud3_S35_Q17), 
+    .Ue3_S35_Q17(Ue3_S35_Q17), 
+    .U1_S35_Q17(U1_S35_Q17), 
+    .U2_S35_Q17(U2_S35_Q17), 
+    .U3_S35_Q17(U3_S35_Q17)
+    );
+
+

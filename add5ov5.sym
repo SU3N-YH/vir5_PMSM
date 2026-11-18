@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="add5ov5">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2026-11-13T12:00:00</timestamp>
+    <attr value="add5ov5" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-1088" name="clk_fast" />
+    <pin polarity="Input" x="0" y="-1024" name="rst_n" />
+    <pin polarity="Input" x="0" y="-960" name="Ua1_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-896" name="Ub1_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-832" name="Uc1_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-768" name="Ud1_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-704" name="Ue1_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-640" name="Ua2_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-576" name="Ub2_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-512" name="Uc2_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-448" name="Ud2_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-384" name="Ue2_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-320" name="Ua3_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-256" name="Ub3_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-192" name="Uc3_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-128" name="Ud3_S35_Q17(34:0)" />
+    <pin polarity="Input" x="0" y="-64" name="Ue3_S35_Q17(34:0)" />
+    <pin polarity="Output" x="640" y="-1088" name="U1_S35_Q17(34:0)" />
+    <pin polarity="Output" x="640" y="-1008" name="U2_S35_Q17(34:0)" />
+    <pin polarity="Output" x="640" y="-928" name="U3_S35_Q17(34:0)" />
+    <graph>
+        <rect width="512" x="64" y="-1120" height="1088" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="320" y="-1128" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1088" type="pin clk_fast" />
+        <line x1="0" x2="64" y1="-1088" y2="-1088" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1024" type="pin rst_n" />
+        <line x1="0" x2="64" y1="-1024" y2="-1024" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-960" type="pin Ua1_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-960" y2="-960" />
+        <rect width="64" x="0" y="-972" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-896" type="pin Ub1_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-896" y2="-896" />
+        <rect width="64" x="0" y="-908" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-832" type="pin Uc1_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-832" y2="-832" />
+        <rect width="64" x="0" y="-844" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-768" type="pin Ud1_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-768" y2="-768" />
+        <rect width="64" x="0" y="-780" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-704" type="pin Ue1_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-704" y2="-704" />
+        <rect width="64" x="0" y="-716" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-640" type="pin Ua2_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-640" y2="-640" />
+        <rect width="64" x="0" y="-652" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-576" type="pin Ub2_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-576" y2="-576" />
+        <rect width="64" x="0" y="-588" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-512" type="pin Uc2_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-512" y2="-512" />
+        <rect width="64" x="0" y="-524" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-448" type="pin Ud2_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-448" y2="-448" />
+        <rect width="64" x="0" y="-460" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-384" type="pin Ue2_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-384" y2="-384" />
+        <rect width="64" x="0" y="-396" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-320" type="pin Ua3_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-320" y2="-320" />
+        <rect width="64" x="0" y="-332" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-256" type="pin Ub3_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-256" y2="-256" />
+        <rect width="64" x="0" y="-268" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-192" type="pin Uc3_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-192" y2="-192" />
+        <rect width="64" x="0" y="-204" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-128" type="pin Ud3_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-128" y2="-128" />
+        <rect width="64" x="0" y="-140" height="24" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-64" type="pin Ue3_S35_Q17(34:0)" />
+        <line x1="0" x2="64" y1="-64" y2="-64" />
+        <rect width="64" x="0" y="-76" height="24" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1088" type="pin U1_S35_Q17(34:0)" />
+        <line x1="576" x2="640" y1="-1088" y2="-1088" />
+        <rect width="64" x="576" y="-1100" height="24" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1008" type="pin U2_S35_Q17(34:0)" />
+        <line x1="576" x2="640" y1="-1008" y2="-1008" />
+        <rect width="64" x="576" y="-1020" height="24" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-928" type="pin U3_S35_Q17(34:0)" />
+        <line x1="576" x2="640" y1="-928" y2="-928" />
+        <rect width="64" x="576" y="-940" height="24" />
+    </graph>
+</symbol>

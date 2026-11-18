@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj vir5_PMSM -o E:/SUEN27/vir5_PMSM/Inductor.tfi -lib work E:/SUEN27/vir5_PMSM//Inductor.v -module Inductor -template E:/SUEN27/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

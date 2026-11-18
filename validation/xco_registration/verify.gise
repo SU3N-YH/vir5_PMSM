@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="verify.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="../../ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="vir5_PMSM.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="vir5_PMSM.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="vir5_PMSM.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="vir5_PMSM.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="vir5_PMSM.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="vir5_PMSM.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="vir5_PMSM.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="vir5_PMSM.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="vir5_PMSM_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1794551816" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1794551816">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1794551816" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7189179427808627991" xil_pn:start_ts="1794551816">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1794551816" xil_pn:in_ck="-458621167984271365" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7617436071925696493" xil_pn:start_ts="1794551816">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../../ipcore_dir/MUL18x18_bEMF.ngc"/>
+      <outfile xil_pn:name="../../ipcore_dir/MUL18x18_bEMF.v"/>
+      <outfile xil_pn:name="../../ipcore_dir/division5.ngc"/>
+      <outfile xil_pn:name="../../ipcore_dir/division5.v"/>
+      <outfile xil_pn:name="../../ipcore_dir/mul18x35_1225_BySunY.ngc"/>
+      <outfile xil_pn:name="../../ipcore_dir/mul18x35_1225_BySunY.v"/>
+      <outfile xil_pn:name="../../ipcore_dir/mul_inductor_2.ngc"/>
+      <outfile xil_pn:name="../../ipcore_dir/mul_inductor_2.v"/>
+      <outfile xil_pn:name="../../ipcore_dir/pll300MHz.v"/>
+    </transform>
+    <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1794551816" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1585175069789351769" xil_pn:start_ts="1794551816">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1794551816" xil_pn:in_ck="-4135263309810494080" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-1970394750299821092" xil_pn:start_ts="1794551816">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1794551816" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2043342425377307081" xil_pn:start_ts="1794551816">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1794551899" xil_pn:in_ck="-1875584665867703818" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-9157456093072015460" xil_pn:start_ts="1794551816">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="vir5_PMSM.lso"/>
+      <outfile xil_pn:name="vir5_PMSM.ngc"/>
+      <outfile xil_pn:name="vir5_PMSM.ngr"/>
+      <outfile xil_pn:name="vir5_PMSM.prj"/>
+      <outfile xil_pn:name="vir5_PMSM.stx"/>
+      <outfile xil_pn:name="vir5_PMSM.syr"/>
+      <outfile xil_pn:name="vir5_PMSM.xst"/>
+      <outfile xil_pn:name="vir5_PMSM_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

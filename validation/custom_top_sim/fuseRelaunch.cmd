@@ -1,0 +1,1 @@
+-intstyle "silent" -mt "off" -prj "test.prj" -L "unisims_ver" -o "custom_check.exe" "work.tb_custom" "work.glbl" 

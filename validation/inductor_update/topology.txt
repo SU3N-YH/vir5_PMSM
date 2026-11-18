@@ -1,0 +1,6 @@
+PASS: 22 top ports, 14 instances, 208 pins.
+PASS: main.sch baseline plus approved five-phase Inductor/PWM/DSP extension.
+PASS: RTL module port names/widths, ISE top, UCF references and source list.
+PASS: both signed 18x35 multiplier IPs have 53-bit output and two pipeline stages.
+Preserved undriven net: electrical_position_undriven
+Preserved open inputs: u_pci.FPGA2DSP_Signal_14, u_pci.FPGA2DSP_Signal_17, u_back_emf.eOMG_S18_Q4, u_grid_pwm_passthrough.In3

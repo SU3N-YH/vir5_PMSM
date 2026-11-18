@@ -1,0 +1,872 @@
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/pll300MHz.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul18x18_2.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/Xt_multi.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul18x35_26july_BySunY.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul_park.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul18x35_1225_BySunY.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul_clarke.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/MUL_add3ov3.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/MTPL_mutual_A.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/BackEMF.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/CORDIC_STANDALONE.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Clarke2alphabeta.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/EMFm_calc.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/In2Out.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Inductor.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Inductor_DE.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Inductor_tf.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Neg_Pos_converter.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/PCI.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/PWM_DT.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Park2dq.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Toggle.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Toggle_Tb.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/VSI_3p.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Volt_N_calc.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/add3over3.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/bit16_bit36_1.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/bit18_to_16.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/bit_16to18.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/clk300MHz.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/clk300MHz_tb.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/inv_phi2_HB_DE.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/inv_phi3_HB.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/inverter_tf.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul_inductor_2.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/mul_tf.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/noisekiller.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_EMFm.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_Mech.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_Te_calc.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_backEMF.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_clarke.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_cordic.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/test_park.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/BackEMF.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/CORDIC_STANDALONE.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Clarke2alphabeta.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/EMFm_calc.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/In2Out.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Inductor.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Inductor_DE.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Neg_Pos_converter.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/PCI.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/PWM_DT.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Park2dq.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Toggle.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/VSI_3p.v"
+   into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/Volt_N_calc.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/add3over3.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/bit16_bit36_1.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/bit18_to_16.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/bit_16to18.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/clk300MHz.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/inv_phi2_HB_DE.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/inv_phi3_HB.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul_inductor_2.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/noisekiller.v" into library work
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Qt: Untested Windows version 6.2 detected!
+
+Started : "Synthesize - XST".
+Running xst...
+Command Line: xst -intstyle ise -ifn "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.xst" -ofn "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.syr"
+Reading design: vir5_PMSM.prj
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\ipcore_dir\pll300MHz.v" into library work
+Parsing module <pll300MHz>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\ipcore_dir\mul_inductor_2.v" into library work
+Parsing module <mul_inductor_2>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\ipcore_dir\mul18x35_1225_BySunY.v" into library work
+Parsing module <mul18x35_1225_BySunY>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\PCI.v" into library work
+Parsing module <PCI>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\Neg_Pos_converter.v" into library work
+Parsing module <Neg_Pos_converter>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" into library work
+Parsing module <inv_phi3_HB>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v" into library work
+Parsing module <inv_phi2_HB_DE>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\Inductor_DE.v" into library work
+Parsing module <Inductor_DE>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\Inductor.v" into library work
+Parsing module <Inductor>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\In2Out.v" into library work
+Parsing module <In2Out>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\clk300MHz.v" into library work
+Parsing module <clk300MHz>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\bit18_to_16.v" into library work
+Parsing module <bit18_to_16>.
+Analyzing Verilog file "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" into library work
+Parsing module <vir5_PMSM>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <vir5_PMSM>.
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 121: Assignment to half_flux_q15 ignored, since the identifier is never used
+
+Elaborating module <PCI>.
+
+Elaborating module <inv_phi3_HB>.
+WARNING:HDLCompiler:872 - "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" Line 66: Using initial value of Volt_On_Switch12_S35_Q17 since it is never assigned
+WARNING:HDLCompiler:872 - "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" Line 67: Using initial value of Volt_On_Switch34_S35_Q17 since it is never assigned
+WARNING:HDLCompiler:872 - "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" Line 68: Using initial value of Volt_On_Switch56_S35_Q17 since it is never assigned
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" Line 113: Assignment to IQ1_S35_Q17 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" Line 142: Assignment to IQ3_S35_Q17 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" Line 171: Assignment to IQ5_S35_Q17 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 236: Assignment to phase_a_voltage_stm32 ignored, since the identifier is never used
+
+Elaborating module <inv_phi2_HB_DE>.
+WARNING:HDLCompiler:872 - "E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v" Line 81: Using initial value of Volt_On_Switch12_S35_Q17 since it is never assigned
+WARNING:HDLCompiler:872 - "E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v" Line 82: Using initial value of Volt_On_Switch34_S35_Q17 since it is never assigned
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v" Line 135: Assignment to IQ1_S35_Q17 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v" Line 164: Assignment to IQ3_S35_Q17 ignored, since the identifier is never used
+
+Elaborating module <Inductor>.
+
+Elaborating module <mul18x35_1225_BySunY>.
+
+Elaborating module <Inductor_DE>.
+
+Elaborating module <mul_inductor_2>.
+
+Elaborating module <Neg_Pos_converter>.
+WARNING:HDLCompiler:413 - "E:\SUEN27\vir5_PMSM_V\Neg_Pos_converter.v" Line 25: Result of 32-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <clk300MHz>.
+
+Elaborating module <pll300MHz>.
+
+Elaborating module <IBUFG>.
+
+Elaborating module <PLL_BASE(BANDWIDTH="OPTIMIZED",CLK_FEEDBACK="CLKFBOUT",COMPENSATION="SYSTEM_SYNCHRONOUS",DIVCLK_DIVIDE=1,CLKFBOUT_MULT=45,CLKFBOUT_PHASE=0.0,CLKOUT0_DIVIDE=90,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT1_DIVIDE=18,CLKOUT1_PHASE=0.0,CLKOUT1_DUTY_CYCLE=0.5,CLKOUT2_DIVIDE=5,CLKOUT2_PHASE=0.0,CLKOUT2_DUTY_CYCLE=0.5,CLKIN_PERIOD=50.0,REF_JITTER=0.01)>.
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\ipcore_dir\pll300MHz.v" Line 124: Assignment to clkout3_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\ipcore_dir\pll300MHz.v" Line 125: Assignment to clkout4_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\ipcore_dir\pll300MHz.v" Line 126: Assignment to clkout5_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\ipcore_dir\pll300MHz.v" Line 127: Assignment to locked_unused ignored, since the identifier is never used
+
+Elaborating module <BUFG>.
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 444: Assignment to clk_50mhz ignored, since the identifier is never used
+
+Elaborating module <bit18_to_16>.
+WARNING:HDLCompiler:1127 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 452: Assignment to position_stm32 ignored, since the identifier is never used
+
+Elaborating module <In2Out>.
+WARNING:HDLCompiler:634 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 58: Net <electrical_position_undriven[17]> does not have a driver.
+WARNING:HDLCompiler:552 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 137: Input port FPGAtoSTM32_Signal_9[15] is not connected on this instance
+WARNING:HDLCompiler:552 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 473: Input port In3 is not connected on this instance
+WARNING:Xst:2972 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 450. All outputs of instance <u_position_to_stm32> of block <bit18_to_16> are unconnected in block <vir5_PMSM>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <vir5_PMSM>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v".
+WARNING:Xst:2898 - Port 'FPGAtoSTM32_Signal_9', unconnected in block instance 'u_pci', is tied to GND.
+WARNING:Xst:2898 - Port 'FPGAtoSTM32_Signal_10', unconnected in block instance 'u_pci', is tied to GND.
+WARNING:Xst:2898 - Port 'FPGAtoSTM32_Signal_14', unconnected in block instance 'u_pci', is tied to GND.
+WARNING:Xst:2898 - Port 'FPGAtoSTM32_Signal_15', unconnected in block instance 'u_pci', is tied to GND.
+WARNING:Xst:2898 - Port 'In3', unconnected in block instance 'u_grid_pwm_passthrough', is tied to GND.
+WARNING:Xst:647 - Input <epwm_7A> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 137: Output port <STM32toFPGA_Signal_6> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 137: Output port <STM32toFPGA_Signal_7> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 137: Output port <STM32toFPGA_Signal_8> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 137: Output port <STM32toFPGA_Signal_9> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 137: Output port <STM32toFPGA_Signal_10> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 137: Output port <STM32toFPGA_Signal_11> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 137: Output port <STM32toFPGA_Signal_12> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 137: Output port <STM32toFPGA_Signal_13> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 137: Output port <STM32toFPGA_Signal_14> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 137: Output port <STM32toFPGA_Signal_15> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 137: Output port <STM32toFPGA_Signal_16> of the instance <u_pci> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 207: Output port <x_4> of the instance <u_inverter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 207: Output port <x_5> of the instance <u_inverter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 207: Output port <x_6> of the instance <u_inverter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 207: Output port <x_7> of the instance <u_inverter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 207: Output port <x_8> of the instance <u_inverter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 207: Output port <x_9> of the instance <u_inverter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 315: Output port <phase_d_lower_current_stm32> of the instance <u_inverter_de> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 315: Output port <phase_e_lower_current_stm32> of the instance <u_inverter_de> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 441: Output port <clk300MHz> of the instance <u_clock> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 441: Output port <clk50MHz> of the instance <u_clock> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 450: Output port <out_16bit> of the instance <u_position_to_stm32> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" line 473: Output port <Out3> of the instance <u_grid_pwm_passthrough> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <electrical_position_undriven> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <vir5_PMSM> synthesized.
+
+Synthesizing Unit <PCI>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\PCI.v".
+    Set property "ASYNC_REG = TRUE" for signal <write_meta>.
+    Set property "ASYNC_REG = TRUE" for signal <write_sync>.
+WARNING:Xst:647 - Input <FPGAtoSTM32_Signal_9> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FPGAtoSTM32_Signal_10> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FPGAtoSTM32_Signal_14> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FPGAtoSTM32_Signal_15> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <write_sync>.
+    Found 1-bit register for signal <write_seen>.
+    Found 16-bit register for signal <Loopback_Data>.
+    Found 16-bit register for signal <Data_1>.
+    Found 16-bit register for signal <Data_2>.
+    Found 16-bit register for signal <Data_3>.
+    Found 16-bit register for signal <Data_4>.
+    Found 16-bit register for signal <Data_5>.
+    Found 16-bit register for signal <Data_6>.
+    Found 16-bit register for signal <Data_7>.
+    Found 16-bit register for signal <Data_8>.
+    Found 16-bit register for signal <Data_9>.
+    Found 16-bit register for signal <Data_10>.
+    Found 16-bit register for signal <Data_11>.
+    Found 16-bit register for signal <Data_12>.
+    Found 16-bit register for signal <Data_13>.
+    Found 16-bit register for signal <Data_14>.
+    Found 16-bit register for signal <Data_15>.
+    Found 16-bit register for signal <Data_16>.
+    Found 1-bit register for signal <write_meta>.
+    Found 1-bit tristate buffer for signal <STM32_Databus<15>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<14>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<13>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<12>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<11>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<10>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<9>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<8>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<7>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<6>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<5>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<4>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<3>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<2>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<1>> created at line 133
+    Found 1-bit tristate buffer for signal <STM32_Databus<0>> created at line 133
+INFO:Xst:2774 - HDL ADVISOR - ASYNC_REG property attached to signal write_meta may hinder XST clustering optimizations.
+    Summary:
+	inferred 275 D-type flip-flop(s).
+	inferred  16 Tristate(s).
+Unit <PCI> synthesized.
+
+Synthesizing Unit <inv_phi3_HB>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v".
+WARNING:Xst:647 - Input <Rd_S16_Q15> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <clk_10MHz>.
+    Found 35-bit register for signal <IQ2_S35_Q17>.
+    Found 35-bit register for signal <UAO_S35_Q17>.
+    Found 35-bit register for signal <IQ4_S35_Q17>.
+    Found 35-bit register for signal <UBO_S35_Q17>.
+    Found 35-bit register for signal <IQ6_S35_Q17>.
+    Found 35-bit register for signal <UCO_S35_Q17>.
+    Found 35-bit register for signal <x_1>.
+    Found 35-bit register for signal <x_2>.
+    Found 35-bit register for signal <x_3>.
+    Found 16-bit register for signal <x_4>.
+    Found 16-bit register for signal <x_5>.
+    Found 16-bit register for signal <x_6>.
+    Found 16-bit register for signal <x_7>.
+    Found 16-bit register for signal <x_8>.
+    Found 16-bit register for signal <x_9>.
+    Found 16-bit register for signal <x_10>.
+    Found 5-bit register for signal <Time_cnt>.
+    Found 35-bit subtractor for signal <Udc1Over2_S35_Q17> created at line 93.
+    Found 35-bit subtractor for signal <Udc2Over2_S35_Q17> created at line 94.
+    Found 35-bit subtractor for signal <Udc3Over2_S35_Q17> created at line 95.
+    Found 35-bit subtractor for signal <Ia_S35_Q17[34]_unary_minus_25_OUT> created at line 121.
+    Found 35-bit subtractor for signal <Ib_S35_Q17[34]_unary_minus_62_OUT> created at line 150.
+    Found 35-bit subtractor for signal <Ic_S35_Q17[34]_unary_minus_99_OUT> created at line 179.
+    Found 5-bit adder for signal <Time_cnt[4]_GND_19_o_add_12_OUT> created at line 105.
+    Found 35-bit adder for signal <Udc1Over2_S35_Q17[34]_Vd_S35_Q17[34]_add_41_OUT> created at line 132.
+    Found 35-bit adder for signal <Udc2Over2_S35_Q17[34]_Vd_S35_Q17[34]_add_78_OUT> created at line 161.
+    Found 35-bit adder for signal <Udc3Over2_S35_Q17[34]_Vd_S35_Q17[34]_add_115_OUT> created at line 190.
+    Found 16-bit adder for signal <n0276> created at line 219.
+    Found 16-bit adder for signal <x_4[15]_x_6[15]_add_129_OUT> created at line 219.
+    Found 35-bit subtractor for signal <GND_19_o_Udc1Over2_S35_Q17[34]_sub_26_OUT> created at line 122.
+    Found 35-bit subtractor for signal <GND_19_o_Udc2Over2_S35_Q17[34]_sub_63_OUT> created at line 151.
+    Found 35-bit subtractor for signal <GND_19_o_Udc3Over2_S35_Q17[34]_sub_100_OUT> created at line 180.
+    Found 35-bit subtractor for signal <Udc1Over2_S35_Q17[34]_Vd_S35_Q17[34]_sub_35_OUT> created at line 127.
+    Found 35-bit subtractor for signal <Udc2Over2_S35_Q17[34]_Vd_S35_Q17[34]_sub_72_OUT> created at line 156.
+    Found 35-bit subtractor for signal <Udc3Over2_S35_Q17[34]_Vd_S35_Q17[34]_sub_109_OUT> created at line 185.
+    Found 35-bit comparator greater for signal <Ia_S35_Q17[34]_GND_19_o_LessThan_32_o> created at line 124
+    Found 35-bit comparator greater for signal <GND_19_o_Ia_S35_Q17[34]_LessThan_41_o> created at line 129
+    Found 35-bit comparator greater for signal <Ib_S35_Q17[34]_GND_19_o_LessThan_69_o> created at line 153
+    Found 35-bit comparator greater for signal <GND_19_o_Ib_S35_Q17[34]_LessThan_78_o> created at line 158
+    Found 35-bit comparator greater for signal <Ic_S35_Q17[34]_GND_19_o_LessThan_106_o> created at line 182
+    Found 35-bit comparator greater for signal <GND_19_o_Ic_S35_Q17[34]_LessThan_115_o> created at line 187
+    Summary:
+	inferred  18 Adder/Subtractor(s).
+	inferred 433 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+	inferred  15 Multiplexer(s).
+Unit <inv_phi3_HB> synthesized.
+
+Synthesizing Unit <inv_phi2_HB_DE>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v".
+WARNING:Xst:647 - Input <Rd_S16_Q15> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <clk_10MHz>.
+    Found 35-bit register for signal <IQ2_S35_Q17>.
+    Found 35-bit register for signal <UDO_S35_Q17>.
+    Found 35-bit register for signal <IQ4_S35_Q17>.
+    Found 35-bit register for signal <UEO_S35_Q17>.
+    Found 35-bit register for signal <phase_d_voltage_q17>.
+    Found 35-bit register for signal <phase_e_voltage_q17>.
+    Found 16-bit register for signal <phase_d_lower_current_stm32>.
+    Found 16-bit register for signal <phase_e_lower_current_stm32>.
+    Found 16-bit register for signal <phase_d_voltage_stm32>.
+    Found 16-bit register for signal <phase_e_voltage_stm32>.
+    Found 5-bit register for signal <Time_cnt>.
+    Found 35-bit subtractor for signal <Udc1Over2_S35_Q17> created at line 114.
+    Found 35-bit subtractor for signal <Udc2Over2_S35_Q17> created at line 115.
+    Found 35-bit subtractor for signal <Id_S35_Q17[34]_unary_minus_22_OUT> created at line 143.
+    Found 35-bit subtractor for signal <Ie_S35_Q17[34]_unary_minus_59_OUT> created at line 172.
+    Found 5-bit adder for signal <Time_cnt[4]_GND_21_o_add_9_OUT> created at line 127.
+    Found 35-bit adder for signal <Udc1Over2_S35_Q17[34]_Vd_S35_Q17[34]_add_38_OUT> created at line 154.
+    Found 35-bit adder for signal <Udc2Over2_S35_Q17[34]_Vd_S35_Q17[34]_add_75_OUT> created at line 183.
+    Found 35-bit subtractor for signal <GND_21_o_Udc1Over2_S35_Q17[34]_sub_23_OUT> created at line 144.
+    Found 35-bit subtractor for signal <GND_21_o_Udc2Over2_S35_Q17[34]_sub_60_OUT> created at line 173.
+    Found 35-bit subtractor for signal <Udc1Over2_S35_Q17[34]_Vd_S35_Q17[34]_sub_32_OUT> created at line 149.
+    Found 35-bit subtractor for signal <Udc2Over2_S35_Q17[34]_Vd_S35_Q17[34]_sub_69_OUT> created at line 178.
+    Found 35-bit comparator greater for signal <Id_S35_Q17[34]_GND_21_o_LessThan_29_o> created at line 146
+    Found 35-bit comparator greater for signal <GND_21_o_Id_S35_Q17[34]_LessThan_38_o> created at line 151
+    Found 35-bit comparator greater for signal <Ie_S35_Q17[34]_GND_21_o_LessThan_66_o> created at line 175
+    Found 35-bit comparator greater for signal <GND_21_o_Ie_S35_Q17[34]_LessThan_75_o> created at line 180
+    Summary:
+	inferred  11 Adder/Subtractor(s).
+	inferred 280 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  10 Multiplexer(s).
+Unit <inv_phi2_HB_DE> synthesized.
+
+Synthesizing Unit <Inductor>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\Inductor.v".
+        IDLE = 4'sb0000
+        MUL1 = 4'sb0001
+        MUL2 = 4'sb0010
+        MUL3 = 4'sb0011
+        MUL4 = 4'sb0100
+        MUL5 = 4'sb0101
+        MUL6 = 4'sb0110
+    Found 4-bit register for signal <Task_No>.
+    Found 1-bit register for signal <clk_10MHz>.
+    Found 18-bit register for signal <mul_a1>.
+    Found 35-bit register for signal <mul_b1>.
+    Found 35-bit register for signal <emfL1_S35>.
+    Found 35-bit register for signal <emfL2_S35>.
+    Found 35-bit register for signal <emfL3_S35>.
+    Found 35-bit register for signal <emfL01_S35>.
+    Found 35-bit register for signal <emfL02_S35>.
+    Found 35-bit register for signal <emfL03_S35>.
+    Found 35-bit register for signal <RxI1_S35>.
+    Found 35-bit register for signal <RxI2_S35>.
+    Found 35-bit register for signal <RxI3_S35>.
+    Found 53-bit register for signal <I1_temp_S35>.
+    Found 53-bit register for signal <I2_temp_S35>.
+    Found 53-bit register for signal <I3_temp_S35>.
+    Found 53-bit register for signal <x_13>.
+    Found 53-bit register for signal <x_14>.
+    Found 53-bit register for signal <x_15>.
+    Found 35-bit register for signal <x_1>.
+    Found 35-bit register for signal <x_2>.
+    Found 35-bit register for signal <x_3>.
+    Found 6-bit register for signal <Time_cnt>.
+    Found 6-bit adder for signal <Time_cnt[5]_GND_22_o_add_1_OUT> created at line 109.
+    Found 35-bit adder for signal <emfL01_S35[34]_emfL1_S35[34]_add_28_OUT> created at line 170.
+    Found 35-bit adder for signal <emfL02_S35[34]_emfL2_S35[34]_add_32_OUT> created at line 178.
+    Found 35-bit adder for signal <emfL03_S35[34]_emfL3_S35[34]_add_36_OUT> created at line 185.
+    Found 53-bit adder for signal <x_13[52]_I1_temp_S35[52]_add_84_OUT> created at line 216.
+    Found 53-bit adder for signal <x_14[52]_I2_temp_S35[52]_add_85_OUT> created at line 217.
+    Found 53-bit adder for signal <x_15[52]_I3_temp_S35[52]_add_86_OUT> created at line 218.
+    Found 35-bit subtractor for signal <UAO_P_S35[34]_bEMF_A_S35_Q17[34]_sub_32_OUT> created at line 171.
+    Found 35-bit subtractor for signal <UCO_P_S35[34]_bEMF_C_S35_Q17[34]_sub_40_OUT> created at line 186.
+    Found 35-bit subtractor for signal <UBO_P_S35[34]_bEMF_B_S35_Q17[34]_sub_36_OUT> created at line 179.
+    Summary:
+	inferred   8 Adder/Subtractor(s).
+	inferred 802 D-type flip-flop(s).
+	inferred  12 Multiplexer(s).
+Unit <Inductor> synthesized.
+
+Synthesizing Unit <Inductor_DE>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\Inductor_DE.v".
+        IDLE = 4'sb0000
+        MUL1 = 4'sb0001
+        MUL2 = 4'sb0010
+        MUL3 = 4'sb0011
+        MUL4 = 4'sb0100
+        MUL5 = 4'sb0101
+        MUL6 = 4'sb0110
+    Found 4-bit register for signal <Task_No>.
+    Found 1-bit register for signal <clk_10MHz>.
+    Found 18-bit register for signal <mul_a1>.
+    Found 35-bit register for signal <mul_b1>.
+    Found 35-bit register for signal <emfL4_S35>.
+    Found 35-bit register for signal <emfL5_S35>.
+    Found 35-bit register for signal <emfL04_S35>.
+    Found 35-bit register for signal <emfL05_S35>.
+    Found 35-bit register for signal <RxI4_S35>.
+    Found 35-bit register for signal <RxI5_S35>.
+    Found 53-bit register for signal <I4_temp_S35>.
+    Found 53-bit register for signal <I5_temp_S35>.
+    Found 53-bit register for signal <x_16>.
+    Found 53-bit register for signal <x_17>.
+    Found 35-bit register for signal <x_4>.
+    Found 35-bit register for signal <x_5>.
+    Found 6-bit register for signal <Time_cnt>.
+    Found 6-bit adder for signal <Time_cnt[5]_GND_24_o_add_1_OUT> created at line 127.
+    Found 35-bit adder for signal <emfL04_S35[34]_emfL4_S35[34]_add_28_OUT> created at line 190.
+    Found 35-bit adder for signal <emfL05_S35[34]_emfL5_S35[34]_add_32_OUT> created at line 198.
+    Found 53-bit adder for signal <x_16[52]_I4_temp_S35[52]_add_68_OUT> created at line 241.
+    Found 53-bit adder for signal <x_17[52]_I5_temp_S35[52]_add_69_OUT> created at line 242.
+    Found 35-bit subtractor for signal <UDO_P_S35[34]_bEMF_D_S35_Q17[34]_sub_32_OUT> created at line 191.
+    Found 35-bit subtractor for signal <UEO_P_S35[34]_bEMF_E_S35_Q17[34]_sub_36_OUT> created at line 199.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred 556 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+Unit <Inductor_DE> synthesized.
+
+Synthesizing Unit <Neg_Pos_converter>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\Neg_Pos_converter.v".
+    Found 16-bit subtractor for signal <data_out> created at line 23.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <Neg_Pos_converter> synthesized.
+
+Synthesizing Unit <clk300MHz>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\clk300MHz.v".
+    Summary:
+	no macro.
+Unit <clk300MHz> synthesized.
+
+Synthesizing Unit <pll300MHz>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\ipcore_dir\pll300MHz.v".
+    Summary:
+	no macro.
+Unit <pll300MHz> synthesized.
+
+Synthesizing Unit <In2Out>.
+    Related source file is "E:\SUEN27\vir5_PMSM_V\In2Out.v".
+    Summary:
+	no macro.
+Unit <In2Out> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 45
+ 16-bit adder                                          : 2
+ 16-bit subtractor                                     : 1
+ 35-bit adder                                          : 8
+ 35-bit subtractor                                     : 25
+ 5-bit adder                                           : 2
+ 53-bit adder                                          : 5
+ 6-bit adder                                           : 2
+# Registers                                            : 90
+ 1-bit register                                        : 7
+ 16-bit register                                       : 28
+ 18-bit register                                       : 2
+ 35-bit register                                       : 37
+ 4-bit register                                        : 2
+ 5-bit register                                        : 2
+ 53-bit register                                       : 10
+ 6-bit register                                        : 2
+# Comparators                                          : 10
+ 35-bit comparator greater                             : 10
+# Multiplexers                                         : 41
+ 1-bit 2-to-1 multiplexer                              : 2
+ 18-bit 2-to-1 multiplexer                             : 1
+ 35-bit 2-to-1 multiplexer                             : 32
+ 4-bit 2-to-1 multiplexer                              : 6
+# Tristates                                            : 16
+ 1-bit tristate buffer                                 : 16
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/mul18x35_1225_BySunY.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/mul_inductor_2.ngc>.
+Reading Secure Unit <blk00000001>.
+Loading core <mul18x35_1225_BySunY> for timing and area information for instance <u_mul_inductor>.
+Loading core <mul_inductor_2> for timing and area information for instance <u_mul_inductor>.
+INFO:Xst:2261 - The FF/Latch <x_3_14> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_4> 
+INFO:Xst:2261 - The FF/Latch <x_3_15> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_5> 
+INFO:Xst:2261 - The FF/Latch <x_3_20> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_10> 
+INFO:Xst:2261 - The FF/Latch <x_3_10> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_0> 
+INFO:Xst:2261 - The FF/Latch <x_3_16> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_6> 
+INFO:Xst:2261 - The FF/Latch <x_3_21> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_11> 
+INFO:Xst:2261 - The FF/Latch <x_3_11> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_1> 
+INFO:Xst:2261 - The FF/Latch <x_3_17> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_7> 
+INFO:Xst:2261 - The FF/Latch <x_3_22> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_12> 
+INFO:Xst:2261 - The FF/Latch <x_3_12> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_2> 
+INFO:Xst:2261 - The FF/Latch <x_3_18> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_8> 
+INFO:Xst:2261 - The FF/Latch <x_3_23> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_13> 
+INFO:Xst:2261 - The FF/Latch <x_3_34> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_15> 
+INFO:Xst:2261 - The FF/Latch <x_3_13> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_3> 
+INFO:Xst:2261 - The FF/Latch <x_3_19> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_9> 
+INFO:Xst:2261 - The FF/Latch <x_3_24> in Unit <u_inverter> is equivalent to the following FF/Latch, which will be removed : <x_10_14> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_19> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_9> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_24> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_14> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_16> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_6> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_21> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_11> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_17> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_7> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_22> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_12> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_14> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_4> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_15> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_5> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_20> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_10> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_12> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_2> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_13> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_3> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_10> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_0> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_11> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_1> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_34> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_15> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_19> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_9> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_24> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_14> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_17> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_7> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_22> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_12> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_18> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_8> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_23> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_13> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_15> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_5> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_20> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_10> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_16> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_6> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_21> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_11> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_13> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_3> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_14> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_4> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_11> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_1> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_12> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_2> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_34> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_15> 
+INFO:Xst:2261 - The FF/Latch <phase_d_voltage_q17_10> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_d_voltage_stm32_0> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_18> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_8> 
+INFO:Xst:2261 - The FF/Latch <phase_e_voltage_q17_23> in Unit <u_inverter_de> is equivalent to the following FF/Latch, which will be removed : <phase_e_voltage_stm32_13> 
+INFO:Xst:2261 - The FF/Latch <RxI3_S35_32> in Unit <u_inductor> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI3_S35_33> <RxI3_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI1_S35_32> in Unit <u_inductor> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI1_S35_33> <RxI1_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI2_S35_32> in Unit <u_inductor> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI2_S35_33> <RxI2_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI5_S35_32> in Unit <u_inductor_de> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI5_S35_33> <RxI5_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI4_S35_32> in Unit <u_inductor_de> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI4_S35_33> <RxI4_S35_34> 
+WARNING:Xst:1293 - FF/Latch <mul_a1_16> has a constant value of 0 in block <u_inductor_de>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <mul_a1_17> has a constant value of 0 in block <u_inductor_de>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <Inductor>.
+The following registers are absorbed into accumulator <x_13>: 1 register on signal <x_13>.
+The following registers are absorbed into accumulator <x_14>: 1 register on signal <x_14>.
+The following registers are absorbed into accumulator <x_15>: 1 register on signal <x_15>.
+The following registers are absorbed into counter <Time_cnt>: 1 register on signal <Time_cnt>.
+Unit <Inductor> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Inductor_DE>.
+The following registers are absorbed into accumulator <x_16>: 1 register on signal <x_16>.
+The following registers are absorbed into accumulator <x_17>: 1 register on signal <x_17>.
+The following registers are absorbed into counter <Time_cnt>: 1 register on signal <Time_cnt>.
+Unit <Inductor_DE> synthesized (advanced).
+
+Synthesizing (advanced) Unit <inv_phi2_HB_DE>.
+The following registers are absorbed into counter <Time_cnt>: 1 register on signal <Time_cnt>.
+Unit <inv_phi2_HB_DE> synthesized (advanced).
+
+Synthesizing (advanced) Unit <inv_phi3_HB>.
+The following registers are absorbed into counter <Time_cnt>: 1 register on signal <Time_cnt>.
+Unit <inv_phi3_HB> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 29
+ 16-bit subtractor                                     : 1
+ 35-bit adder                                          : 8
+ 35-bit subtractor                                     : 20
+# Counters                                             : 4
+ 5-bit up counter                                      : 2
+ 6-bit up counter                                      : 2
+# Accumulators                                         : 5
+ 53-bit up accumulator                                 : 5
+# Registers                                            : 1756
+ Flip-Flops                                            : 1756
+# Comparators                                          : 10
+ 35-bit comparator greater                             : 10
+# Multiplexers                                         : 167
+ 1-bit 2-to-1 multiplexer                              : 142
+ 18-bit 2-to-1 multiplexer                             : 1
+ 35-bit 2-to-1 multiplexer                             : 18
+ 4-bit 2-to-1 multiplexer                              : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <mul_a1_16> has a constant value of 0 in block <Inductor_DE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mul_a1_17> has a constant value of 0 in block <Inductor_DE>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <RxI3_S35_32> in Unit <Inductor> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI3_S35_33> <RxI3_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI1_S35_32> in Unit <Inductor> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI1_S35_33> <RxI1_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI2_S35_32> in Unit <Inductor> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI2_S35_33> <RxI2_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI5_S35_32> in Unit <Inductor_DE> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI5_S35_33> <RxI5_S35_34> 
+INFO:Xst:2261 - The FF/Latch <RxI4_S35_32> in Unit <Inductor_DE> is equivalent to the following 2 FFs/Latches, which will be removed : <RxI4_S35_33> <RxI4_S35_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_12> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_22> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_7> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_17> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_1> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_11> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_12> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_22> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_7> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_17> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_0> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_10> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_2> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_12> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_6> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_16> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_11> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_21> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_13> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_23> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_8> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_18> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_2> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_12> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_15> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_8> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_18> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_13> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_23> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_15> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_1> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_11> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_3> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_13> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_12> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_22> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_7> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_17> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_14> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_24> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_9> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_19> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_3> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_13> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_9> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_19> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_14> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_24> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_2> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_12> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_4> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_14> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_8> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_18> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_13> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_23> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_4> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_14> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_15> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_3> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_13> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_10> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_20> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_5> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_15> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_9> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_19> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_14> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_24> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_5> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_15> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_10> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_20> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_0> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_10> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_4> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_14> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_11> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_21> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_6> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_16> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_11> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_21> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_6> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_16> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_0> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_10> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_1> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_11> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_5> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_15> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_10> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_20> 
+WARNING:Xst:1293 - FF/Latch <Task_No_3> has a constant value of 0 in block <Inductor>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mul_a1_16> has a constant value of 0 in block <Inductor>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mul_a1_17> has a constant value of 0 in block <Inductor>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Task_No_3> has a constant value of 0 in block <Inductor_DE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_0> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UCO_S35_Q17_1> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_0> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UBO_S35_Q17_1> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_0> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter/UAO_S35_Q17_1> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_0> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UEO_S35_Q17_1> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_0> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inverter_de/UDO_S35_Q17_1> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/phase_d_voltage_q17_1> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/phase_d_voltage_q17_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/phase_e_voltage_q17_1> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter_de/phase_e_voltage_q17_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_1> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_1_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_1> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_2_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_1> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_inverter/x_3_0> (without init value) has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:1901 - Instance u_clock/CLOCK/pll_base_inst in unit u_clock/CLOCK/pll_base_inst of type PLL_BASE has been replaced by PLL_ADV
+INFO:Xst:2261 - The FF/Latch <u_inverter/UCO_S35_Q17_29> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_inverter/UCO_S35_Q17_30> <u_inverter/UCO_S35_Q17_31> <u_inverter/UCO_S35_Q17_32> <u_inverter/UCO_S35_Q17_33> <u_inverter/UCO_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/UDO_S35_Q17_29> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_inverter_de/UDO_S35_Q17_30> <u_inverter_de/UDO_S35_Q17_31> <u_inverter_de/UDO_S35_Q17_32> <u_inverter_de/UDO_S35_Q17_33> <u_inverter_de/UDO_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/UEO_S35_Q17_29> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_inverter_de/UEO_S35_Q17_30> <u_inverter_de/UEO_S35_Q17_31> <u_inverter_de/UEO_S35_Q17_32> <u_inverter_de/UEO_S35_Q17_33> <u_inverter_de/UEO_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/UAO_S35_Q17_29> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_inverter/UAO_S35_Q17_30> <u_inverter/UAO_S35_Q17_31> <u_inverter/UAO_S35_Q17_32> <u_inverter/UAO_S35_Q17_33> <u_inverter/UAO_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/UBO_S35_Q17_29> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_inverter/UBO_S35_Q17_30> <u_inverter/UBO_S35_Q17_31> <u_inverter/UBO_S35_Q17_32> <u_inverter/UBO_S35_Q17_33> <u_inverter/UBO_S35_Q17_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_15> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_inverter/x_3_29> <u_inverter/x_3_30> <u_inverter/x_3_31> <u_inverter/x_3_32> <u_inverter/x_3_33> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_15> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_inverter_de/phase_d_voltage_q17_29> <u_inverter_de/phase_d_voltage_q17_30> <u_inverter_de/phase_d_voltage_q17_31> <u_inverter_de/phase_d_voltage_q17_32> <u_inverter_de/phase_d_voltage_q17_33> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_15> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_inverter_de/phase_e_voltage_q17_29> <u_inverter_de/phase_e_voltage_q17_30> <u_inverter_de/phase_e_voltage_q17_31> <u_inverter_de/phase_e_voltage_q17_32> <u_inverter_de/phase_e_voltage_q17_33> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_1_29> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_inverter/x_1_30> <u_inverter/x_1_31> <u_inverter/x_1_32> <u_inverter/x_1_33> <u_inverter/x_1_34> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_2_29> in Unit <vir5_PMSM> is equivalent to the following 5 FFs/Latches, which will be removed : <u_inverter/x_2_30> <u_inverter/x_2_31> <u_inverter/x_2_32> <u_inverter/x_2_33> <u_inverter/x_2_34> 
+
+Optimizing unit <vir5_PMSM> ...
+
+Optimizing unit <Inductor> ...
+
+Optimizing unit <Inductor_DE> ...
+WARNING:Xst:1293 - FF/Latch <u_inductor/Time_cnt_5> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <u_inductor_de/Time_cnt_5> has a constant value of 0 in block <vir5_PMSM>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <u_inductor_de/emfL5_S35_34> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor_de/emfL5_S35_33> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/UEO_S35_Q17_28> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/UEO_S35_Q17_29> 
+INFO:Xst:2261 - The FF/Latch <u_inductor/emfL3_S35_34> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor/emfL3_S35_33> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/UCO_S35_Q17_28> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/UCO_S35_Q17_29> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/Time_cnt_0> in Unit <vir5_PMSM> is equivalent to the following 3 FFs/Latches, which will be removed : <u_inverter_de/Time_cnt_0> <u_inductor/Time_cnt_0> <u_inductor_de/Time_cnt_0> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/Time_cnt_1> in Unit <vir5_PMSM> is equivalent to the following 3 FFs/Latches, which will be removed : <u_inverter_de/Time_cnt_1> <u_inductor/Time_cnt_1> <u_inductor_de/Time_cnt_1> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/Time_cnt_2> in Unit <vir5_PMSM> is equivalent to the following 3 FFs/Latches, which will be removed : <u_inverter_de/Time_cnt_2> <u_inductor/Time_cnt_2> <u_inductor_de/Time_cnt_2> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/Time_cnt_3> in Unit <vir5_PMSM> is equivalent to the following 3 FFs/Latches, which will be removed : <u_inverter_de/Time_cnt_3> <u_inductor/Time_cnt_3> <u_inductor_de/Time_cnt_3> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/Time_cnt_4> in Unit <vir5_PMSM> is equivalent to the following 3 FFs/Latches, which will be removed : <u_inverter_de/Time_cnt_4> <u_inductor/Time_cnt_4> <u_inductor_de/Time_cnt_4> 
+INFO:Xst:2261 - The FF/Latch <u_inductor_de/emfL4_S35_34> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor_de/emfL4_S35_33> 
+INFO:Xst:2261 - The FF/Latch <u_inductor/emfL2_S35_34> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor/emfL2_S35_33> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_2_28> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_2_29> 
+INFO:Xst:2261 - The FF/Latch <u_inductor/emfL03_S35_34> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor/emfL03_S35_33> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/UAO_S35_Q17_28> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/UAO_S35_Q17_29> 
+INFO:Xst:2261 - The FF/Latch <u_inductor/emfL1_S35_34> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor/emfL1_S35_33> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_10_15> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_3_28> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_d_voltage_stm32_15> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_d_voltage_q17_28> 
+INFO:Xst:2261 - The FF/Latch <u_inductor/emfL02_S35_34> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor/emfL02_S35_33> 
+INFO:Xst:2261 - The FF/Latch <u_inductor_de/emfL05_S35_34> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor_de/emfL05_S35_33> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/UDO_S35_Q17_28> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/UDO_S35_Q17_29> 
+INFO:Xst:2261 - The FF/Latch <u_inverter_de/phase_e_voltage_stm32_15> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/phase_e_voltage_q17_28> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/x_1_28> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/x_1_29> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/UBO_S35_Q17_28> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter/UBO_S35_Q17_29> 
+INFO:Xst:2261 - The FF/Latch <u_inductor/Task_No_0> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor_de/Task_No_0> 
+INFO:Xst:2261 - The FF/Latch <u_inductor/Task_No_1> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor_de/Task_No_1> 
+INFO:Xst:2261 - The FF/Latch <u_inductor/Task_No_2> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor_de/Task_No_2> 
+INFO:Xst:2261 - The FF/Latch <u_inductor/emfL01_S35_34> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor/emfL01_S35_33> 
+INFO:Xst:2261 - The FF/Latch <u_inductor_de/emfL04_S35_34> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor_de/emfL04_S35_33> 
+INFO:Xst:2261 - The FF/Latch <u_inverter/clk_10MHz> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/clk_10MHz> 
+INFO:Xst:3203 - The FF/Latch <u_inductor/Task_No_2> in Unit <vir5_PMSM> is the opposite to the following 2 FFs/Latches, which will be removed : <u_inductor/clk_10MHz> <u_inductor_de/clk_10MHz> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block vir5_PMSM, actual ratio is 21.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1866
+ Flip-Flops                                            : 1866
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+u_inverter/clk_10MHz               | BUFG                   | 270   |
+u_clock/CLOCK/pll_base_inst/CLKOUT2| BUFG                   | 1194  |
+u_inductor/Task_No_2               | BUFG                   | 440   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 9.349ns (Maximum Frequency: 106.963MHz)
+   Minimum input arrival time before clock: 8.998ns
+   Maximum output required time after clock: 10.260ns
+   Maximum combinational path delay: 15.373ns
+
+=========================================================================
+
+Process "Synthesize - XST" completed successfully
+INFO:TclTasksC:1850 - process run : Synthesize - XST is done.
+PROJECT_SYNTHESIS_STATUS=up_to_date

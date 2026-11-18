@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj vir5_PMSM -o E:/SUEN27/vir5_PMSM_V/add5ov5.tfi -lib work E:/SUEN27/vir5_PMSM_V//add5ov5.v -module add5ov5 -template E:/SUEN27/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

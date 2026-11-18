@@ -1,0 +1,8 @@
+verilog work "E:/SUEN27/vir5_PMSM_V/validation/custom_top_sim/MUL18x18_bEMF_noglbl.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/validation/custom_top_sim/division5_noglbl.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/CORDIC_STANDALONE.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/BackEMF.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/add5ov5.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/Volt_N_calc.v"
+verilog work "E:/SUEN27/vir5_PMSM_V/validation/custom_top_sim/tb_custom.v"
+verilog work "E:/SUEN27/14.7/ISE_DS/ISE/verilog/src/glbl.v"

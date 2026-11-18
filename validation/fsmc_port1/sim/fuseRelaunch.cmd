@@ -1,0 +1,1 @@
+-intstyle "silent" -prj "port1.prj" -o "port1.exe" "work.tb_fsmc_port1" 

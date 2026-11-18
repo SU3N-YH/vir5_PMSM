@@ -1,0 +1,15 @@
+# Output products list for <ip_mul4>
+_xmsgs\pn_parser.xmsgs
+ip_mul4.asy
+ip_mul4.gise
+ip_mul4.ngc
+ip_mul4.sym
+ip_mul4.v
+ip_mul4.veo
+ip_mul4.xco
+ip_mul4.xise
+ip_mul4\doc\mult_gen_ds255.pdf
+ip_mul4\doc\mult_gen_v11_2_readme.txt
+ip_mul4\doc\mult_gen_v11_2_vinfo.html
+ip_mul4_flist.txt
+ip_mul4_xmdf.tcl
