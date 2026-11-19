@@ -88,6 +88,14 @@ module vir5_PMSM (
 
     wire         clk_180mhz; 
     wire         clk_50mhz;
+    wire [15:0]  pwm_deadtime_cycles;
+    wire [15:0]  pwm_deadtime_50mhz;
+    wire         pwm_deadtime_valid;
+    wire A_Hi, A_Lo; // One-bit complementary gate commands per phase.
+    wire B_Hi, B_Lo;
+    wire C_Hi, C_Lo;
+    wire D_Hi, D_Lo;
+    wire E_Hi, E_Lo;
     wire [15:0]  half_Vdc_q5; 
 
     wire [34:0] phase_a_current_q17;
@@ -133,7 +141,7 @@ module vir5_PMSM (
         .STM32toFPGA_Signal_6(ePOS_in),
         .STM32toFPGA_Signal_7(eOMG_in),
         .STM32toFPGA_Signal_8(half_flux_q15), 
-        .STM32toFPGA_Signal_9(), 
+        .STM32toFPGA_Signal_9(pwm_deadtime_cycles), // port9: N * 20 ns
         .STM32toFPGA_Signal_10(),
         .STM32toFPGA_Signal_11(FMC_test1),
         .STM32toFPGA_Signal_12(FMC_test2),
@@ -145,15 +153,42 @@ module vir5_PMSM (
 
     wire signed [15:0]  NEG_half_Vdc_q5 = - half_Vdc_q5; 
 
+    // One reference per phase; external epwm_1B..epwm_5B are no longer used.
+    // Port 9: FPGA word 0x182 / STM32 byte address 0x60000304.
+    // Transfer the complete 16-bit setting atomically from PCI's clock domain.
+    PWM_Deadzn_Config u_pwm_config (
+        .src_clk(clk_180mhz),
+        .dst_clk(clk_50mhz),
+        .rst_n(rst_n),
+        .data_src(pwm_deadtime_cycles),
+        .data_dst(pwm_deadtime_50mhz),
+        .valid_dst(pwm_deadtime_valid)
+    );
+    PWM_Deadzn u_pwm_deadzn (
+        .clk_50MHz(clk_50mhz),
+        .rst_n(rst_n && pwm_deadtime_valid),
+        .deadtime(pwm_deadtime_50mhz),
+        .A_Ref(epwm_1A),
+        .B_Ref(epwm_2A),
+        .C_Ref(epwm_3A),
+        .D_Ref(epwm_4A),
+        .E_Ref(epwm_5A),
+        .A_Hi(A_Hi), .A_Lo(A_Lo),
+        .B_Hi(B_Hi), .B_Lo(B_Lo),
+        .C_Hi(C_Hi), .C_Lo(C_Lo),
+        .D_Hi(D_Hi), .D_Lo(D_Lo),
+        .E_Hi(E_Hi), .E_Lo(E_Lo)
+    );
+
     // Existing three-phase inverter.
     inv_phi3_HB u_inverter (
         .clk_180MHz(clk_180mhz),
-        .S1(epwm_1A),
-        .S2(epwm_1B),
-        .S3(epwm_2A),
-        .S4(epwm_2B),
-        .S5(epwm_3A),
-        .S6(epwm_3B),
+        .S1(A_Hi),
+        .S2(A_Lo),
+        .S3(B_Hi),
+        .S4(B_Lo),
+        .S5(C_Hi),
+        .S6(C_Lo),
         .rst_n(rst_n),
         .Ia_S35_Q17(phase_a_current_q17),
         .Ib_S35_Q17(phase_b_current_q17),
@@ -178,15 +213,15 @@ module vir5_PMSM (
     );
  
     // [2026-11-10 16:00 CST] D/E bridge uses the copied two-leg module; no sixth leg is instantiated.
-    // TIM8 CH1/CH2: derive D/E lower switches from 4A/5A; external 4B/5B are unused.
+    // TIM8 CH1/CH2: D/E complementary switches include programmable deadtime.
     // extension: EXT_INVERTER_DE
     inv_phi2_HB_DE u_inverter_de (
         .clk_180MHz(clk_180mhz), 
 		.rst_n(rst_n),
-        .S1(epwm_4A), 
-		.S2(~epwm_4A),
-		.S3(epwm_5A), 
-		.S4(~epwm_5A),
+        .S1(D_Hi),
+		.S2(D_Lo),
+		.S3(E_Hi),
+		.S4(E_Lo),
         // .S5(1'b0), .S6(1'b0), // Third bridge leg disabled in copied module.
         // [2026-11-10 15:59 CST] Match the original bridge input fixed-point format.
         // .Id_S35_Q17(phase_d_current), .Ie_S35_Q17(phase_e_current),

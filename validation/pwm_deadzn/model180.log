@@ -1,0 +1,16 @@
+ISim log file
+Running: E:\SUEN27\vir5_PMSM_V\validation\timing180\model_sim\test.exe -intstyle silent -tclbatch run.tcl -log test.log 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING: For instance dut/u_pci/, width 16 of formal port FPGAtoSTM32_Signal_6 is not equal to width 20 of actual.
+Time resolution is 1 ps
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+PASS: full model 20 MHz PLL, 180 MHz arithmetic, 500 stable port6 reads, five-phase current and reset
+Stopped at time : 93415 ns : File "E:/SUEN27/vir5_PMSM_V/tests/tb_model180.v" Line 68

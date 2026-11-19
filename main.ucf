@@ -133,6 +133,20 @@ NET "clk_ex" LOC = E8;
 NET "clk_ex" TNM_NET = "SYS_CLK20";
 TIMESPEC "TS_SYS_CLK20" = PERIOD "SYS_CLK20" 50 ns HIGH 50% INPUT_JITTER 500 ps;
 
+# PWM configuration mailbox. The source holds all 16 bits until the 50 MHz
+# destination acknowledges a request through two synchronizer stages.
+# Bound the bundled-data path to one destination period (actual hold >=2).
+# Only the first stage of each asynchronous toggle synchronizer is excluded.
+INST "u_pwm_config/data_hold*" TNM = "PWM_CFG_HOLD";
+INST "u_pwm_config/data_dst*" TNM = "PWM_CFG_CAPTURE";
+TIMESPEC "TS_PWM_CFG_DATA" = FROM "PWM_CFG_HOLD" TO "PWM_CFG_CAPTURE" 20 ns DATAPATHONLY;
+INST "u_pwm_config/request" TNM = "PWM_CFG_REQ_SRC";
+INST "u_pwm_config/req_meta" TNM = "PWM_CFG_REQ_META";
+TIMESPEC "TS_PWM_CFG_REQ" = FROM "PWM_CFG_REQ_SRC" TO "PWM_CFG_REQ_META" TIG;
+INST "u_pwm_config/acknowledge" TNM = "PWM_CFG_ACK_SRC";
+INST "u_pwm_config/ack_meta" TNM = "PWM_CFG_ACK_META";
+TIMESPEC "TS_PWM_CFG_ACK" = FROM "PWM_CFG_ACK_SRC" TO "PWM_CFG_ACK_META" TIG;
+
 #NET "rst_n" CLOCK_DEDICATED_ROUTE = FALSE;
 
 # PlanAhead Generated IO constraints 

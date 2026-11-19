@@ -117,7 +117,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="vir5_PMSM.lso"/>
@@ -138,6 +141,7 @@
     <transform xil_pn:end_ts="1794991275" xil_pn:in_ck="1951499827953364669" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4176640708990922514" xil_pn:start_ts="1794991272">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="vir5_PMSM.bld"/>
@@ -147,6 +151,7 @@
     <transform xil_pn:end_ts="1794991305" xil_pn:in_ck="5772492775033601306" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="325589658960453222" xil_pn:start_ts="1794991275">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -162,6 +167,7 @@
     <transform xil_pn:end_ts="1794991341" xil_pn:in_ck="4551300579716286771" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-6937897011652631087" xil_pn:start_ts="1794991305">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="vir5_PMSM.ncd"/>
       <outfile xil_pn:name="vir5_PMSM.pad"/>
@@ -176,6 +182,7 @@
     <transform xil_pn:end_ts="1794991349" xil_pn:in_ck="-619103928339541435" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="2094617175298916153" xil_pn:start_ts="1794991341">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="usage_statistics_webtalk.html"/>
       <outfile xil_pn:name="vir5_PMSM.ut"/>
@@ -188,10 +195,12 @@
     <transform xil_pn:end_ts="1794991349" xil_pn:in_ck="-619102521932121969" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="2682241697568822907" xil_pn:start_ts="1794991349">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1794991341" xil_pn:in_ck="5772492775033601174" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1794991336">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="vir5_PMSM.twr"/>
       <outfile xil_pn:name="vir5_PMSM.twx"/>

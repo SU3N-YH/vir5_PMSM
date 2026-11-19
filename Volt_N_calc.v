@@ -31,7 +31,7 @@ module Volt_N_calc (
     input  wire signed [34:0]   sum_eMUTUAL_ovr5,
     
     // Output: Neutral point voltage U_N 
-    // output wire signed [15:0]   U_N_STM32,      // STM32 output in S16_Q8 format
+    output wire signed [15:0]   U_N_STM32,      // STM32 output in S16_Q8 format
     output reg  signed [34:0]   U_N_S35_Q17   // Internal full precision output
 );
     
