@@ -1,7 +1,7 @@
-Release 14.7 - par P.20131013 (nt64)
+Release 14.7 - par P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Wed Nov 18 16:42:14 2026
+Thu Nov 19 14:26:04 2026
 
 
 INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
@@ -52,9 +52,9 @@ Pinout by Pin Number:
 |B14       |             |IOBM     |IO_L65P_SCP3_0               |UNUSED   |           |0             |          |         |           |         |         |          |           |                |
 |B15       |             |IOBM     |IO_L29P_A23_M1A13_1          |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |B16       |ePWM_ua_Grid |IOB      |IO_L29N_A22_M1A14_1          |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
-|C1        |epwm_3B      |IOB      |IO_L50P_M3WE_3               |INPUT    |LVCMOS33   |3             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
+|C1        |             |IOBM     |IO_L50P_M3WE_3               |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
 |C2        |epwm_2A      |IOB      |IO_L48N_M3BA1_3              |INPUT    |LVCMOS33   |3             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
-|C3        |epwm_1B      |IOB      |IO_L48P_M3BA0_3              |INPUT    |LVCMOS33   |3             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
+|C3        |             |IOBM     |IO_L48P_M3BA0_3              |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
 |C4        |             |IOBM     |IO_L1P_HSWAPEN_0             |UNUSED   |           |0             |          |         |           |         |         |          |           |                |
 |C5        |             |IOBS     |IO_L3N_0                     |UNUSED   |           |0             |          |         |           |         |         |          |           |                |
 |C6        |             |IOBS     |IO_L7N_0                     |UNUSED   |           |0             |          |         |           |         |         |          |           |                |
@@ -70,7 +70,7 @@ Pinout by Pin Number:
 |C16       |             |IOBS     |IO_L33N_A14_M1A4_1           |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |D1        |epwm_3A      |IOB      |IO_L49N_M3A2_3               |INPUT    |LVCMOS33   |3             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
 |D2        |             |         |VCCO_3                       |         |           |3             |          |         |           |         |3.30     |          |           |                |
-|D3        |epwm_2B      |IOB      |IO_L49P_M3A7_3               |INPUT    |LVCMOS33   |3             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
+|D3        |             |IOBM     |IO_L49P_M3A7_3               |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
 |D4        |             |         |GND                          |         |           |              |          |         |           |         |         |          |           |                |
 |D5        |             |IOBM     |IO_L3P_0                     |UNUSED   |           |0             |          |         |           |         |         |          |           |                |
 |D6        |             |IOBM     |IO_L7P_0                     |UNUSED   |           |0             |          |         |           |         |         |          |           |                |

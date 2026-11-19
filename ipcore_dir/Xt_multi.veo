@@ -52,8 +52,8 @@
 //----------- Begin Cut here for INSTANTIATION Template ---// INST_TAG
 Xt_multi your_instance_name (
   .clk(clk), // input clk
-  .a(a), // input [17 : 0] a
-  .b(b), // input [34 : 0] b
+  .a(a), // input [34 : 0] a
+  .b(b), // input [17 : 0] b
   .p(p) // output [52 : 0] p
 );
 // INST_TAG_END ------ End INSTANTIATION Template ---------

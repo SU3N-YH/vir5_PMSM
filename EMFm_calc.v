@@ -4,22 +4,27 @@
 //
 // Fixed point contract:
 //   DIFov2_S16_Q12 : (Ld-Lq)/2, in mH
-//   AVGov4_S16_Q10 : (Ld+Lq)/2/2, in mH
+//   AVGov4_S16_Q12 : (Ld+Lq)/2/2, in mH
+//   L1pL2_ov3_S16_Q12 : (L1+L2)/3, in mH
+//   L1_L2_ov2sq3_S16_Q12 : (L1-L2)/(2*sqrt(3)), in mH
 //   iA/B/C_S18_Q9        : phase currents
 //   ePOS_S18_360         : electrical position, 131072 counts/revolution
 //   outputs              : S35_Q17
 //
 // ePOS is converted to 2*ePOS in degrees (CORDIC Q16.16).  Three CORDIC
 // instances generate cos(2*ePOS), cos(2*ePOS-120 deg), and
-// cos(2*ePOS-240 deg).  One 18x35 multiplier is sufficient: three mutual
-// products and nine L*I products fit in 14 of the 18 clocks in each frame.
+// cos(2*ePOS-240 deg), together with their sine outputs.  MUL A retains
+// the three mutual products and nine L*I products; MUL B computes the
+// three additional sine products in parallel within the same frame.
 //////////////////////////////////////////////////////////////////////////////////
 module EMFm_calc (
     input  wire                 clk,
     input  wire                 rst_n,
 
-    input  wire signed [15:0]   DIFov2_S16_Q12,     //in mH
-    input  wire signed [15:0]   AVGov4_S16_Q10,    //in mH
+    input  wire signed [15:0]   DIFov2_S16_Q12,     //all in mH
+    input  wire signed [15:0]   AVGov4_S16_Q12,   
+    input  wire signed [15:0]   L1pL2_ov3_S16_Q12,       
+    input  wire signed [15:0]   L1_L2_ov2sq3_S16_Q12,    
     input  wire signed [17:0]   iA_S18_Q9,
     input  wire signed [17:0]   iB_S18_Q9,
     input  wire signed [17:0]   iC_S18_Q9,
@@ -67,25 +72,26 @@ module EMFm_calc (
     wire cordic_call = (Time_cnt == 5'd18) && !cordic_busy;
     wire cordic_done_a, cordic_done_b, cordic_done_c;
     wire signed [17:0] cordic_cos_a, cordic_cos_b, cordic_cos_c;
-    wire signed [17:0] cordic_sin_unused_a, cordic_sin_unused_b, cordic_sin_unused_c;
+    wire signed [17:0] cordic_sin_a, cordic_sin_b, cordic_sin_c;
     reg signed [17:0] cos_a_S18_Q17, cos_b_S18_Q17, cos_c_S18_Q17;
+    reg signed [17:0] sin_a_S18_Q17, sin_b_S18_Q17, sin_c_S18_Q17;
 
     CORDIC_STANDALONE u_cordic_a (
         .CLOCK(clk), .RESET(rst_n), .iCall(cordic_call),
         .oDone(cordic_done_a), .iData(angle_a_q16),
-        .cos(cordic_cos_a), .sin(cordic_sin_unused_a),
+        .cos(cordic_cos_a), .sin(cordic_sin_a),
         .q_deg(), .q_y(), .q_x()
     );
     CORDIC_STANDALONE u_cordic_b (
         .CLOCK(clk), .RESET(rst_n), .iCall(cordic_call),
         .oDone(cordic_done_b), .iData(angle_b_q16),
-        .cos(cordic_cos_b), .sin(cordic_sin_unused_b),
+        .cos(cordic_cos_b), .sin(cordic_sin_b),
         .q_deg(), .q_y(), .q_x()
     );
     CORDIC_STANDALONE u_cordic_c (
         .CLOCK(clk), .RESET(rst_n), .iCall(cordic_call),
         .oDone(cordic_done_c), .iData(angle_c_q16),
-        .cos(cordic_cos_c), .sin(cordic_sin_unused_c),
+        .cos(cordic_cos_c), .sin(cordic_sin_c),
         .q_deg(), .q_y(), .q_x()
     );
 
@@ -97,6 +103,9 @@ module EMFm_calc (
             cos_a_S18_Q17 <= 18'sd0;
             cos_b_S18_Q17 <= 18'sd0;
             cos_c_S18_Q17 <= 18'sd0;
+            sin_a_S18_Q17 <= 18'sd0;
+            sin_b_S18_Q17 <= 18'sd0;
+            sin_c_S18_Q17 <= 18'sd0;
         end else begin
             if (cordic_call)
                 cordic_busy <= 1'b1;
@@ -105,26 +114,37 @@ module EMFm_calc (
                 cos_a_S18_Q17 <= cordic_cos_a;
                 cos_b_S18_Q17 <= cordic_cos_b;
                 cos_c_S18_Q17 <= cordic_cos_c;
+                sin_a_S18_Q17 <= cordic_sin_a;
+                sin_b_S18_Q17 <= cordic_sin_b;
+                sin_c_S18_Q17 <= cordic_sin_c;
             end
         end
     end
 
     // -------------------------------------------------------------------------
-    // 3. One time-multiplexed 18x35 multiplier
+    // 3. Time-multiplexed 18x35 multipliers (original MUL A and added MUL B)
     // -------------------------------------------------------------------------
-    // The generated core is a two-STM32 implementation.  Although the XCO says
+    // The generated core is a two-DSP implementation.  Although the XCO says
     // pipestages=1, the high/low partial-product cascade adds one additional
     // clock at the wrapper boundary.  The schedule below therefore samples p
     // two case slots after presenting a new input.
     reg  signed [34:0] mul_a;
     reg  signed [17:0] mul_b;
     wire signed [52:0] mul_result;
+    reg  signed [34:0] mul_a2;
+    reg  signed [17:0] mul_b2;
+    wire signed [52:0] mul_result2;
 
-    MTPL_mutual_A u_mul (
+    MTPL_mutual_A u_mul1 (
         .clk(clk), .a(mul_a), .b(mul_b), .p(mul_result)
     );
 
-    reg signed [34:0] M11_S35_Q17, M12_S35_Q17, M13_S35_Q17;
+    MTPL_mutual_B u_mul2 (
+        .clk(clk), .a(mul_a2), .b(mul_b2), .p(mul_result2)
+    );  
+
+    reg signed [34:0] M11_S35_Q29, M12_S35_Q29, M13_S35_Q29;
+    reg signed [34:0] N11_mH_Q29, N12_mH_Q29, N13_mH_Q29;
     reg signed [34:0] L0Ov2_S35_Q17;
     reg signed [34:0] L11_mH, L12_mH, L13_mH;  //inductance all in s35_q17 format
     reg signed [34:0] L21_mH, L22_mH, L23_mH;
@@ -135,11 +155,18 @@ module EMFm_calc (
     reg signed [52:0] Phi_c1, Phi_c2, Phi_c3;
     reg signed [34:0] Phi1_Wb_tmp, Phi2_Wb_tmp, Phi3_Wb_tmp;
 
-    wire signed [34:0] difm_ext = {{19{DIFov2_S16_Q12[15]}}, DIFov2_S16_Q12};
-    wire signed [34:0] avg_ext  = {AVGov4_S16_Q10, 19'b0};   //modified to 19'b0, formerly
+    wire signed [34:0] avg_S35_Q29  = {{2{AVGov4_S16_Q12[15]}}, AVGov4_S16_Q12, 17'b0};   //modified to 19'b0, formerly
     wire signed [34:0] cos_a_ext = {{17{cos_a_S18_Q17[17]}}, cos_a_S18_Q17};
     wire signed [34:0] cos_b_ext = {{17{cos_b_S18_Q17[17]}}, cos_b_S18_Q17};
     wire signed [34:0] cos_c_ext = {{17{cos_c_S18_Q17[17]}}, cos_c_S18_Q17};
+    // -sin(x-120) = sin(x+60), -sin(x-240) = sin(x-60).
+    // Extend before negating so that sin = -1 (18'sh20000) is handled exactly.
+    wire signed [34:0] neg_sin_a_ext = -$signed({{17{sin_a_S18_Q17[17]}}, sin_a_S18_Q17});
+    wire signed [34:0] neg_sin_b_ext = -$signed({{17{sin_b_S18_Q17[17]}}, sin_b_S18_Q17});
+    wire signed [34:0] neg_sin_c_ext = -$signed({{17{sin_c_S18_Q17[17]}}, sin_c_S18_Q17});
+    // Existing matrix arithmetic keeps the raw Q17*Q12 products (Q29).
+    // The constant input already includes sqrt(3)/2 and 1/3; only align Q12 to Q29.
+    wire signed [34:0] l1_l2_const_Q29 = {{2{L1_L2_ov2sq3_S16_Q12[15]}}, L1_L2_ov2sq3_S16_Q12, 17'b0};
 
     reg clk_10MHz = 1'b1;
 
@@ -158,7 +185,10 @@ module EMFm_calc (
         if (!rst_n) begin
             mul_a <= 35'sd0;
             mul_b <= 18'sd0;
-            M11_S35_Q17 <= 35'sd0; M12_S35_Q17 <= 35'sd0; M13_S35_Q17 <= 35'sd0;
+            mul_a2 <= 35'sd0;
+            mul_b2 <= 18'sd0;
+            M11_S35_Q29 <= 35'sd0; M12_S35_Q29 <= 35'sd0; M13_S35_Q29 <= 35'sd0;
+            N11_mH_Q29 <= 35'sd0; N12_mH_Q29 <= 35'sd0; N13_mH_Q29 <= 35'sd0;
             L0Ov2_S35_Q17 <= 35'sd0;
             clk_10MHz     <= 1'b1;
             L11_mH <= 35'sd0; L12_mH <= 35'sd0; L13_mH <= 35'sd0;
@@ -174,40 +204,52 @@ module EMFm_calc (
             // Matrix construction is case 5.  The nine L*I inputs are in cases 6..14 and their
             // results are sampled in cases 8..16.  Phi sums are latched in
             // case 1 of the next frame after all products are complete.
+            // MUL B uses the same 18,1,2 -> 2,3,4 schedule for the added terms.
             case (Time_cnt)
                 5'd18: begin
                     mul_a <= cos_a_ext;
                     mul_b <= DIFov2_S16_Q12;
+                    mul_a2 <= neg_sin_a_ext;
+                    mul_b2 <= L1pL2_ov3_S16_Q12;
                     clk_10MHz <= 1'b1;
                 end
                 5'd1 : begin
-                    mul_a <= cos_b_ext; mul_b <= DIFov2_S16_Q12;
+                    mul_a <= cos_b_ext; 
+                    // mul_b <= DIFov2_S16_Q12;
+                    mul_a2 <= neg_sin_b_ext; 
+                    // mul_b2 <= L1pL2_ov3_S16_Q12;
                     Phi1_Wb_tmp <= phi1_sum >>> 31;
                     Phi2_Wb_tmp <= phi2_sum >>> 31;
                     Phi3_Wb_tmp <= phi3_sum >>> 31;
                 end
                 5'd2 : begin
-                    M11_S35_Q17 <= mul_result[34:0];  
-                    mul_a <= cos_c_ext; mul_b <= DIFov2_S16_Q12;
+                    M11_S35_Q29 <= mul_result[34:0];  
+                    N11_mH_Q29 <= mul_result2[34:0];
+                    mul_a <= cos_c_ext;
+                    // mul_b <= DIFov2_S16_Q12;
+                    mul_a2 <= neg_sin_c_ext; 
+                    // mul_b2 <= L1pL2_ov3_S16_Q12;
                 end
                 5'd3 : begin
-                    M12_S35_Q17 <= mul_result[34:0];
+                    M12_S35_Q29 <= mul_result[34:0];
+                    N12_mH_Q29 <= mul_result2[34:0];
                 end
                 5'd4 : begin
-                    M13_S35_Q17 <= mul_result[34:0];
+                    M13_S35_Q29 <= mul_result[34:0];
+                    N13_mH_Q29 <= mul_result2[34:0];
                 end
                 5'd5 : begin
-                    L0Ov2_S35_Q17 <= avg_ext;
-                    // Matrix follows the MATLAB cyclic mapping exactly.
-                    L11_mH <= M11_S35_Q17;
-                    L12_mH <= M12_S35_Q17 - avg_ext;
-                    L13_mH <= M13_S35_Q17 - avg_ext;
-                    L21_mH <= M12_S35_Q17 - avg_ext;
-                    L22_mH <= M13_S35_Q17;
-                    L23_mH <= M11_S35_Q17 - avg_ext;
-                    L31_mH <= M13_S35_Q17 - avg_ext;
-                    L32_mH <= M11_S35_Q17 - avg_ext;
-                    L33_mH <= M12_S35_Q17;
+                    L0Ov2_S35_Q17 <= avg_S35_Q29;
+                    // Add the cyclic sine matrix and the antisymmetric constant matrix.
+                    L11_mH <= M11_S35_Q29 + N11_mH_Q29;
+                    L12_mH <= M12_S35_Q29 - avg_S35_Q29 + N12_mH_Q29 + l1_l2_const_Q29;   //all in s35_q17 format
+                    L13_mH <= M13_S35_Q29 - avg_S35_Q29 + N13_mH_Q29 - l1_l2_const_Q29;
+                    L21_mH <= M12_S35_Q29 - avg_S35_Q29 + N12_mH_Q29 - l1_l2_const_Q29;
+                    L22_mH <= M13_S35_Q29 + N13_mH_Q29;
+                    L23_mH <= M11_S35_Q29 - avg_S35_Q29 + N11_mH_Q29 + l1_l2_const_Q29;
+                    L31_mH <= M13_S35_Q29 - avg_S35_Q29 + N13_mH_Q29 + l1_l2_const_Q29;
+                    L32_mH <= M11_S35_Q29 - avg_S35_Q29 + N11_mH_Q29 - l1_l2_const_Q29;
+                    L33_mH <= M12_S35_Q29 + N12_mH_Q29;
                 end
                 5'd6 : begin mul_a <= L11_mH; mul_b <= iA_S18_Q9; end
                 5'd7 : begin mul_a <= L12_mH; mul_b <= iB_S18_Q9; end
@@ -256,9 +298,9 @@ module EMFm_calc (
             x1 <= x1 + Phi1_Wb_tmp - x4;
             x2 <= x2 + Phi2_Wb_tmp - x5;
             x3 <= x3 + Phi3_Wb_tmp - x6;
-            x4 <= (x1 + Phi1_Wb_tmp - x4) >>> 10;
-            x5 <= (x2 + Phi2_Wb_tmp - x5) >>> 10;
-            x6 <= (x3 + Phi3_Wb_tmp - x6) >>> 10;
+            x4 <= (x1 + Phi1_Wb_tmp - x4) >>> 7;
+            x5 <= (x2 + Phi2_Wb_tmp - x5) >>> 7;
+            x6 <= (x3 + Phi3_Wb_tmp - x6) >>> 7;
 
             if (x15 >= 7'd75) begin
                 x15 <= 7'd0;

@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+EMFm_calc instance_name (
+    .clk(clk), 
+    .rst_n(rst_n), 
+    .DIFov2_S16_Q12(DIFov2_S16_Q12), 
+    .AVGov4_S16_Q12(AVGov4_S16_Q12), 
+    .L1pL2_ov3_S16_Q12(L1pL2_ov3_S16_Q12), 
+    .L1_L2_ov2sq3_S16_Q12(L1_L2_ov2sq3_S16_Q12), 
+    .iA_S18_Q9(iA_S18_Q9), 
+    .iB_S18_Q9(iB_S18_Q9), 
+    .iC_S18_Q9(iC_S18_Q9), 
+    .ePOS_S18_360(ePOS_S18_360), 
+    .eA_mutual_S35_Q17(eA_mutual_S35_Q17), 
+    .eB_mutual_S35_Q17(eB_mutual_S35_Q17), 
+    .eC_mutual_S35_Q17(eC_mutual_S35_Q17)
+    );
+
+

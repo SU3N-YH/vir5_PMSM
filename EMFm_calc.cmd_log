@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj vir5_PMSM -o E:/SUEN27/vir5_PMSM_V/EMFm_calc.tfi -lib work E:/SUEN27/vir5_PMSM_V//EMFm_calc.v -module EMFm_calc -template E:/SUEN27/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 112: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">FPGAtoSTM32_Signal_6</arg>&gt;. Formal port size is <arg fmt="%d" index="2">16</arg>-bit while actual signal size is <arg fmt="%d" index="1">20</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 120: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">FPGAtoSTM32_Signal_6</arg>&gt;. Formal port size is <arg fmt="%d" index="2">16</arg>-bit while actual signal size is <arg fmt="%d" index="1">20</arg>-bit.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="872" delta="old" >"E:\SUEN27\vir5_PMSM_V\inv_phi3_HB.v" Line 62: Using initial value of <arg fmt="%s" index="1">Volt_On_Switch12_S35_Q17</arg> since it is never assigned
@@ -44,25 +44,22 @@
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\SUEN27\vir5_PMSM_V\ipcore_dir\pll300MHz.v" Line 127: Assignment to <arg fmt="%s" index="1">locked_unused</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 328: Assignment to <arg fmt="%s" index="1">clk_50mhz</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 101: Net &lt;<arg fmt="%s" index="1">phase_a_current_q17[34]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 93: Net &lt;<arg fmt="%s" index="1">phase_a_current_q17[34]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 102: Net &lt;<arg fmt="%s" index="1">phase_b_current_q17[34]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 94: Net &lt;<arg fmt="%s" index="1">phase_b_current_q17[34]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 103: Net &lt;<arg fmt="%s" index="1">phase_c_current_q17[34]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 95: Net &lt;<arg fmt="%s" index="1">phase_c_current_q17[34]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 104: Net &lt;<arg fmt="%s" index="1">phase_d_current_q17[34]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 96: Net &lt;<arg fmt="%s" index="1">phase_d_current_q17[34]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 105: Net &lt;<arg fmt="%s" index="1">phase_e_current_q17[34]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 97: Net &lt;<arg fmt="%s" index="1">phase_e_current_q17[34]</arg>&gt; does not have a driver.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="552" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 100: Input port <arg fmt="%s" index="1">FPGAtoSTM32_Signal_15[15]</arg> is not connected on this instance
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 108: Input port <arg fmt="%s" index="1">FPGAtoSTM32_Signal_15[15]</arg> is not connected on this instance
 </msg>
 
 <msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">FPGAtoSTM32_Signal_15</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">u_pci</arg>&apos;, is tied to GND.
@@ -77,52 +74,55 @@
 <msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">FPGAtoSTM32_Signal_18</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">u_pci</arg>&apos;, is tied to GND.
 </msg>
 
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">epwm_1B</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">epwm_2B</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">epwm_3B</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">epwm_4B</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">epwm_5B</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">100</arg>: Output port &lt;<arg fmt="%s" index="3">STM32toFPGA_Signal_9</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_pci</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">108</arg>: Output port &lt;<arg fmt="%s" index="3">STM32toFPGA_Signal_10</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_pci</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">100</arg>: Output port &lt;<arg fmt="%s" index="3">STM32toFPGA_Signal_10</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_pci</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">108</arg>: Output port &lt;<arg fmt="%s" index="3">STM32toFPGA_Signal_14</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_pci</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">100</arg>: Output port &lt;<arg fmt="%s" index="3">STM32toFPGA_Signal_14</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_pci</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">108</arg>: Output port &lt;<arg fmt="%s" index="3">STM32toFPGA_Signal_15</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_pci</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">100</arg>: Output port &lt;<arg fmt="%s" index="3">STM32toFPGA_Signal_15</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_pci</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">108</arg>: Output port &lt;<arg fmt="%s" index="3">STM32toFPGA_Signal_16</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_pci</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">100</arg>: Output port &lt;<arg fmt="%s" index="3">STM32toFPGA_Signal_16</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_pci</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">x_4</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_inverter</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">149</arg>: Output port &lt;<arg fmt="%s" index="3">x_4</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_inverter</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">x_5</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_inverter</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">149</arg>: Output port &lt;<arg fmt="%s" index="3">x_5</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_inverter</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">x_6</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_inverter</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">149</arg>: Output port &lt;<arg fmt="%s" index="3">x_6</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_inverter</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">184</arg>: Output port &lt;<arg fmt="%s" index="3">x_7</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_inverter</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">149</arg>: Output port &lt;<arg fmt="%s" index="3">x_7</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_inverter</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">218</arg>: Output port &lt;<arg fmt="%s" index="3">phase_d_lower_current_stm32</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_inverter_de</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">183</arg>: Output port &lt;<arg fmt="%s" index="3">phase_d_lower_current_stm32</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_inverter_de</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">218</arg>: Output port &lt;<arg fmt="%s" index="3">phase_e_lower_current_stm32</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_inverter_de</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">183</arg>: Output port &lt;<arg fmt="%s" index="3">phase_e_lower_current_stm32</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_inverter_de</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">360</arg>: Output port &lt;<arg fmt="%s" index="3">clk300MHz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_clock</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">325</arg>: Output port &lt;<arg fmt="%s" index="3">clk300MHz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_clock</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">325</arg>: Output port &lt;<arg fmt="%s" index="3">clk50MHz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_clock</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">360</arg>: Output port &lt;<arg fmt="%s" index="3">Out3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">grid_pwm_passthru</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v</arg>&quot; line <arg fmt="%s" index="2">395</arg>: Output port &lt;<arg fmt="%s" index="3">Out3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">grid_pwm_passthru</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">phase_a_current_q17</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
@@ -143,19 +143,22 @@
 <msg type="info" file="Xst" num="2774" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">ASYNC_REG</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">write_meta</arg> may hinder XST clustering optimizations.
 </msg>
 
+<msg type="info" file="Xst" num="2774" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">KEEP</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">n0005</arg> may hinder XST clustering optimizations.
+</msg>
+
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">Rd_S16_Q15</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v</arg>&quot; line <arg fmt="%s" index="2">27</arg>: Output port &lt;<arg fmt="%s" index="3">x_3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">INVERTER_DE</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v</arg>&quot; line <arg fmt="%s" index="2">27</arg>: Output port &lt;<arg fmt="%s" index="3">x_3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">INVERTER_DE</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v</arg>&quot; line <arg fmt="%s" index="2">27</arg>: Output port &lt;<arg fmt="%s" index="3">x_6</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">INVERTER_DE</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v</arg>&quot; line <arg fmt="%s" index="2">27</arg>: Output port &lt;<arg fmt="%s" index="3">x_6</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">INVERTER_DE</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v</arg>&quot; line <arg fmt="%s" index="2">27</arg>: Output port &lt;<arg fmt="%s" index="3">x_7</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">INVERTER_DE</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\inv_phi2_HB_DE.v</arg>&quot; line <arg fmt="%s" index="2">27</arg>: Output port &lt;<arg fmt="%s" index="3">x_7</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">INVERTER_DE</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\Inductor_DE.v</arg>&quot; line <arg fmt="%s" index="2">44</arg>: Output port &lt;<arg fmt="%s" index="3">x_3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">engine</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\Inductor_DE.v</arg>&quot; line <arg fmt="%s" index="2">44</arg>: Output port &lt;<arg fmt="%s" index="3">x_3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">engine</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">mul_a</arg>&lt;<arg fmt="%d" index="2">1</arg>:<arg fmt="%d" index="3">1</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">add5ov5</arg>&gt;.
@@ -176,64 +179,67 @@
 <msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">mul_a</arg>&lt;<arg fmt="%d" index="2">9</arg>:<arg fmt="%d" index="3">9</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">add5ov5</arg>&gt;.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">cos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[0].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">cos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[0].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_deg</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[0].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_deg</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[0].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[0].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[0].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[0].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[0].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">cos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[1].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">cos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[1].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_deg</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[1].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_deg</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[1].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[1].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[1].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[1].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[1].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">cos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[2].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">cos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[2].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_deg</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[2].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_deg</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[2].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[2].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[2].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[2].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[2].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">cos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[3].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">cos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[3].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_deg</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[3].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_deg</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[3].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[3].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[3].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[3].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[3].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">cos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[4].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">cos</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[4].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_deg</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[4].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_deg</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[4].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[4].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_y</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[4].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[4].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\SUEN27\vir5_PMSM_V\BackEMF.v</arg>&quot; line <arg fmt="%s" index="2">147</arg>: Output port &lt;<arg fmt="%s" index="3">q_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_cordic_gen[4].u_cordic_bkEMF</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="old" >in unit <arg fmt="%s" index="1">PWM_Deadzn</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">reset_release&lt;0&gt;</arg> and <arg fmt="%s" index="3">n0005&lt;1&gt;</arg> <arg fmt="%s" index="4">n0005&lt;1&gt;</arg> signal will be lost.
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">resistance_drop_321</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_inductor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;resistance_drop_331&gt; &lt;resistance_drop_341&gt; </arg>
@@ -266,22 +272,31 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">TMP_eD_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;TMP_eD_S35_Q17_28&gt; &lt;TMP_eD_S35_Q17_29&gt; &lt;TMP_eD_S35_Q17_30&gt; &lt;TMP_eD_S35_Q17_31&gt; &lt;TMP_eD_S35_Q17_32&gt; &lt;TMP_eD_S35_Q17_33&gt; &lt;TMP_eD_S35_Q17_34&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">TMP_eA_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;TMP_eA_S35_Q17_28&gt; &lt;TMP_eA_S35_Q17_29&gt; &lt;TMP_eA_S35_Q17_30&gt; &lt;TMP_eA_S35_Q17_31&gt; &lt;TMP_eA_S35_Q17_32&gt; &lt;TMP_eA_S35_Q17_33&gt; &lt;TMP_eA_S35_Q17_34&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_tail_1&gt; &lt;speed_sample_Q4_0&gt; &lt;speed_sample_Q4_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eE_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eE_S35_Q17_28&gt; &lt;eE_S35_Q17_29&gt; &lt;eE_S35_Q17_30&gt; &lt;eE_S35_Q17_31&gt; &lt;eE_S35_Q17_32&gt; &lt;eE_S35_Q17_33&gt; &lt;eE_S35_Q17_34&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">TMP_eB_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;TMP_eB_S35_Q17_28&gt; &lt;TMP_eB_S35_Q17_29&gt; &lt;TMP_eB_S35_Q17_30&gt; &lt;TMP_eB_S35_Q17_31&gt; &lt;TMP_eB_S35_Q17_32&gt; &lt;TMP_eB_S35_Q17_33&gt; &lt;TMP_eB_S35_Q17_34&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_tail_18&gt; &lt;flux_tail_19&gt; &lt;flux_tail_20&gt; &lt;flux_tail_21&gt; &lt;flux_tail_22&gt; &lt;flux_tail_23&gt; &lt;flux_tail_24&gt; &lt;flux_tail_25&gt; &lt;flux_tail_26&gt; &lt;flux_tail_27&gt; &lt;flux_tail_28&gt; &lt;flux_tail_29&gt; &lt;flux_tail_30&gt; &lt;flux_tail_31&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">TMP_eA_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;TMP_eA_S35_Q17_28&gt; &lt;TMP_eA_S35_Q17_29&gt; &lt;TMP_eA_S35_Q17_30&gt; &lt;TMP_eA_S35_Q17_31&gt; &lt;TMP_eA_S35_Q17_32&gt; &lt;TMP_eA_S35_Q17_33&gt; &lt;TMP_eA_S35_Q17_34&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_tail_1&gt; &lt;speed_sample_Q4_0&gt; &lt;speed_sample_Q4_1&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_tail_18&gt; &lt;flux_tail_19&gt; &lt;flux_tail_20&gt; &lt;flux_tail_21&gt; &lt;flux_tail_22&gt; &lt;flux_tail_23&gt; &lt;flux_tail_24&gt; &lt;flux_tail_25&gt; &lt;flux_tail_26&gt; &lt;flux_tail_27&gt; &lt;flux_tail_28&gt; &lt;flux_tail_29&gt; &lt;flux_tail_30&gt; &lt;flux_tail_31&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">TMP_eC_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;TMP_eC_S35_Q17_28&gt; &lt;TMP_eC_S35_Q17_29&gt; &lt;TMP_eC_S35_Q17_30&gt; &lt;TMP_eC_S35_Q17_31&gt; &lt;TMP_eC_S35_Q17_32&gt; &lt;TMP_eC_S35_Q17_33&gt; &lt;TMP_eC_S35_Q17_34&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eE_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eE_S35_Q17_28&gt; &lt;eE_S35_Q17_29&gt; &lt;eE_S35_Q17_30&gt; &lt;eE_S35_Q17_31&gt; &lt;eE_S35_Q17_32&gt; &lt;eE_S35_Q17_33&gt; &lt;eE_S35_Q17_34&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eC_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eC_S35_Q17_28&gt; &lt;eC_S35_Q17_29&gt; &lt;eC_S35_Q17_30&gt; &lt;eC_S35_Q17_31&gt; &lt;eC_S35_Q17_32&gt; &lt;eC_S35_Q17_33&gt; &lt;eC_S35_Q17_34&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eD_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eD_S35_Q17_28&gt; &lt;eD_S35_Q17_29&gt; &lt;eD_S35_Q17_30&gt; &lt;eD_S35_Q17_31&gt; &lt;eD_S35_Q17_32&gt; &lt;eD_S35_Q17_33&gt; &lt;eD_S35_Q17_34&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eA_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eA_S35_Q17_28&gt; &lt;eA_S35_Q17_29&gt; &lt;eA_S35_Q17_30&gt; &lt;eA_S35_Q17_31&gt; &lt;eA_S35_Q17_32&gt; &lt;eA_S35_Q17_33&gt; &lt;eA_S35_Q17_34&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eB_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eB_S35_Q17_28&gt; &lt;eB_S35_Q17_29&gt; &lt;eB_S35_Q17_30&gt; &lt;eB_S35_Q17_31&gt; &lt;eB_S35_Q17_32&gt; &lt;eB_S35_Q17_33&gt; &lt;eB_S35_Q17_34&gt; </arg>
@@ -290,16 +305,7 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_d_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_tail_d_1&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eC_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eC_S35_Q17_28&gt; &lt;eC_S35_Q17_29&gt; &lt;eC_S35_Q17_30&gt; &lt;eC_S35_Q17_31&gt; &lt;eC_S35_Q17_32&gt; &lt;eC_S35_Q17_33&gt; &lt;eC_S35_Q17_34&gt; </arg>
-</msg>
-
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_d_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_tail_d_18&gt; &lt;flux_tail_d_19&gt; &lt;flux_tail_d_20&gt; &lt;flux_tail_d_21&gt; &lt;flux_tail_d_22&gt; &lt;flux_tail_d_23&gt; &lt;flux_tail_d_24&gt; &lt;flux_tail_d_25&gt; &lt;flux_tail_d_26&gt; &lt;flux_tail_d_27&gt; &lt;flux_tail_d_28&gt; &lt;flux_tail_d_29&gt; &lt;flux_tail_d_30&gt; &lt;flux_tail_d_31&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eD_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eD_S35_Q17_28&gt; &lt;eD_S35_Q17_29&gt; &lt;eD_S35_Q17_30&gt; &lt;eD_S35_Q17_31&gt; &lt;eD_S35_Q17_32&gt; &lt;eD_S35_Q17_33&gt; &lt;eD_S35_Q17_34&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eA_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_back_EMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eA_S35_Q17_28&gt; &lt;eA_S35_Q17_29&gt; &lt;eA_S35_Q17_30&gt; &lt;eA_S35_Q17_31&gt; &lt;eA_S35_Q17_32&gt; &lt;eA_S35_Q17_33&gt; &lt;eA_S35_Q17_34&gt; </arg>
 </msg>
 
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">voltage_pair_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">engine</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -755,10 +761,10 @@
 <msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">inverse_sample</arg>&lt;<arg fmt="%d" index="2">17</arg>:<arg fmt="%d" index="3">16</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">Inductor_1</arg>&gt;.
 </msg>
 
-<msg type="info" file="Xst" num="3217" delta="old" >HDL ADVISOR - Register &lt;<arg fmt="%s" index="1">atan_step</arg>&gt; currently described with an asynchronous reset, could be combined with distributed RAM &lt;<arg fmt="%s" index="2">Mram_iteration[3]_GND_33_o_wide_mux_20_OUT</arg>&gt; for implementation on block RAM resources if you made this reset synchronous instead.
+<msg type="info" file="Xst" num="3217" delta="new" >HDL ADVISOR - Register &lt;<arg fmt="%s" index="1">atan_step</arg>&gt; currently described with an asynchronous reset, could be combined with distributed RAM &lt;<arg fmt="%s" index="2">Mram_iteration[3]_GND_35_o_wide_mux_20_OUT</arg>&gt; for implementation on block RAM resources if you made this reset synchronous instead.
 </msg>
 
-<msg type="info" file="Xst" num="3217" delta="old" >HDL ADVISOR - Register &lt;<arg fmt="%s" index="1">low_delay_3</arg>&gt; currently described with an asynchronous reset, could be combined with distributed RAM &lt;<arg fmt="%s" index="2">Mram_sum_all[2]_GND_28_o_wide_mux_22_OUT</arg>&gt; for implementation on block RAM resources if you made this reset synchronous instead.
+<msg type="info" file="Xst" num="3217" delta="new" >HDL ADVISOR - Register &lt;<arg fmt="%s" index="1">low_delay_3</arg>&gt; currently described with an asynchronous reset, could be combined with distributed RAM &lt;<arg fmt="%s" index="2">Mram_sum_all[2]_GND_30_o_wide_mux_22_OUT</arg>&gt; for implementation on block RAM resources if you made this reset synchronous instead.
 </msg>
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rounded_product_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">add5ov5</arg>&gt;.
@@ -1259,10 +1265,13 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">TMP_eD_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;TMP_eD_S35_Q17_28&gt; &lt;TMP_eD_S35_Q17_29&gt; &lt;TMP_eD_S35_Q17_30&gt; &lt;TMP_eD_S35_Q17_31&gt; &lt;TMP_eD_S35_Q17_32&gt; &lt;TMP_eD_S35_Q17_33&gt; &lt;TMP_eD_S35_Q17_34&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">TMP_eA_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;TMP_eA_S35_Q17_28&gt; &lt;TMP_eA_S35_Q17_29&gt; &lt;TMP_eA_S35_Q17_30&gt; &lt;TMP_eA_S35_Q17_31&gt; &lt;TMP_eA_S35_Q17_32&gt; &lt;TMP_eA_S35_Q17_33&gt; &lt;TMP_eA_S35_Q17_34&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eE_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eE_S35_Q17_28&gt; &lt;eE_S35_Q17_29&gt; &lt;eE_S35_Q17_30&gt; &lt;eE_S35_Q17_31&gt; &lt;eE_S35_Q17_32&gt; &lt;eE_S35_Q17_33&gt; &lt;eE_S35_Q17_34&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">TMP_eB_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;TMP_eB_S35_Q17_28&gt; &lt;TMP_eB_S35_Q17_29&gt; &lt;TMP_eB_S35_Q17_30&gt; &lt;TMP_eB_S35_Q17_31&gt; &lt;TMP_eB_S35_Q17_32&gt; &lt;TMP_eB_S35_Q17_33&gt; &lt;TMP_eB_S35_Q17_34&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">TMP_eA_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;TMP_eA_S35_Q17_28&gt; &lt;TMP_eA_S35_Q17_29&gt; &lt;TMP_eA_S35_Q17_30&gt; &lt;TMP_eA_S35_Q17_31&gt; &lt;TMP_eA_S35_Q17_32&gt; &lt;TMP_eA_S35_Q17_33&gt; &lt;TMP_eA_S35_Q17_34&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_tail_18&gt; &lt;flux_tail_19&gt; &lt;flux_tail_20&gt; &lt;flux_tail_21&gt; &lt;flux_tail_22&gt; &lt;flux_tail_23&gt; &lt;flux_tail_24&gt; &lt;flux_tail_25&gt; &lt;flux_tail_26&gt; &lt;flux_tail_27&gt; &lt;flux_tail_28&gt; &lt;flux_tail_29&gt; &lt;flux_tail_30&gt; &lt;flux_tail_31&gt; </arg>
@@ -1271,16 +1280,7 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">TMP_eC_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;TMP_eC_S35_Q17_28&gt; &lt;TMP_eC_S35_Q17_29&gt; &lt;TMP_eC_S35_Q17_30&gt; &lt;TMP_eC_S35_Q17_31&gt; &lt;TMP_eC_S35_Q17_32&gt; &lt;TMP_eC_S35_Q17_33&gt; &lt;TMP_eC_S35_Q17_34&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eE_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eE_S35_Q17_28&gt; &lt;eE_S35_Q17_29&gt; &lt;eE_S35_Q17_30&gt; &lt;eE_S35_Q17_31&gt; &lt;eE_S35_Q17_32&gt; &lt;eE_S35_Q17_33&gt; &lt;eE_S35_Q17_34&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eB_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eB_S35_Q17_28&gt; &lt;eB_S35_Q17_29&gt; &lt;eB_S35_Q17_30&gt; &lt;eB_S35_Q17_31&gt; &lt;eB_S35_Q17_32&gt; &lt;eB_S35_Q17_33&gt; &lt;eB_S35_Q17_34&gt; </arg>
-</msg>
-
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eC_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eC_S35_Q17_28&gt; &lt;eC_S35_Q17_29&gt; &lt;eC_S35_Q17_30&gt; &lt;eC_S35_Q17_31&gt; &lt;eC_S35_Q17_32&gt; &lt;eC_S35_Q17_33&gt; &lt;eC_S35_Q17_34&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_d_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_tail_d_18&gt; &lt;flux_tail_d_19&gt; &lt;flux_tail_d_20&gt; &lt;flux_tail_d_21&gt; &lt;flux_tail_d_22&gt; &lt;flux_tail_d_23&gt; &lt;flux_tail_d_24&gt; &lt;flux_tail_d_25&gt; &lt;flux_tail_d_26&gt; &lt;flux_tail_d_27&gt; &lt;flux_tail_d_28&gt; &lt;flux_tail_d_29&gt; &lt;flux_tail_d_30&gt; &lt;flux_tail_d_31&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eD_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eD_S35_Q17_28&gt; &lt;eD_S35_Q17_29&gt; &lt;eD_S35_Q17_30&gt; &lt;eD_S35_Q17_31&gt; &lt;eD_S35_Q17_32&gt; &lt;eD_S35_Q17_33&gt; &lt;eD_S35_Q17_34&gt; </arg>
@@ -1289,25 +1289,37 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eA_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eA_S35_Q17_28&gt; &lt;eA_S35_Q17_29&gt; &lt;eA_S35_Q17_30&gt; &lt;eA_S35_Q17_31&gt; &lt;eA_S35_Q17_32&gt; &lt;eA_S35_Q17_33&gt; &lt;eA_S35_Q17_34&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">resistance_drop_322</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;resistance_drop_332&gt; &lt;resistance_drop_342&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">eB_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;eB_S35_Q17_28&gt; &lt;eB_S35_Q17_29&gt; &lt;eB_S35_Q17_30&gt; &lt;eB_S35_Q17_31&gt; &lt;eB_S35_Q17_32&gt; &lt;eB_S35_Q17_33&gt; &lt;eB_S35_Q17_34&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">resistance_drop_321</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;resistance_drop_331&gt; &lt;resistance_drop_341&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">resistance_drop_32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;resistance_drop_33&gt; &lt;resistance_drop_34&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">resistance_drop_323</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;resistance_drop_333&gt; &lt;resistance_drop_343&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inductor_de/engine/resistance_drop&lt;2&gt;_32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inductor_de/engine/resistance_drop&lt;2&gt;_33&gt; &lt;u_inductor_de/engine/resistance_drop&lt;2&gt;_34&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_d_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_tail_d_18&gt; &lt;flux_tail_d_19&gt; &lt;flux_tail_d_20&gt; &lt;flux_tail_d_21&gt; &lt;flux_tail_d_22&gt; &lt;flux_tail_d_23&gt; &lt;flux_tail_d_24&gt; &lt;flux_tail_d_25&gt; &lt;flux_tail_d_26&gt; &lt;flux_tail_d_27&gt; &lt;flux_tail_d_28&gt; &lt;flux_tail_d_29&gt; &lt;flux_tail_d_30&gt; &lt;flux_tail_d_31&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">resistance_drop_324</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;resistance_drop_334&gt; &lt;resistance_drop_344&gt; </arg>
 </msg>
 
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">resistance_drop_32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;resistance_drop_33&gt; &lt;resistance_drop_34&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">resistance_drop_322</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;resistance_drop_332&gt; &lt;resistance_drop_342&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">resistance_drop_323</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;resistance_drop_333&gt; &lt;resistance_drop_343&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">resistance_drop_321</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;resistance_drop_331&gt; &lt;resistance_drop_341&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inductor_de/engine/resistance_drop&lt;2&gt;_34</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inductor_de/engine/resistance_drop&lt;2&gt;_32&gt; &lt;u_inductor_de/engine/resistance_drop&lt;2&gt;_33&gt; </arg>
+</msg>
+
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">drop_pair_32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;drop_pair_33&gt; &lt;drop_pair_34&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_phase_e/pwm_valid_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PWM_Deadzn</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_phase_d/pwm_valid_0&gt; &lt;u_phase_c/pwm_valid_0&gt; &lt;u_phase_b/pwm_valid_0&gt; &lt;u_phase_a/pwm_valid_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_phase_e/pwm_valid_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PWM_Deadzn</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_phase_d/pwm_valid_1&gt; &lt;u_phase_c/pwm_valid_1&gt; &lt;u_phase_b/pwm_valid_1&gt; &lt;u_phase_a/pwm_valid_1&gt; </arg>
 </msg>
 
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">low_product_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">add5ov5</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -2105,22 +2117,22 @@
 <msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">u_clock/CLOCK/pll_base_inst</arg> in unit <arg fmt="%s" index="2">u_clock/CLOCK/pll_base_inst</arg> of type <arg fmt="%s" index="3">PLL_BASE</arg> has been replaced by <arg fmt="%s" index="4">PLL_ADV</arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter_de/INVERTER_DE/UBO_S35_Q17_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter_de/INVERTER_DE/UBO_S35_Q17_29&gt; &lt;u_inverter_de/INVERTER_DE/UBO_S35_Q17_30&gt; &lt;u_inverter_de/INVERTER_DE/UBO_S35_Q17_31&gt; &lt;u_inverter_de/INVERTER_DE/UBO_S35_Q17_32&gt; &lt;u_inverter_de/INVERTER_DE/UBO_S35_Q17_33&gt; &lt;u_inverter_de/INVERTER_DE/UBO_S35_Q17_34&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">emf_new&lt;2&gt;_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;emf_new&lt;2&gt;_0&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/UAO_S35_Q17_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter/UAO_S35_Q17_29&gt; &lt;u_inverter/UAO_S35_Q17_30&gt; &lt;u_inverter/UAO_S35_Q17_31&gt; &lt;u_inverter/UAO_S35_Q17_32&gt; &lt;u_inverter/UAO_S35_Q17_33&gt; &lt;u_inverter/UAO_S35_Q17_34&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter_de/INVERTER_DE/UBO_S35_Q17_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter_de/INVERTER_DE/UBO_S35_Q17_29&gt; &lt;u_inverter_de/INVERTER_DE/UBO_S35_Q17_30&gt; &lt;u_inverter_de/INVERTER_DE/UBO_S35_Q17_31&gt; &lt;u_inverter_de/INVERTER_DE/UBO_S35_Q17_32&gt; &lt;u_inverter_de/INVERTER_DE/UBO_S35_Q17_33&gt; &lt;u_inverter_de/INVERTER_DE/UBO_S35_Q17_34&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter_de/INVERTER_DE/UAO_S35_Q17_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter_de/INVERTER_DE/UAO_S35_Q17_29&gt; &lt;u_inverter_de/INVERTER_DE/UAO_S35_Q17_30&gt; &lt;u_inverter_de/INVERTER_DE/UAO_S35_Q17_31&gt; &lt;u_inverter_de/INVERTER_DE/UAO_S35_Q17_32&gt; &lt;u_inverter_de/INVERTER_DE/UAO_S35_Q17_33&gt; &lt;u_inverter_de/INVERTER_DE/UAO_S35_Q17_34&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/UCO_S35_Q17_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter/UCO_S35_Q17_29&gt; &lt;u_inverter/UCO_S35_Q17_30&gt; &lt;u_inverter/UCO_S35_Q17_31&gt; &lt;u_inverter/UCO_S35_Q17_32&gt; &lt;u_inverter/UCO_S35_Q17_33&gt; &lt;u_inverter/UCO_S35_Q17_34&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/UBO_S35_Q17_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter/UBO_S35_Q17_29&gt; &lt;u_inverter/UBO_S35_Q17_30&gt; &lt;u_inverter/UBO_S35_Q17_31&gt; &lt;u_inverter/UBO_S35_Q17_32&gt; &lt;u_inverter/UBO_S35_Q17_33&gt; &lt;u_inverter/UBO_S35_Q17_34&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter_de/INVERTER_DE/UAO_S35_Q17_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter_de/INVERTER_DE/UAO_S35_Q17_29&gt; &lt;u_inverter_de/INVERTER_DE/UAO_S35_Q17_30&gt; &lt;u_inverter_de/INVERTER_DE/UAO_S35_Q17_31&gt; &lt;u_inverter_de/INVERTER_DE/UAO_S35_Q17_32&gt; &lt;u_inverter_de/INVERTER_DE/UAO_S35_Q17_33&gt; &lt;u_inverter_de/INVERTER_DE/UAO_S35_Q17_34&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">emf_new&lt;2&gt;_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;emf_new&lt;2&gt;_0&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/x_2_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter/x_2_29&gt; &lt;u_inverter/x_2_30&gt; &lt;u_inverter/x_2_31&gt; &lt;u_inverter/x_2_32&gt; &lt;u_inverter/x_2_33&gt; &lt;u_inverter/x_2_34&gt; </arg>
@@ -2165,67 +2177,28 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">low_delay_3_68</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">add5ov5</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;low_delay_3_72&gt; &lt;low_delay_3_76&gt; &lt;low_delay_3_80&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_pair_lo_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_lo_26&gt; &lt;flux_pair_lo_27&gt; &lt;flux_pair_lo_28&gt; &lt;flux_pair_lo_29&gt; &lt;flux_pair_lo_30&gt; &lt;flux_pair_lo_31&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_pair_lo_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_hi_10&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_pair_lo_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_hi_11&gt; </arg>
-</msg>
-
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_4_31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_4_30&gt; &lt;phase_angle_q16_4_29&gt; &lt;phase_angle_q16_4_28&gt; &lt;phase_angle_q16_4_27&gt; &lt;phase_angle_q16_4_26&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_pair_lo_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_hi_12&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_lo_8&gt; &lt;flux_pair_hi_13&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_hi_14&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_4&gt; &lt;phase_angle_q16_2_4&gt; &lt;phase_angle_q16_3_4&gt; &lt;phase_angle_q16_4_4&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_hi_15&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_10&gt; &lt;phase_angle_q16_2_10&gt; &lt;phase_angle_q16_3_10&gt; &lt;phase_angle_q16_4_10&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_5&gt; &lt;phase_angle_q16_2_5&gt; &lt;phase_angle_q16_3_5&gt; &lt;phase_angle_q16_4_5&gt; </arg>
-</msg>
-
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_11&gt; &lt;phase_angle_q16_2_11&gt; &lt;phase_angle_q16_3_11&gt; &lt;phase_angle_q16_4_11&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_6&gt; &lt;phase_angle_q16_2_6&gt; &lt;phase_angle_q16_3_6&gt; &lt;phase_angle_q16_4_6&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_12&gt; &lt;phase_angle_q16_2_12&gt; &lt;phase_angle_q16_3_12&gt; &lt;phase_angle_q16_4_12&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_7&gt; &lt;phase_angle_q16_2_7&gt; &lt;phase_angle_q16_3_7&gt; &lt;phase_angle_q16_4_7&gt; </arg>
-</msg>
-
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_13&gt; &lt;phase_angle_q16_2_13&gt; &lt;phase_angle_q16_3_13&gt; &lt;phase_angle_q16_4_13&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_8&gt; &lt;phase_angle_q16_2_8&gt; &lt;phase_angle_q16_3_8&gt; &lt;phase_angle_q16_4_8&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_14&gt; &lt;phase_angle_q16_2_14&gt; &lt;phase_angle_q16_3_14&gt; &lt;phase_angle_q16_4_14&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_9&gt; &lt;phase_angle_q16_2_9&gt; &lt;phase_angle_q16_3_9&gt; &lt;phase_angle_q16_4_9&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_4_20&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_15&gt; &lt;phase_angle_q16_2_15&gt; &lt;phase_angle_q16_3_15&gt; &lt;phase_angle_q16_4_15&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_4_20&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_16&gt; &lt;phase_angle_q16_2_16&gt; &lt;phase_angle_q16_3_16&gt; &lt;phase_angle_q16_4_16&gt; </arg>
@@ -2238,6 +2211,45 @@
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_2_19&gt; &lt;phase_angle_q16_4_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_pair_lo_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_lo_26&gt; &lt;flux_pair_lo_27&gt; &lt;flux_pair_lo_28&gt; &lt;flux_pair_lo_29&gt; &lt;flux_pair_lo_30&gt; &lt;flux_pair_lo_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_4&gt; &lt;phase_angle_q16_2_4&gt; &lt;phase_angle_q16_3_4&gt; &lt;phase_angle_q16_4_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_5&gt; &lt;phase_angle_q16_2_5&gt; &lt;phase_angle_q16_3_5&gt; &lt;phase_angle_q16_4_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_6&gt; &lt;phase_angle_q16_2_6&gt; &lt;phase_angle_q16_3_6&gt; &lt;phase_angle_q16_4_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_7&gt; &lt;phase_angle_q16_2_7&gt; &lt;phase_angle_q16_3_7&gt; &lt;phase_angle_q16_4_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_8&gt; &lt;phase_angle_q16_2_8&gt; &lt;phase_angle_q16_3_8&gt; &lt;phase_angle_q16_4_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">phase_angle_q16_0_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;phase_angle_q16_1_9&gt; &lt;phase_angle_q16_2_9&gt; &lt;phase_angle_q16_3_9&gt; &lt;phase_angle_q16_4_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_pair_lo_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_hi_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_pair_lo_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_hi_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_pair_lo_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_hi_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_lo_8&gt; &lt;flux_pair_hi_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_hi_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">flux_tail_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;flux_pair_hi_15&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">theta_fine_q16_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BackEMF</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;theta_coarse_q16_7&gt; </arg>
@@ -2903,43 +2915,7 @@
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/cos_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/UBO_S35_Q17_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">vir5_PMSM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/UCO_S35_Q17_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">vir5_PMSM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/UAO_S35_Q17_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">vir5_PMSM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_inverter_de/INVERTER_DE/UAO_S35_Q17_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">vir5_PMSM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_inverter_de/INVERTER_DE/UBO_S35_Q17_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">vir5_PMSM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/x_2_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">vir5_PMSM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/x_3_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">vir5_PMSM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/x_1_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">vir5_PMSM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_inverter_de/INVERTER_DE/x_1_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">vir5_PMSM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_inverter_de/INVERTER_DE/x_2_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">vir5_PMSM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/shifted_x_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/shifted_x_18&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/x_3_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter/x_3_28&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/UCO_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter/UCO_S35_Q17_28&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/Time_cnt_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter_de/INVERTER_DE/Time_cnt_0&gt; </arg>
@@ -3053,7 +3029,7 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">div5/sum_all_37</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;div5/sum_all_36&gt; &lt;div5/sum_all_35&gt; &lt;div5/sum_all_34&gt; &lt;div5/sum_all_33&gt; &lt;div5/sum_all_32&gt; &lt;div5/sum_all_31&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/phase_angle_q16_2_26</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/phase_angle_q16_2_27&gt; &lt;u_back_EMF/phase_angle_q16_2_28&gt; &lt;u_back_EMF/phase_angle_q16_2_29&gt; &lt;u_back_EMF/phase_angle_q16_2_30&gt; &lt;u_back_EMF/phase_angle_q16_2_31&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/phase_angle_q16_2_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/phase_angle_q16_2_28&gt; &lt;u_back_EMF/phase_angle_q16_2_29&gt; &lt;u_back_EMF/phase_angle_q16_2_30&gt; &lt;u_back_EMF/phase_angle_q16_2_31&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/flux_tail_d_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/flux_sum_8&gt; </arg>
@@ -3071,13 +3047,16 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">div5/tail_e_37</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">9 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;div5/tail_e_36&gt; &lt;div5/tail_e_35&gt; &lt;div5/tail_e_34&gt; &lt;div5/tail_e_33&gt; &lt;div5/tail_e_32&gt; &lt;div5/tail_e_31&gt; &lt;div5/tail_e_30&gt; &lt;div5/tail_e_29&gt; &lt;div5/tail_e_28&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/x_2_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter/x_2_28&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/shifted_y_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/shifted_y_18&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/UAO_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter/UAO_S35_Q17_28&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_pwm_deadzn/u_phase_a/started</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_pwm_deadzn/u_phase_b/started&gt; &lt;u_pwm_deadzn/u_phase_c/started&gt; &lt;u_pwm_deadzn/u_phase_d/started&gt; &lt;u_pwm_deadzn/u_phase_e/started&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/shifted_y_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/shifted_y_18&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/shifted_y_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/shifted_y_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/invert</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/angle_bias_18&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">drop_pair&lt;0&gt;_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;drop_pair&lt;0&gt;_0&gt; </arg>
@@ -3113,7 +3092,7 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inductor/mul_a1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inductor_de/engine/mul_a1_1&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/shifted_y_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/shifted_y_18&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/shifted_y_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/shifted_y_18&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inductor/mul_a1_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inductor_de/engine/mul_a1_2&gt; </arg>
@@ -3140,13 +3119,10 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inductor/mul_a1_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inductor_de/engine/mul_a1_9&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/phase_angle_q16_1_26</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/phase_angle_q16_1_27&gt; &lt;u_back_EMF/phase_angle_q16_1_28&gt; &lt;u_back_EMF/phase_angle_q16_1_29&gt; &lt;u_back_EMF/phase_angle_q16_1_30&gt; &lt;u_back_EMF/phase_angle_q16_1_31&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/invert</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/angle_bias_18&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/invert</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/angle_bias_18&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">voltage_pair&lt;0&gt;_23</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;voltage_pair&lt;0&gt;_231&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/phase_angle_q16_1_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/phase_angle_q16_1_28&gt; &lt;u_back_EMF/phase_angle_q16_1_29&gt; &lt;u_back_EMF/phase_angle_q16_1_30&gt; &lt;u_back_EMF/phase_angle_q16_1_31&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">voltage_pair&lt;0&gt;_24</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;voltage_pair&lt;0&gt;_241&gt; </arg>
@@ -3194,9 +3170,6 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">div5/tail_d_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;div5/tail_d_36&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/shifted_y_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/shifted_y_18&gt; </arg>
-</msg>
-
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inductor/inverse_sample_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inductor_de/engine/inverse_sample_0&gt; </arg>
 </msg>
 
@@ -3224,16 +3197,7 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inductor/inverse_sample_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inductor_de/engine/inverse_sample_8&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/invert</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/angle_bias_18&gt; </arg>
-</msg>
-
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inductor/inverse_sample_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inductor_de/engine/inverse_sample_9&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/x_1_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter/x_1_28&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_inverter/UBO_S35_Q17_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_inverter/UBO_S35_Q17_28&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">drop_pair&lt;2&gt;_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;drop_pair&lt;2&gt;_0&gt; </arg>
@@ -3258,9 +3222,6 @@
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/shifted_x_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/shifted_x_18&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">voltage_pair&lt;1&gt;_23</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;voltage_pair&lt;1&gt;_231&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">voltage_pair&lt;1&gt;_24</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;voltage_pair&lt;1&gt;_241&gt; </arg>
@@ -3302,7 +3263,7 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">voltage_pair&lt;1&gt;_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;voltage_pair&lt;1&gt;_291&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/phase_angle_q16_3_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/phase_angle_q16_3_28&gt; &lt;u_back_EMF/phase_angle_q16_3_26&gt; &lt;u_back_EMF/phase_angle_q16_3_29&gt; &lt;u_back_EMF/phase_angle_q16_3_30&gt; &lt;u_back_EMF/phase_angle_q16_3_31&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/phase_angle_q16_3_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/phase_angle_q16_3_28&gt; &lt;u_back_EMF/phase_angle_q16_3_29&gt; &lt;u_back_EMF/phase_angle_q16_3_30&gt; &lt;u_back_EMF/phase_angle_q16_3_31&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/shifted_x_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vir5_PMSM</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/shifted_x_18&gt; </arg>

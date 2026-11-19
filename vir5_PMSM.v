@@ -89,8 +89,8 @@ module vir5_PMSM (
     wire         clk_180mhz; 
     wire         clk_50mhz;
     wire [15:0]  pwm_deadtime_cycles;
-    wire [15:0]  pwm_deadtime_50mhz;
-    wire         pwm_deadtime_valid;
+    // wire [15:0]  pwm_deadtime_50mhz;
+    // wire         pwm_deadtime_valid;
     wire A_Hi, A_Lo; // One-bit complementary gate commands per phase.
     wire B_Hi, B_Lo;
     wire C_Hi, C_Lo;
@@ -156,18 +156,18 @@ module vir5_PMSM (
     // One reference per phase; external epwm_1B..epwm_5B are no longer used.
     // Port 9: FPGA word 0x182 / STM32 byte address 0x60000304.
     // Transfer the complete 16-bit setting atomically from PCI's clock domain.
-    PWM_Deadzn_Config u_pwm_config (
-        .src_clk(clk_180mhz),
-        .dst_clk(clk_50mhz),
-        .rst_n(rst_n),
-        .data_src(pwm_deadtime_cycles),
-        .data_dst(pwm_deadtime_50mhz),
-        .valid_dst(pwm_deadtime_valid)
-    );
+    // PWM_Deadzn_Config u_pwm_config (
+    //     .src_clk(clk_180mhz),
+    //     .dst_clk(clk_50mhz),
+    //     .rst_n(rst_n),
+    //     .data_src(pwm_deadtime_cycles),
+    //     .data_dst(pwm_deadtime_50mhz),
+    //     .valid_dst(pwm_deadtime_valid)
+    // );
     PWM_Deadzn u_pwm_deadzn (
         .clk_50MHz(clk_50mhz),
-        .rst_n(rst_n && pwm_deadtime_valid),
-        .deadtime(pwm_deadtime_50mhz),
+        .rst_n(rst_n), // && pwm_deadtime_valid),
+        .deadtime(pwm_deadtime_cycles),
         .A_Ref(epwm_1A),
         .B_Ref(epwm_2A),
         .C_Ref(epwm_3A),
@@ -324,39 +324,7 @@ module vir5_PMSM (
         .eE_S35_Q17(bEMF_e_q17)
     );
 
-    // Three-phase Clarke transform (module is defined in Clarke2alphabeta.v).
-    // main.sch: XLXI_97
-    // Clarke3Phase u_clarke (
-    //     .clk_180MHz(clk_180mhz),
-    //     .rst_n(rst_n),
-    //     .I_A_S35_Q25(phase_a_current),
-    //     .I_B_S35_Q25(phase_b_current),
-    //     .I_C_S35_Q25(phase_c_current),
-    //     .I_alpha_STM32_Out(i_alpha_stm32),
-    //     .I_beta_STM32_Out(i_beta_stm32),
-    //     .I_alpha_S18_Q9(i_alpha_q9),
-    //     .I_beta_S18_Q9(i_beta_q9),
-    //     .Ia_S18_Q9(current_a_q9),
-    //     .Ib_S18_Q9(current_b_q9),
-    //     .Ic_S18_Q9(current_c_q9)
-    // );
-
-    // Park transform; dq outputs have no torque-model consumer in main.sch.
-    // main.sch: XLXI_94
-    // Park2dq u_park (
-    //     .clk_180MHz(clk_180mhz),
-    //     .rst_n(rst_n),
-    //     .epos_S18(electrical_position_undriven),
-    //     .I_beta_S18_Q9(i_beta_q9),
-    //     .I_d_S18_Q9(i_d_q9_unused),
-    //     .I_q_S18_Q9(i_q_q9_unused),
-    //     .I_alpha_S18_Q9(i_alpha_q9),
-    //     .I_d_STM32_Out(i_d_stm32),
-    //     .I_q_STM32_Out(i_q_stm32)
-    // );
-
     // Clock wrapper; only the 50 MHz and 180 MHz outputs are connected.
-    // main.sch: XLXI_59
     clk300MHz u_clock (
         .clkin(clk_ex),
         .clk300MHz(), 
@@ -364,29 +332,6 @@ module vir5_PMSM (
         .clk180MHz(clk_180mhz)
     );
 
-    // Electrical position observation; source net has no driver in main.sch.
-    // main.sch: XLXI_113
-    // [2026-11-10 16:39 CST] Disable the unused position observation whose source is undriven.
-    // bit18_to_16 u_position_to_stm32 (
-    // .in_18bit(electrical_position_undriven),
-    // .out_16bit(position_stm32)
-    // );
-
-    // Three-phase mutual-inductance EMF.
-    // main.sch: XLXI_116
-    // EMFm_calc u_mutual_emf (
-    //     .clk(clk_180mhz),
-    //     .rst_n(rst_n),
-    //     .DIFov2_S16_Q12(mutual_diff_over2_q12),
-    //     .AVGov4_S16_Q10(mutual_avg_over4_q10),
-    //     .iA_S18_Q9(current_a_q9),
-    //     .iB_S18_Q9(current_b_q9),
-    //     .iC_S18_Q9(current_c_q9),
-    //     .ePOS_S18_360(electrical_position_undriven),
-    //     .eA_mutual_S35_Q17(mutual_emf_a_q17),
-    //     .eB_mutual_S35_Q17(mutual_emf_b_q17),
-    //     .eC_mutual_S35_Q17(mutual_emf_c_q17)
-    // );
 
     // Schematic: PE5/TIM9_CH1 -> GPIO61 (T4, IO_L63N_2) -> ePWM_ua_Grid (B16).
     // B16 feeds external U2 PWM_In1/Out1; PA4/DAC_OUT1 feeds Analog_In4/Out4.

@@ -7,17 +7,17 @@
 // \   \   \/     Version: P.20131013
 //  \   \         Application: netgen
 //  /   /         Filename: Xt_multi.v
-// /___/   /\     Timestamp: Sun Feb 01 15:56:30 2026
+// /___/   /\     Timestamp: Thu Nov 19 14:29:18 2026
 // \   \  /  \ 
 //  \___\/\___\
 //             
-// Command	: -w -sim -ofmt verilog Z:/share/backup_Jan30/YS27saved_W5/test2/ipcore_dir/tmp/_cg/Xt_multi.ngc Z:/share/backup_Jan30/YS27saved_W5/test2/ipcore_dir/tmp/_cg/Xt_multi.v 
+// Command	: -w -sim -ofmt verilog E:/SUEN27/vir5_PMSM_V/ipcore_dir/tmp/_cg/Xt_multi.ngc E:/SUEN27/vir5_PMSM_V/ipcore_dir/tmp/_cg/Xt_multi.v 
 // Device	: 6slx25ftg256-2
-// Input file	: Z:/share/backup_Jan30/YS27saved_W5/test2/ipcore_dir/tmp/_cg/Xt_multi.ngc
-// Output file	: Z:/share/backup_Jan30/YS27saved_W5/test2/ipcore_dir/tmp/_cg/Xt_multi.v
+// Input file	: E:/SUEN27/vir5_PMSM_V/ipcore_dir/tmp/_cg/Xt_multi.ngc
+// Output file	: E:/SUEN27/vir5_PMSM_V/ipcore_dir/tmp/_cg/Xt_multi.v
 // # of Modules	: 1
 // Design Name	: Xt_multi
-// Xilinx        : C:\Xilinx\14.7\ISE_DS\ISE\
+// Xilinx        : E:\SUEN27\14.7\ISE_DS\ISE\
 //             
 // Purpose:    
 //     This verilog netlist is a verification model and uses simulation 
@@ -37,8 +37,8 @@ module Xt_multi (
   clk, a, b, p
 )/* synthesis syn_black_box syn_noprune=1 */;
   input clk;
-  input [17 : 0] a;
-  input [34 : 0] b;
+  input [34 : 0] a;
+  input [17 : 0] b;
   output [52 : 0] p;
   
   // synthesis translate_off
@@ -515,7 +515,7 @@ module Xt_multi (
     .CARRYOUT(\NLW_blk00000001/blk00000005_CARRYOUT_UNCONNECTED ),
     .RSTA(\blk00000001/sig0000009d ),
     .RSTP(\blk00000001/sig0000009d ),
-    .B({a[17], a[16], a[15], a[14], a[13], a[12], a[11], a[10], a[9], a[8], a[7], a[6], a[5], a[4], a[3], a[2], a[1], a[0]}),
+    .B({b[17], b[16], b[15], b[14], b[13], b[12], b[11], b[10], b[9], b[8], b[7], b[6], b[5], b[4], b[3], b[2], b[1], b[0]}),
     .BCOUT({\blk00000001/sig0000010f , \blk00000001/sig0000010e , \blk00000001/sig0000010d , \blk00000001/sig0000010c , \blk00000001/sig0000010b , 
 \blk00000001/sig0000010a , \blk00000001/sig00000109 , \blk00000001/sig00000108 , \blk00000001/sig00000107 , \blk00000001/sig00000106 , 
 \blk00000001/sig00000105 , \blk00000001/sig00000104 , \blk00000001/sig00000103 , \blk00000001/sig00000102 , \blk00000001/sig00000101 , 
@@ -573,7 +573,7 @@ module Xt_multi (
 \blk00000001/sig000000aa , \blk00000001/sig000000a9 , \blk00000001/sig000000a8 , \blk00000001/sig000000a7 , \blk00000001/sig000000a6 , 
 \blk00000001/sig000000a5 , \blk00000001/sig000000a4 , \blk00000001/sig000000a3 , \blk00000001/sig000000a2 , \blk00000001/sig000000a1 , 
 \blk00000001/sig000000a0 , \blk00000001/sig0000009f , \blk00000001/sig0000009e }),
-    .A({\blk00000001/sig0000009d , b[16], b[15], b[14], b[13], b[12], b[11], b[10], b[9], b[8], b[7], b[6], b[5], b[4], b[3], b[2], b[1], b[0]}),
+    .A({\blk00000001/sig0000009d , a[16], a[15], a[14], a[13], a[12], a[11], a[10], a[9], a[8], a[7], a[6], a[5], a[4], a[3], a[2], a[1], a[0]}),
     .M({\NLW_blk00000001/blk00000005_M<35>_UNCONNECTED , \NLW_blk00000001/blk00000005_M<34>_UNCONNECTED , 
 \NLW_blk00000001/blk00000005_M<33>_UNCONNECTED , \NLW_blk00000001/blk00000005_M<32>_UNCONNECTED , \NLW_blk00000001/blk00000005_M<31>_UNCONNECTED , 
 \NLW_blk00000001/blk00000005_M<30>_UNCONNECTED , \NLW_blk00000001/blk00000005_M<29>_UNCONNECTED , \NLW_blk00000001/blk00000005_M<28>_UNCONNECTED , 
@@ -679,7 +679,7 @@ p[17]}),
 \blk00000001/sig0000008f , \blk00000001/sig00000090 , \blk00000001/sig00000091 , \blk00000001/sig00000092 , \blk00000001/sig00000093 , 
 \blk00000001/sig00000094 , \blk00000001/sig00000095 , \blk00000001/sig00000096 , \blk00000001/sig00000097 , \blk00000001/sig00000098 , 
 \blk00000001/sig00000099 , \blk00000001/sig0000009a , \blk00000001/sig0000009b }),
-    .A({b[34], b[33], b[32], b[31], b[30], b[29], b[28], b[27], b[26], b[25], b[24], b[23], b[22], b[21], b[20], b[19], b[18], b[17]}),
+    .A({a[34], a[33], a[32], a[31], a[30], a[29], a[28], a[27], a[26], a[25], a[24], a[23], a[22], a[21], a[20], a[19], a[18], a[17]}),
     .M({\NLW_blk00000001/blk00000004_M<35>_UNCONNECTED , \NLW_blk00000001/blk00000004_M<34>_UNCONNECTED , 
 \NLW_blk00000001/blk00000004_M<33>_UNCONNECTED , \NLW_blk00000001/blk00000004_M<32>_UNCONNECTED , \NLW_blk00000001/blk00000004_M<31>_UNCONNECTED , 
 \NLW_blk00000001/blk00000004_M<30>_UNCONNECTED , \NLW_blk00000001/blk00000004_M<29>_UNCONNECTED , \NLW_blk00000001/blk00000004_M<28>_UNCONNECTED , 

@@ -134,54 +134,54 @@ endmodule
 // synchronizers would not guarantee a coherent 16-bit configuration word.
 // Rapid writes are coalesced to the latest value; allow 0.5 us after the final
 // FMC write for the 180 -> 50 MHz transfer, then the next reference edge uses it.
-module PWM_Deadzn_Config (
-    input  wire        src_clk,
-    input  wire        dst_clk,
-    input  wire        rst_n,
-    input  wire [15:0] data_src,
-    output reg  [15:0] data_dst,
-    output reg         valid_dst
-);
-    reg [15:0] data_hold;
-    reg request;
-    reg first_sent;
-    reg acknowledge;
-    (* ASYNC_REG = "TRUE" *) reg ack_meta, ack_sync;
-    (* ASYNC_REG = "TRUE" *) reg req_meta, req_sync;
-    always @(posedge src_clk or negedge rst_n) begin
-        if (!rst_n) begin
-            data_hold <= 16'd0;
-            request <= 1'b0;
-            first_sent <= 1'b0;
-            ack_meta <= 1'b0;
-            ack_sync <= 1'b0;
-        end else begin
-            ack_meta <= acknowledge;
-            ack_sync <= ack_meta;
-            if ((request == ack_sync) && (!first_sent || data_src != data_hold)) begin
-                data_hold <= data_src;
-                request <= !request;
-                first_sent <= 1'b1;
-            end
-        end
-    end
-    always @(posedge dst_clk or negedge rst_n) begin
-        if (!rst_n) begin
-            req_meta <= 1'b0;
-            req_sync <= 1'b0;
-            acknowledge <= 1'b0;
-            data_dst <= 16'd0;
-            valid_dst <= 1'b0;
-        end else begin
-            req_meta <= request;
-            req_sync <= req_meta;
-            if (req_sync != acknowledge) begin
-                data_dst <= data_hold;
-                acknowledge <= req_sync;
-                valid_dst <= 1'b1;
-            end
-        end
-    end
-endmodule
+// module PWM_Deadzn_Config (
+//     input  wire        src_clk,
+//     input  wire        dst_clk,
+//     input  wire        rst_n,
+//     input  wire [15:0] data_src,
+//     output reg  [15:0] data_dst,
+//     output reg         valid_dst
+// );
+//     reg [15:0] data_hold;
+//     reg request;
+//     reg first_sent;
+//     reg acknowledge;
+//     (* ASYNC_REG = "TRUE" *) reg ack_meta, ack_sync;
+//     (* ASYNC_REG = "TRUE" *) reg req_meta, req_sync;
+//     always @(posedge src_clk or negedge rst_n) begin
+//         if (!rst_n) begin
+//             data_hold <= 16'd0;
+//             request <= 1'b0;
+//             first_sent <= 1'b0;
+//             ack_meta <= 1'b0;
+//             ack_sync <= 1'b0;
+//         end else begin
+//             ack_meta <= acknowledge;
+//             ack_sync <= ack_meta;
+//             if ((request == ack_sync) && (!first_sent || data_src != data_hold)) begin
+//                 data_hold <= data_src;
+//                 request <= !request;
+//                 first_sent <= 1'b1;
+//             end
+//         end
+//     end
+//     always @(posedge dst_clk or negedge rst_n) begin
+//         if (!rst_n) begin
+//             req_meta <= 1'b0;
+//             req_sync <= 1'b0;
+//             acknowledge <= 1'b0;
+//             data_dst <= 16'd0;
+//             valid_dst <= 1'b0;
+//         end else begin
+//             req_meta <= request;
+//             req_sync <= req_meta;
+//             if (req_sync != acknowledge) begin
+//                 data_dst <= data_hold;
+//                 acknowledge <= req_sync;
+//                 valid_dst <= 1'b1;
+//             end
+//         end
+//     end
+// endmodule
 
 `default_nettype wire
