@@ -107,7 +107,7 @@ module vir5_PMSM (
 
     // STM32 register interface; register numbering and data bus direction are unchanged.
     PCI u_pci (
-        .sub_clk(clk_180mhz),
+        .sub_clk(clk_50mhz),
         .STM32_NWE_Low(STM32_NWE_Low),
         .STM32_NOE_Low(STM32_NOE_Low),
         .STM32_NE1_Low(STM32_NE1_Low),
@@ -119,9 +119,9 @@ module vir5_PMSM (
         .FPGAtoSTM32_Signal_4(phase_d_current[34:19]), 
         .FPGAtoSTM32_Signal_5(phase_e_current[34:19]), 
         .FPGAtoSTM32_Signal_6(bEMF_a_q17[34:15]),
-        .FPGAtoSTM32_Signal_7(ePOS_in),
-        .FPGAtoSTM32_Signal_8(eOMG_in),
-        .FPGAtoSTM32_Signal_9(half_flux_q15),
+        .FPGAtoSTM32_Signal_7(mutual_emf_a_q17[34:15]),
+        .FPGAtoSTM32_Signal_8(ePOS_in),
+        .FPGAtoSTM32_Signal_9(),
         .FPGAtoSTM32_Signal_10(Vn_stm32),
         .FPGAtoSTM32_Signal_11(),  //loopback test
         .FPGAtoSTM32_Signal_12(),
@@ -313,7 +313,7 @@ module vir5_PMSM (
 
     // [2026-11-16 19:30 CST] BackEMF and PCI parameter registers share 180 MHz.
     BackEMF u_back_EMF (
-        .clk(clk_180mhz),
+        .clk(clk_50mhz),
         .rst_n(rst_n),
         .epos_S16_360(ePOS_in),
         .eOMG_S16_Q2(eOMG_in),

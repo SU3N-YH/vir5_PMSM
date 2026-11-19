@@ -37,44 +37,44 @@ Setup/Hold to clock clk_ex
              |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source       | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 -------------+------------+------------+------------+------------+------------------+--------+
-ADDRbus<0>   |   10.810(R)|      SLOW  |   -2.675(R)|      FAST  |clk_180mhz        |   0.000|
-ADDRbus<1>   |    8.883(R)|      SLOW  |   -2.379(R)|      FAST  |clk_180mhz        |   0.000|
-ADDRbus<2>   |    8.714(R)|      SLOW  |   -2.076(R)|      FAST  |clk_180mhz        |   0.000|
-ADDRbus<3>   |    8.815(R)|      SLOW  |   -1.964(R)|      FAST  |clk_180mhz        |   0.000|
-ADDRbus<4>   |    9.125(R)|      SLOW  |   -1.976(R)|      FAST  |clk_180mhz        |   0.000|
-ADDRbus<5>   |    8.298(R)|      SLOW  |   -2.127(R)|      FAST  |clk_180mhz        |   0.000|
-ADDRbus<6>   |    8.152(R)|      SLOW  |   -1.950(R)|      FAST  |clk_180mhz        |   0.000|
-ADDRbus<7>   |    8.847(R)|      SLOW  |   -2.231(R)|      FAST  |clk_180mhz        |   0.000|
-ADDRbus<8>   |    9.427(R)|      SLOW  |   -1.908(R)|      FAST  |clk_180mhz        |   0.000|
-ADDRbus<9>   |   10.997(R)|      SLOW  |   -2.777(R)|      FAST  |clk_180mhz        |   0.000|
-ADDRbus<10>  |   11.339(R)|      SLOW  |   -2.957(R)|      FAST  |clk_180mhz        |   0.000|
-ADDRbus<11>  |   11.131(R)|      SLOW  |   -2.935(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<0>   |    7.860(R)|      SLOW  |   -1.654(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<1>   |    7.598(R)|      SLOW  |   -1.813(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<2>   |    7.889(R)|      SLOW  |   -1.559(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<3>   |    6.234(R)|      SLOW  |   -1.482(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<4>   |    6.558(R)|      SLOW  |   -1.459(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<5>   |    7.023(R)|      SLOW  |   -1.449(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<6>   |    6.146(R)|      SLOW  |   -1.430(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<7>   |    6.557(R)|      SLOW  |   -1.293(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<8>   |    5.779(R)|      SLOW  |   -1.195(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<9>   |    5.296(R)|      SLOW  |   -1.418(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<10>  |    7.167(R)|      SLOW  |   -1.325(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<11>  |    4.856(R)|      SLOW  |   -1.080(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<12>  |    5.241(R)|      SLOW  |   -0.830(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<13>  |    5.114(R)|      SLOW  |   -0.829(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<14>  |    4.587(R)|      SLOW  |   -0.792(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<15>  |    5.598(R)|      SLOW  |   -0.764(R)|      FAST  |clk_180mhz        |   0.000|
-STM32_NE1_Low|    8.456(R)|      SLOW  |   -1.356(R)|      FAST  |clk_180mhz        |   0.000|
-STM32_NOE_Low|    8.762(R)|      SLOW  |   -1.471(R)|      FAST  |clk_180mhz        |   0.000|
-STM32_NWE_Low|    8.825(R)|      SLOW  |   -1.480(R)|      FAST  |clk_180mhz        |   0.000|
-epwm_1A      |    2.422(R)|      SLOW  |   -0.816(R)|      FAST  |clk_50mhz         |   0.000|
-epwm_2A      |    2.427(R)|      SLOW  |   -0.821(R)|      FAST  |clk_50mhz         |   0.000|
-epwm_3A      |    2.357(R)|      SLOW  |   -0.771(R)|      FAST  |clk_50mhz         |   0.000|
-epwm_4A      |    2.434(R)|      SLOW  |   -0.828(R)|      FAST  |clk_50mhz         |   0.000|
-epwm_5A      |    2.365(R)|      SLOW  |   -0.779(R)|      FAST  |clk_50mhz         |   0.000|
-rst_n        |   21.223(R)|      SLOW  |   -0.863(R)|      FAST  |clk_180mhz        |   0.000|
-             |    7.202(R)|      SLOW  |   -3.588(R)|      FAST  |clk_50mhz         |   0.000|
+ADDRbus<0>   |   15.148(R)|      SLOW  |   -2.800(R)|      FAST  |clk_50mhz         |   0.000|
+ADDRbus<1>   |   11.446(R)|      SLOW  |   -3.111(R)|      FAST  |clk_50mhz         |   0.000|
+ADDRbus<2>   |   10.872(R)|      SLOW  |   -2.598(R)|      FAST  |clk_50mhz         |   0.000|
+ADDRbus<3>   |   11.969(R)|      SLOW  |   -2.524(R)|      FAST  |clk_50mhz         |   0.000|
+ADDRbus<4>   |   11.644(R)|      SLOW  |   -2.310(R)|      FAST  |clk_50mhz         |   0.000|
+ADDRbus<5>   |   11.068(R)|      SLOW  |   -2.667(R)|      FAST  |clk_50mhz         |   0.000|
+ADDRbus<6>   |   10.397(R)|      SLOW  |   -2.398(R)|      FAST  |clk_50mhz         |   0.000|
+ADDRbus<7>   |   11.326(R)|      SLOW  |   -1.898(R)|      FAST  |clk_50mhz         |   0.000|
+ADDRbus<8>   |   10.534(R)|      SLOW  |   -2.654(R)|      FAST  |clk_50mhz         |   0.000|
+ADDRbus<9>   |   11.585(R)|      SLOW  |   -2.234(R)|      FAST  |clk_50mhz         |   0.000|
+ADDRbus<10>  |   15.323(R)|      SLOW  |   -2.523(R)|      FAST  |clk_50mhz         |   0.000|
+ADDRbus<11>  |   11.701(R)|      SLOW  |   -2.490(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<0>   |    8.858(R)|      SLOW  |   -3.355(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<1>   |    9.333(R)|      SLOW  |   -3.289(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<2>   |    7.787(R)|      SLOW  |   -2.769(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<3>   |    8.524(R)|      SLOW  |   -2.734(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<4>   |    7.536(R)|      SLOW  |   -2.483(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<5>   |    8.999(R)|      SLOW  |   -2.446(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<6>   |    7.922(R)|      SLOW  |   -2.498(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<7>   |    7.410(R)|      SLOW  |   -2.370(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<8>   |    7.451(R)|      SLOW  |   -2.477(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<9>   |    7.966(R)|      SLOW  |   -2.480(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<10>  |    8.004(R)|      SLOW  |   -2.951(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<11>  |    6.968(R)|      SLOW  |   -2.217(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<12>  |    6.501(R)|      SLOW  |   -2.083(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<13>  |    6.865(R)|      SLOW  |   -2.234(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<14>  |    6.723(R)|      SLOW  |   -2.164(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<15>  |    6.490(R)|      SLOW  |   -2.057(R)|      FAST  |clk_50mhz         |   0.000|
+STM32_NE1_Low|    7.828(R)|      SLOW  |   -1.731(R)|      FAST  |clk_50mhz         |   0.000|
+STM32_NOE_Low|    8.332(R)|      SLOW  |   -1.975(R)|      FAST  |clk_50mhz         |   0.000|
+STM32_NWE_Low|    8.370(R)|      SLOW  |   -1.934(R)|      FAST  |clk_50mhz         |   0.000|
+epwm_1A      |    2.397(R)|      SLOW  |   -0.813(R)|      FAST  |clk_50mhz         |   0.000|
+epwm_2A      |    3.006(R)|      SLOW  |   -1.206(R)|      FAST  |clk_50mhz         |   0.000|
+epwm_3A      |    3.048(R)|      SLOW  |   -1.246(R)|      FAST  |clk_50mhz         |   0.000|
+epwm_4A      |    2.255(R)|      SLOW  |   -0.733(R)|      FAST  |clk_50mhz         |   0.000|
+epwm_5A      |    2.257(R)|      SLOW  |   -0.735(R)|      FAST  |clk_50mhz         |   0.000|
+rst_n        |   16.302(R)|      SLOW  |   -0.822(R)|      FAST  |clk_180mhz        |   0.000|
+             |   21.087(R)|      SLOW  |   -4.157(R)|      FAST  |clk_50mhz         |   0.000|
 -------------+------------+------------+------------+------------+------------------+--------+
 
 Clock clk_ex to Pad
@@ -82,22 +82,38 @@ Clock clk_ex to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-DATAbus<0>  |        13.996(R)|      SLOW  |         3.732(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<1>  |        13.858(R)|      SLOW  |         4.091(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<2>  |        12.567(R)|      SLOW  |         3.755(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<3>  |        13.117(R)|      SLOW  |         3.824(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<4>  |        11.973(R)|      SLOW  |         3.512(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<5>  |        14.420(R)|      SLOW  |         4.037(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<6>  |        12.239(R)|      SLOW  |         3.866(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<7>  |        12.980(R)|      SLOW  |         3.788(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<8>  |        13.042(R)|      SLOW  |         3.586(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<9>  |        13.878(R)|      SLOW  |         4.013(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<10> |        12.401(R)|      SLOW  |         3.498(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<11> |        12.504(R)|      SLOW  |         3.306(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<12> |        12.742(R)|      SLOW  |         3.558(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<13> |        13.409(R)|      SLOW  |         3.342(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<14> |        11.199(R)|      SLOW  |         3.205(R)|      FAST  |clk_180mhz        |   0.000|
-DATAbus<15> |        11.482(R)|      SLOW  |         3.626(R)|      FAST  |clk_180mhz        |   0.000|
+DATAbus<0>  |        16.179(R)|      SLOW  |         6.692(R)|      FAST  |clk_180mhz        |   0.000|
+            |        13.144(R)|      SLOW  |         5.581(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<1>  |        18.620(R)|      SLOW  |         6.865(R)|      FAST  |clk_180mhz        |   0.000|
+            |        13.411(R)|      SLOW  |         5.526(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<2>  |        16.178(R)|      SLOW  |         5.855(R)|      FAST  |clk_180mhz        |   0.000|
+            |        13.557(R)|      SLOW  |         4.775(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<3>  |        17.665(R)|      SLOW  |         5.864(R)|      FAST  |clk_180mhz        |   0.000|
+            |        13.632(R)|      SLOW  |         5.277(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<4>  |        16.788(R)|      SLOW  |         5.967(R)|      FAST  |clk_180mhz        |   0.000|
+            |        14.258(R)|      SLOW  |         4.849(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<5>  |        16.925(R)|      SLOW  |         6.270(R)|      FAST  |clk_180mhz        |   0.000|
+            |        14.823(R)|      SLOW  |         5.042(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<6>  |        16.298(R)|      SLOW  |         5.285(R)|      FAST  |clk_180mhz        |   0.000|
+            |        13.454(R)|      SLOW  |         4.796(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<7>  |        17.108(R)|      SLOW  |         5.807(R)|      FAST  |clk_180mhz        |   0.000|
+            |        13.394(R)|      SLOW  |         4.884(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<8>  |        15.610(R)|      SLOW  |         6.335(R)|      FAST  |clk_180mhz        |   0.000|
+            |        14.417(R)|      SLOW  |         4.812(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<9>  |        15.892(R)|      SLOW  |         6.538(R)|      FAST  |clk_180mhz        |   0.000|
+            |        13.857(R)|      SLOW  |         5.340(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<10> |        15.775(R)|      SLOW  |         6.145(R)|      FAST  |clk_180mhz        |   0.000|
+            |        14.277(R)|      SLOW  |         5.230(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<11> |        16.153(R)|      SLOW  |         5.823(R)|      FAST  |clk_180mhz        |   0.000|
+            |        13.142(R)|      SLOW  |         4.276(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<12> |        14.480(R)|      SLOW  |         5.819(R)|      FAST  |clk_180mhz        |   0.000|
+            |        12.525(R)|      SLOW  |         4.383(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<13> |        15.968(R)|      SLOW  |         5.877(R)|      FAST  |clk_180mhz        |   0.000|
+            |        13.677(R)|      SLOW  |         4.723(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<14> |        15.278(R)|      SLOW  |         6.123(R)|      FAST  |clk_180mhz        |   0.000|
+            |        15.287(R)|      SLOW  |         5.048(R)|      FAST  |clk_50mhz         |   0.000|
+DATAbus<15> |        17.967(R)|      SLOW  |         6.835(R)|      FAST  |clk_180mhz        |   0.000|
+            |        14.722(R)|      SLOW  |         4.019(R)|      FAST  |clk_50mhz         |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clk_ex
@@ -105,266 +121,266 @@ Clock to Setup on destination clock clk_ex
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk_ex         |    7.119|         |         |         |
+clk_ex         |    7.892|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-ADDRbus<0>     |DATAbus<0>     |   20.561|
-ADDRbus<0>     |DATAbus<1>     |   20.117|
-ADDRbus<0>     |DATAbus<2>     |   19.540|
-ADDRbus<0>     |DATAbus<3>     |   19.895|
-ADDRbus<0>     |DATAbus<4>     |   19.038|
-ADDRbus<0>     |DATAbus<5>     |   19.869|
-ADDRbus<0>     |DATAbus<6>     |   18.728|
-ADDRbus<0>     |DATAbus<7>     |   19.643|
-ADDRbus<0>     |DATAbus<8>     |   19.861|
-ADDRbus<0>     |DATAbus<9>     |   20.946|
-ADDRbus<0>     |DATAbus<10>    |   18.768|
-ADDRbus<0>     |DATAbus<11>    |   18.607|
-ADDRbus<0>     |DATAbus<12>    |   18.825|
-ADDRbus<0>     |DATAbus<13>    |   19.553|
-ADDRbus<0>     |DATAbus<14>    |   18.648|
-ADDRbus<0>     |DATAbus<15>    |   19.365|
-ADDRbus<1>     |DATAbus<0>     |   18.137|
-ADDRbus<1>     |DATAbus<1>     |   17.586|
-ADDRbus<1>     |DATAbus<2>     |   18.390|
-ADDRbus<1>     |DATAbus<3>     |   18.811|
-ADDRbus<1>     |DATAbus<4>     |   17.468|
-ADDRbus<1>     |DATAbus<5>     |   18.159|
-ADDRbus<1>     |DATAbus<6>     |   17.722|
-ADDRbus<1>     |DATAbus<7>     |   18.139|
-ADDRbus<1>     |DATAbus<8>     |   18.727|
-ADDRbus<1>     |DATAbus<9>     |   20.220|
-ADDRbus<1>     |DATAbus<10>    |   17.996|
-ADDRbus<1>     |DATAbus<11>    |   16.520|
-ADDRbus<1>     |DATAbus<12>    |   17.519|
-ADDRbus<1>     |DATAbus<13>    |   17.962|
-ADDRbus<1>     |DATAbus<14>    |   16.117|
-ADDRbus<1>     |DATAbus<15>    |   17.163|
-ADDRbus<2>     |DATAbus<0>     |   18.536|
-ADDRbus<2>     |DATAbus<1>     |   17.919|
-ADDRbus<2>     |DATAbus<2>     |   18.221|
-ADDRbus<2>     |DATAbus<3>     |   18.642|
-ADDRbus<2>     |DATAbus<4>     |   17.299|
-ADDRbus<2>     |DATAbus<5>     |   18.620|
-ADDRbus<2>     |DATAbus<6>     |   17.553|
-ADDRbus<2>     |DATAbus<7>     |   17.970|
-ADDRbus<2>     |DATAbus<8>     |   18.780|
-ADDRbus<2>     |DATAbus<9>     |   20.051|
-ADDRbus<2>     |DATAbus<10>    |   17.827|
-ADDRbus<2>     |DATAbus<11>    |   16.351|
-ADDRbus<2>     |DATAbus<12>    |   17.898|
-ADDRbus<2>     |DATAbus<13>    |   17.928|
-ADDRbus<2>     |DATAbus<14>    |   15.697|
-ADDRbus<2>     |DATAbus<15>    |   17.727|
-ADDRbus<3>     |DATAbus<0>     |   18.214|
-ADDRbus<3>     |DATAbus<1>     |   17.597|
-ADDRbus<3>     |DATAbus<2>     |   18.322|
-ADDRbus<3>     |DATAbus<3>     |   18.743|
-ADDRbus<3>     |DATAbus<4>     |   17.400|
-ADDRbus<3>     |DATAbus<5>     |   18.298|
-ADDRbus<3>     |DATAbus<6>     |   17.654|
-ADDRbus<3>     |DATAbus<7>     |   18.071|
-ADDRbus<3>     |DATAbus<8>     |   18.659|
-ADDRbus<3>     |DATAbus<9>     |   20.152|
-ADDRbus<3>     |DATAbus<10>    |   17.928|
-ADDRbus<3>     |DATAbus<11>    |   16.452|
-ADDRbus<3>     |DATAbus<12>    |   17.576|
-ADDRbus<3>     |DATAbus<13>    |   17.894|
-ADDRbus<3>     |DATAbus<14>    |   15.512|
-ADDRbus<3>     |DATAbus<15>    |   17.405|
-ADDRbus<4>     |DATAbus<0>     |   18.379|
-ADDRbus<4>     |DATAbus<1>     |   17.764|
-ADDRbus<4>     |DATAbus<2>     |   18.632|
-ADDRbus<4>     |DATAbus<3>     |   19.053|
-ADDRbus<4>     |DATAbus<4>     |   17.710|
-ADDRbus<4>     |DATAbus<5>     |   19.274|
-ADDRbus<4>     |DATAbus<6>     |   17.964|
-ADDRbus<4>     |DATAbus<7>     |   18.381|
-ADDRbus<4>     |DATAbus<8>     |   19.153|
-ADDRbus<4>     |DATAbus<9>     |   20.462|
-ADDRbus<4>     |DATAbus<10>    |   18.238|
-ADDRbus<4>     |DATAbus<11>    |   16.762|
-ADDRbus<4>     |DATAbus<12>    |   18.681|
-ADDRbus<4>     |DATAbus<13>    |   18.204|
-ADDRbus<4>     |DATAbus<14>    |   17.048|
-ADDRbus<4>     |DATAbus<15>    |   17.402|
-ADDRbus<5>     |DATAbus<0>     |   18.049|
-ADDRbus<5>     |DATAbus<1>     |   17.605|
-ADDRbus<5>     |DATAbus<2>     |   17.652|
-ADDRbus<5>     |DATAbus<3>     |   17.776|
-ADDRbus<5>     |DATAbus<4>     |   16.969|
-ADDRbus<5>     |DATAbus<5>     |   17.555|
-ADDRbus<5>     |DATAbus<6>     |   16.775|
-ADDRbus<5>     |DATAbus<7>     |   17.131|
-ADDRbus<5>     |DATAbus<8>     |   18.119|
-ADDRbus<5>     |DATAbus<9>     |   19.244|
-ADDRbus<5>     |DATAbus<10>    |   17.228|
-ADDRbus<5>     |DATAbus<11>    |   16.163|
-ADDRbus<5>     |DATAbus<12>    |   17.162|
-ADDRbus<5>     |DATAbus<13>    |   17.605|
-ADDRbus<5>     |DATAbus<14>    |   16.136|
-ADDRbus<5>     |DATAbus<15>    |   16.853|
-ADDRbus<6>     |DATAbus<0>     |   17.810|
-ADDRbus<6>     |DATAbus<1>     |   17.193|
-ADDRbus<6>     |DATAbus<2>     |   17.040|
-ADDRbus<6>     |DATAbus<3>     |   17.290|
-ADDRbus<6>     |DATAbus<4>     |   16.795|
-ADDRbus<6>     |DATAbus<5>     |   19.342|
-ADDRbus<6>     |DATAbus<6>     |   17.493|
-ADDRbus<6>     |DATAbus<7>     |   16.645|
-ADDRbus<6>     |DATAbus<8>     |   19.221|
-ADDRbus<6>     |DATAbus<9>     |   20.033|
-ADDRbus<6>     |DATAbus<10>    |   17.272|
-ADDRbus<6>     |DATAbus<11>    |   16.118|
-ADDRbus<6>     |DATAbus<12>    |   18.749|
-ADDRbus<6>     |DATAbus<13>    |   17.640|
-ADDRbus<6>     |DATAbus<14>    |   17.116|
-ADDRbus<6>     |DATAbus<15>    |   17.218|
-ADDRbus<7>     |DATAbus<0>     |   18.101|
-ADDRbus<7>     |DATAbus<1>     |   17.486|
-ADDRbus<7>     |DATAbus<2>     |   18.354|
-ADDRbus<7>     |DATAbus<3>     |   18.775|
-ADDRbus<7>     |DATAbus<4>     |   17.432|
-ADDRbus<7>     |DATAbus<5>     |   19.220|
-ADDRbus<7>     |DATAbus<6>     |   17.686|
-ADDRbus<7>     |DATAbus<7>     |   18.103|
-ADDRbus<7>     |DATAbus<8>     |   19.099|
-ADDRbus<7>     |DATAbus<9>     |   20.184|
-ADDRbus<7>     |DATAbus<10>    |   17.960|
-ADDRbus<7>     |DATAbus<11>    |   16.484|
-ADDRbus<7>     |DATAbus<12>    |   18.627|
-ADDRbus<7>     |DATAbus<13>    |   17.926|
-ADDRbus<7>     |DATAbus<14>    |   16.994|
-ADDRbus<7>     |DATAbus<15>    |   17.222|
-ADDRbus<8>     |DATAbus<0>     |   19.178|
-ADDRbus<8>     |DATAbus<1>     |   18.734|
-ADDRbus<8>     |DATAbus<2>     |   18.840|
-ADDRbus<8>     |DATAbus<3>     |   18.964|
-ADDRbus<8>     |DATAbus<4>     |   18.157|
-ADDRbus<8>     |DATAbus<5>     |   18.743|
-ADDRbus<8>     |DATAbus<6>     |   17.963|
-ADDRbus<8>     |DATAbus<7>     |   18.260|
-ADDRbus<8>     |DATAbus<8>     |   19.307|
-ADDRbus<8>     |DATAbus<9>     |   20.432|
-ADDRbus<8>     |DATAbus<10>    |   18.416|
-ADDRbus<8>     |DATAbus<11>    |   17.224|
-ADDRbus<8>     |DATAbus<12>    |   18.263|
-ADDRbus<8>     |DATAbus<13>    |   18.642|
-ADDRbus<8>     |DATAbus<14>    |   17.265|
-ADDRbus<8>     |DATAbus<15>    |   17.982|
-ADDRbus<9>     |DATAbus<0>     |   20.748|
-ADDRbus<9>     |DATAbus<1>     |   20.304|
-ADDRbus<9>     |DATAbus<2>     |   19.727|
-ADDRbus<9>     |DATAbus<3>     |   20.082|
-ADDRbus<9>     |DATAbus<4>     |   19.225|
-ADDRbus<9>     |DATAbus<5>     |   20.056|
-ADDRbus<9>     |DATAbus<6>     |   18.915|
-ADDRbus<9>     |DATAbus<7>     |   19.830|
-ADDRbus<9>     |DATAbus<8>     |   20.048|
-ADDRbus<9>     |DATAbus<9>     |   21.133|
-ADDRbus<9>     |DATAbus<10>    |   18.955|
-ADDRbus<9>     |DATAbus<11>    |   18.794|
-ADDRbus<9>     |DATAbus<12>    |   19.012|
-ADDRbus<9>     |DATAbus<13>    |   19.740|
-ADDRbus<9>     |DATAbus<14>    |   18.835|
-ADDRbus<9>     |DATAbus<15>    |   19.552|
-ADDRbus<10>    |DATAbus<0>     |   21.090|
-ADDRbus<10>    |DATAbus<1>     |   20.646|
-ADDRbus<10>    |DATAbus<2>     |   20.069|
-ADDRbus<10>    |DATAbus<3>     |   20.424|
-ADDRbus<10>    |DATAbus<4>     |   19.567|
-ADDRbus<10>    |DATAbus<5>     |   20.398|
-ADDRbus<10>    |DATAbus<6>     |   19.257|
-ADDRbus<10>    |DATAbus<7>     |   20.172|
-ADDRbus<10>    |DATAbus<8>     |   20.390|
-ADDRbus<10>    |DATAbus<9>     |   21.475|
-ADDRbus<10>    |DATAbus<10>    |   19.297|
-ADDRbus<10>    |DATAbus<11>    |   19.136|
-ADDRbus<10>    |DATAbus<12>    |   19.354|
-ADDRbus<10>    |DATAbus<13>    |   20.082|
-ADDRbus<10>    |DATAbus<14>    |   19.177|
-ADDRbus<10>    |DATAbus<15>    |   19.894|
-ADDRbus<11>    |DATAbus<0>     |   20.882|
-ADDRbus<11>    |DATAbus<1>     |   20.438|
-ADDRbus<11>    |DATAbus<2>     |   19.861|
-ADDRbus<11>    |DATAbus<3>     |   20.216|
-ADDRbus<11>    |DATAbus<4>     |   19.359|
-ADDRbus<11>    |DATAbus<5>     |   20.190|
-ADDRbus<11>    |DATAbus<6>     |   19.049|
-ADDRbus<11>    |DATAbus<7>     |   19.964|
-ADDRbus<11>    |DATAbus<8>     |   20.182|
-ADDRbus<11>    |DATAbus<9>     |   21.267|
-ADDRbus<11>    |DATAbus<10>    |   19.089|
-ADDRbus<11>    |DATAbus<11>    |   18.928|
-ADDRbus<11>    |DATAbus<12>    |   19.146|
-ADDRbus<11>    |DATAbus<13>    |   19.874|
-ADDRbus<11>    |DATAbus<14>    |   18.969|
-ADDRbus<11>    |DATAbus<15>    |   19.686|
-GPIO61         |ePWM_ua_Grid   |   15.268|
-STM32_NE1_Low  |DATAbus<0>     |   12.180|
-STM32_NE1_Low  |DATAbus<1>     |   12.180|
-STM32_NE1_Low  |DATAbus<2>     |   11.709|
-STM32_NE1_Low  |DATAbus<3>     |   11.709|
-STM32_NE1_Low  |DATAbus<4>     |   11.297|
-STM32_NE1_Low  |DATAbus<5>     |   11.297|
-STM32_NE1_Low  |DATAbus<6>     |   10.886|
-STM32_NE1_Low  |DATAbus<7>     |   10.886|
-STM32_NE1_Low  |DATAbus<8>     |   10.474|
-STM32_NE1_Low  |DATAbus<9>     |   10.474|
-STM32_NE1_Low  |DATAbus<10>    |   10.007|
-STM32_NE1_Low  |DATAbus<11>    |   10.007|
-STM32_NE1_Low  |DATAbus<12>    |    9.596|
-STM32_NE1_Low  |DATAbus<13>    |    9.596|
-STM32_NE1_Low  |DATAbus<14>    |    9.182|
-STM32_NE1_Low  |DATAbus<15>    |    9.182|
-STM32_NOE_Low  |DATAbus<0>     |   12.486|
-STM32_NOE_Low  |DATAbus<1>     |   12.486|
-STM32_NOE_Low  |DATAbus<2>     |   12.015|
-STM32_NOE_Low  |DATAbus<3>     |   12.015|
-STM32_NOE_Low  |DATAbus<4>     |   11.603|
-STM32_NOE_Low  |DATAbus<5>     |   11.603|
-STM32_NOE_Low  |DATAbus<6>     |   11.192|
-STM32_NOE_Low  |DATAbus<7>     |   11.192|
-STM32_NOE_Low  |DATAbus<8>     |   10.780|
-STM32_NOE_Low  |DATAbus<9>     |   10.780|
-STM32_NOE_Low  |DATAbus<10>    |   10.313|
-STM32_NOE_Low  |DATAbus<11>    |   10.313|
-STM32_NOE_Low  |DATAbus<12>    |    9.902|
-STM32_NOE_Low  |DATAbus<13>    |    9.902|
-STM32_NOE_Low  |DATAbus<14>    |    9.488|
-STM32_NOE_Low  |DATAbus<15>    |    9.488|
-STM32_NWE_Low  |DATAbus<0>     |   12.549|
-STM32_NWE_Low  |DATAbus<1>     |   12.549|
-STM32_NWE_Low  |DATAbus<2>     |   12.078|
-STM32_NWE_Low  |DATAbus<3>     |   12.078|
-STM32_NWE_Low  |DATAbus<4>     |   11.666|
-STM32_NWE_Low  |DATAbus<5>     |   11.666|
-STM32_NWE_Low  |DATAbus<6>     |   11.255|
-STM32_NWE_Low  |DATAbus<7>     |   11.255|
-STM32_NWE_Low  |DATAbus<8>     |   10.843|
-STM32_NWE_Low  |DATAbus<9>     |   10.843|
-STM32_NWE_Low  |DATAbus<10>    |   10.376|
-STM32_NWE_Low  |DATAbus<11>    |   10.376|
-STM32_NWE_Low  |DATAbus<12>    |    9.965|
-STM32_NWE_Low  |DATAbus<13>    |    9.965|
-STM32_NWE_Low  |DATAbus<14>    |    9.551|
-STM32_NWE_Low  |DATAbus<15>    |    9.551|
-epwm_8A        |ePWM_ub_Grid   |   14.862|
+ADDRbus<0>     |DATAbus<0>     |   24.666|
+ADDRbus<0>     |DATAbus<1>     |   25.358|
+ADDRbus<0>     |DATAbus<2>     |   25.301|
+ADDRbus<0>     |DATAbus<3>     |   26.520|
+ADDRbus<0>     |DATAbus<4>     |   24.873|
+ADDRbus<0>     |DATAbus<5>     |   25.408|
+ADDRbus<0>     |DATAbus<6>     |   25.898|
+ADDRbus<0>     |DATAbus<7>     |   25.043|
+ADDRbus<0>     |DATAbus<8>     |   25.389|
+ADDRbus<0>     |DATAbus<9>     |   25.659|
+ADDRbus<0>     |DATAbus<10>    |   24.442|
+ADDRbus<0>     |DATAbus<11>    |   23.999|
+ADDRbus<0>     |DATAbus<12>    |   23.293|
+ADDRbus<0>     |DATAbus<13>    |   25.134|
+ADDRbus<0>     |DATAbus<14>    |   25.256|
+ADDRbus<0>     |DATAbus<15>    |   23.699|
+ADDRbus<1>     |DATAbus<0>     |   23.698|
+ADDRbus<1>     |DATAbus<1>     |   23.460|
+ADDRbus<1>     |DATAbus<2>     |   23.184|
+ADDRbus<1>     |DATAbus<3>     |   23.399|
+ADDRbus<1>     |DATAbus<4>     |   22.745|
+ADDRbus<1>     |DATAbus<5>     |   24.444|
+ADDRbus<1>     |DATAbus<6>     |   23.492|
+ADDRbus<1>     |DATAbus<7>     |   22.711|
+ADDRbus<1>     |DATAbus<8>     |   23.349|
+ADDRbus<1>     |DATAbus<9>     |   24.124|
+ADDRbus<1>     |DATAbus<10>    |   22.693|
+ADDRbus<1>     |DATAbus<11>    |   22.305|
+ADDRbus<1>     |DATAbus<12>    |   21.213|
+ADDRbus<1>     |DATAbus<13>    |   22.953|
+ADDRbus<1>     |DATAbus<14>    |   25.163|
+ADDRbus<1>     |DATAbus<15>    |   22.978|
+ADDRbus<2>     |DATAbus<0>     |   23.032|
+ADDRbus<2>     |DATAbus<1>     |   22.629|
+ADDRbus<2>     |DATAbus<2>     |   22.518|
+ADDRbus<2>     |DATAbus<3>     |   22.733|
+ADDRbus<2>     |DATAbus<4>     |   22.619|
+ADDRbus<2>     |DATAbus<5>     |   23.778|
+ADDRbus<2>     |DATAbus<6>     |   22.826|
+ADDRbus<2>     |DATAbus<7>     |   22.045|
+ADDRbus<2>     |DATAbus<8>     |   23.488|
+ADDRbus<2>     |DATAbus<9>     |   23.458|
+ADDRbus<2>     |DATAbus<10>    |   22.027|
+ADDRbus<2>     |DATAbus<11>    |   21.639|
+ADDRbus<2>     |DATAbus<12>    |   20.547|
+ADDRbus<2>     |DATAbus<13>    |   22.287|
+ADDRbus<2>     |DATAbus<14>    |   24.497|
+ADDRbus<2>     |DATAbus<15>    |   22.312|
+ADDRbus<3>     |DATAbus<0>     |   24.519|
+ADDRbus<3>     |DATAbus<1>     |   24.116|
+ADDRbus<3>     |DATAbus<2>     |   24.005|
+ADDRbus<3>     |DATAbus<3>     |   24.220|
+ADDRbus<3>     |DATAbus<4>     |   23.566|
+ADDRbus<3>     |DATAbus<5>     |   25.265|
+ADDRbus<3>     |DATAbus<6>     |   24.313|
+ADDRbus<3>     |DATAbus<7>     |   23.532|
+ADDRbus<3>     |DATAbus<8>     |   24.170|
+ADDRbus<3>     |DATAbus<9>     |   24.945|
+ADDRbus<3>     |DATAbus<10>    |   23.514|
+ADDRbus<3>     |DATAbus<11>    |   23.126|
+ADDRbus<3>     |DATAbus<12>    |   22.034|
+ADDRbus<3>     |DATAbus<13>    |   23.774|
+ADDRbus<3>     |DATAbus<14>    |   25.984|
+ADDRbus<3>     |DATAbus<15>    |   23.799|
+ADDRbus<4>     |DATAbus<0>     |   22.716|
+ADDRbus<4>     |DATAbus<1>     |   22.313|
+ADDRbus<4>     |DATAbus<2>     |   22.202|
+ADDRbus<4>     |DATAbus<3>     |   22.803|
+ADDRbus<4>     |DATAbus<4>     |   22.480|
+ADDRbus<4>     |DATAbus<5>     |   23.462|
+ADDRbus<4>     |DATAbus<6>     |   22.510|
+ADDRbus<4>     |DATAbus<7>     |   21.729|
+ADDRbus<4>     |DATAbus<8>     |   23.349|
+ADDRbus<4>     |DATAbus<9>     |   23.142|
+ADDRbus<4>     |DATAbus<10>    |   21.711|
+ADDRbus<4>     |DATAbus<11>    |   21.323|
+ADDRbus<4>     |DATAbus<12>    |   20.231|
+ADDRbus<4>     |DATAbus<13>    |   21.971|
+ADDRbus<4>     |DATAbus<14>    |   24.181|
+ADDRbus<4>     |DATAbus<15>    |   22.879|
+ADDRbus<5>     |DATAbus<0>     |   22.255|
+ADDRbus<5>     |DATAbus<1>     |   22.922|
+ADDRbus<5>     |DATAbus<2>     |   21.741|
+ADDRbus<5>     |DATAbus<3>     |   22.440|
+ADDRbus<5>     |DATAbus<4>     |   21.302|
+ADDRbus<5>     |DATAbus<5>     |   23.001|
+ADDRbus<5>     |DATAbus<6>     |   22.049|
+ADDRbus<5>     |DATAbus<7>     |   21.268|
+ADDRbus<5>     |DATAbus<8>     |   22.078|
+ADDRbus<5>     |DATAbus<9>     |   22.681|
+ADDRbus<5>     |DATAbus<10>    |   21.391|
+ADDRbus<5>     |DATAbus<11>    |   20.862|
+ADDRbus<5>     |DATAbus<12>    |   19.770|
+ADDRbus<5>     |DATAbus<13>    |   21.510|
+ADDRbus<5>     |DATAbus<14>    |   23.720|
+ADDRbus<5>     |DATAbus<15>    |   21.535|
+ADDRbus<6>     |DATAbus<0>     |   20.478|
+ADDRbus<6>     |DATAbus<1>     |   21.410|
+ADDRbus<6>     |DATAbus<2>     |   21.324|
+ADDRbus<6>     |DATAbus<3>     |   21.573|
+ADDRbus<6>     |DATAbus<4>     |   21.979|
+ADDRbus<6>     |DATAbus<5>     |   22.885|
+ADDRbus<6>     |DATAbus<6>     |   21.096|
+ADDRbus<6>     |DATAbus<7>     |   21.030|
+ADDRbus<6>     |DATAbus<8>     |   22.848|
+ADDRbus<6>     |DATAbus<9>     |   21.396|
+ADDRbus<6>     |DATAbus<10>    |   20.541|
+ADDRbus<6>     |DATAbus<11>    |   19.861|
+ADDRbus<6>     |DATAbus<12>    |   19.022|
+ADDRbus<6>     |DATAbus<13>    |   20.347|
+ADDRbus<6>     |DATAbus<14>    |   21.943|
+ADDRbus<6>     |DATAbus<15>    |   21.346|
+ADDRbus<7>     |DATAbus<0>     |   23.096|
+ADDRbus<7>     |DATAbus<1>     |   22.693|
+ADDRbus<7>     |DATAbus<2>     |   22.582|
+ADDRbus<7>     |DATAbus<3>     |   22.797|
+ADDRbus<7>     |DATAbus<4>     |   22.143|
+ADDRbus<7>     |DATAbus<5>     |   23.842|
+ADDRbus<7>     |DATAbus<6>     |   22.890|
+ADDRbus<7>     |DATAbus<7>     |   22.109|
+ADDRbus<7>     |DATAbus<8>     |   22.747|
+ADDRbus<7>     |DATAbus<9>     |   23.522|
+ADDRbus<7>     |DATAbus<10>    |   22.091|
+ADDRbus<7>     |DATAbus<11>    |   21.703|
+ADDRbus<7>     |DATAbus<12>    |   20.611|
+ADDRbus<7>     |DATAbus<13>    |   22.351|
+ADDRbus<7>     |DATAbus<14>    |   24.561|
+ADDRbus<7>     |DATAbus<15>    |   22.561|
+ADDRbus<8>     |DATAbus<0>     |   22.122|
+ADDRbus<8>     |DATAbus<1>     |   22.789|
+ADDRbus<8>     |DATAbus<2>     |   21.608|
+ADDRbus<8>     |DATAbus<3>     |   21.823|
+ADDRbus<8>     |DATAbus<4>     |   21.577|
+ADDRbus<8>     |DATAbus<5>     |   22.868|
+ADDRbus<8>     |DATAbus<6>     |   21.916|
+ADDRbus<8>     |DATAbus<7>     |   21.135|
+ADDRbus<8>     |DATAbus<8>     |   22.446|
+ADDRbus<8>     |DATAbus<9>     |   22.548|
+ADDRbus<8>     |DATAbus<10>    |   21.258|
+ADDRbus<8>     |DATAbus<11>    |   20.729|
+ADDRbus<8>     |DATAbus<12>    |   19.637|
+ADDRbus<8>     |DATAbus<13>    |   21.377|
+ADDRbus<8>     |DATAbus<14>    |   23.587|
+ADDRbus<8>     |DATAbus<15>    |   21.402|
+ADDRbus<9>     |DATAbus<0>     |   22.146|
+ADDRbus<9>     |DATAbus<1>     |   22.813|
+ADDRbus<9>     |DATAbus<2>     |   21.632|
+ADDRbus<9>     |DATAbus<3>     |   21.847|
+ADDRbus<9>     |DATAbus<4>     |   21.515|
+ADDRbus<9>     |DATAbus<5>     |   22.892|
+ADDRbus<9>     |DATAbus<6>     |   21.940|
+ADDRbus<9>     |DATAbus<7>     |   21.159|
+ADDRbus<9>     |DATAbus<8>     |   22.384|
+ADDRbus<9>     |DATAbus<9>     |   22.572|
+ADDRbus<9>     |DATAbus<10>    |   21.479|
+ADDRbus<9>     |DATAbus<11>    |   20.802|
+ADDRbus<9>     |DATAbus<12>    |   19.661|
+ADDRbus<9>     |DATAbus<13>    |   21.401|
+ADDRbus<9>     |DATAbus<14>    |   23.611|
+ADDRbus<9>     |DATAbus<15>    |   22.820|
+ADDRbus<10>    |DATAbus<0>     |   24.841|
+ADDRbus<10>    |DATAbus<1>     |   25.533|
+ADDRbus<10>    |DATAbus<2>     |   25.476|
+ADDRbus<10>    |DATAbus<3>     |   26.695|
+ADDRbus<10>    |DATAbus<4>     |   25.048|
+ADDRbus<10>    |DATAbus<5>     |   25.583|
+ADDRbus<10>    |DATAbus<6>     |   26.073|
+ADDRbus<10>    |DATAbus<7>     |   25.218|
+ADDRbus<10>    |DATAbus<8>     |   25.564|
+ADDRbus<10>    |DATAbus<9>     |   25.834|
+ADDRbus<10>    |DATAbus<10>    |   24.617|
+ADDRbus<10>    |DATAbus<11>    |   24.174|
+ADDRbus<10>    |DATAbus<12>    |   23.468|
+ADDRbus<10>    |DATAbus<13>    |   25.309|
+ADDRbus<10>    |DATAbus<14>    |   25.431|
+ADDRbus<10>    |DATAbus<15>    |   22.888|
+ADDRbus<11>    |DATAbus<0>     |   22.262|
+ADDRbus<11>    |DATAbus<1>     |   22.929|
+ADDRbus<11>    |DATAbus<2>     |   21.748|
+ADDRbus<11>    |DATAbus<3>     |   21.994|
+ADDRbus<11>    |DATAbus<4>     |   21.631|
+ADDRbus<11>    |DATAbus<5>     |   23.008|
+ADDRbus<11>    |DATAbus<6>     |   22.056|
+ADDRbus<11>    |DATAbus<7>     |   21.275|
+ADDRbus<11>    |DATAbus<8>     |   22.500|
+ADDRbus<11>    |DATAbus<9>     |   22.688|
+ADDRbus<11>    |DATAbus<10>    |   21.595|
+ADDRbus<11>    |DATAbus<11>    |   20.918|
+ADDRbus<11>    |DATAbus<12>    |   19.777|
+ADDRbus<11>    |DATAbus<13>    |   21.517|
+ADDRbus<11>    |DATAbus<14>    |   23.727|
+ADDRbus<11>    |DATAbus<15>    |   22.936|
+GPIO61         |ePWM_ua_Grid   |   15.258|
+STM32_NE1_Low  |DATAbus<0>     |   13.693|
+STM32_NE1_Low  |DATAbus<1>     |   13.693|
+STM32_NE1_Low  |DATAbus<2>     |   13.020|
+STM32_NE1_Low  |DATAbus<3>     |   13.020|
+STM32_NE1_Low  |DATAbus<4>     |   12.609|
+STM32_NE1_Low  |DATAbus<5>     |   12.609|
+STM32_NE1_Low  |DATAbus<6>     |   12.197|
+STM32_NE1_Low  |DATAbus<7>     |   12.197|
+STM32_NE1_Low  |DATAbus<8>     |   11.786|
+STM32_NE1_Low  |DATAbus<9>     |   11.786|
+STM32_NE1_Low  |DATAbus<10>    |   11.319|
+STM32_NE1_Low  |DATAbus<11>    |   11.319|
+STM32_NE1_Low  |DATAbus<12>    |   10.907|
+STM32_NE1_Low  |DATAbus<13>    |   10.907|
+STM32_NE1_Low  |DATAbus<14>    |   10.496|
+STM32_NE1_Low  |DATAbus<15>    |   10.496|
+STM32_NOE_Low  |DATAbus<0>     |   14.197|
+STM32_NOE_Low  |DATAbus<1>     |   14.197|
+STM32_NOE_Low  |DATAbus<2>     |   13.524|
+STM32_NOE_Low  |DATAbus<3>     |   13.524|
+STM32_NOE_Low  |DATAbus<4>     |   13.113|
+STM32_NOE_Low  |DATAbus<5>     |   13.113|
+STM32_NOE_Low  |DATAbus<6>     |   12.701|
+STM32_NOE_Low  |DATAbus<7>     |   12.701|
+STM32_NOE_Low  |DATAbus<8>     |   12.290|
+STM32_NOE_Low  |DATAbus<9>     |   12.290|
+STM32_NOE_Low  |DATAbus<10>    |   11.823|
+STM32_NOE_Low  |DATAbus<11>    |   11.823|
+STM32_NOE_Low  |DATAbus<12>    |   11.411|
+STM32_NOE_Low  |DATAbus<13>    |   11.411|
+STM32_NOE_Low  |DATAbus<14>    |   11.000|
+STM32_NOE_Low  |DATAbus<15>    |   11.000|
+STM32_NWE_Low  |DATAbus<0>     |   14.235|
+STM32_NWE_Low  |DATAbus<1>     |   14.235|
+STM32_NWE_Low  |DATAbus<2>     |   13.562|
+STM32_NWE_Low  |DATAbus<3>     |   13.562|
+STM32_NWE_Low  |DATAbus<4>     |   13.151|
+STM32_NWE_Low  |DATAbus<5>     |   13.151|
+STM32_NWE_Low  |DATAbus<6>     |   12.739|
+STM32_NWE_Low  |DATAbus<7>     |   12.739|
+STM32_NWE_Low  |DATAbus<8>     |   12.328|
+STM32_NWE_Low  |DATAbus<9>     |   12.328|
+STM32_NWE_Low  |DATAbus<10>    |   11.861|
+STM32_NWE_Low  |DATAbus<11>    |   11.861|
+STM32_NWE_Low  |DATAbus<12>    |   11.449|
+STM32_NWE_Low  |DATAbus<13>    |   11.449|
+STM32_NWE_Low  |DATAbus<14>    |   11.038|
+STM32_NWE_Low  |DATAbus<15>    |   11.038|
+epwm_8A        |ePWM_ub_Grid   |   14.122|
 ---------------+---------------+---------+
 
 
-Analysis completed Thu Nov 19 19:19:24 2026 
+Analysis completed Thu Nov 19 20:15:10 2026 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 311 MB
+Peak Memory Usage: 297 MB
 
 
 

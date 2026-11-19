@@ -157,6 +157,7 @@ Elaborating module <vir5_PMSM>.
 
 Elaborating module <PCI>.
 WARNING:HDLCompiler:189 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 121: Size mismatch in connection of port <FPGAtoSTM32_Signal_6>. Formal port size is 16-bit while actual signal size is 20-bit.
+WARNING:HDLCompiler:189 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 122: Size mismatch in connection of port <FPGAtoSTM32_Signal_7>. Formal port size is 16-bit while actual signal size is 20-bit.
 
 Elaborating module <PWM_Deadzn>.
 
@@ -218,7 +219,7 @@ WARNING:HDLCompiler:634 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 103: Net <pha
 WARNING:HDLCompiler:634 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 104: Net <phase_c_current_q17[34]> does not have a driver.
 WARNING:HDLCompiler:634 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 105: Net <phase_d_current_q17[34]> does not have a driver.
 WARNING:HDLCompiler:634 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 106: Net <phase_e_current_q17[34]> does not have a driver.
-WARNING:HDLCompiler:552 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 109: Input port FPGAtoSTM32_Signal_11[15] is not connected on this instance
+WARNING:HDLCompiler:552 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 109: Input port FPGAtoSTM32_Signal_9[15] is not connected on this instance
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -226,6 +227,7 @@ WARNING:HDLCompiler:552 - "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v" Line 109: Input po
 
 Synthesizing Unit <vir5_PMSM>.
     Related source file is "E:\SUEN27\vir5_PMSM_V\vir5_PMSM.v".
+WARNING:Xst:2898 - Port 'FPGAtoSTM32_Signal_9', unconnected in block instance 'u_pci', is tied to GND.
 WARNING:Xst:2898 - Port 'FPGAtoSTM32_Signal_11', unconnected in block instance 'u_pci', is tied to GND.
 WARNING:Xst:2898 - Port 'FPGAtoSTM32_Signal_12', unconnected in block instance 'u_pci', is tied to GND.
 WARNING:Xst:2898 - Port 'FPGAtoSTM32_Signal_13', unconnected in block instance 'u_pci', is tied to GND.
@@ -4673,15 +4675,11 @@ INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[2].filter_acc_26> in Unit <vir5
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[2].filter_acc_31> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[2].filtered_flux_q17_24> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[2].filter_acc_27> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[2].filtered_flux_q17_20> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[2].filter_acc_32> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[2].filtered_flux_q17_25> 
-INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[2].filter_acc_33> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[2].filtered_flux_q17_26> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[2].filter_acc_28> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[2].filtered_flux_q17_21> 
-INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/shifted_x_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/shifted_x_18> 
+INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[2].filter_acc_33> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[2].filtered_flux_q17_26> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[2].filter_acc_29> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[2].filtered_flux_q17_22> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[2].filter_acc_34> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[2].filtered_flux_q17_27> 
-INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/shifted_x_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/shifted_x_18> 
 INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/shifted_x_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/shifted_x_18> 
-INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/shifted_x_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/shifted_x_18> 
-INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/shifted_x_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/shifted_x_18> 
 INFO:Xst:2261 - The FF/Latch <voltage_pair<1>_24> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <voltage_pair<1>_241> 
 INFO:Xst:2261 - The FF/Latch <voltage_pair<1>_25> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <voltage_pair<1>_251> 
 INFO:Xst:2261 - The FF/Latch <voltage_pair<1>_30> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <voltage_pair<1>_301> 
@@ -4733,19 +4731,18 @@ INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_13> in Unit <vir5
 INFO:Xst:2261 - The FF/Latch <u_inductor/inverse_sample_8> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor_de/engine/inverse_sample_8> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_8> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_1> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_14> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_7> 
-INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/invert> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/angle_bias_18> 
 INFO:Xst:2261 - The FF/Latch <u_inductor/inverse_sample_9> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inductor_de/engine/inverse_sample_9> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_9> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_2> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_15> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_8> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_20> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_13> 
-INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_21> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_14> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_16> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_9> 
+INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_21> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_14> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_22> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_15> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_10> 
-INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_23> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_16> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_18> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_11> 
-INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_24> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_17> 
+INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_23> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_16> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_19> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_12> 
+INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_24> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_17> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_25> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_18> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_30> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_23> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[0].filter_acc_26> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[0].filtered_flux_q17_19> 
@@ -4769,8 +4766,6 @@ INFO:Xst:2261 - The FF/Latch <u_mutual_emf/angle_lo_16> in Unit <vir5_PMSM> is e
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/angle_lo_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/angle_hi_20> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/angle_lo_18> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/angle_hi_21> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/angle_lo_19> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/angle_hi_22> 
-INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/shifted_y_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/shifted_y_18> 
-INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/shifted_y_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/shifted_y_18> 
 INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/shifted_y_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[2].u_cordic_bkEMF/shifted_y_18> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_10> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_3> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_11> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_4> 
@@ -4781,17 +4776,14 @@ INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_20> in Unit <vir5
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_15> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_8> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_21> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_14> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_16> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_9> 
-INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/shifted_y_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[1].u_cordic_bkEMF/shifted_y_18> 
-INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_10> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_22> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_15> 
-INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/shifted_y_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/shifted_y_18> 
-INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_18> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_11> 
+INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_10> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_23> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_16> 
+INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_18> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_11> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_24> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_17> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_19> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_12> 
-INFO:Xst:2261 - The FF/Latch <u_mutual_emf/u_cordic/invert> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/u_cordic/angle_bias_18> 
-INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_25> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_18> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_30> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_23> 
+INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_25> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_18> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_31> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_24> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_26> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_19> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_32> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_25> 
@@ -4804,6 +4796,7 @@ INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_coarse_q16_9> in Unit <vir5_PMSM>
 INFO:Xst:2261 - The FF/Latch <u_back_EMF/phase_angle_q16_3_19> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/phase_angle_q16_1_19> 
 INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_7> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_10> 
 INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_8> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_11> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/invert> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[3].u_cordic_bkEMF/angle_bias_18> 
 INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_9> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_12> 
 INFO:Xst:2261 - The FF/Latch <u_back_EMF/phase_angle_q16_3_27> in Unit <vir5_PMSM> is equivalent to the following 4 FFs/Latches, which will be removed : <u_back_EMF/phase_angle_q16_3_28> <u_back_EMF/phase_angle_q16_3_29> <u_back_EMF/phase_angle_q16_3_30> <u_back_EMF/phase_angle_q16_3_31> 
 INFO:Xst:2261 - The FF/Latch <voltage_pair<0>_24> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <voltage_pair<0>_241> 
@@ -4840,8 +4833,8 @@ INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_15> in Unit <vir5
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_20> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_13> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_16> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_9> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_21> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_14> 
-INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_22> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_15> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_17> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_10> 
+INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_22> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_15> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_18> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_11> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_23> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_16> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_24> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_17> 
@@ -4854,8 +4847,8 @@ INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_32> in Unit <vir5
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_27> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_20> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_33> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_26> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_28> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_21> 
-INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_34> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_27> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_29> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_22> 
+INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_34> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_27> 
 INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/invert> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[0].u_cordic_bkEMF/angle_bias_18> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[3].filter_acc_7> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[3].filtered_flux_q17_0> 
 INFO:Xst:2261 - The FF/Latch <u_back_EMF/theta_fine_q16_10> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/theta_coarse_q16_13> 
@@ -4877,6 +4870,7 @@ INFO:Xst:2261 - The FF/Latch <div5/pair_ab_35> in Unit <vir5_PMSM> is equivalent
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_7> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_0> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_8> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_1> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[1].filter_acc_9> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[1].filtered_flux_q17_2> 
+INFO:Xst:2261 - The FF/Latch <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/invert> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_back_EMF/u_cordic_gen[4].u_cordic_bkEMF/angle_bias_18> 
 INFO:Xst:2261 - The FF/Latch <u_inverter/clk_10MHz> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_inverter_de/INVERTER_DE/clk_10MHz> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[4].filter_acc_10> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[4].filtered_flux_q17_3> 
 INFO:Xst:2261 - The FF/Latch <u_mutual_emf/phase[4].filter_acc_11> in Unit <vir5_PMSM> is equivalent to the following FF/Latch, which will be removed : <u_mutual_emf/phase[4].filtered_flux_q17_4> 
@@ -4937,21 +4931,6 @@ WARNING:Xst:2677 - Node <div5/pair_ab_37> of sequential type is unconnected in b
 Building and optimizing final netlist ...
 INFO:Xst:2261 - The FF/Latch <div5/tail_d_37> in Unit <vir5_PMSM> is equivalent to the following 2 FFs/Latches, which will be removed : <div5/tail_d_35> <div5/tail_d_34> 
 Found area constraint ratio of 100 (+ 5) on block vir5_PMSM, actual ratio is 83.
-FlipFlop u_back_EMF/Time_cnt_0 has been replicated 1 time(s)
-FlipFlop u_back_EMF/Time_cnt_1 has been replicated 1 time(s)
-FlipFlop u_back_EMF/Time_cnt_2 has been replicated 2 time(s)
-FlipFlop u_back_EMF/Time_cnt_3 has been replicated 2 time(s)
-FlipFlop u_back_EMF/Time_cnt_4 has been replicated 2 time(s)
-FlipFlop u_inductor/Time_cnt_0 has been replicated 2 time(s)
-FlipFlop u_inductor/Time_cnt_1 has been replicated 2 time(s)
-FlipFlop u_inductor/Time_cnt_2 has been replicated 2 time(s)
-FlipFlop u_inductor/Time_cnt_3 has been replicated 3 time(s)
-FlipFlop u_inductor/Time_cnt_4 has been replicated 3 time(s)
-FlipFlop u_mutual_emf/slot_0 has been replicated 3 time(s)
-FlipFlop u_mutual_emf/slot_1 has been replicated 2 time(s)
-FlipFlop u_mutual_emf/slot_2 has been replicated 2 time(s)
-FlipFlop u_mutual_emf/slot_3 has been replicated 2 time(s)
-FlipFlop u_mutual_emf/slot_4 has been replicated 4 time(s)
 
 Final Macro Processing ...
 
@@ -4971,8 +4950,8 @@ Unit <vir5_PMSM> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 8262
- Flip-Flops                                            : 8262
+# Registers                                            : 8237
+ Flip-Flops                                            : 8237
 # Shift Registers                                      : 9
  10-bit shift register                                 : 1
  4-bit shift register                                  : 6
@@ -4999,28 +4978,28 @@ Top Level Output File Name         : vir5_PMSM.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 17197
+# BELS                             : 15603
 #      GND                         : 8
-#      INV                         : 504
+#      INV                         : 505
 #      LUT1                        : 262
-#      LUT2                        : 3002
-#      LUT3                        : 976
-#      LUT4                        : 1245
-#      LUT5                        : 915
-#      LUT6                        : 2618
+#      LUT2                        : 2995
+#      LUT3                        : 661
+#      LUT4                        : 1133
+#      LUT5                        : 822
+#      LUT6                        : 1536
 #      MUXCY                       : 3827
-#      MUXF7                       : 31
+#      MUXF7                       : 45
 #      VCC                         : 8
 #      XORCY                       : 3801
-# FlipFlops/Latches                : 8391
+# FlipFlops/Latches                : 8366
 #      FD                          : 106
-#      FDC                         : 978
-#      FDCE                        : 4526
+#      FDC                         : 961
+#      FDCE                        : 4534
 #      FDE                         : 281
-#      FDP                         : 7
-#      FDR                         : 194
+#      FDP                         : 3
+#      FDR                         : 184
 #      FDRE                        : 2295
-#      FDS                         : 4
+#      FDS                         : 2
 # Shift Registers                  : 9
 #      SRLC16E                     : 9
 # Clock Buffers                    : 5
@@ -5042,18 +5021,18 @@ Selected Device : 6slx25ftg256-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            8391  out of  30064    27%  
- Number of Slice LUTs:                 9531  out of  15032    63%  
-    Number used as Logic:              9522  out of  15032    63%  
+ Number of Slice Registers:            8366  out of  30064    27%  
+ Number of Slice LUTs:                 7923  out of  15032    52%  
+    Number used as Logic:              7914  out of  15032    52%  
     Number used as Memory:                9  out of   3664     0%  
        Number used as SRL:                9
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:  11987
-   Number with an unused Flip Flop:    3596  out of  11987    29%  
-   Number with an unused LUT:          2456  out of  11987    20%  
-   Number of fully used LUT-FF pairs:  5935  out of  11987    49%  
-   Number of unique control sets:       123
+ Number of LUT Flip Flop pairs used:  11338
+   Number with an unused Flip Flop:    2972  out of  11338    26%  
+   Number with an unused LUT:          3415  out of  11338    30%  
+   Number of fully used LUT-FF pairs:  4951  out of  11338    43%  
+   Number of unique control sets:       122
 
 IO Utilization: 
  Number of IOs:                          42
@@ -5085,9 +5064,9 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-u_clock/CLOCK/pll_base_inst/CLKOUT2| BUFG                   | 8123  |
+u_clock/CLOCK/pll_base_inst/CLKOUT2| BUFG                   | 6156  |
 u_inverter/clk_10MHz               | BUFG                   | 180   |
-u_clock/CLOCK/pll_base_inst/CLKOUT1| BUFG                   | 110   |
+u_clock/CLOCK/pll_base_inst/CLKOUT1| BUFG                   | 2052  |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -5098,10 +5077,10 @@ Timing Summary:
 ---------------
 Speed Grade: -2
 
-   Minimum period: 6.564ns (Maximum Frequency: 152.355MHz)
-   Minimum input arrival time before clock: 8.523ns
-   Maximum output required time after clock: 10.505ns
-   Maximum combinational path delay: 15.532ns
+   Minimum period: 8.571ns (Maximum Frequency: 116.675MHz)
+   Minimum input arrival time before clock: 9.169ns
+   Maximum output required time after clock: 11.226ns
+   Maximum combinational path delay: 15.477ns
 
 Timing Details:
 ---------------
@@ -5109,27 +5088,27 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'u_clock/CLOCK/pll_base_inst/CLKOUT2'
-  Clock period: 6.564ns (frequency: 152.355MHz)
-  Total number of paths / destination ports: 260369 / 15850
+  Clock period: 8.571ns (frequency: 116.675MHz)
+  Total number of paths / destination ports: 185712 / 12146
 -------------------------------------------------------------------------
-Delay:               6.564ns (Levels of Logic = 3)
-  Source:            u_mutual_emf/slot_4_2 (FF)
-  Destination:       u_mutual_emf/multiplier[1].fixed_selected_34 (FF)
+Delay:               8.571ns (Levels of Logic = 3)
+  Source:            u_inductor/Time_cnt_1 (FF)
+  Destination:       u_inductor/mul_b1_0 (FF)
   Source Clock:      u_clock/CLOCK/pll_base_inst/CLKOUT2 rising
   Destination Clock: u_clock/CLOCK/pll_base_inst/CLKOUT2 rising
 
-  Data Path: u_mutual_emf/slot_4_2 to u_mutual_emf/multiplier[1].fixed_selected_34
+  Data Path: u_inductor/Time_cnt_1 to u_inductor/mul_b1_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q            334   0.525   2.440  u_mutual_emf/slot_4_2 (u_mutual_emf/slot_4_2)
-     LUT5:I4->O           70   0.254   1.976  u_mutual_emf/_n19431 (u_mutual_emf/_n1943)
-     LUT6:I5->O            1   0.254   0.790  u_mutual_emf/slot[4]_fixed_frame[3][34]_select_348_OUT<0>_SW0 (N534)
-     LUT6:I4->O            1   0.250   0.000  u_mutual_emf/slot[4]_fixed_frame[3][34]_select_348_OUT<0> (u_mutual_emf/slot[4]_fixed_frame[3][34]_select_348_OUT<0>)
-     FDC:D                     0.074          u_mutual_emf/multiplier[1].fixed_selected_0
+     FDR:C->Q             93   0.525   2.585  u_inductor/Time_cnt_1 (u_inductor/Time_cnt_1)
+     LUT5:I0->O          216   0.254   2.529  u_inductor/Time_cnt[4]_GND_25_o_equal_10_o<4>1 (u_inductor/Time_cnt[4]_GND_25_o_equal_10_o)
+     LUT6:I4->O           86   0.250   2.100  u_inductor/out1 (u_inductor/n0012)
+     LUT6:I5->O            1   0.254   0.000  u_inductor_de/engine/Time_cnt[4]_x_1[34]_select_18_OUT<0>4 (u_inductor_de/engine/Time_cnt[4]_x_1[34]_select_18_OUT<0>)
+     FDR:D                     0.074          u_inductor_de/engine/mul_b1_0
     ----------------------------------------
-    Total                      6.564ns (1.357ns logic, 5.207ns route)
-                                       (20.7% logic, 79.3% route)
+    Total                      8.571ns (1.357ns logic, 7.214ns route)
+                                       (15.8% logic, 84.2% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'u_inverter/clk_10MHz'
@@ -5154,56 +5133,53 @@ Delay:               1.280ns (Levels of Logic = 0)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'u_clock/CLOCK/pll_base_inst/CLKOUT1'
-  Clock period: 4.919ns (frequency: 203.293MHz)
-  Total number of paths / destination ports: 2516 / 211
+  Clock period: 6.734ns (frequency: 148.507MHz)
+  Total number of paths / destination ports: 63984 / 3785
 -------------------------------------------------------------------------
-Delay:               4.919ns (Levels of Logic = 3)
-  Source:            u_pwm_deadzn/u_phase_a/remaining_10 (FF)
-  Destination:       u_pwm_deadzn/u_phase_a/remaining_0 (FF)
+Delay:               6.734ns (Levels of Logic = 3)
+  Source:            u_back_EMF/Time_cnt_2 (FF)
+  Destination:       u_back_EMF/mul_a1_17 (FF)
   Source Clock:      u_clock/CLOCK/pll_base_inst/CLKOUT1 rising
   Destination Clock: u_clock/CLOCK/pll_base_inst/CLKOUT1 rising
 
-  Data Path: u_pwm_deadzn/u_phase_a/remaining_10 to u_pwm_deadzn/u_phase_a/remaining_0
+  Data Path: u_back_EMF/Time_cnt_2 to u_back_EMF/mul_a1_17
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              2   0.525   1.156  u_pwm_deadzn/u_phase_a/remaining_10 (u_pwm_deadzn/u_phase_a/remaining_10)
-     LUT5:I0->O            1   0.254   0.958  u_pwm_deadzn/u_phase_a/GND_21_o_remaining[15]_LessThan_5_o21 (u_pwm_deadzn/u_phase_a/GND_21_o_remaining[15]_LessThan_5_o2)
-     LUT6:I2->O           18   0.254   1.463  u_pwm_deadzn/u_phase_a/GND_21_o_remaining[15]_LessThan_5_o23 (u_pwm_deadzn/u_phase_a/GND_21_o_remaining[15]_LessThan_5_o)
-     LUT5:I2->O            1   0.235   0.000  u_pwm_deadzn/u_phase_a/Mmux_GND_21_o_GND_21_o_mux_8_OUT17 (u_pwm_deadzn/u_phase_a/GND_21_o_GND_21_o_mux_8_OUT<0>)
-     FDC:D                     0.074          u_pwm_deadzn/u_phase_a/remaining_0
+     FDC:C->Q             56   0.525   2.298  u_back_EMF/Time_cnt_2 (u_back_EMF/Time_cnt_2)
+     LUT5:I0->O           46   0.254   1.982  u_back_EMF/Time_cnt[4]_speed_sample_Q4[17]_select_94_OUT<10>41 (u_back_EMF/Time_cnt[4]_speed_sample_Q4[17]_select_94_OUT<10>4)
+     LUT4:I1->O            1   0.235   1.112  u_back_EMF/Time_cnt[4]_speed_sample_Q4[17]_select_94_OUT<9>3_SW0 (N808)
+     LUT5:I0->O            1   0.254   0.000  u_back_EMF/Time_cnt[4]_speed_sample_Q4[17]_select_94_OUT<9>4 (u_back_EMF/Time_cnt[4]_speed_sample_Q4[17]_select_94_OUT<9>)
+     FDC:D                     0.074          u_back_EMF/mul_a1_9
     ----------------------------------------
-    Total                      4.919ns (1.342ns logic, 3.577ns route)
-                                       (27.3% logic, 72.7% route)
+    Total                      6.734ns (1.342ns logic, 5.392ns route)
+                                       (19.9% logic, 80.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'u_clock/CLOCK/pll_base_inst/CLKOUT2'
-  Total number of paths / destination ports: 12067 / 8255
+  Total number of paths / destination ports: 6018 / 6018
 -------------------------------------------------------------------------
-Offset:              8.523ns (Levels of Logic = 5)
-  Source:            ADDRbus<0> (PAD)
-  Destination:       u_pci/Data_10_15 (FF)
+Offset:              7.231ns (Levels of Logic = 2)
+  Source:            rst_n (PAD)
+  Destination:       u_inductor/mul_b1_0 (FF)
   Destination Clock: u_clock/CLOCK/pll_base_inst/CLKOUT2 rising
 
-  Data Path: ADDRbus<0> to u_pci/Data_10_15
+  Data Path: rst_n to u_inductor/mul_b1_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             5   1.328   1.117  ADDRbus_0_IBUF (ADDRbus_0_IBUF)
-     LUT4:I0->O           11   0.254   1.039  u_pci/addrbus[11]_GND_2_o_equal_10_o<11>11 (u_pci/addrbus[11]_GND_2_o_equal_10_o<11>1)
-     LUT4:I3->O            6   0.254   1.331  u_pci/addrbus[11]_GND_2_o_equal_10_o<11>21 (u_pci/addrbus[11]_GND_2_o_equal_10_o<11>2)
-     LUT6:I0->O           17   0.254   1.209  u_pci/addrbus[11]_GND_2_o_equal_52_o<11>1 (u_pci/addrbus[11]_GND_2_o_equal_52_o)
-     LUT4:I3->O           16   0.254   1.181  u_pci/_n0310_inv1 (u_pci/_n0310_inv)
-     FDE:CE                    0.302          u_pci/Data_10_0
+     IBUF:I->O             1   1.328   0.681  rst_n_IBUF (rst_n_IBUF)
+     INV:I->O           7776   0.255   4.508  rst_n_inv991_INV_0 (div5/rst_n_inv)
+     FDC:CLR                   0.459          div5/tail_d_0
     ----------------------------------------
-    Total                      8.523ns (2.646ns logic, 5.877ns route)
-                                       (31.0% logic, 69.0% route)
+    Total                      7.231ns (2.042ns logic, 5.189ns route)
+                                       (28.2% logic, 71.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'u_inverter/clk_10MHz'
   Total number of paths / destination ports: 90 / 90
 -------------------------------------------------------------------------
-Offset:              7.239ns (Levels of Logic = 2)
+Offset:              7.231ns (Levels of Logic = 2)
   Source:            rst_n (PAD)
   Destination:       u_inverter/x_3_11 (FF)
   Destination Clock: u_inverter/clk_10MHz rising
@@ -5213,104 +5189,130 @@ Offset:              7.239ns (Levels of Logic = 2)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             1   1.328   0.681  rst_n_IBUF (rst_n_IBUF)
-     INV:I->O           7801   0.255   4.516  rst_n_inv991_INV_0 (div5/rst_n_inv)
+     INV:I->O           7776   0.255   4.508  rst_n_inv991_INV_0 (div5/rst_n_inv)
      FDR:R                     0.459          u_inverter_de/INVERTER_DE/x_1_11
     ----------------------------------------
-    Total                      7.239ns (2.042ns logic, 5.197ns route)
+    Total                      7.231ns (2.042ns logic, 5.189ns route)
                                        (28.2% logic, 71.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'u_clock/CLOCK/pll_base_inst/CLKOUT1'
-  Total number of paths / destination ports: 7 / 7
+  Total number of paths / destination ports: 6031 / 2219
 -------------------------------------------------------------------------
-Offset:              7.239ns (Levels of Logic = 2)
-  Source:            rst_n (PAD)
-  Destination:       u_pwm_deadzn/reset_release_1 (FF)
+Offset:              9.169ns (Levels of Logic = 5)
+  Source:            ADDRbus<9> (PAD)
+  Destination:       u_pci/Data_10_15 (FF)
   Destination Clock: u_clock/CLOCK/pll_base_inst/CLKOUT1 rising
 
-  Data Path: rst_n to u_pwm_deadzn/reset_release_1
+  Data Path: ADDRbus<9> to u_pci/Data_10_15
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             1   1.328   0.681  rst_n_IBUF (rst_n_IBUF)
-     INV:I->O           7801   0.255   4.516  rst_n_inv991_INV_0 (div5/rst_n_inv)
-     FDC:CLR                   0.459          u_pwm_deadzn/reset_release_0
+     IBUF:I->O            15   1.328   1.431  ADDRbus_9_IBUF (ADDRbus_9_IBUF)
+     LUT4:I0->O           15   0.254   1.431  u_pci/addrbus[11]_GND_2_o_equal_10_o<11>11 (u_pci/addrbus[11]_GND_2_o_equal_10_o<11>1)
+     LUT5:I1->O            5   0.254   1.271  u_pci/addrbus[11]_GND_2_o_equal_10_o<11>21 (u_pci/addrbus[11]_GND_2_o_equal_10_o<11>2)
+     LUT5:I0->O           17   0.254   1.209  u_pci/addrbus[11]_GND_2_o_equal_52_o<11>1 (u_pci/addrbus[11]_GND_2_o_equal_52_o)
+     LUT4:I3->O           16   0.254   1.181  u_pci/_n0310_inv1 (u_pci/_n0310_inv)
+     FDE:CE                    0.302          u_pci/Data_10_0
     ----------------------------------------
-    Total                      7.239ns (2.042ns logic, 5.197ns route)
-                                       (28.2% logic, 71.8% route)
+    Total                      9.169ns (2.646ns logic, 6.523ns route)
+                                       (28.9% logic, 71.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u_clock/CLOCK/pll_base_inst/CLKOUT1'
+  Total number of paths / destination ports: 288 / 16
+-------------------------------------------------------------------------
+Offset:              9.940ns (Levels of Logic = 5)
+  Source:            u_back_EMF/eA_S35_Q17_27 (FF)
+  Destination:       DATAbus<14> (PAD)
+  Source Clock:      u_clock/CLOCK/pll_base_inst/CLKOUT1 rising
+
+  Data Path: u_back_EMF/eA_S35_Q17_27 to DATAbus<14>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            29   0.525   1.746  u_back_EMF/eA_S35_Q17_27 (u_back_EMF/eA_S35_Q17_27)
+     LUT6:I2->O            1   0.254   1.137  u_pci/Data_out_comb<12>5 (u_pci/Data_out_comb<12>5)
+     LUT6:I0->O            1   0.254   1.137  u_pci/Data_out_comb<12>9 (u_pci/Data_out_comb<12>9)
+     LUT6:I0->O            1   0.254   0.790  u_pci/Data_out_comb<12>15_SW0 (N914)
+     LUT6:I4->O            1   0.250   0.681  u_pci/Data_out_comb<12>15 (u_pci/Data_out_comb<12>)
+     IOBUF:I->IO               2.912          DATAbus_12_IOBUF (DATAbus<12>)
+    ----------------------------------------
+    Total                      9.940ns (4.449ns logic, 5.491ns route)
+                                       (44.8% logic, 55.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'u_clock/CLOCK/pll_base_inst/CLKOUT2'
-  Total number of paths / destination ports: 714 / 16
+  Total number of paths / destination ports: 440 / 16
 -------------------------------------------------------------------------
-Offset:              10.505ns (Levels of Logic = 6)
-  Source:            u_pci/Data_6_13 (FF)
-  Destination:       DATAbus<13> (PAD)
+Offset:              11.226ns (Levels of Logic = 6)
+  Source:            x_2_341 (FF)
+  Destination:       DATAbus<15> (PAD)
   Source Clock:      u_clock/CLOCK/pll_base_inst/CLKOUT2 rising
 
-  Data Path: u_pci/Data_6_13 to DATAbus<13>
+  Data Path: x_2_341 to DATAbus<15>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q              5   0.525   0.949  u_pci/Data_6_13 (u_pci/Data_6_13)
-     LUT2:I0->O            1   0.250   1.137  u_pci/Data_out_comb<13>2 (u_pci/Data_out_comb<13>2)
-     LUT6:I0->O            1   0.254   1.112  u_pci/Data_out_comb<13>5_SW0 (N904)
-     LUT6:I1->O            1   0.254   1.137  u_pci/Data_out_comb<13>5 (u_pci/Data_out_comb<13>5)
-     LUT6:I0->O            1   0.254   0.790  u_pci/Data_out_comb<13>14_SW0 (N906)
-     LUT6:I4->O            1   0.250   0.681  u_pci/Data_out_comb<13>14 (u_pci/Data_out_comb<13>)
-     IOBUF:I->IO               2.912          DATAbus_13_IOBUF (DATAbus<13>)
+     FDRE:C->Q            20   0.525   1.394  x_2_341 (x_2_341)
+     LUT6:I4->O            1   0.250   1.112  u_pci/Data_out_comb<15>2 (u_pci/Data_out_comb<15>2)
+     LUT6:I1->O            1   0.254   1.112  u_pci/Data_out_comb<15>5_SW0 (N932)
+     LUT6:I1->O            1   0.254   1.112  u_pci/Data_out_comb<15>5 (u_pci/Data_out_comb<15>5)
+     LUT6:I1->O            1   0.254   1.112  u_pci/Data_out_comb<15>15_SW0 (N910)
+     LUT6:I1->O            1   0.254   0.681  u_pci/Data_out_comb<15>15 (u_pci/Data_out_comb<15>)
+     IOBUF:I->IO               2.912          DATAbus_15_IOBUF (DATAbus<15>)
     ----------------------------------------
-    Total                     10.505ns (4.699ns logic, 5.806ns route)
-                                       (44.7% logic, 55.3% route)
+    Total                     11.226ns (4.703ns logic, 6.523ns route)
+                                       (41.9% logic, 58.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'u_inverter/clk_10MHz'
   Total number of paths / destination ports: 14 / 14
 -------------------------------------------------------------------------
-Offset:              9.169ns (Levels of Logic = 5)
-  Source:            u_inverter/x_1_23 (FF)
-  Destination:       DATAbus<14> (PAD)
+Offset:              9.470ns (Levels of Logic = 5)
+  Source:            u_inverter/x_1_24 (FF)
+  Destination:       DATAbus<15> (PAD)
   Source Clock:      u_inverter/clk_10MHz rising
 
-  Data Path: u_inverter/x_1_23 to DATAbus<14>
+  Data Path: u_inverter/x_1_24 to DATAbus<15>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              3   0.525   0.994  u_inverter/x_1_23 (u_inverter/x_1_23)
-     LUT6:I3->O            1   0.235   1.137  u_pci/Data_out_comb<14>1 (u_pci/Data_out_comb<14>1)
-     LUT6:I0->O            1   0.254   1.137  u_pci/Data_out_comb<14>5 (u_pci/Data_out_comb<14>5)
-     LUT6:I0->O            1   0.254   0.790  u_pci/Data_out_comb<14>14_SW0 (N910)
-     LUT6:I4->O            1   0.250   0.681  u_pci/Data_out_comb<14>14 (u_pci/Data_out_comb<14>)
-     IOBUF:I->IO               2.912          DATAbus_14_IOBUF (DATAbus<14>)
+     FDR:C->Q              3   0.525   0.994  u_inverter/x_1_24 (u_inverter/x_1_24)
+     LUT6:I3->O            1   0.235   1.112  u_pci/Data_out_comb<15>8 (u_pci/Data_out_comb<15>8)
+     LUT6:I1->O            1   0.254   1.137  u_pci/Data_out_comb<15>9 (u_pci/Data_out_comb<15>9)
+     LUT6:I0->O            1   0.254   1.112  u_pci/Data_out_comb<15>15_SW0 (N910)
+     LUT6:I1->O            1   0.254   0.681  u_pci/Data_out_comb<15>15 (u_pci/Data_out_comb<15>)
+     IOBUF:I->IO               2.912          DATAbus_15_IOBUF (DATAbus<15>)
     ----------------------------------------
-    Total                      9.169ns (4.430ns logic, 4.739ns route)
-                                       (48.3% logic, 51.7% route)
+    Total                      9.470ns (4.434ns logic, 5.036ns route)
+                                       (46.8% logic, 53.2% route)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 6002 / 18
+  Total number of paths / destination ports: 5722 / 18
 -------------------------------------------------------------------------
-Delay:               15.532ns (Levels of Logic = 10)
-  Source:            ADDRbus<0> (PAD)
-  Destination:       DATAbus<14> (PAD)
+Delay:               15.477ns (Levels of Logic = 10)
+  Source:            ADDRbus<9> (PAD)
+  Destination:       DATAbus<10> (PAD)
 
-  Data Path: ADDRbus<0> to DATAbus<14>
+  Data Path: ADDRbus<9> to DATAbus<10>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             5   1.328   1.117  ADDRbus_0_IBUF (ADDRbus_0_IBUF)
-     LUT4:I0->O           11   0.254   1.039  u_pci/addrbus[11]_GND_2_o_equal_10_o<11>11 (u_pci/addrbus[11]_GND_2_o_equal_10_o<11>1)
-     LUT4:I3->O           12   0.254   1.069  u_pci/addrbus[11]_GND_2_o_equal_18_o<11>11 (u_pci/addrbus[11]_GND_2_o_equal_18_o<11>1)
-     LUT6:I5->O           16   0.254   1.182  u_pci/Data_out_comb<10>2 (u_pci/Data_out_comb<10>2)
-     LUT2:I1->O            1   0.254   1.137  u_pci/Data_out_comb<12>2 (u_pci/Data_out_comb<12>2)
-     LUT6:I0->O            1   0.254   1.112  u_pci/Data_out_comb<12>5_SW0 (N900)
-     LUT6:I1->O            1   0.254   1.137  u_pci/Data_out_comb<12>5 (u_pci/Data_out_comb<12>5)
-     LUT6:I0->O            1   0.254   0.790  u_pci/Data_out_comb<12>14_SW0 (N902)
-     LUT6:I4->O            1   0.250   0.681  u_pci/Data_out_comb<12>14 (u_pci/Data_out_comb<12>)
-     IOBUF:I->IO               2.912          DATAbus_12_IOBUF (DATAbus<12>)
+     IBUF:I->O            15   1.328   1.431  ADDRbus_9_IBUF (ADDRbus_9_IBUF)
+     LUT4:I0->O           15   0.254   1.155  u_pci/addrbus[11]_GND_2_o_equal_10_o<11>11 (u_pci/addrbus[11]_GND_2_o_equal_10_o<11>1)
+     LUT4:I3->O           11   0.254   1.039  u_pci/addrbus[11]_GND_2_o_equal_18_o<11>11 (u_pci/addrbus[11]_GND_2_o_equal_18_o<11>1)
+     LUT5:I4->O            1   0.254   0.682  u_pci/Data_out_comb<10>33_SW0 (N930)
+     LUT6:I5->O           16   0.254   1.182  u_pci/Data_out_comb<10>33 (u_pci/Data_out_comb<10>3)
+     LUT4:I3->O            1   0.254   1.112  u_pci/Data_out_comb<10>6 (u_pci/Data_out_comb<10>6)
+     LUT6:I1->O            1   0.254   1.137  u_pci/Data_out_comb<10>7 (u_pci/Data_out_comb<10>7)
+     LUT6:I0->O            1   0.254   0.790  u_pci/Data_out_comb<10>19_SW0 (N912)
+     LUT6:I4->O            1   0.250   0.681  u_pci/Data_out_comb<10>19 (u_pci/Data_out_comb<10>)
+     IOBUF:I->IO               2.912          DATAbus_10_IOBUF (DATAbus<10>)
     ----------------------------------------
-    Total                     15.532ns (6.268ns logic, 9.264ns route)
-                                       (40.4% logic, 59.6% route)
+    Total                     15.477ns (6.268ns logic, 9.209ns route)
+                                       (40.5% logic, 59.5% route)
 
 =========================================================================
 
@@ -5322,8 +5324,7 @@ Clock to Setup on destination clock u_clock/CLOCK/pll_base_inst/CLKOUT1
                                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -----------------------------------+---------+---------+---------+---------+
-u_clock/CLOCK/pll_base_inst/CLKOUT1|    4.919|         |         |         |
-u_clock/CLOCK/pll_base_inst/CLKOUT2|    5.836|         |         |         |
+u_clock/CLOCK/pll_base_inst/CLKOUT1|    6.734|         |         |         |
 -----------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock u_clock/CLOCK/pll_base_inst/CLKOUT2
@@ -5331,8 +5332,9 @@ Clock to Setup on destination clock u_clock/CLOCK/pll_base_inst/CLKOUT2
                                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -----------------------------------+---------+---------+---------+---------+
-u_clock/CLOCK/pll_base_inst/CLKOUT2|    6.564|         |         |         |
-u_inverter/clk_10MHz               |    5.436|         |         |         |
+u_clock/CLOCK/pll_base_inst/CLKOUT1|    5.092|         |         |         |
+u_clock/CLOCK/pll_base_inst/CLKOUT2|    8.571|         |         |         |
+u_inverter/clk_10MHz               |    5.430|         |         |         |
 -----------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock u_inverter/clk_10MHz
@@ -5340,22 +5342,21 @@ Clock to Setup on destination clock u_inverter/clk_10MHz
                                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -----------------------------------+---------+---------+---------+---------+
-u_clock/CLOCK/pll_base_inst/CLKOUT1|    3.862|         |         |         |
-u_clock/CLOCK/pll_base_inst/CLKOUT2|    6.608|         |         |         |
+u_clock/CLOCK/pll_base_inst/CLKOUT1|    6.608|         |         |         |
 u_inverter/clk_10MHz               |    1.280|         |         |         |
 -----------------------------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 30.00 secs
-Total CPU time to Xst completion: 30.29 secs
+Total REAL time to Xst completion: 24.00 secs
+Total CPU time to Xst completion: 24.53 secs
  
 --> 
 
-Total memory usage is 320568 kilobytes
+Total memory usage is 297080 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings : 1216 (   0 filtered)
-Number of infos    :  601 (   0 filtered)
+Number of warnings : 1218 (   0 filtered)
+Number of infos    :  593 (   0 filtered)
 
