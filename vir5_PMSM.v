@@ -6,8 +6,7 @@
 // // The current Inductor has five phases; D/E use extra PWM inputs and STM32 readback.
 // Two current modules implement A/B/C + D/E using independent multiplier IPs.
 // [2026-11-10 15:56 CST] The old three-phase motor blocks remain commented below.
-// Clarke/Park/mutual-EMF examples remain three-phase; neutral averaging is five-phase.
-// Active current/bridge wiring is a grounded-neutral, zero-EMF RL bench configuration.
+// Five-phase permanent-magnet and mutual voltages feed the current and neutral models.
 // [2026-11-10 16:39 CST] Unused observation paths are commented; active bridge feedback is driven.
 // Open pins and the undriven electrical position are deliberately preserved.
 // No schematic drawing attributes or placement/routing constraints are carried over.
@@ -19,15 +18,15 @@ module vir5_PMSM (
     input  wire         STM32_NOE_Low,
     input  wire [11:0]  ADDRbus,
     input  wire         epwm_1A,
-    input  wire         epwm_1B,
+    // input  wire         epwm_1B,
     input  wire         epwm_2A,
-    input  wire         epwm_2B,
+    // input  wire         epwm_2B,
     input  wire         epwm_3A,
-    input  wire         epwm_3B,
+    // input  wire         epwm_3B,
     input  wire         epwm_4A,
-    input  wire         epwm_4B, 
+    // input  wire         epwm_4B, 
     input  wire         epwm_5A,
-    input  wire         epwm_5B,
+    // input  wire         epwm_5B,
     input  wire         rst_n,
     // [2026-11-10 16:39 CST] Disable the unused PWM input; GPIO61 drives grid channel 1.
     // input  wire         epwm_7A,
@@ -52,35 +51,37 @@ module vir5_PMSM (
     wire [34:0]  bEMF_c_q17; 
     wire [34:0]  bEMF_d_q17;
     wire [34:0]  bEMF_e_q17;
+    wire signed [34:0] mutual_emf_a_q17;
+    wire signed [34:0] total_emf_a_q17 = $signed(bEMF_a_q17) + mutual_emf_a_q17;
+    wire signed [34:0] mutual_emf_b_q17;
+    wire signed [34:0] total_emf_b_q17 = $signed(bEMF_b_q17) + mutual_emf_b_q17;
+    wire signed [34:0] mutual_emf_c_q17;
+    wire signed [34:0] total_emf_c_q17 = $signed(bEMF_c_q17) + mutual_emf_c_q17;
+    wire signed [34:0] mutual_emf_d_q17;
+    wire signed [34:0] total_emf_d_q17 = $signed(bEMF_d_q17) + mutual_emf_d_q17;
+    wire signed [34:0] mutual_emf_e_q17;
+    wire signed [34:0] total_emf_e_q17 = $signed(bEMF_e_q17) + mutual_emf_e_q17;
+
+    wire signed [15:0] mutual_diff_q12, mutual_avg_q12, mutual_sine_q12, mutual_skew_q12;
+
     wire [34:0]  SUM_phase_V_q17;
     wire [34:0]  SUM_bEMF_q17; 
     wire [34:0]  SUM_mutEMF_q17; 
-    // [2026-11-10 16:39 CST] Reserved net for disabled model/observation logic.
-    // wire [15:0]  half_flux_q15; // main.sch: XLXN_1524(15:0)
-    // [2026-11-10 16:39 CST] Reserved net for disabled model/observation logic.
-    // wire [17:0]  i_beta_q9; // main.sch: XLXN_1528(17:0)
+
     wire [34:0]  V_a_q17; 
     wire [34:0]  V_b_q17; 
     wire [34:0]  V_c_q17;
     wire [34:0]  V_d_q17;
     wire [34:0]  V_e_q17;
 
-    // Intentionally NO DRIVER: Mechanical is absent from the current main.sch.
-    // Shared by BackEMF, Park2dq, EMFm_calc and the STM32 position converter.
-    // [2026-11-10 16:39 CST] Reserved net for disabled model/observation logic.
-    // wire [17:0]  electrical_position_undriven; // main.sch: XLXN_1554(17:0)
     wire [34:0]  V_N_q17; 
-    // [2026-11-10 16:39 CST] Reserved net for disabled model/observation logic.
-    // wire [15:0]  ld_minus_lq_q12_unused;
+
     wire [15:0]  switch_R_q15; 
     wire [15:0]  diode_voltage_q15; 
     wire [15:0]  ePOS_in;
     wire [15:0]  eOMG_in;
     wire [15:0]  half_flux_q15;
-    // [2026-11-10 16:39 CST] Reserved net for disabled model/observation logic.
-    // wire [15:0]  position_stm32; 
 
-    // [2026-11-03 16:30 CST] Port 1 loopback; PCI decode matches STM32 offsets 0x200/0x000.
     wire [15:0]  FMC_test1;
     wire [15:0]  FMC_test2;
     wire [15:0]  FMC_test3;
@@ -122,14 +123,14 @@ module vir5_PMSM (
         .FPGAtoSTM32_Signal_8(eOMG_in),
         .FPGAtoSTM32_Signal_9(half_flux_q15),
         .FPGAtoSTM32_Signal_10(Vn_stm32),
-        .FPGAtoSTM32_Signal_11(FMC_test1),  //loopback test
-        .FPGAtoSTM32_Signal_12(FMC_test2),
-        .FPGAtoSTM32_Signal_13(FMC_test3),
+        .FPGAtoSTM32_Signal_11(),  //loopback test
+        .FPGAtoSTM32_Signal_12(),
+        .FPGAtoSTM32_Signal_13(),
         .FPGAtoSTM32_Signal_14(V_a_q17[24:9]), 
         .FPGAtoSTM32_Signal_15(),
-        .FPGAtoSTM32_Signal_16(), 
-        .FPGAtoSTM32_Signal_17(),
-        .FPGAtoSTM32_Signal_18(), 
+        .FPGAtoSTM32_Signal_16(FMC_test1), 
+        .FPGAtoSTM32_Signal_17(FMC_test2),
+        .FPGAtoSTM32_Signal_18(FMC_test3), 
 
         .STM32_Databus(DATAbus),
     /////////////////////FROM_STM32////////////////////////
@@ -142,13 +143,13 @@ module vir5_PMSM (
         .STM32toFPGA_Signal_7(eOMG_in),
         .STM32toFPGA_Signal_8(half_flux_q15), 
         .STM32toFPGA_Signal_9(pwm_deadtime_cycles), // port9: N * 20 ns
-        .STM32toFPGA_Signal_10(),
-        .STM32toFPGA_Signal_11(FMC_test1),
-        .STM32toFPGA_Signal_12(FMC_test2),
-        .STM32toFPGA_Signal_13(FMC_test3),
-        .STM32toFPGA_Signal_14(),
-        .STM32toFPGA_Signal_15(), 
-        .STM32toFPGA_Signal_16() // Intentionally open
+        .STM32toFPGA_Signal_10(mutual_diff_q12), // word 0x058
+        .STM32toFPGA_Signal_11(mutual_avg_q12),  // word 0x1d2
+        .STM32toFPGA_Signal_12(mutual_sine_q12), // word 0x0c2
+        .STM32toFPGA_Signal_13(mutual_skew_q12), // word 0x1e6
+        .STM32toFPGA_Signal_14(FMC_test1),
+        .STM32toFPGA_Signal_15(FMC_test2),
+        .STM32toFPGA_Signal_16(FMC_test3) 
     );
 
     wire signed [15:0]  NEG_half_Vdc_q5 = - half_Vdc_q5; 
@@ -249,9 +250,9 @@ module vir5_PMSM (
         .UBO_N_S35(V_N_q17),
         .UCO_P_S35(V_c_q17), 
         .UCO_N_S35(V_N_q17),
-        .bEMF_A_S35_Q17(bEMF_a_q17), 
-        .bEMF_B_S35_Q17(bEMF_b_q17),
-        .bEMF_C_S35_Q17(bEMF_c_q17),
+        .bEMF_A_S35_Q17(total_emf_a_q17),
+        .bEMF_B_S35_Q17(total_emf_b_q17),
+        .bEMF_C_S35_Q17(total_emf_c_q17),
         .I_OV_20LinuH_Q18(I_ov_20L), 
         .Res_S16_Q12(R_idct_q12),
         .x_1(phase_a_current), 
@@ -265,8 +266,8 @@ module vir5_PMSM (
         .clk_180MHz(clk_180mhz), .rst_n(rst_n),
         .UDO_P_S35(V_d_q17), .UEO_P_S35(V_e_q17),
         .UDO_N_S35(V_N_q17), .UEO_N_S35(V_N_q17),
-        .bEMF_D_S35_Q17(bEMF_d_q17), 
-        .bEMF_E_S35_Q17(bEMF_e_q17),
+        .bEMF_D_S35_Q17(total_emf_d_q17),
+        .bEMF_E_S35_Q17(total_emf_e_q17),
         .I_OV_20LinuH_Q18(I_ov_20L), 
         .Res_S16_Q12(R_idct_q12),
         .x_4(phase_d_current), 
@@ -287,11 +288,11 @@ module vir5_PMSM (
         .Uc2_S35_Q17(bEMF_c_q17),
         .Ud2_S35_Q17(bEMF_d_q17),
         .Ue2_S35_Q17(bEMF_e_q17),
-        .Ua3_S35_Q17(35'sd0), //mutual_emf_a_q17
-        .Ub3_S35_Q17(35'sd0), //mutual_emf_b_q17
-        .Uc3_S35_Q17(35'sd0), //mutual_emf_c_q17
-        .Ud3_S35_Q17(35'sd0), //mutual_emf_d_q17
-        .Ue3_S35_Q17(35'sd0), //mutual_emf_e_q17
+        .Ua3_S35_Q17(mutual_emf_a_q17),
+        .Ub3_S35_Q17(mutual_emf_b_q17),
+        .Uc3_S35_Q17(mutual_emf_c_q17),
+        .Ud3_S35_Q17(mutual_emf_d_q17),
+        .Ue3_S35_Q17(mutual_emf_e_q17),
         .U1_S35_Q17(SUM_phase_V_q17),
         .U2_S35_Q17(SUM_bEMF_q17),
         .U3_S35_Q17(SUM_mutEMF_q17)
@@ -322,6 +323,38 @@ module vir5_PMSM (
         .eC_S35_Q17(bEMF_c_q17),
         .eD_S35_Q17(bEMF_d_q17),
         .eE_S35_Q17(bEMF_e_q17)
+    );
+
+    // Match BackEMF's electrical angle and retain the fixed self-inductance in Inductor.
+    // Saturate on Q25 -> Q9 conversion if a branch exceeds the S18 current range.
+    function signed [17:0] mutual_current_q9;
+        input signed [34:0] current_q25;
+        begin
+            if (current_q25[34] != current_q25[33])
+                mutual_current_q9 = current_q25[34] ? 18'sh20000 : 18'sh1ffff;
+            else
+                mutual_current_q9 = current_q25[33:16];
+        end
+    endfunction
+
+    EMFm_calc u_mutual_emf (
+        .clk(clk_180mhz),
+        .rst_n(rst_n),
+        .LdMinusLq_ov5_S16_Q12(mutual_diff_q12),
+        .LdPlusLq_ov5_S16_Q12(mutual_avg_q12),
+        .L1PlusL2_ov5_S16_Q12(mutual_sine_q12),
+        .L1MinusL2_ov5_S16_Q12(mutual_skew_q12),
+        .iA_S18_Q9(mutual_current_q9(phase_a_current)),
+        .iB_S18_Q9(mutual_current_q9(phase_b_current)),
+        .iC_S18_Q9(mutual_current_q9(phase_c_current)),
+        .iD_S18_Q9(mutual_current_q9(phase_d_current)),
+        .iE_S18_Q9(mutual_current_q9(phase_e_current)),
+        .ePOS_S18_360({ePOS_in, 2'b0}),
+        .eA_mutual_S35_Q17(mutual_emf_a_q17),
+        .eB_mutual_S35_Q17(mutual_emf_b_q17),
+        .eC_mutual_S35_Q17(mutual_emf_c_q17),
+        .eD_mutual_S35_Q17(mutual_emf_d_q17),
+        .eE_mutual_S35_Q17(mutual_emf_e_q17)
     );
 
     // Clock wrapper; only the 50 MHz and 180 MHz outputs are connected.

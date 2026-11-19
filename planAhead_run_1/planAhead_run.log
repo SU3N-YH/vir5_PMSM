@@ -1,0 +1,202 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from E:/SUEN27/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/SUEN27/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/SUEN27/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source E:/SUEN27/vir5_PMSM_V/pa.fromHdl.tcl
+# create_project -name vir5_PMSM -dir "E:/SUEN27/vir5_PMSM_V/planAhead_run_1" -part xc6slx25ftg256-2
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "main.ucf" [current_fileset -constrset]
+Adding file 'E:/SUEN27/vir5_PMSM_V/main.ucf' to fileset 'constrs_1'
+# add_files [list {ipcore_dir/mul_inductor_2.ngc}]
+# set hdlfile [add_files [list {ipcore_dir/pll300MHz.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files [list {ipcore_dir/mul18x35_1225_BySunY.ngc}]
+# add_files [list {ipcore_dir/division5.ngc}]
+# add_files [list {ipcore_dir/MUL18x18_bEMF.ngc}]
+# set hdlfile [add_files [list {ipcore_dir/mul_inductor_2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/mul18x35_1225_BySunY.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/MUL18x18_bEMF.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/division5.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {inv_phi3_HB.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Inductor.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CORDIC_STANDALONE.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Volt_N_calc.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PWM_Deadzn.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PCI.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {inv_phi2_HB_DE.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Inductor_DE.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {In2Out.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {clk300MHz.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {BackEMF.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {add5ov5.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {vir5_PMSM.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top vir5_PMSM $srcset
+# add_files [list {main.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/adder1a.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/division5.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ip_mul1.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ip_mul2.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ip_mul3.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ip_mul4.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ip_mul5.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ip_mul6.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/MTPL_mutual_A.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/MTPL_mutual_B.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/mul18x18_1.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/mul18x18_2.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/MUL18x18_bEMF.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/mul18x35_1225_BySunY.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/mul18x35_26july_BySunY.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/multi_2.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/mul_18x18_no2.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/MUL_add3ov3.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/mul_clarke.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/mul_for_cpctr.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/mul_inductor_2.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/MUL_Mech.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/mul_park.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/mul_Te.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/Xt_multi.ncf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx25ftg256-2
+Using Verific elaboration
+Parsing VHDL file "E:/SUEN27/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul_inductor_2.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul18x35_1225_BySunY.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/pll300MHz.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/MUL18x18_bEMF.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/ipcore_dir/division5.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/inv_phi3_HB.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Inductor.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/CORDIC_STANDALONE.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Volt_N_calc.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/PWM_Deadzn.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/PCI.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/inv_phi2_HB_DE.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/Inductor_DE.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/In2Out.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/clk300MHz.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/BackEMF.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/add5ov5.v" into library work
+Analyzing Verilog file "E:/SUEN27/vir5_PMSM_V/vir5_PMSM.v" into library work
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design mul18x35_1225_BySunY.ngc ...
+WARNING:NetListWriters:298 - No output is written to mul18x35_1225_BySunY.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file mul18x35_1225_BySunY.edif ...
+ngc2edif: Total memory usage is 4316728 kilobytes
+
+Reading core file 'E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul18x35_1225_BySunY.ngc' for (cell view 'mul18x35_1225_BySunY', library 'work', file 'mul18x35_1225_BySunY.v')
+Parsing EDIF File [./.Xil/PlanAhead-43492-Win10/ngc2edif/mul18x35_1225_BySunY.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-43492-Win10/ngc2edif/mul18x35_1225_BySunY.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design mul_inductor_2.ngc ...
+WARNING:NetListWriters:298 - No output is written to mul_inductor_2.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file mul_inductor_2.edif ...
+ngc2edif: Total memory usage is 4317304 kilobytes
+
+Reading core file 'E:/SUEN27/vir5_PMSM_V/ipcore_dir/mul_inductor_2.ngc' for (cell view 'mul_inductor_2', library 'work', file 'mul_inductor_2.v')
+Parsing EDIF File [./.Xil/PlanAhead-43492-Win10/ngc2edif/mul_inductor_2.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-43492-Win10/ngc2edif/mul_inductor_2.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design division5.ngc ...
+WARNING:NetListWriters:298 - No output is written to division5.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file division5.edif ...
+ngc2edif: Total memory usage is 4317304 kilobytes
+
+Reading core file 'E:/SUEN27/vir5_PMSM_V/ipcore_dir/division5.ngc' for (cell view 'division5', library 'work', file 'division5.v')
+Parsing EDIF File [./.Xil/PlanAhead-43492-Win10/ngc2edif/division5.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-43492-Win10/ngc2edif/division5.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design MUL18x18_bEMF.ngc ...
+WARNING:NetListWriters:298 - No output is written to MUL18x18_bEMF.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file MUL18x18_bEMF.edif ...
+ngc2edif: Total memory usage is 4316280 kilobytes
+
+Reading core file 'E:/SUEN27/vir5_PMSM_V/ipcore_dir/MUL18x18_bEMF.ngc' for (cell view 'MUL18x18_bEMF', library 'work', file 'MUL18x18_bEMF.v')
+Parsing EDIF File [./.Xil/PlanAhead-43492-Win10/ngc2edif/MUL18x18_bEMF.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-43492-Win10/ngc2edif/MUL18x18_bEMF.edif]
+Loading clock regions from E:/SUEN27/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx25/ClockRegion.xml
+Loading clock buffers from E:/SUEN27/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx25/ClockBuffers.xml
+Loading package pin functions from E:/SUEN27/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from E:/SUEN27/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx25/ftg256/Package.xml
+Loading io standards from E:/SUEN27/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from E:/SUEN27/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : E:/SUEN27/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [E:/SUEN27/vir5_PMSM_V/main.ucf]
+Finished Parsing UCF File [E:/SUEN27/vir5_PMSM_V/main.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: afc98a2e
+open_rtl_design: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 734.758 ; gain = 209.656
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Nov 19 16:21:38 2026...
+INFO: [Common 17-83] Releasing license: PlanAhead

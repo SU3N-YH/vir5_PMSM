@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Nov 19 16:20:17 2026
+# Process ID: 43492
+# Log file: E:/SUEN27/vir5_PMSM_V/planAhead_run_1/planAhead.log
+# Journal file: E:/SUEN27/vir5_PMSM_V/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/SUEN27/vir5_PMSM_V/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

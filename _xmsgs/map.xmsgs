@@ -5,15 +5,15 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">epwm_1B</arg> has no load.
+<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">u_mutual_emf/multiplier[0].core_a.u_mul/blk00000001/sig0000006c</arg> has no load.
 </msg>
 
-<msg type="info" file="LIT" num="395" delta="new" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">156</arg> more times for the following (max. 5 shown):
-<arg fmt="%s" index="3">epwm_2B,
-epwm_3B,
-epwm_4B,
-epwm_5B,
-u_inductor/abc_core.u_mul_inductor/blk00000001/sig0000006c</arg>
+<msg type="info" file="LIT" num="395" delta="new" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">295</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="3">u_mutual_emf/multiplier[0].core_a.u_mul/blk00000001/sig0000006d,
+u_mutual_emf/multiplier[0].core_a.u_mul/blk00000001/sig0000006e,
+u_mutual_emf/multiplier[0].core_a.u_mul/blk00000001/sig0000006f,
+u_mutual_emf/multiplier[0].core_a.u_mul/blk00000001/sig00000070,
+u_mutual_emf/multiplier[0].core_a.u_mul/blk00000001/sig00000071</arg>
 To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
 </msg>
 
